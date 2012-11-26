@@ -1,0 +1,98 @@
+D:\!LAtest Integration With SageFrame\SageFrame.Security\bin\Release\SageFrame.Security.dll
+D:\!LAtest Integration With SageFrame\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+D:\!LAtest Integration With SageFrame\SageFrame.Security\bin\Release\SageFrame.Common.dll
+D:\!LAtest Integration With SageFrame\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+D:\!LAtest Integration With SageFrame\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+D:\!LAtest Integration With SageFrame\SageFrame.Security\obj\Release\SageFrame.Security.dll
+D:\!LAtest Integration With SageFrame\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+D:\wwwroot\SageASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.dll
+D:\wwwroot\SageASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+D:\wwwroot\SageASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.dll
+D:\wwwroot\SageASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+D:\wwwroot\SageASPXCommerce\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+D:\wwwroot\SageASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.dll
+D:\wwwroot\SageASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+D:\SageASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.dll
+D:\SageASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+D:\SageASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.dll
+D:\SageASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+D:\SageASPXCommerce\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+D:\SageASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.dll
+D:\SageASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+D:\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.dll
+D:\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+D:\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.dll
+D:\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+D:\SageFrameASPXCommerce\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.dll
+D:\SageFrameASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+E:\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.dll
+E:\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+E:\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.dll
+E:\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+E:\SageFrameASPXCommerce\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+E:\SageFrameASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.dll
+E:\SageFrameASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+E:\liVE\SageFrameASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Security\bin\Release\SageFrame.Security.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Security\bin\Release\SageFrame.Common.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Security\obj\Release\SageFrame.Security.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Security\bin\Release\SageFrame.Security.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Security\bin\Release\SageFrame.Common.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Security\obj\Release\SageFrame.Security.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+F:\AspxCommerceFinal\SageFrame.Security\bin\Release\SageFrame.Security.dll
+F:\AspxCommerceFinal\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+F:\AspxCommerceFinal\SageFrame.Security\bin\Release\SageFrame.Common.dll
+F:\AspxCommerceFinal\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+F:\AspxCommerceFinal\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+F:\AspxCommerceFinal\SageFrame.Security\obj\Release\SageFrame.Security.dll
+F:\AspxCommerceFinal\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Security\bin\Release\SageFrame.Security.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Security\bin\Release\SageFrame.Common.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Security\obj\Release\SageFrame.Security.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Security\bin\Release\SageFrame.Security.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Security\bin\Release\SageFrame.Common.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Security\obj\Release\SageFrame.Security.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Security\bin\Release\SageFrame.Security.dll
+D:\AspxCommerceFinalRelease\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Security\bin\Release\SageFrame.Common.dll
+D:\AspxCommerceFinalRelease\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame.Security\obj\Release\SageFrame.Security.dll
+D:\AspxCommerceFinalRelease\SageFrame.Security\obj\Release\SageFrame.Security.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Security\bin\Release\SageFrame.Security.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Security\bin\Release\SageFrame.Security.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Security\bin\Release\SageFrame.Common.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Security\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Security\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Security\obj\Release\SageFrame.Security.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Security\obj\Release\SageFrame.Security.pdb

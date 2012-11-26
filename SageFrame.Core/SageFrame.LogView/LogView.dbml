@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="SageFrame" Class="LogViewDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=braindignet;Initial Catalog=SageFrame;Persist Security Info=True;User ID=sa" SettingsObjectName="SageFrame.LogView.Properties.Settings" SettingsPropertyName="SageFrameConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_LogType" Method="sp_LogType">
+    <ElementType Name="sp_LogTypeResult">
+      <Column Name="LogTypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LogClear" Method="sp_LogClear">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_LogDelete" Method="sp_LogDelete">
+    <Parameter Name="LogID" Parameter="logID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_LogInsert" Method="sp_LogInsert">
+    <Parameter Name="LogID" Parameter="logID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="LogTypeID" Parameter="logTypeID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Severity" Parameter="severity" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Message" Parameter="message" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="Exception" Parameter="exception" Type="System.String" DbType="NVarChar(4000)" />
+    <Parameter Name="ClientIPAddress" Parameter="clientIPAddress" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PageURL" Parameter="pageURL" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_LogLoadAll" Method="sp_LogLoadAll">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_LogLoadAllResult">
+      <Column Name="LogID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LogTypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Severity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Message" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="Exception" Type="System.String" DbType="NVarChar(4000) NOT NULL" CanBeNull="false" />
+      <Column Name="ClientIPAddress" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="PageURL" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_LogLoadByLogID" Method="sp_LogLoadByLogID">
+    <Parameter Name="LogID" Parameter="logID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_LogView" Method="sp_LogView">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="LogType" Parameter="logType" Type="System.String" DbType="NVarChar(256)" />
+    <ElementType Name="sp_LogViewResult">
+      <Column Name="LogTypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LogTypeName" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="LogID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClientIPAddress" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Exception" Type="System.String" DbType="NVarChar(4000) NOT NULL" CanBeNull="false" />
+      <Column Name="PortalName" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

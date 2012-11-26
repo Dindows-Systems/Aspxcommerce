@@ -1,0 +1,5390 @@
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin:0;
+	padding:0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+strong, b, mark {
+	font-weight:bold;
+	font-style:inherit;
+}
+em, i, cite, q, address, dfn, var {
+	font-style:italic;
+	font-weight:inherit;
+}
+abbr[title], dfn[title] {
+	cursor:help;
+	border-bottom:1px dotted;
+}
+ins {
+	border-bottom:1px solid;
+}
+a, u, ins {
+	text-decoration:none;
+}
+del, s {
+	text-decoration:line-through;
+}
+pre, code, samp, kbd {
+	font-family:monospace;
+}
+small {
+	font-size:0.75em;
+}
+img {
+	border:none;
+	font-style:italic;
+}
+input, select, textarea {
+	font:inherit;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+html[xmlns] .clearfix {
+	display: block;
+}
+* html .clearfix {
+	height: 1%;
+}
+@font-face {
+	font-family: 'segoe';
+	src: url('../fonts/segoe.eot');
+	/*src: url('../fonts/segoe.ttf');*/
+	font-weight:normal;
+	font-style:normal;
+	font-variant:normal;
+}
+body {
+	background:#e9e9e9 url("../images/bg.png") repeat-x center top;
+	font: 12px segoe, Arial, Helvetica, sans-serif;
+}
+html, body, form {
+	height:100%;
+}
+#frontwrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+:focus {
+	outline:none;
+}
+::-moz-focus-inner {
+border:0;
+}
+/*input[type=submit], input[type=reset], input[type=button] {
+	filter:chroma(color=#000000);
+}*/
+a:focus, *:focus {
+ noFocusLine: expression(this.onFocus=this.blur());
+}
+#frontmain {
+	padding-bottom:212px;
+}
+.cssClassUserRegistration input {
+	padding:5px !important;
+}
+h1 {
+	font: bold 16px/26px Arial, Helvetica, sans-serif;
+}
+h2 {
+	color: #005CA4;
+	font: bold 14px Arial, Helvetica, sans-serif;
+}
+h3 {
+	color: #006699;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+h4, h5 {
+	color: #005CA4;
+	font: bold 11px Arial, Helvetica, sans-serif;
+}
+h6 {
+	color: #005CA4;
+	font: bold 11px Arial, Helvetica, sans-serif;
+}
+input, textarea, select {
+	outline: medium none !important;
+	font-family:segoe, Arial, Helvetica, sans-serif;
+}
+textarea {
+	-webkit-border-radius: 3px;
+	font-size:12px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+p {
+	color: #202020;
+	font:12px/20px Arial, Helvetica, sans-serif;
+}
+b {
+	font-family:Arial, Helvetica, sans-serif !important;
+}
+ul, li, ol {
+	list-style: none outside none;
+}
+img {
+	border: medium none;
+	display:inline-block;
+}
+a img {
+	border: medium none;
+}
+a {
+	color: #538F23;
+	font: 12px Arial, Helvetica, sans-serif;
+	outline: medium none;
+	text-decoration: none;
+}
+a:hover {
+	cursor:pointer;
+	color:#72b73c;
+}
+a.cssClassUnderline {
+	text-decoration: underline;
+}
+.cssClassLeft {
+	float: left;
+}
+.cssClassRight {
+	float: right;
+}
+.cssClassRight button {
+	margin:0 2px;
+}
+.cssClassRight button span {
+	padding-left:2px !important;
+}
+.cssClassRight button span span {
+	padding-right:7px !important;
+}
+.cssClassPaddingNone {
+	padding: 0 !important;
+}
+.cssClassPaddingNone p button {
+	margin:16px 24px 0;
+	float:right;
+}
+.cssClassCurve {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.cssClassclear {
+	clear: both;
+	min-height: 0 !important;
+}
+.cssClassClear {
+	clear: both;
+	height: 1px;
+	line-height: 1px;
+}
+.cssClassRemoveMargin, .cssClassRemovePadding {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.cssClassSageWrapper {
+	width: 100%;
+}
+.cssClassOuterMainWrapper {
+	position:relative;
+	margin: 0 auto;
+	width: 1003px;
+}
+.cssClassReadMore, .cssClassReadMore a, .cssClassDirection {
+	color: #006699;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	margin:10px;
+	display:inline-block;
+}
+.cssClassReadMore:hover, .cssClassReadMore a:hover, .cssClassDirection:hover {
+	color: #000000;
+	cursor: pointer;
+}
+.cssClassAdminControlPanel {
+	min-width: 1004px;
+	width:100%;
+	background-color: #0082B5;
+}
+.cssClassAdminControlPanelContent {
+	height: 26px;
+	margin: 0 auto;
+	width:1000px;
+}
+.cssClassAdministration {
+	float: left;
+	padding: 0;
+	width: 100px;
+}
+.cssClassAdministration a {
+	color: #FAFAFA;
+	font: bold 11px/26px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.cssClassAdministration a:hover {
+	color: #FAFAFA;
+}
+.cssClassLogout {
+	float: right;
+	padding: 0 18px 0 0;
+	width: auto;
+}
+.cssClassLogout a {
+	color: #FFDC4B;
+	font: bold 11px/26px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.cssClassLogout a:hover {
+	color: #FAFAFA;
+}
+.cssClassHome {
+	float: left;
+}
+.cssClassHome img {
+	margin: 4px 10px 0 0;
+}
+.cssClassadminHome {
+	display: none;
+	float: right;
+	padding: 5px 10px 0 0;
+}
+.cssClassadminHome img, .cssClassHome img {
+	margin: 0 5px 0 0;
+	vertical-align: bottom;
+}
+.cssClassadminHome a, .cssClassHome a {
+	color: #FFFFFF;
+	font: bold 11px/18px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.cssClassadminHome a:hover, .cssClassHome a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.loginStatus {
+	color: #FFFFFF;
+	float: left;
+	padding-top: 5px;
+}
+.loginStatus strong {
+	text-transform: capitalize;
+}
+.loginStatus a {
+	color: #FFFFFF;
+}
+.cssClassAdminbread {
+	padding: 5px 0 0;
+}
+.cssClassAdminMenu {
+	float: right;
+	height: 26px;
+	width: auto;
+}
+.cssClassAdminMenu {
+*width:135px;
+}
+.cssClassAdminMenu ul {
+	z-index: 100;
+}
+.cssClassAdminMenu ul li {
+	float: left;
+	position: relative;
+	text-align: left;
+	z-index:3000;
+}
+.cssClassAdminMenu ul li a {
+	color: #E5EFFF;
+	float: left;
+	font: bold 11px/26px Arial, Helvetica, sans-serif;
+	padding: 0 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.cssClassAdminMenu ul li:hover, .cssClassAdminMenu ul li a.AspNet-Menu-Selected {
+	background: none repeat scroll 0 0 #0999D2;
+	color: #EDEDED;
+}
+.cssClassAdminMenu ul li ul {
+	background: none repeat scroll 0 0 #0082B5;
+	font: 11px/24px Arial, Helvetica, sans-serif;
+	position: absolute;
+	right: 0;
+	top: 26px;
+	width: 225px;
+	z-index:9999;
+}
+.cssClassAdminMenu ul li:hover ul li a:hover, .cssClassAdminMenu ul li ul li a.AspNet-Menu-Selected {
+	background: none repeat scroll 0 0 #0999D2;
+	color: #EDEDED;
+}
+.cssClassAdminMenu ul li ul li ul {
+	border: 1px solid #A7D7FF;
+	left: 225px;
+	margin: 0 !important;
+	top: -3px;
+}
+.cssClassAdminMenu ul li ul li {
+	background: none repeat scroll 0 0 #0082B5 !important;
+	margin: 0 !important;
+	width: 223px;
+}
+.cssClassAdminMenu li ul li:first-child {
+}
+.cssClassAdminMenu ul li ul li a {
+	border-bottom: 1px solid #00658D;
+	border-top: 1px solid #00A2E1;
+	color: #FAFAFA !important;
+	display: block;
+	float: left;
+	font: bold 11px/26px Arial, Helvetica, sans-serif;
+	padding-left: 15px !important;
+	text-decoration: none;
+	text-transform: capitalize;
+	width: 203px;
+}
+.AspNet-Menu-WithChildren .AspNet-Menu-ChildSelected {
+	background-color: #0999D2 !important;
+	color: #EDEDED;
+}
+li.AspNet-Menu-WithChildren {
+	float: left !important;
+	position: relative !important;
+}
+.cssClassAdminMenu ul.AspNet-Menu {
+	position: relative;
+	visibility: visible;
+}
+.cssClassAdminMenu ul.AspNet-Menu li:hover ul ul, ul.AspNet-Menu li.AspNet-Menu-Hover ul ul {
+	visibility: visible !important;
+}
+.cssClassAdminMenu ul.AspNet-Menu li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li li li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li.AspNet-Menu-Hover ul, .cssClassAdminMenu ul.AspNet-Menu li li.AspNet-Menu-Hover ul, .cssClassAdminMenu ul.AspNet-Menu li li li.AspNet-Menu-Hover ul {
+	visibility: visible;
+}
+.cssClassAdminMenu .AspNet-Menu-Vertical ul.AspNet-Menu li {
+	width: 100%;
+}
+.cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li li {
+	float: none;
+	height: 26px;
+	right: 0;
+}
+.cssClassAdminMenu ul.AspNet-Menu ul {
+	visibility: visible !important;
+}
+.cssClassAdminMenu ul.AspNet-Menu li:hover ul ul, .cssClassAdminMenu ul.AspNet-Menu li.AspNet-Menu-Hover ul ul {
+	visibility: visible !important;
+}
+ul.AspNet-Menu li:hover ul, ul.AspNet-Menu li li:hover ul, ul.AspNet-Menu li li li:hover ul, ul.AspNet-Menu li.AspNet-Menu-Hover ul, ul.AspNet-Menu li li.AspNet-Menu-Hover ul, ul.AspNet-Menu li li li.AspNet-Menu-Hover ul {
+	visibility: visible !important;
+}
+.cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu ul {
+	display: none;
+}
+.cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li:hover ul ul, .cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li:hover ul ul ul, .cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li.AspNet-Menu-Hover ul ul {
+	display: block;
+}
+.cssClassAdminMenu ul.AspNet-Menu li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li li li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li.AspNet-Menu-Hover ul, .cssClassAdminMenu ul.AspNet-Menu li li.AspNet-Menu-Hover ul {
+	display: block;
+}
+.cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li {
+	position: relative !important;
+}
+.cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu {
+	z-index: 102 !important;
+}
+.cssClassAdminMenu ul.AspNet-Menu li a, ul.AspNet-Menu li span {
+	height: 26px !important;
+}
+.cssClassCommonWrapper {
+}
+.cssClassCol1 {
+	float: left;
+	width: 48.5%;
+}
+.cssClassCol2 {
+	float: right;
+	width: 48.5%;
+}
+.cssClassHeaderWrapper {
+	/*	overflow:hidden;
+*/	clear: both;
+	width: 100%;
+}
+.cssClassHeaderWrapperContent {
+}
+.cssClassHeaderLeft {
+	float: left;
+	width: 250px;
+}
+.cssClassLogo {
+	margin: 8px 0 3px;
+}
+.cssClassLogo h1 {
+	background: url("../images/aspxcommerce.png") no-repeat scroll 0 0 transparent;
+	height: 75px;
+	width: 143px;
+}
+.cssClassLogo h1 a {
+	display: block;
+	height: 75px;
+	text-indent: -6000px;
+	width: 128px;
+}
+.cssClassHeaderCenter {
+	float: right;
+	padding: 7px 0 0;
+	width: 700px;
+}
+.cssClassLoginStatusWrapper {
+	float: right;
+	height: 20px;
+}
+.cssClassLoginStatusInside .cssClassLoginStatusInfo {
+	background:url("../images/register-navi-seperator.png") no-repeat scroll 0 4px;
+}
+.cssClassLoginStatusInfo ul {
+	overflow: hidden;
+}
+.cssClassLoginStatusInfo ul li {
+	background: url("../images/register-navi-seperator.png") no-repeat scroll 0 4px transparent;
+	float: left;
+	padding: 0 10px;
+}
+.cssClassLoginStatusInfo ul li a {
+	color: #557092;
+	text-shadow: 1px 1px 0 #FFFFFF;
+	font-family:  segoe, Arial, Helvetica, sans-serif;
+}
+.cssClassTotalCount {
+	font-family:Arial, Helvetica, sans-serif;
+}
+.cssClassLoginStatusWrapper ul li:first-child {
+	background: none;
+}
+.cssClassLoginStatusInfo ul li a:hover {
+	color: #0173D4;
+}
+.cssClassLoginStatusInfo ul li a:focus {
+	line-height:16px;
+}
+.cssClassShoppingCart {
+	clear: both;
+	height: 40px;
+	padding: 5px 0 0;
+	text-align: right;
+}
+.cssClassShoppingCart p {
+	color: #557092;
+	display: block;
+	font: bold 11px/30px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassShoppingCart p span {
+	color: #2086E3;
+	padding: 0 5px;
+}
+.cssClassShoppingCart p a, .cssClassShoppingCart p span a {
+	color: #2086E3;
+	font: bold 11px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassNavigationWrapper, .cssClassCategoryWrapper {
+	border-color: #2EB3FF #158FE7 #0173D4;
+	border-style: solid;
+	border-width: 1px;
+	margin:15px 0;
+	height:35px;clear:both;
+}
+.cssClassNavigation, .cssClassCategoryNav {
+	background: url("../images/navigation-bg.jpg") repeat-x scroll 0 0 #3A89C7;
+	border-color: #9BD9F8 #58BEF2 #4991CA;
+	border-style: solid;
+	border-width: 1px;
+	height:33px;
+	position:relative;
+*z-index:5000;
+
+}
+.cssClassNavigation:after, .cssClassCategoryNav:after {
+	content:"";
+	text-indent:-9999px;
+	background: url("../images/navigation-bg.png") no-repeat;
+	height: 9px;
+	width:1004px;
+	position:absolute;
+	top:35px;
+	left:0;
+}
+.cssClassNavigation ul li, .cssClassCategoryNav ul li {
+	float: left;
+	position: relative;
+}
+.cssClassNavigation ul li a, .cssClassCategoryNav ul li a {
+	color: #FFFFFF;
+	display:block;
+	float:none;
+	font: bold 12px/22px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-shadow: 0 1px 1px #1E7CBB;
+	background:url(../images/nav-sep.png) no-repeat right center;
+	padding:6px 20px;
+}
+.cssClassNavigation ul li ul, .cssClassCategoryNav ul li ul {
+	display: none;
+	left: -1px;
+	position: absolute;
+	top:33px;
+	z-index:9999;
+	width: 200px;
+	background-color: #ECECEC;
+	border:2px solid #0C94D0;
+}
+.cssClassNavigation ul li:hover > ul, .cssClassCategoryNav ul li:hover > ul {
+	display: block;
+}
+.cssClassNavigation ul li:hover a,, .cssClassCategoryNav ul li:hover a {
+ background:#3B89C7;
+color:#fff;
+}
+.cssClassNavigation ul li.cssClassAdminLastMenu ul ul, .cssClassCategoryNav ul li.cssClassCategoryLastMenu ul li ul {
+	position:absolute;
+	left:-187px !important;
+}
+.cssClassNavigation ul li ul li ul, .cssClassCategoryNav ul li ul li ul {
+	left:200px;
+	top:0;
+	position:absolute;
+}
+.cssClassNavigation ul li:hover ul li, .cssClassCategoryNav ul li:hover ul li {
+	border-bottom: 1px solid #f9f9f9;
+	border-top: 1px solid #ccc;
+	margin: 0;
+	float:none;
+	z-index:9999;
+	position: relative;
+	width: 200px;
+}
+.cssClassNavigation ul li:hover ul li:first-child, .cssClassCategoryNav ul li:hover ul li:first-child {
+	border-top:none;
+}
+.cssClassNavigation ul li:hover ul li:last-child, .cssClassCategoryNav ul li:hover ul li:last-child {
+	border-bottom:none;
+}
+.cssClassNavigation ul li:hover ul li a, .cssClassCategoryNav ul li:hover ul li a {
+	color: #0C93CE;
+	display: block;
+	font: bold 12px/20px Arial, Helvetica, sans-serif !important;
+	padding:5px 10px;
+	text-shadow:0 1px 0 #fff;
+	background:none;
+}
+.cssClassNavigation ul li:hover ul li, .cssClassCategoryNav ul li:hover ul li {
+	float:none;
+}
+.cssClassNavigation ul li:hover ul li:hover, .cssClassCategoryNav ul li:hover ul li:hover {
+	background-color: #fff;
+}
+.cssClassNavigation ul li ul li ul, .cssClassCategoryNav ul li ul li ul {
+	left:200px;
+	position:absolute;
+	display:none;
+}
+.cssClassNavigation ul li.cssClassLastMenu ul li ul, .cssClassCategoryNav ul li.cssClassLastMenu ul li ul {
+	position:absolute;
+	left:-200px !important;
+}
+/*
+
+.cssClassCategoryNav li.cssClassCategoryParent { background:url(../images/blue-arrow.png) no-repeat 97% center;}*/
+.cssClassCategoryNav li.cssClassCategoryParent li.cssClassCategoryParent {
+	background:url(../images/gray-arrow.png) no-repeat 95% center;
+}
+/* cateogry search */
+.cssClassSageSearchWrapper {
+	float:right;
+	margin-bottom:10px; position:relative; z-index:500;
+}
+.cssClassSageSearchWrapper ul li {
+	float: left;
+}
+.cssClassSageSearchWrapper input.cssClassSageSearchBox {
+	border: 1px solid #2D83C4;
+	color: #333;
+	background:#fff;
+	font-size: 12px;
+	padding: 2px 4px 3px;
+	width: 175px;
+	height:16px;
+	margin-left:6px;
+}
+.cssClassSageSearchWrapper input.cssClassSageSearchButton {
+	background: url("../images/search-btn.jpg") no-repeat scroll 0 0 transparent;
+	border: medium none;
+	cursor: pointer;
+	height: 23px;
+	width: 24px;
+	display:inline-block;   text-indent:-9999px; *text-indent:0; *font-size:0; *line-height:0; *overflow:hidden;
+}
+.cssClassSearchPanel {
+	margin: 0 0 10px;
+}
+.cssClassSearchPanel .cssClassButtonWrapper {
+	margin:0px 0 15px;
+	display:block;
+}
+.cssClassBodyContentWrapper {
+	clear: both;
+}
+.cssClassBodyContent {
+}
+.cssClassMasterLeft {
+/*	display: none;	width: 249px;
+float:right;
+*/
+
+}
+.cssClassMasterCenter {
+	float: left;
+	width: 739px;
+}
+.cssClassMasterRight {
+	float: right;
+	overflow: visible;
+	width: 249px;
+	position:relative;
+}
+.cssClassMasterWrapperLeftCenter {
+	margin: 10px 0 15px;
+	overflow: hidden;
+}
+.cssClassMasterWrapperLeftCenter .cssClassMasterLeft {
+	display: block;
+	float: left;
+	width: 225px;
+}
+.cssClassMasterWrapperLeftCenter .cssClassMasterRight {
+	display: none;
+}
+.cssClassMasterWrapperLeftCenter .cssClassMasterCenter {
+	float: right;
+	width: 755px;
+}
+.cssClassMasterWrapperCenterRight {
+	overflow: hidden;
+}
+.cssClassMasterWrapperCenterRight .cssClassMasterLeft {
+	display: none;
+}
+.cssClassMasterWrapperCenter {
+}
+.cssClassMasterWrapperCenter .cssClassMasterCenter {
+	float: none;
+	margin: 0 auto;
+	width: 1004px;
+}
+.cssClassMasterWrapperCenter .cssClassMasterLeft {
+	display: none;
+}
+.cssClassMasterWrapperCenter .cssClassMasterRight {
+	display: none;
+}
+.cssClassmaincontent .cssClassleftPane {
+	display: none;
+}
+.cssClassWelcome {
+	background: url("../images/bannerbg.jpg") no-repeat scroll 0 0 transparent;
+	border: 1px solid #9ABBD4;
+	height: 214px;
+	position: relative;
+	width: 738px;
+	overflow:hidden;
+}
+.cssClassWelcomePicture {
+	float: left;
+}
+.cssClassWelcomeInformation {
+	float: left;
+	padding-left:25px;
+	width:55%;
+	overflow:hidden;
+}
+.cssClassWelcomeInformation h2 {
+	font-size:20px;
+	line-height:40px;
+}
+.cssClassDownload a {
+	margin-left:150px;
+	width:245px;
+	height:113px;
+	display:block;
+}
+.cssClassWelcomeInformation ul li {
+	color:#2f7fdb;
+	font:bold 14px/30px Arial, Helvetica, sans-serif;
+	padding-left:25px;
+}
+.bannerRight {
+	float:right;
+	width:40%;
+	padding-top:25px;
+}
+.bannerRight p {
+	color: #1A6697;
+	font: 13px/24px segoe, Arial, Helvetica, sans-serif;
+	padding: 10px 0 0;
+}
+.cssClassDiscount {
+	padding: 10px 0 0;
+}
+.cssClassDiscountBox img {
+	border:1px solid #069;
+}
+.cssClassProducts {
+	clear:both;
+	margin-top:12px;
+}
+.cssClassProductsBox {
+	float: left;
+	margin: 0 6px 7px 0 !important;
+	width: 173px;
+	padding:0 0px 0 !important;
+	_height:290px;
+	overflow:hidden;
+}
+fo {
+	border: 1px solid #FFFFFF;
+	padding: 0 0 7px;
+	text-align:center;
+}
+.cssClassProducts h1 {
+	color:#069;
+	font:normal 16px/22px Arial, Helvetica, sans-serif;
+	text-shadow:0 1px 0 rgba(255,255,255,0.5);
+}
+.cssClassProductsBoxInfo h2, .cssClassProductsGridInfo h2 {
+	color: #202020;
+	height:36px;
+	padding-top:5px;
+	font: bold 13px/16px Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassProductsBoxInfo h3 {
+	color: #202020;
+	font: bold 11px/18px Arial, Helvetica, sans-serif;
+	height: 16px;
+	padding: 4px 0 0;
+	text-align: center;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassProductPicture, .cssClassGrid2Picture, .cssClassGrid2Picture, .cssClassProductsGridPicture, .cssClassYouMayAlsoLikeBox p {
+	text-align: center;
+	margin:0 auto;
+}
+.cssClassProductPriceBox {
+	float: left;
+	height: 30px;
+	padding: 5px 4px 0;
+}
+.cssClassProductOffPrice {
+	display:inline-block;
+}
+.cssClassProductOffPrice span {
+	text-decoration: line-through;
+	font:11px Verdana, Geneva, sans-serif;
+	display:inline-block;
+}
+.cssClassProductsBox .cssClassProductOffPrice {
+	width:200px;
+}
+.cssClassProductsBox .cssClassProductOffPrice span {
+	width:100px;
+}
+.cssClassProductRealPrice span {
+	color: #005CA4;
+	font:bold 12px Arial, Helvetica, sans-serif;
+}
+.cssClassProductDetail {
+	padding: 10px 12px 0 0;
+}
+.cssClassProductDetail p a {
+	color: #306B00;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	padding-left: 7px;
+	text-shadow:0px 1px 1px #FFF;
+}
+.cssClassProductDetail p a:hover {
+	color: #63A90B;
+}
+.cssClassAddtoCard, .cssClassProducts  .cssClassOutOfStock, .test .cssClassProductsBox  .cssClassOutOfStock{
+	background: url("../images/addcartbg.jpg") repeat-x scroll 0 0 transparent;
+	padding: 4px;
+	min-height:38px;
+	text-align:center; white-space:nowrap;
+}
+.cssClassAddtoCard .cssClassOutOfStock{
+	background:none !important;
+	padding:0px !important;
+	height:auto!important;}
+.cssClassAddtoCard .cssClassButton {
+	margin: 0;
+}
+.cssClassWishlistWrapper {
+	overflow: hidden;
+}
+.cssClassSpecialBestseller {
+	padding: 5px 0 0;
+}
+.cssClassSpecial, .cssClassBestSeller {
+	border: 1px solid #9ABBD4;
+	float: left;
+	position:relative;
+	margin:5px 0 12px;
+	width: 364px;
+	background:#fff url("../images/specials-heading.jpg") repeat-x left top;
+}
+.cssClassSpecial h2, .cssClassBestSeller h2 {
+	background: url("../images/best-seller.png") no-repeat 98% 40%;
+	color: #FFFFFF;
+	font: bold 13px/32px Arial, Helvetica, sans-serif;
+	height: 32px;
+	padding: 0 0 0 10px;/*	text-shadow:0px 1px 1px #004981;*/
+}
+.cssClassSpecial h2 {
+	background: url("../images/gift.png") no-repeat 98% 40%;
+}
+.cssClassSpecialBox, .cssClassBestSellerBox {
+	background:#fff url("../images/gray-line.jpg") repeat-y 47% top;
+	margin:5px 0;
+}
+.cssClassSpecialBox a, .cssClassBestSellerBox a {
+	color:#306B00;
+	font-weight:bold;
+}
+.cssClassSpecialBox li:hover a, .cssClassBestSellerBox li:hover a {
+	color:#63A90B;
+}
+.cssClassSpecialBoxInfo, .cssClassBestSellerBoxInfo {
+	float: left;
+	margin-left:10px;
+	width: 354px;
+	overflow:hidden;
+}
+.cssClassBestSellerBoxInfo h3 {
+	line-height:24px;
+}
+.cssClassSpecialBoxInfo li, .cssClassBestSellerBoxInfo li {
+	float:left;
+	width:164px;
+	height:155px;
+	margin-right:11px;
+	list-style:none;
+	margin-bottom:15px;
+}
+.cssClassSpecialBoxInfo img:hover, .cssClassBestSellerBoxInfo img:hover {
+	opacity:0.9;
+}
+.cssClassSpecialBoxInfoNoBorder {
+	border-right: medium none;
+	padding: 0 0 0 20px;
+}
+.cssClassSpecialBoxInfo h3 {
+	color: #005CA4;
+	font: bold 12px/20px Arial, Helvetica, sans-serif;
+}
+.cssClassSpecialBoxInfo ul {
+	padding: 5px 0 0 4px;
+}
+.cssClassSpecialBoxInfo ul li {
+	list-style:none;
+}
+.cssClassSpecialBoxInfo p {
+	padding: 5px 0 0;
+}
+.cssClassSpecialBoxInfo p a {
+	color: #2682CC;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassSpecialBoxInfo p a:hover {
+	color: #055A9F;
+}
+.cssClassSpecialMargin {
+	float: right;
+	margin-bottom: 5px;
+	width: 359px;
+}
+.cssClassCommonSideBox {
+	background-color: #FFFFFF;/*
+    border: 1px solid #9ABBD4;*/
+	border: 1px solid #2A699A;
+	clear: both;
+}
+.cssClassCommonSideBox h2 {
+	padding: 0 7px;
+}
+.cssClassCommonSideBox h2 span.cssClassShoppingBag {
+	background: url("../images/basket.jpg") no-repeat scroll right 1px transparent;
+	color: #FFFFFF;
+	display: block;
+	font: bold 14px/32px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 0 #1182CF;
+}
+.cssClassCommonSideBox h3 {
+	color: #006699;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	padding:4px 0;
+}
+.cssClassCommonSideBox h3 span.cssClassShoppingOptionByPrice {
+	color: #006699;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	padding: 4px 0 0 8px;
+}
+.cssClassCommonSideBoxTable h3 span {
+	padding-left: 10px;
+}
+.cssClassCommonSideBoxTable td {
+	color: #585858;
+	font: 12px/15px Arial, Helvetica, sans-serif;
+	padding: 6px 0;
+	vertical-align: top;
+}
+.cssClassCommonSideBoxPrice {
+	width: 40px;
+}
+.cssClassCommonSideBoxPrice b {
+	font-weight: bold;
+}
+.cssClassCommonSideBoxTable a {
+	color: #707070;
+	font-family: segoe, Arial, Helvetica, sans-serif;
+}
+.cssClassCommonSideBoxTable a:hover {
+	color: #000;
+}
+td.cssClassCommonSideBoxTotalAmountText {
+	border-top: 1px solid #D7D7D7;
+}
+td.cssClassCommonSideBoxTotalAmount {
+	border-top: 1px solid #D7D7D7;
+	color: #4294D2;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.cssClassOffer {
+	margin: 10px 0 0;
+}
+.cssClassCommunityPool {
+	border: 1px solid #B4C9A2;
+	height: 1%;
+	margin: 10px 0 0;
+}
+.cssClassCommunityPool h2 {
+	padding: 0 7px;
+}
+.cssClassCommunityPool h2 span {
+	color: #FFFFFF;
+	display: block;
+	font: bold 14px/32px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 0 #438D0E;
+}
+.cssClassCommunityPool p {
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	padding: 7px;
+}
+.cssClassPool {
+	background-color: #FFFFFF;
+	padding: 0 4px 5px;
+}
+.cssClassPool p {
+}
+.cssClassPool p input {
+	width: 10px;
+}
+.cssClassPool p label {
+	font: 11px Arial, Helvetica, sans-serif;
+}
+.cssClassPool .cssClassButton {
+	margin: 0 0 0 10px;
+}
+.cssClassNewsLetter {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	height: 1%;
+	margin: 10px 0;
+	overflow: hidden;
+	padding: 0 0 10px;
+}
+/*.cssClassNewsLetter h2 {
+	background: url("../images/green_bg.jpg") repeat-x scroll 0 0 transparent;
+	padding: 0 7px 7px;
+}*/
+.cssClassNewsLetter h2 span {
+	background: url("../images/newsletter.png") no-repeat scroll right 45% transparent;
+	color: #FFFFFF;
+	font:bold 13px/32px Arial, Helvetica, sans-serif;
+	display: block;/*	;	text-shadow: 1px 1px 0 #438D0E;font: bold 14px/32px Arial, Helvetica, sans-serif;
+*/
+}
+.cssClassNewsLetter p {
+	float: left;
+	padding:0 12px;
+}
+.cssClassNewsLetter p label {
+	color: #585858;
+	display: block;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassNewsLetter p input.cssClassNewsLetterEmailBox {
+	border: 1px solid #AEC6EA;
+	height: 21px;
+	line-height:21px;
+	width: 200px;
+	font-size:12px;
+	margin:10px 0;
+}
+.cssClassBottomWrapper {
+	clear: both;
+	/*padding: 20px 0 0;*/
+    width: 100%;
+}
+.cssClassBottomContent {
+}
+.cssClassBottomWrapperBox {
+	float: left;
+	margin: 0 15px 0 0;
+	width: 239px;
+}
+.cssClassBottomWrapperBox img {
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow:0 0 0 1px #ccc;
+	-moz-box-shadow:0 0 0 1px #ccc;
+	box-shadow:0 0 0 1px #ccc;
+	border:1px solid #FFFFFF;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.cssClassFooterWrapper {
+	background: url("../images/footer-bg.jpg") repeat-x scroll 0 0 #C2CBAF;
+	clear: both;
+	margin:-200px 0 0;
+	padding: 2px 0 10px;
+	min-width: 1000px;
+	z-index:10;
+	overflow:hidden;
+}
+.cssClassCustomerServices {
+	clear:left;
+}
+.cssClassfooter {
+	background: url("../images/footer-inside.jpg") no-repeat scroll center top transparent;
+	margin: 0 auto;
+	padding: 25px 0 0;
+	width: 1004px;
+	min-height:200px;
+}
+.cssClassCommentWrapper {
+	float: right;
+}
+.cssClassFooterLeft {
+	float: left;
+	text-align: center;
+	width: 215px;
+	color:#fff;
+}
+.cssClassFooterNaviLink {
+}
+.cssClassFooterNaviLink p {
+	padding: 8px 0 0;
+}
+.cssClassFooterNaviLink p, .cssClassFooterNaviLink p a {
+	color: #525847;
+	font: 11px/18px segoe, Arial, Helvetica, sans-serif;
+}
+.cssClassFooterNaviLink p a:hover {
+	color: #000000;
+}
+.cssClassPayment {
+	margin: 20px 0 0;
+}
+.cssClassFooterWrapperLeftCenterRight > div { min-width:180px !important; }
+.cssClassFooterCenter, .cssClassFooterRight {
+	float: left;
+	padding: 0 0 0 25px; position:relative;
+}
+.cssClassFooterCenter h2 {
+	color: #525847;
+	font: bold 18px/22px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 0 #E4EAD9;
+}
+.cssClassFooterLink {
+	overflow: hidden;
+}
+.cssClassFooterLink ul {
+}
+.cssClassFooterLink ul li {
+}
+.cssClassFooterLink ul li a {
+	color: #525847;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 0 #E4EAD9;
+}
+.cssClassFooterLink ul li a:hover {
+	color: #000000;
+}
+.cssClassBrowseByCategory {
+	width:465px;
+}
+.cssClassBrowseByCategory ul li {
+	width: 150px;
+	float:left;
+}
+.cssClassBrowseByCategory ul li a {
+	color: #525847;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassBrowseByCategory ul li a:hover {
+	color: #000000;
+}
+.cssClassCustomerServices h2, .cssClassBrowseByCategory h2 {
+	color: #5E5E5E;
+	font: bold 14px/22px Arial, Helvetica, sans-serif;
+}
+.cssClassCustomerServices ul li a {
+	color: #525847;
+	font: 12px/18px segoe, Arial, Helvetica, sans-serif;
+}
+.cssClassCustomerServices ul li a:hover {
+	color: #000;
+}
+.cssClassCopyright p {
+	color: #5D7883;
+	text-align: center;
+}
+.cssClassCopyright p a {
+	color: #5E7883;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassCopyright p a:hover {
+	color: #8CB6C8;
+}
+.cssClassItemSearch {
+	background: url("../images/product-search-bg.jpg") repeat-x scroll center top #FFFFFF;
+	border: 1px solid #9ABBD4;
+	padding: 15px 222px 15px 15px;
+}
+.cssClassItemSearch h2 {
+	color: #242424;
+	font: bold 11px/20px Arial, Helvetica, sans-serif;
+}
+.cssClassProductSearchLeft {
+	float: left;
+	width: 390px;
+}
+.cssClassNormalTextBox p input {
+	border: 1px solid #84B3CB;
+	color: #7C7C7C;
+	font: 11px Arial, Helvetica, sans-serif;
+	height: 25px;
+	width: 390px;
+}/*
+.cssClassFormWrapper input.cssClassNormalTextBox {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #84B3CB;
+    -moz-box-shadow:inset 1px 1px 5px #C3DEF2; -webkit-box-shadow:inset 1px 1px 5px #C3DEF2; box-shadow:inset 1px 1px 5px #C3DEF2;
+    color: #000;
+    font: 12px Arial,Helvetica,sans-serif !important;
+    height: 14px;
+    margin: 7px 10px 0 5px;
+    width: 120px;
+}*/
+.cssClassProductSearchLeft p select {
+	color: #7C7C7C;
+	font: 11px Arial, Helvetica, sans-serif;
+	height: 25px;
+	margin: 20px 10px 0 0;
+	width: 120px;
+}
+.cssClassProductSearchLeft p select.cssClassNoMargin {
+	margin: 0;
+}
+.cssClassProductSearchMid p select {
+	border: 1px solid #84B3CB;
+	color: #000;
+	font: 11px Arial, Helvetica, sans-serif;
+	height: 25px;
+	width: 120px;
+}
+.cssClassProductSearchMid p select.cssClassMarginTop {
+	margin: 20px 0 0;
+}
+.cssClassProductSearchMid p.cssClassAdvanceSearch, .cssClassProductSearchMid p.cssClassAdvanceSearch a {
+	color: #257DB0;
+	padding: 10px 0 0;
+	text-align: center;
+}
+.cssClassAdvenceSearch {
+	background:#FFFFFF url("../images/specials-heading.jpg") repeat-x;
+	border: 1px solid #9ABBD4;
+	margin: 10px 0;
+}
+.cssClassAdvenceSearch .cssClassHeader h2 {
+	color: #fff;
+	height:32px;
+	font:bold 14px/27px Arial, Helvetica, sans-serif;
+	padding: 0;
+	text-shadow: 0px 1px 1px #004981;
+}
+.cssClassAdvenceSearch .cssClassHeader {
+	margin: 0;
+	padding-left:20px;
+	background: url("../images/asearch.png") no-repeat scroll 98% 40%;
+}
+.cssClassAdvenceSearch .cssClassButtonWrapper {
+	margin-left:20px;
+	margin-bottom:10px;
+}
+.cssClassAdvenceSearch .pricebox input {
+	width:101px;
+}
+.cssClassProductSearchLeft {
+	float: left;
+	width: 390px;
+}
+.cssClassNormalTextBox p input {
+	border: 1px solid #84B3CB;
+	color: #7C7C7C;
+	font: 11px Arial, Helvetica, sans-serif;
+	height: 25px;
+	width: 390px;
+}
+.cssClassFormWrapper input.cssClassNormalTextBox {
+	border: 1px solid #84B3CB;
+	color: #000;
+	font: 11px Arial, Helvetica, sans-serif;
+	height: 14px;
+	margin: 7px 10px 0 5px;
+}
+.cssClassProductSearchLeft p select {
+	color: #7C7C7C;
+	font: 11px Arial, Helvetica, sans-serif;
+	height: 25px;
+	margin: 20px 10px 0 0;
+	width: 120px;
+}
+.cssClassProductSearchLeft p select.cssClassNoMargin {
+	margin: 0;
+}
+.cssClassProductSearchMid p select {
+	border: 1px solid #84B3CB;
+	color: #7C7C7C;
+	font: 11px Arial, Helvetica, sans-serif;
+	height: 25px;
+	width: 120px;
+}
+.cssClassProductSearchMid p select.cssClassMarginTop {
+	margin: 20px 0 0;
+}
+.cssClassProductSearchMid p.cssClassAdvanceSearch, .cssClassProductSearchMid p.cssClassAdvanceSearch a {
+	color: #257DB0;
+	padding: 10px 0 0;
+	text-align: center;
+}
+.viewWrapper {
+	overflow: hidden;
+	padding: 5px 0;
+	clear:both;
+}
+.view {
+	float: left;
+	width: 200px;
+}
+.sort {
+	float: right;
+}
+.cssClassPageNumberMidBg {
+	overflow: hidden;
+}
+.cssClassProductShortBy {
+	margin: 20px 0 0;
+}
+.cssClassProductShortBy h2 {
+	background: url("../images/productlistby-heading-bg.jpg") repeat-x scroll center bottom transparent;
+	color: #292929;
+	font: bold 11px/20px Arial, Helvetica, sans-serif;
+	padding: 0 0 10px;
+}
+.cssClassProductDispalay {
+	padding: 10px 0 0;
+}
+.cssClassProductDispalayLeft {
+	float: left;
+	width: 450px;
+}
+.cssClassProductDispalayLeft label {
+	color: #3E3E3E;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	padding: 0 10px 0 0;
+}
+.cssClassProductDispalayLeft select {
+	border: 1px solid #84B3CB;
+	color: #767676;
+	font: 11px Arial, Helvetica, sans-serif;
+	height: 23px;
+	margin: 0 30px 0 0;
+}
+.cssClassProductDispalayRight {
+	float: right;
+	width: 142px;
+}
+.cssClassViewBy {
+	height: 26px;
+	padding: 0 0 0 8px;
+}
+.cssClassViewByRightBg {
+	height: 26px;
+	padding: 0;
+}
+.cssClassViewByRightBg p {
+	color: #7598B1;
+	font: bold 11px/26px Arial, Helvetica, sans-serif;
+}
+.cssClassViewByRightBg p span {
+	padding: 0 10px 0 0;
+}
+.cssClassViewByRightBg p a {
+	color: #3C8FCC;
+	font: bold 11px/26px Arial, Helvetica, sans-serif;
+}
+.cssClassViewByRightBg p a:hover, .cssClassViewByRightBg p a.cssClassSelected {
+	color: #839FB4;
+	font: bold 11px/26px Arial, Helvetica, sans-serif;
+}
+.cssClassAdvenceSearch .cssClassFormWrapper {
+	margin-left:20px;
+	margin-top:10px;
+}
+.cssClassFormWrapper .cssClassLabel {
+	color: #000;
+	font: bold 12px/22px Arial, Helvetica, sans-serif;
+	white-space:nowrap;
+}
+.cssClassFormWrapper select {
+	color: #000;
+	font: 11px Arial, Helvetica, sans-serif;
+	margin: 7px 10px 0 0;
+	padding: 4px 5px;
+}
+.cssClassFormWrapper input {
+	border: 1px solid #98C7E0;
+	color: #000;
+	font: 12px Arial, Helvetica, sans-serif;
+	margin: 7px 0 0 5px;
+	padding: 5px;
+}
+.cssClassFormWrapper input .cssClassNormalTextBox {
+	width: 100px;
+}
+.cssClassFormWrapper input.cssClassNormalTextBoxl {
+	width: 312px;
+}
+.cssClassFormWrapper input.cssClassTextBoxSmall {
+	width: 130px;
+}
+.cssClassFormWrapper a {
+	padding: 10px 0 0;
+	text-align: center;
+}
+.cssClassFormWrapper textarea {
+	border: 1px solid #98C7E0;
+	margin: 7px 0 0 5px;
+	background:#fff;
+}
+.cssClassFormWrapper .cssClassTextarea {
+	width: 209px;
+}
+.cssClassDropDown {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #84B3CB;
+	-moz-box-shadow:inset 1px 1px 5px #C3DEF2;
+	-webkit-box-shadow:inset 1px 1px 5px #C3DEF2;
+	box-shadow:inset 1px 1px 5px #C3DEF2;
+	color: #000;
+}
+.cssClassSageSearchWrapper .cssClassDropDown {
+	border:1px solid #2D83C4;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	padding:2px;
+	height:23px;
+	width:173px;
+}
+.cssClassProductListView, .cssClassListViewWithOutOptions, .cssClassGrid2Box, .cssClassProductsBox, .cssClassGrid3Box {
+	background-color: #DEE4D1;
+	border: 1px solid #AFB0AE;
+	height: 1%;
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding: 10px 10px 0;
+	-moz-box-shadow: 0 0 0 1px #FFFFFF inset;
+	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
+	box-shadow: 0 0 0 1px #FFFFFF inset;
+}
+.cssClassProductListViewRight .cssClassAddtoCard {
+	background:none;
+}
+.cssClassProductListViewLeft {
+	float: left;
+	width: 140px;
+	padding-bottom:5px;
+}
+.cssClassFeaturedBg {
+}
+.cssClassFeaturedBg a {
+	background: url("../images/featured-bg.jpg") no-repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+	display: block;
+	font: bold 11px/17px Arial, Helvetica, sans-serif;
+	height: 17px;
+	margin: 6px 0 0;
+	text-align: center;
+	width: 136px;
+}
+.cssClassFeaturedBg a:hover {
+	background: url("../images/featured-bg-hover.jpg") no-repeat scroll 0 0 transparent;
+}
+.cssClassProductListViewRight {
+	margin-left:160px;/*
+    float: right;background-color: #DEE4D1; 
+    width: 350px;*/
+}
+.cssClassProductListViewRight h2, .cssClassListViewWithOutOptionsRight h2 a {
+	color: #202020;
+	font: bold 13px Arial, Helvetica, sans-serif;
+	text-shadow: 0 1px 1px #fff;
+}
+.cssClassProductListViewRight p {
+	color: #686868;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+.cssClassProductListViewRight .cssClassViewDetailsAddtoCart a {
+}
+.cssClassViewDetailsAddtoCart a {
+	margin-top:5px;
+}
+.cssClassWishListButton button {
+	background:none;
+	border:none;
+}
+.cssClassProductListViewRight .cssClassViewDetailsAddtoCart .cssClassAddtoCard {
+	padding-left:0px;
+}
+p.cssClassListViewProductPrice {
+	color: #202020;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	padding: 5px 0;
+}
+.cssClassProductListView .cssClassButtonWrapper {
+	overflow:visible;
+	padding:0;
+	float:left;
+}
+.cssClassListViewProductPrice b {
+	text-decoration: line-through;
+}
+.cssClassListViewProductPrice span {
+	color: #005CA4;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	padding: 0 0 0 0px;
+}
+.cssClassViewDetailsAddtoCart {
+	overflow: hidden;
+	width:100%;
+	position:relative;
+}
+.cssClassViewDetailsAddtoCart .cssClassAddtoCard a {
+	left: 115px;
+	position: absolute;
+	top:0px;
+}
+.cssClassViewDetailsAddtoCart span {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.cssClassViewDetails a {
+	color: #FFFFFF;
+	display: block;
+	font: 12px/29px Arial, Helvetica;
+	height: 29px;
+	text-align: center;
+	width: 88px;
+}
+.cssClassViewDetails a:hover, .cssClassAddtoCart a:hover {
+	color: #FFFFFF;
+}
+.cssClassAddtoCart a {
+	color: #FFFFFF;
+	display: block;
+	font: 12px/29px Arial, Helvetica;
+	height: 29px;
+	text-align: center;
+	width: 88px;
+}
+.cssClassProductDetails {
+	padding: 15px 0 0;
+}
+.cssClassProductInformation {
+}
+.cssClassProductImage {
+	float: left;
+	width: 34%;
+}
+.cssClassProductBigPicture {
+}
+.cssClassProductBigPicture img {
+}
+.cssClassProductSmallPicture {
+	height: 63px;
+	margin: 8px 0 0;
+	padding: 0 0 0 8px;
+}
+.cssClassProductSmallPictureRightBg {
+	height: 63px;
+	padding: 0 8px 0 0;
+}
+.cssClassProductSmallPictureMidBg {
+	height: 63px;
+}
+.cssClassProductPictureDetails {
+	float: left;
+	width: 63%;
+	padding-left:3%;/* background:url("../images/gray-line.jpg") repeat-y scroll 45% center;*/
+}
+.cssClassProductPictureDetails .cssClassLeftSide {
+	float:left;
+	width:49%;
+}
+.cssClassProductPictureDetails .cssClassRightSide {
+	overflow:hidden;
+}
+.cssClassProductPictureDetails .cssClassRightSide .cssClassButtonWrapper {
+	width:300px;
+}
+.cssClassProductPictureDetails .cssClassDropDown {
+	background: none;
+	border:none;
+	box-shadow: none;
+}
+.cssClassProductPictureDetails .cssClassButtonWrapper button span span span {
+	background:none;
+}
+.cssClassProductPictureDetails h2 {
+	color: #4B4B4B;
+	font: bold 13px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassProductPictureDetails li {
+	margin-bottom: 5px;
+	width:265px;
+	clear:both;
+}
+.cssClassProductPictureDetails .cssClassButtonWrapper .cssClassButton {
+	background: none repeat scroll 0 0 transparent !important;
+	white-space:nowrap;
+	float:left;
+}
+.cssClassProductDetainInfo {
+}
+.cssClassProductDetainInfo ul li {
+	float: left;
+	font: 12px/25px Arial, Helvetica, sans-serif;
+	width: 170px;
+}
+.cssClassProductPictureDetails .cssClassLeftSide .cssClassButtonWrapper a {
+	margin-left:5px;
+}
+.cssClassAvailiability b {
+	color: #005CA4;
+}
+.cssClassItems {
+	color: #5C6F7A;
+	font: 12px/25px segoe, Arial, Helvetica, sans-serif;
+}
+.cssClssQTY input {
+	border: 1px solid #98C7E0;
+	height: 19px;
+	width: 50px;
+}
+.cssClssQTY label {
+	display:block;
+}
+.cssClassProductFeature {
+	padding: 10px 0;
+}
+.cssClassProductFeature table {
+	border: 1px solid #92C6E1;
+}
+.cssClassProductFeature table td {
+	border-bottom: 1px solid #FFFFFF;
+	padding: 5px;
+}
+.cssClassProductFeature table tr.cssClassHeadeTitle {
+	background: url("../images/headertitle-bg.jpg") repeat-y scroll 0 0 #247EC9;
+	color: #FFFFFF;
+	font: bold 12px/20px Arial, Helvetica, sans-serif;
+}/*
+table tr.cssClassAlternativeOdd {
+	background-color: #d4efff;
+}
+table tr.cssClassAlternativeEven {
+	background-color: #e4f5ff;
+}*/
+td.cssClassFeaturesLeftColumWidth {
+	width: 90px;
+}
+.cssClassProductFeature table tr.cssClassAlternativeOdd td, .cssClassProductFeature table tr.cssClassAlternativeEven td {
+	color: #5C6F7A;
+	font: 11px/18px Arial, sans-serif;
+}
+.cssClassProductFeature table tr.cssClassAlternativeOdd td b, .cssClassProductFeature table tr.cssClassAlternativeEven td b {
+	font-weight: bold;
+}
+.cssClassProductDetailInformation {
+	margin: 40px 0 0;
+}
+.cssClassProductDetailInformation .cssClassFormWrapper {
+	padding-left:0 !important;
+}
+.cssClassProductDetailInformation h2, .cssClassItemQuickOverview h2 {
+	background: url("../images/product-detail-information-heading.jpg") repeat-y scroll center center #237BC6;
+	border-bottom: 1px solid #2A699A;
+	color: #FFFFFF;
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	height: 30px;
+	padding: 0 0 0 20px;
+}
+.cssClassProductDetailInformation p {
+	font: 12px/18px segoe, Arial, Helvetica, sans-serif;
+}
+.cssClassYouMayAlsoLike, .cssClassItemQuickOverview {
+	background-color: #FFFFFF;
+	border: 1px solid #9ABBD4;
+	height: 1%;
+	margin-top:10px;
+}
+cssClassYouMayAlsoLike h2, .cssClassItemQuickOverview h2 {
+	padding-left:10px;
+}
+.cssClassYouMayAlsoLikeWrapper {
+	margin: 15px 0;
+}
+.cssClassYouMayAlsoLikeBox {
+	border-right: 1px solid #CDCDCD;
+	float: left;
+	margin: 0 0 10px;
+	min-height: 130px;
+	padding: 0 14px 16px;
+	width: 155px;
+}
+.cssClassYouMayAlsoLikeBox p {
+	padding: 0;
+	text-align: center;
+}
+.cssClassYouMayAlsoLikeBox .cssClassButton {
+	margin: 5px 0 0 21px;
+}
+.cssClassCartPage .cssClassYouMayAlsoLikeBox {
+	width: 137px;
+}
+.cssClassYouMayAlsoLikeWrapper .cssClassButtonWrapper {
+	padding: 5px 0 0 33px;
+}
+.cssClassButtonWrapper .cssClassRightBtn a {
+	float: right;
+}
+.cssClassYouMayAlsoLikeBoxFourth {
+	padding: 0 0 16px 16px;
+}
+.cssClassItemOverview {
+	padding: 10px 0;
+}
+.cssClassItemOverview table {
+	border: 1px solid #92C6E1;
+}
+.cssClassItemOverview table td {
+	border-bottom: 1px solid #FFFFFF;
+	padding: 5px;
+}
+.cssClassItemOverview table tr.cssClassHeaderTitle {
+	background: url("../images/headertitle-bg.jpg") repeat-y scroll 0 0 #247EC9;
+	color: #FFFFFF;
+	font: bold 12px/20px Arial, Helvetica, sans-serif;
+}
+tr.cssClassItemOverviewContent td p {
+	color: #5C6F7A;
+	text-align: justify;
+}
+.cssClassBreadCrumWrapper {
+	clear: both;
+	width: 100%;
+}
+.cssClassBreadCrum {
+	color: #3880B7;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassBreadCrum p span a {
+	color: #3880B7;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	padding: 0 10px 0 0;
+}
+.cssClassBreadCrum p span a:hover {
+	color: #000000;
+}
+.cssClassBreadCrum p b {
+	color: #3880B7;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassCartInformation {
+	margin-bottom:10px;
+}
+.cssClassCartInformation table {
+	background:#fff;
+	border:1px solid #9ABBD4;
+}
+.cssClassCartInformation table tr.cssClassHeadeTitle {
+	background:#237BC6 url("../images/product-detail-information-heading.jpg") repeat-y center center;
+	border-bottom: 1px solid #2A699A;
+	color: #FFFFFF;
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	position:relative;
+	height: 30px;
+	white-space:nowrap;
+	padding: 0 0 0 5px;
+	width:700px;
+}
+.cssClassCartInformation table tr.cssClassHeadeTitle td {
+	background: transparent;
+}
+.cssClassCartInformation table td {
+	padding:5px 0 5px 9px;
+}
+.cssClassCartInformationDetails {
+	background-color: #FFFFFF;
+}
+.cssClassBlueBtnWrapper {
+	clear:both;
+}
+.cssClassBlueBtnWrapper .cssClassButtonWrapper {
+	float:right;
+	margin:0 5px;
+}
+.cssClassBlueBtn a {
+	background: #3ab0ee;
+	color: #FFFFFF; border:1px solid #3ab0ee;
+	float: right;
+	font:bold 12px/22px Arial, Helvetica;
+	height:24px;
+	padding:1px 12px;
+	margin:5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+}
+.cssClassBlueBtn a:hover { 	-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.3);box-shadow:inset 0 1px 0 rgba(255,255,255,0.3);}
+.cssClassLeftRightBtn {
+	display: block;
+	position:relative;
+}
+.cssClassLeftRightBtn .cssClassCartInformation .cssClassHeadeTitle td {
+	width:100%;
+	text-align:right;
+}
+.cssClassRightBtn {
+	float: right !important;
+	clear:both;
+}
+.cssClassCartPicture {
+}
+.cssClassCartPictureInformation {
+	padding: 0 10px 0 0;
+	width: auto;
+}
+.cssClassCartPictureInformation h3 {
+	color: #323232;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassCartPictureInformation h3 a {
+	font-weight:bold;
+}
+.cssClassCartPictureInformation p {
+	color: #16405C;
+	text-align: justify;
+}
+p.cssClassQTYInput input {
+	border: 1px solid #AACCE6;
+	height: 21px;
+	width: 38px;
+}
+.cssClassTotalAmount {
+}
+.cssClassTotalAmount table {
+	border: medium none;
+}
+.cssClassTotalAmount table td {
+	padding: 8px 0;
+}
+.cssClassSubTotalAmount {
+	width:100%;
+	border-top:none !important;
+	border-bottom:none !important;
+}
+.cssClassSubTotalAmount strong {
+	color:#666;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassSubTotalAmount td {
+	width:80%;
+	text-align:right;
+}
+input.grandTotal {
+	color:#fff !important;
+	background: none !important;
+	border:none !important;
+}
+.cssClassGrandTotalAmountWidth .cssClassFormatCurrency {
+	color:#fff !important;
+	height:25px;
+	line-height:25px; /* height for IE9*/
+}
+.cssClassGrandTotalAmountWidth input[disabled="disabled"] {
+	color:#000 !important;
+	font-size:14px;
+}
+.cssClassCheckout .ui-accordion .ui-widget-content {
+	border:none;
+}
+.cssClassCheckout .ui-accordion .ui-state-default .ui-icon {
+	background:url("../images/green_arrow_down.png") no-repeat;
+}
+.cssClassCheckout .ui-accordion .ui-state-active .ui-icon {
+	background:url("../images/green_arrow_up.png") no-repeat;
+}
+.cssClassCheckoutInformationBox {
+	border: 1px solid #99BBD6;
+	height: 1%;
+	margin: 0 0 10px;
+}
+.cssClassCheckoutInformationBoxNoBorder {
+	border: medium none;
+}
+.cssClassCheckoutInformationBox h2 {
+	background: url("../images/product-detail-information-heading.jpg") repeat-y scroll center center #227CC8;
+	border: 1px solid #2A6899;
+	height: 33px;
+	overflow: hidden;
+	padding: 0 0 0 5px;
+}
+.cssClassCheckoutInformationBox h2 span {
+	color: #000000;
+	display: block;
+	float: left;
+	font: bold 11px/19px Arial, Helvetica, sans-serif;
+	height: 19px;
+	margin: 7px 0 0;
+	text-align: center;
+	width: 19px;
+}
+.cssClassCheckoutInformationBox h2 b {
+	color: #FFFFFF;
+	float: left;
+	font: bold 12px/33px Arial, Helvetica, sans-serif;
+	padding: 0 0 0 10px;
+}
+.cssClassCheckOutMethod {
+	background-color: #FFFFFF;
+}
+.cssClassCheckOutMethodLeft {
+	border-right: 1px solid #CCCCCC;
+	float: left;
+	width: 320px;
+}
+.cssClassCheckOutMethodLeft p {
+	color: #505050;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassCheckOutMethodLeft p b {
+	font-weight: bold;
+}
+.cssClassCheckOutMethodLeft p label {
+	padding: 0 0 0 10px;
+}
+p.cssClassSmallFont {
+	font-size: 11px;
+}
+.cssClassCheckOutMethodLeft p.cssClassSmallFont {
+	font-size: 11px;
+	padding: 0 0 0 20px;
+}
+.cssClassPadding {
+	padding: 10px 0 0;
+}
+.cssClassCheckOutMethodRight {
+	float: left;
+	width: 300px;
+}
+.cssClassCheckOutMethodRight .cssClassloginbox {
+	background:none;
+	border:none !important;
+	width:320px;
+}
+.cssClassCheckOutMethodRight .cssClassloginbox .cssClassTextBox input {
+	margin:0;
+}
+.cssClassCheckOutMethodRight .cssClassLoginRighttBox {
+	display:none;
+}
+.cssClassCheckOutMethodRight .cssClassloginboxInside {
+	padding:0;
+}
+.cssClassCheckOutMethodRight h3 {
+	color: #3199DE;
+	font: bold 12px/20px Arial, Helvetica, sans-serif;
+}
+.cssClassCheckOutMethodRight p.cssClassSmallFont {
+	padding: 10px 0 0;
+}
+.cssclassCheckoutFormWrapper {
+	padding: 10px 0 0;
+}
+.cssclassCheckoutFormWrapper label {
+	display: block;
+	font: 11px/20px Arial, Helvetica, sans-serif;
+	padding: 10px 0 0;
+}
+.cssclassCheckoutFormWrapper input {
+	border: 1px solid #84B3CB;
+	display: block;
+	height: 26px;
+	width: 294px;
+}
+.cssClassRequired, .cssClasssNormalRed {
+	color: #FF0000;
+	white-space:nowrap;
+}
+.cssClassbilling input, .cssClassbilling select {
+	float:right;
+}
+.cssClassbilling .cssClassLabel {
+	padding-left:5px;
+	line-height:26px;
+}
+.cssClassBillingInformation {
+	background-color: #FFFFFF;
+	border: 1px solid #99BBD6;
+	height: 1%;
+	margin: 0 0 10px;
+}
+.cssClassBillingInformation h2 {
+	background: url("../images/product-detail-information-heading.jpg") repeat-y scroll center center #227CC8;
+	border: 1px solid #2A6899;
+	height: 33px;
+	overflow: hidden;
+	padding: 0 0 0 5px;
+}
+.cssClassBillingInformation h2 span {
+	color: #000000;
+	display: block;
+	float: left;
+	font: bold 11px/19px Arial, Helvetica, sans-serif;
+	height: 19px;
+	margin: 7px 0 0;
+	text-align: center;
+	width: 19px;
+}
+.cssClassBillingInformation h2 b {
+	color: #FFFFFF;
+	float: left;
+	font: bold 12px/33px Arial, Helvetica, sans-serif;
+	padding: 0 0 0 10px;
+}
+.cssClassCheckoutInformationContent {
+	clear: both;
+}
+.cssClassCheckoutInformationContent input, .cssClassCheckoutInformationContent select {
+}
+.cssClassCheckoutLeftBox p {
+	display: inline-block;
+	float: left;
+	text-align: left !important;
+	width: 340px;
+}
+.cssClassCheckoutLeftBox p label {
+	display: block;
+	padding-top:10px;
+}
+.cssClassCheckoutLeftBox .cssClassLabel {
+	padding-left:5px;
+}
+.cssClassCheckoutLeftBox p input, .cssClassCheckoutLeftBox p select {
+	display: block;
+	padding:3px;
+}
+.cssClassCheckoutLeftBox input, .cssClassCheckoutLeftBox select {
+	margin:3px 0 !important;
+}
+.cssClassCheckoutLeftBox input {
+	width:237px;
+}
+.cssClassBillingInformation label {
+	font: 11px/20px Arial, Helvetica, sans-serif;
+	padding: 10px 0 0;
+}
+.cssClassBillingInformation input {
+	border: 1px solid #84B3CB;
+	height: 26px;
+	margin: 10px 0 0;
+	width: 294px;
+}
+.cssClassRoundedBox {
+	border: 1px solid #9ABBD4;
+	overflow: hidden;
+	padding: 10px;
+}
+.cssClassRoundedBox label {
+	float: left;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	margin: 0 45px 0 0;
+	padding: 0;
+	width: 300px;
+}
+.cssClassRoundedBox select {
+	border: 1px solid #84B3CB;
+	float: left;
+	height: 26px;
+	margin: 10px 45px 0 0;
+	width: 300px;
+}
+.cssClassShippingInformatinoTable {
+}
+.cssClassShippingInformatinoTable tr.cssClassHeadeTitle {
+	background-color: #6992AC;
+	color: #FFFFFF;
+	font: bold 12px/20px Arial, Helvetica, sans-serif;
+}
+.cssClassShippingInformatinoTable td {
+	border-bottom: 1px solid #FFFFFF;
+	padding: 5px;
+}
+.cssClassRoundedBox h3 {
+	color: #3E3D3D;
+	font: bold 13px/18px Arial, Helvetica, sans-serif;
+}/*
+input.cssClassRadioBtn {
+    border: medium none;
+    height: 10px;
+    outline: medium none;
+    width: 10px;
+}*/
+.cssClassShippingMethodInfo {
+/*	border: 1px solid #9ABBD4;
+	margin: 10px;
+	padding: 10px;*/
+}
+.cssClassShippingMethodInfo h3 {
+	color: #3E3D3D;
+	font:13px/18px segoe, Arial, Helvetica, sans-serif;
+}
+/*
+input.cssClassRadioBtn {
+    border: medium none;
+    height: 10px;
+    outline: medium none;
+    width: 10px;
+}*/
+.cssClassShippingMethod label {
+	color: #000000;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.cssClassOrderReview {
+	padding: 10px 10px 10px 35px;
+}
+.cssClassOrderReview table td {
+	padding: 5px;
+}
+.cssClassOrderReview table tr.cssClassHeadeTitle {
+	/*background-color: #6992AC;*/  background: url("../images/product-detail-information-heading.jpg") repeat-y scroll center center #237BC6;
+	color: #FFFFFF;
+	white-space:nowrap;
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+padding-left:
+}
+.cssClassOrderReviewImg {
+}
+.cssClassOrderReviewImg img {
+	background-color: #FFFFFF;
+	border: 1px solid #D9D9D9;
+	height: 76px;
+	padding: 2px;
+	width: 106px;
+}
+td.cssClassSN {
+	width: 25px;
+}
+td.cssClassProductImageWidth {
+	width: 120px;
+}
+td.cssClassAction {
+	width: 45px;
+}
+td.cssClassShippingMethod {
+	width: 150px;
+}
+.cssClassPrice {
+	width: 70px;
+}
+.cssClassQTY {
+	width: 50px;
+}
+.cssClassProductReviewImage {
+	width: 150px;
+}
+.cssClassDate {
+	width: 100px;
+}
+.cssClassWeight {
+	width: 100px;
+}
+td.cssClassSubtotal {
+	width: 120px;
+}
+.cssClassRightAccordainMenu {
+}
+.cssClassRightAccordainMenu {
+}
+.cssClassRightAccordainTab {
+	border:1px solid #E5E5E5;
+	background:#EDEDED;
+}
+.cssClassRightAccordainTab .cssClassButtonWrapper {
+	margin-left:7px
+}
+.cssClassRightAccordainTab li {
+	padding-left:5px;
+}
+/*.cssClassRightAccordainTab h1 {
+	background-color:#969696;
+	color: #FFFFFF !important;
+	font: bold 14px/30px Arial, Helvetica, sans-serif;
+	padding: 0 5px;
+	background:url("../images/green_bg.jpg") repeat-x;
+}*/
+.cssClassRightAccordainMenuInfo {
+}
+.cssClassRightAccordainMenuInfo p {
+	color: #515960;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+	padding: 0 5px;
+}
+.cssClassRightAccordainMenuInfo h2 {
+	border-bottom: 1px solid #fff;
+	margin-bottom:1px;
+	border-top: 1px solid #e5e5ef;
+	color: #333;
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	padding: 0 15px 0 5px;
+}
+/*.cssClassRightAccordainMenuInfoSelected {
+    background-color: #E4EEF7;
+    border-bottom: 1px solid #C8D4DE;
+}*/
+.cssClassRightAccordainMenuInfoSelected h2 {
+	/*    background-color: #5D84A3;
+    border-bottom: 1px solid #354D61;
+    border-top: 1px solid #6987A1;*/
+	color: #333;
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	padding: 0 5px;
+}
+.cssClassRightAccordainMenuInfoSelected p {
+	color: #515960;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+	padding: 5px;
+}
+.cssClassInvoice {
+}
+.cssClassInvoiceTopPart {
+	overflow: hidden;
+}
+.cssClassInvoiceTopPart h1 {
+	color: #525252;
+	float: left;
+	font: 22px/20px Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+.cssClassInvoiceTopPart p {
+	float: right;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassBillingShipping {
+	padding: 15px 0 0;
+}
+.cssClassBilling {
+	background-color: #FFFFFF;
+	border: 1px solid #9ABBD4;
+	float: left;
+	padding: 0 0 10px;
+	width: 445px;
+}
+.cssClassBilling h1, .cssClassShipping h1 {
+	background: url("../images/billing-header-bg.jpg") repeat-y scroll center center #237CC7;
+	color: #FFFFFF;
+	font: bold 12px/33px Arial, Helvetica, sans-serif;
+	height: 33px;
+	padding: 0 10px;
+	text-shadow: 1px 1px 0 #1D81C5;
+}
+.cssClassBilling h2, .cssClassShipping h2 {
+	color: #797979;
+	font: 18px/33px Arial, Helvetica, sans-serif;
+	height: 33px;
+	padding: 0 10px;
+}
+.cssClassBilling p, .cssClassShipping p {
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	padding: 0 10px;
+}
+.cssClassShipping {
+	background-color: #FFFFFF;
+	border: 1px solid #9ABBD4;
+	float: right;
+	padding: 0 0 10px;
+	width: 445px;
+}
+.cssClassInvoiceShipinformation {
+	background-color: #FFFFFF;
+	margin: 15px 0 0;
+}
+.cssClassInvoiceShipinformation table tr.cssClassHeadeTitle {
+	background: url("../images/product-detail-information-heading.jpg") repeat-y scroll center center #237BC6;
+	border-bottom: 1px solid #2A699A;
+	color: #FFFFFF;
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	height: 30px;
+	padding: 0 0 0 5px;
+	text-shadow: 1px 1px 0 #1D81C5;
+}
+.cssClassInvoiceShipinformation table {
+	border: 1px solid #9ABBD4;
+}
+.cssClassInvoiceShipinformation table td {
+	border-bottom: 1px solid #FFFFFF;
+	padding: 5px;
+}
+.cssClassInvoiceShipinformation p {
+	color: #334D5D;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	padding: 5px 40px 5px 0;
+	text-align: justify;
+}
+.cssClassInvoiceShipinformation table table {
+	border: medium none;
+}
+.cssClassInvoiceTotalAmountWidth {
+	width: 177px;
+}
+.cssClassThankYou {
+	background-color: #BBD1E0;
+	margin: 15px 0 0;
+}
+.cssClassThankYou h1 {
+	color: #115A8C;
+	font: italic bold 16px/20px Georgia, "Times New Roman", Times, serif;
+	padding: 30px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #E5F6FF;
+}
+.cssClassCommonSideBox {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	margin: 0 0 10px;
+}
+.cssClassCommonSideBox h2, .cssClassNewsLetter h2, .cssClassRightAccordainTab h1 {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	background: url("../images/specials-heading.jpg") repeat-x scroll;
+	padding: 0 7px;
+}
+.cssClassCommonSideBox h2 span, .cssClassRightAccordainTab h1 {
+	color: #FFFFFF;
+	display: block;
+	font: bold 13px/32px Arial, Helvetica, sans-serif;/*	text-shadow:0px 1px 1px #003d14;
+*/
+}
+.cssClassCommonSideBox h2 span.cssClassWishItem {
+	background: url("../images/wish.png") no-repeat scroll right 40% transparent;
+}
+.cssClassCommonSideBox h2 span.cssClassRecentlyComparedItems {
+	background: url("../images/compare2.png") no-repeat scroll right center transparent;
+}
+.cssClassCommonSideBox h2 span.cssClassRecentlyViewedItems {
+	background: url("../images/eye.png") no-repeat scroll right center transparent;
+}
+.cssClassCommonSideBox h2 span.cssClassCompareItem {
+	background: url("../images/compare.png") no-repeat scroll right center transparent;
+}
+.cssClassCommonSideBox h2 span.cssClassShoppingOptions {
+	background: url("../images/so.png") no-repeat right center;
+}
+.cssClassCommonSideBox h2 span.cssClassTestimonial {
+	background: url("../images/users.png") no-repeat right center;
+}
+.cssClassCommonSideBox h2 span.cssClassPoll {
+	background: url("../images/poll.png") no-repeat right center;
+}
+.cssClassCommonSideBox table tr.cssClassAlternativeOdd, #tblCartListItems tr { border-top:1px solid #999;}
+.cssClassCommonSideBox table tr.cssClassAlternativeEven, #ShoppingCartPopUp table tr:nth-child(2n+1) {
+/*	background-color: #cdcdcd;
+*/}
+.cssClassCommonSideBox table tr.cssClassAlternativeOdd td, .cssClassCommonSideBox table tr.cssClassAlternativeEven td, #tblCartListItems tr {
+	border-bottom: 1px solid #ededed;
+	padding: 5px 0 5px 10px;
+}
+.cssClassMyWishItemTable tf {
+	padding-left:5px;
+}
+table.cssClassMyWishItemTable td.cssClassWishlistItemImage {
+	height: 100px;
+	width: 110px;
+}
+table.cssClassMyWishItemTable td.cssClassWishlistItemImage img {
+	background-color: #FFFFFF;
+	border: 1px solid #999999;
+	height: 80px;
+	margin: 0 0 0 5px;
+	padding: 2px;
+	width: 90px;
+}
+table.cssClassMyWishItemTable td.cssClassWishlistItemDelete {
+	vertical-align: middle;
+	width: 25px;
+}
+table.cssClassMyWishItemTable td.cssClassWishlistItemDelete img {
+	cursor: pointer;
+}
+.cssClassCommonSideBox .cssClassGowishlistHead {
+	color: #006699;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	padding:4px 0;
+}
+table.cssClassMyWishItemTable a {
+	font: bold 12px Arial, Helvetica, sans-serif;
+	margin: 5px 0 0;
+	display:block;
+/*	width:65px;
+*/	text-align:left;
+}
+td.cssClassWishlistItemInfos {
+	width: 75px;
+}
+td.cssClassWishlistItemInfos a {
+	color: #006699;
+	display: block;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	margin: 5px 0 0;
+	text-align: center;
+}
+td.cssClassWishlistItemInfos a:hover {
+	color: #000000;
+}
+td.cssClassWishlistItemInfos span.cssClassPrice {
+	color: #333333;
+	display: block;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	padding: 5px 0 0;
+	text-align: center;
+}
+td.cssClassDelete img {
+	cursor: pointer;
+}
+td.cssClassWishDate {
+	vertical-align: middle;
+	width: 100px;
+}
+td.cssClassAddToCart {
+	width: 100px;
+}
+td.cssClassWishComment {
+	width:350px;
+}
+td.cssClassWishItemDetails span.cssClassPrice {
+	color: #333333;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+td.cssClassWishComment textarea {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #84B3CB;
+	-moz-box-shadow:inset 1px 1px 5px #C3DEF2;
+	-webkit-box-shadow:inset 1px 1px 5px #C3DEF2;
+	box-shadow:inset 1px 1px 5px #C3DEF2;
+	height: 90px;
+	padding: 3px;
+	width: 250px;
+	margin:0;
+	font-size:12px;
+}
+td.cssClassWishToCart {
+	vertical-align: middle;
+}
+td.cssClassWishDelete {
+	vertical-align: middle;
+}
+td.cssClassWishDelete img {
+	cursor: pointer;
+}
+td.cssClassCompareItemDelete {
+	text-align: center;
+	width: 25px;
+}
+td.cssClassCompareItemDelete img {
+	cursor: pointer;
+}
+.cssClassCommonSideBox button {
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	cursor: pointer;
+	outline: medium none;
+}
+.cssClassCommonCenterBox {
+}
+.cssClassCommonCenterBox h2 {
+	color: #0082b5;
+	padding: 0 0 10px;
+	text-transform: uppercase;
+}
+.cssClassCommonCenterBox table tr.cssClassCommonCenterBoxTableHeading {
+	background: url("../images/product-detail-information-heading.jpg") repeat-y scroll center center #237BC6;
+	border-bottom: 1px solid #2A699A;
+	color: #FFFFFF;
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	height: 30px;
+	padding: 0 0 0 5px;
+	text-shadow: 1px 1px 0 #1D81C5;
+}
+.cssClassCommonCenterBox table {
+	border: 1px solid #9ABBD4;
+	background:#fff;
+}
+.popupbox .cssClassCommonCenterBox table {
+	border:none;
+}
+.cssClassCommonCenterBox table td {
+	/*   border-bottom: 1px solid #FFFFFF;*/
+    padding:10px;
+}
+.cssClassCommonCenterBox p {
+	color: #334D5D;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	padding: 5px 40px 5px 0;
+	text-align: justify;
+}
+.cssClassCommonCenterBox table table {
+	border: medium none;
+}
+td.cssClassDelete {
+	text-align: center;
+	width: 40px;
+	vertical-align:middle;
+}
+.cssClassButtonWrapper {
+	overflow: hidden;
+	padding: 5px 0;
+	display:inline-block;
+	margin:0 10px 0 10px;
+}
+/*.cssClassButtonWrapper button, .cssClassButtonWrapper button:focus, .cssClassButtonWrapper button:active {
+	background: none;
+	border: none;
+	outline:none;
+}*/
+.cssClassButtonWrapper button { cursor:pointer;}
+.cssClassProductPictureDetails  .cssClassButtonWrapper button, #compareItemBottons button,.cssClassProductInformation .cssClassButton {
+	float:left;
+	margin:0 5px 0 0;
+	overflow:hidden;
+}
+.cssClassButtonWrapper button, .cssClassButtonWrapper a, #ShoppingCartPopUp .cssClassCommonSideBoxTable > a, #divClickAway a, #btnTestOrder, .cssClassForgetPasswordPageLeft .cssClassButton, .cssClassOrderReview .cssClassButtonWrapper input {
+	background:rgba(69,72,77,1);
+	background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(69,72,77,1)), color-stop(100%, rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000', GradientType=0 ); /* IE6-8 */
+	-moz-border-radius:4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.28);
+	border: 1px solid #2d2d2d;
+	color:#fff;
+	font:12px Verdana, Geneva, sans-serif;
+	padding:5px;
+	display:inline-block;
+	color:#fff;
+}
+#alert-Buttons input, input.cssClassSubmitBtn {
+	background: rgb(79,133,187);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(79,133,187,1)), color-stop(100%, rgba(79,133,187,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(79,133,187,1) 0%, rgba(79,133,187,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(79,133,187,1) 0%, rgba(79,133,187,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(79,133,187,1) 0%, rgba(79,133,187,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(79,133,187,1) 0%, rgba(79,133,187,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f85bb', endColorstr='#4f85bb', GradientType=0 ); /* IE6-8 */
+	-moz-border-radius:4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.28);
+	border: 1px solid #1869BA;
+	color:#fff;
+	-webkit-transition: background-color .15s ease-in-out;
+	-moz-transition: background-color .15s ease-in-out;
+	-o-transition: background-color .15s ease-in-out;
+	font:12px Verdana, Geneva, sans-serif;
+	padding:5px;
+	display:inline-block;
+	color:#fff;
+}
+.cssClassAddtoCard .cssClassButtonWrapper button:hover, .cssClassAddtoCard .cssClassButtonWrapper button:focus, .cssClassAddtoCard .cssClassButtonWrapper a:hover, #ShoppingCartPopUp .cssClassCommonSideBoxTable>a:hover, .cssClassButtonWrapper button:focus, .cssClassButtonWrapper button:active, divClickAway a:hover, .cssClassButtonWrapper button:hover, .cssClassButton button:hover, .cssClassButtonWrapper a:hover, #btnTestOrder:hover, .cssClassForgetPasswordPageLeft .cssClassButton:hover, , .cssClassForgetPasswordPageLeft .cssClassButton:focus {
+	background: #0e0e0e;
+	cursor:pointer;
+
+}
+#alert-Buttons input:hover, input.cssClassSubmitBtn:hover {
+	background: #055EB7 !important;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.28);
+	cursor:pointer;
+}
+.cssClassAddtoCard .cssClassButtonWrapper button span span {
+	background:none !important;
+	border:none!important;
+	float:none;
+}
+.cssClassWishListButton button, .cssClassCompareButton button, #compareItemBottons button {
+	box-shadow:none;
+}
+.cssClassButtonWrapper .cssClassCompareButton, .cssClassButtonWrapper .cssClassWishListButton {
+	float: left;
+	overflow: hidden;
+	margin:5px 0 0 0;
+}
+.cssClassButtonWrapper .cssClassCompareButton, .cssClassButtonWrapper .cssClassWishListButton {
+*margin-left:-7px;
+	float:left;
+}
+.cssClassButtonWrapper .cssClassWishListButton button, .cssClassButtonWrapper .cssClassCompareButton button {
+	background-color: #F3F8E9;
+	background-image: none;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	color: #000;
+	font: 12px/18px segoe, Arial, Helvetica, sans-serif;
+	height: 18px;
+	filter:false;
+	border:none;
+	margin:0 5px 0 0;
+	padding: 0 2px;
+}
+.cssClassButtonWrapper .cssClassWishListButton button:hover, .cssClassButtonWrapper .cssClassCompareButton button:hover {
+	background:#fff !important;
+}
+.cssClassButtonWrapper .cssClassWishListButton button {
+}
+.cssClassButtonWrapper .cssClassCompareButton button:hover span span span, .cssClassButtonWrapper .cssClassWishListButton button:hover span span span {
+	background: none repeat scroll 0 0 transparent;
+}
+.cssClassButtonWrapper input {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.cssClassButtonWrapper label {
+	float: left;
+	margin: 0;
+	padding: 0 3px;
+}
+.cssClassPopularItemTags {
+	padding: 10px;
+}
+.cssClassPopularItemTags strong {
+	color: #006699;
+	font: bold 11px/20px Arial, Helvetica, sans-serif;
+}
+.cssClassPopular-Itemstags {
+	border-bottom: 1px dotted #CCCCCC;
+	color: #6F6F6F;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassPopular-Itemstags a {
+	color: #6F6F6F;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.cssClassPopular-Itemstags a:hover, .cssClassMyTags a:hover {
+	color: #3C92CF;
+}
+.cssClassPopularItemTags button.cssClassIncrease span, .cssClassPopularItemTags button.cssClassDecrease span {
+	background: none repeat scroll 0 0 transparent;
+	color: #5C9EC1;
+	float: none;
+	font: bold 18px Arial, Helvetica, sans-serif;
+	padding: 0;
+}
+.cssClassMyTags {
+	overflow: hidden;
+}
+.cssClassMyTags button {
+}
+.cssClassMyTags a {
+	color: #6F6F6F;
+	float: left;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassMyTags button.cssClassCross span {
+	background: none repeat scroll 0 0 transparent;
+	color: #5C9EC1;
+	font: bold 18px/14px Arial, Helvetica, sans-serif;
+	height: 14px;
+	padding: 0;
+}
+.cssClassMyTags button.cssClassCross:hover span {
+	color: #000000;
+}
+.cssClassTabMenu {
+}
+.cssClassTabMenu td.cssClassTabLeftSide {
+	width: 20%;
+}
+.cssClassTabMenu td.cssClassTabLeftSide label.cssClassNormalLabel {
+	color: #4B4B4B;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+}
+td.cssClassSmallBox p, td.cssClassTabLeftSide p {
+	color: #4B4B4B;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassTabMenu td.cssClassTabRightSide {
+	width: 80%;
+}
+.cssClassCompactList {
+	background-color: #FFFFFF;
+	margin: 15px 0 0;
+}
+.cssClassCompactList a {
+/*	color: #306B00;font: bold 11px Arial, Helvetica, sans-serif;
+/**/	
+}
+/*.cssClassCompactList a:hover {
+	color: #63a90b;
+}*/
+.cssClassCompactList table tr.cssClassHeadeTitle {
+	background: url("../images/product-detail-information-heading.jpg") repeat-y center center #237BC6;
+	border-bottom: 1px solid #2A699A;
+	color: #FFFFFF;
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	height: 30px;
+	padding: 0 0 0 5px;
+	text-shadow: 1px 1px 0 #1D81C5;
+}
+.cssClassCompactList table {
+	border: 1px solid #9ABBD4;
+}
+.cssClassCompactList table td {
+	border-bottom: 1px solid #FFFFFF;
+	padding: 5px;/*vertical-align: top;*/
+}
+.cssClassCompactList p {
+	color: #334D5D;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	padding: 0;
+	text-align: justify;
+}
+.cssClassCompactList td.cssClassCLPicture {
+	width: 120px;
+}
+/*.cssClassCompactList .cssClassCLPicture {
+	padding: 0;
+	text-align: center;
+}*/
+.cssClassCompactList td.cssClassCLProductCode {
+	width: 130px;
+}
+.cssClassCompactList td.cssClassCLPrice {
+	width: 60px;
+}
+.cssClassCompactList td.cssClassCLAddtoCart {
+	width: 105px;
+}
+p.cssClsssCLPrice {
+	color: #005CA4;
+	font-weight: bold;
+}
+p.cssClassCLProductInfo {
+	padding: 0 20px 0 0;
+}
+p.cssClassCLProductInfo a {
+}
+.cssClassCompactList .cssClassButtonWrapper .cssClassAddtoCard {
+	background: none repeat scroll 0 0 transparent;
+	padding: 0;
+}
+.cssClassCompactList .cssClassAddtoCard {
+	background: none repeat scroll 0 0 transparent;
+	padding-left: 5px;
+}
+.cssClassListViewWithOutOptions {
+	background-color: #DEE4D1;
+	border: 1px solid #AFB0AE;
+	height: 1%;
+	margin: 0 0 15px;
+	overflow: hidden;
+	padding: 12px;
+}
+.cssClassListViewWithOutOptions {
+}
+.cssClassListViewWithOutOptionsLeft {
+	float: left;
+	width: 140px;
+}
+.cssClassListViewWithOutOptionsRight {
+	margin-left:145px;
+	padding-left:10px;
+	width: auto;
+}
+.cssClassListViewWithOutOptionsRight .cssClassAddtoCard, .cssClassListViewWithOutOptionsRight .cssClassOutOfStock {
+	background:none;
+	padding:0 !important;
+	float:left;
+}
+.cssClassListViewWithOutOptionsRight .cssClassOutOfStock {
+	margin-right:10px;
+}
+.cssClassListViewWithOutOptionsRight h2 a {
+	font: bold 14px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.cssClassListViewWithOutOptionsRight h2 a:hover {
+	text-decoration: underline;
+}
+.cssClassListViewWithOutOptionsRight p {
+	color: #686868;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+.cssClassListViewWithOutOptionsRight .cssClassWishListButton span span span {
+	display:none;
+}
+p.cssClassProductCode {
+	color: #333333;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	padding: 3px 0;
+}
+p.cssClassListViewWithOutOptionsPrice {
+	color: #202020;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	padding: 5px 0;
+}
+.cssClassListViewWithOutOptionsPrice span {
+	color: #005CA4;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	padding: 0 0 0 5px;
+}
+span.cssClassInstock {
+	color: #538F23;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	padding: 0 0 0 10px;
+}
+span.cssClassListViewWithOutOptionsOffPrice {
+}
+span.cssClassListViewWithOutOptionsOffPrice span {
+	color: #005CA4;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	text-decoration: line-through;
+}
+.cssClassListViewWithOutOptionsRight .cssClassButtonWrapper .cssClassCompareButton {
+	float: left;
+	margin: 0 0 0 10px;
+}
+.cssClassListViewWithOutOptionsRight .cssClassButtonWrapper .cssClassAddtoCard {
+	background: none repeat scroll 0 0 transparent;
+	float: left;
+	padding: 0;
+}
+.cssClassListViewWithOutOptionsRight .cssClassButtonWrapper .cssClassAddtoCard button span span span {
+	background: none repeat scroll 0 0 transparent;
+	font: bold 14px/25px Arial, Helvetica;
+}
+.cssClassListViewWithOutOptionsRight .cssClassButtonWrapper .cssClassWishListButton {
+	float: left;
+	overflow: hidden;
+	padding: 2px 0 0;
+}
+.cssClassListViewWithOutOptionsRight .cssClassButtonWrapper .cssClassWishListButton button {
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	cursor: pointer;
+	outline: medium none;
+}
+.cssClassListViewWithOutOptionsRight .cssClassButtonWrapper .cssClassWishListButton button span {
+	background-color: #D4DFBE;
+	background-image: none;
+	border: 1px solid #FFFFFF;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	color: #6D7758;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	height: 18px;
+	padding: 0;
+}
+.cssClassListViewWithOutOptionsRight .cssClassAddtoCard .cssClassButtonWrapper a {
+	margin-right:15px;
+}
+.cssClassListViewWithOutOptionsRight .cssClassButtonWrapper .cssClassWishListButton button span span {
+	background-image: none;
+	height: 18px;
+	padding: 0 8px 0 0;
+}
+.cssClassListViewWithOutOptionsRight .cssClassButtonWrapper .cssClassWishListButton button span span span {
+	border: medium none;
+	font: bold 14px/18px Arial, Helvetica, sans-serif;
+	padding: 0 5px;
+}
+.cssClassGrid3 {
+	margin: 20px 0 0;
+}
+.cssClassGrid3Box {
+	float: left;
+	padding:0px;
+	/*height: 156px;*/
+    margin: 0 7px 7px 0;
+	width: 175px;
+}
+.cssClassDisplayResult {
+	clear:both;
+}
+.cssClassGrid3BoxInfo {
+	padding: 0 0 7px;
+}
+.cssClassGrid3BoxInfo h2 {
+	padding: 3px 0 0;
+	text-align: center;
+}
+.cssClassGrid3BoxInfo h2 a {
+	color: #202020;
+	font: bold 13px/18px Arial, Helvetica, sans-serif;
+	padding: 5px 0 0;
+	text-align: center;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassGrid3BoxInfo h2 a:hover {
+	text-decoration: underline;
+}
+.cssClassGrid3PriceBox {
+	height: 20px;
+	padding: 5px 7px 0;
+}
+.cssClassGrid3OffPrice {
+	text-align: center;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassGrid3OffPrice span {
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassGrid3OffPrice span span {
+	color: #005CA4;
+	font-weight: bold;
+}
+.cssClassGrid2 {
+	margin: 20px 0 0;
+}
+.cssClassGrid2Box {
+	float: left;
+	min-height:234px;
+	padding:0px;
+	height:auto;
+	margin: 0 7px 7px 0;
+	width: 175px;
+}
+.cssClassGrid2BoxInfo {
+/*	border: 1px solid #FFFFFF;
+*/}
+.cssClassGrid2BoxInfo h2, .cssClassGrid3BoxInfo h2 {
+	padding: 3px 0 0;
+	height:36px;
+	overflow:hidden;
+	text-align: center;
+}
+.cssClassGrid2BoxInfo h2 a {
+	color: #202020;
+	font: bold 13px/18px Arial, Helvetica, sans-serif;
+	padding: 5px 0 0;
+	text-align: center;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassGrid2BoxInfo h2 a:hover {
+	text-decoration: underline;
+}
+.cssClassGrid2PriceBox {
+	height: 20px;
+	padding: 5px 0 0;
+}
+.cssClassGrid2OffPrice {
+	text-align: center;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassGrid2OffPrice span {
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassGrid2OffPrice>span, .cssClassGrid3OffPrice>span, .cssClassProductsGridOffPrice>span {
+	text-decoration:line-through;
+}
+span.cssClassGrid2RealPrice, .cssClassGrid3RealPrice, span.cssClassProductsGridRealPrice {
+	text-decoration:none !important;
+}
+.cssClassGrid2OffPrice span span {
+	color: #005CA4;
+	font-weight: bold;
+}
+.cssClassProductsGrid {
+	margin: 20px 0 0;
+}
+.cssClassProductsGridBox {
+	background-color: #DEE4D1;
+	border: 1px solid #AFB0AE;
+	float: left;
+	/*height: 218px;*/
+    margin: 0 7px 7px 0;
+	width: 175px;
+}
+.cssClassProductsGridInfo {
+	border: 1px solid #FFFFFF;
+}
+.cssClassProductsGridInfo h2 {
+	padding: 3px 0 0;
+	text-align: center;
+}
+.cssClassProductsGridInfo h2 a {
+	color: #202020;
+	font: bold 13px/18px Arial, Helvetica, sans-serif;
+	padding: 5px 0 0;
+	text-align: center;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassProductsGridInfo h2 a:hover {
+	text-decoration: underline;
+}
+.cssClassProductsGridPriceBox {
+	height: 20px;
+	padding: 5px 0 0;
+}
+.cssClassProductsGridOffPrice {
+	text-align: center;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassProductsGridOffPrice span {
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassProductsGridOffPrice span span {
+	color: #005CA4;
+	font-weight: bold;
+}
+.cssClassProductsGridBox .cssClassButtonWrapper .cssClassAddtoCard {
+	padding: 8px 0;
+}
+.cssClassProductsGridBox .cssClassButtonWrapper button {
+	margin: 0 0 0 30px;
+}
+.cssClassProductsGridBox .cssClassButtonWrapper button span span {
+	height: 27px;
+}
+.cssClassProductsGridBox .cssClassButtonWrapper .cssClassWishListButton {
+	margin: 0 0 5px;
+	padding: 0;
+}
+.cssClassProductsGridBox .cssClassButtonWrapper .cssClassWishListButton button span span {
+	height: 18px;
+}
+.cssClassMasterCenter .cssClassCommonSideBox {
+	border: 1px solid #9ABBD4;
+	background: url("../images/specials-heading.jpg") repeat-x scroll left top #fff;
+}
+.cssClassMasterCenter .cssClassCommonSideBox h2 {
+	background: url("../images/tag.png") no-repeat 98% 40%;
+	/*  border-bottom: 1px solid #2A699A;*/
+    color: #FFFFFF;
+	font: bold 12px/32px Arial, Helvetica, sans-serif;
+	height: 32px;
+	padding: 0;
+}
+.cssClassMasterCenter .cssClassPopularTags {
+	padding: 0 10px;
+}
+.cssClassPopularTags li {
+	display:inline-block;
+}
+.cssClassPopularTags li a {
+	padding:0 5px;
+	color:#306B00;
+}
+.cssClassPopularTags li a:hover {
+	color:#63a90b;
+}
+.cssClassMasterCenter .cssClassPopularTags a {
+	position:relative;
+	font:11px/20px segoe, Arial, Helvetica, sans-serif;
+}
+.cssClassPopularTags li {
+	padding:5px 0;
+}
+.cssClassMasterCenter .cssClassViewAllTags {
+	padding: 0 10px 0 0;
+	text-align: right;
+}
+.cssClassMasterCenter .cssClassViewAllTags a {
+	color: #006699;
+	font: bold 11px/18px Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+.cssClassMasterCenter .cssClassViewAllTags a:hover {
+	text-decoration: none;
+}
+span.cssClassTagCloudCount {
+	color: #666666;
+	font: italic 11px Arial, Helvetica, sans-serif;
+	padding: 0 0 0 3px;
+}
+.cssClassMasterCenter .cssClassPopularItemTags {
+	padding: 0 5px;
+}
+.cssClassMasterCenter .cssClassPopularItemTags strong {
+	color: #006699;
+	font: bold 11px/20px Arial, Helvetica, sans-serif;
+}
+.cssClassMasterCenter .cssClassPopular-Itemstags {
+	border-bottom: 1px dotted #CCCCCC;
+	color: #6F6F6F;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassMasterCenter .cssClassPopular-Itemstags a {
+	color: #6F6F6F;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+.cssClassMasterCenter .cssClassPopular-Itemstags a:hover, .cssClassMasterCenter .cssClassMyTags a:hover {
+	color: #3C92CF;
+}
+.cssClassMasterCenter .cssClassMasterCenter .cssClassPopularItemTags button.cssClassIncrease span, .cssClassMasterCenter .cssClassPopularItemTags button.cssClassDecrease span {
+	background: none repeat scroll 0 0 transparent;
+	color: #5C9EC1;
+	float: none;
+	font: bold 18px Arial, Helvetica, sans-serif;
+	padding: 0;
+}
+.cssClassMasterCenter .cssClassMyTags {
+	overflow: hidden;
+}
+.cssClassMasterCenter .cssClassMyTags button {
+}
+.cssClassMasterCenter .cssClassMyTags a {
+	color: #6F6F6F;
+	float: left;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassMasterCenter .cssClassMyTags button.cssClassCross span {
+	background: none repeat scroll 0 0 transparent;
+	color: #5C9EC1;
+	font: bold 18px/14px Arial, Helvetica, sans-serif;
+	height: 14px;
+	padding: 0;
+}
+.cssClassMasterCenter .cssClassMyTags button.cssClassCross:hover span {
+	color: #000000;
+}
+.cssClassMyDashBoard .cssClassCommonSideBox {
+	float: left;
+	width: 247px;
+	margin-top:5px;
+}
+.cssClassMyDashBoard .cssClassCommonSideBox h2 {
+	padding: 0 0 0 10px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	background:url("../images/user.png") no-repeat scroll 96% 55%;
+}
+.cssClasMyAccount ul li a {
+	color: #666666;
+	display: block;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	padding:5px;
+	border-bottom:1px solid #9ABBD4;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.cssClasMyAccount ul li:last-child a {
+	border-bottom:none;
+}
+.cssClasMyAccount ul li a:hover, .cssClasMyAccount ul li a.cssClassmyAccountActive {
+	background-color: #DDEFF9;
+	color: #069;
+}
+.cssClasMyAccountInformation {
+	float: right;
+	width: 739px;
+}
+.cssClasMyAccountInformation .cssClassButtonWrapper a span span {
+	background:none;
+}
+.cssClasMyAccountInformation .cssClassRight {
+	width: auto;
+	position:absolute;
+	right:3%;
+	top:-2px;
+}
+.cssClasMyAccountInformation .cssClassHeading, .cssClasMyAccountInformation .cssClassSearchPanel {
+	position:relative;
+}
+.cssClasMyAccountInformation .popupbox .error {
+	display:block;
+}
+.cssClassMyDashBoardInformation {
+	padding: 10px 0 0;
+}
+.cssClassMyDashBoardInformation p {
+	color: #333333;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassMyDashBoardInformation p span {
+	color: #4294D2;
+	font-weight: bold;
+}
+/* TOOLTIPS */
+.cssClassToolTip {
+	position:relative;
+	width:150px;
+}
+.cssClassToolTip img {
+	cursor: pointer;
+}
+.cssClassToolTip .cssClassToolTipInfo {
+	display: none;
+	position:absolute;
+	z-index:9999;
+	left:0;
+	top:20px;
+}
+.cssClassToolTip:hover .cssClassToolTipInfo {
+	background-color: #fff;
+	border:1px solid #999;
+	display: block;
+	padding: 10px;
+}
+.cssClassCriteriaTitle {
+	padding:2px 10px;
+	color:#555;
+	float:left;
+}
+.cssClassToolTip:hover .cssClassToolTipInfo img {
+	cursor: default;
+}
+.cssClassToolTipDetailInfo {
+	width:153px;
+}
+.cssClassRatingdesc {
+	float:left;
+	width:65%;
+}
+.cssClassItemRating {
+	float:left;
+}
+/* GRID WRAPPER */
+.cssClassGridWrapper {
+}
+.cssClassGridWrapperCurve {
+	background-color: #FFFFFF;
+	border: 1px solid #4991CA;
+}
+.cssClassGridWrapperHeading {
+	background-color: #4991CA;
+	overflow: hidden;
+	padding: 5px 10px;
+}
+.cssClassGridWrapperHeading h2 {
+	color: #FFFFFF;
+	float: left;
+	font: bold 14px Arial, Helvetica, sans-serif;
+}
+.cssClassGridWrapper h3 {
+	color: #006699;
+	font:13px segoe, Arial, Helvetica, sans-serif;
+	margin: 5px 0 10px;
+	padding: 3px 0 3px 5px;
+}
+.cssClassGridWrapperCurve .cssClassGridWrapperHeading .cssClassButtonWrapper {
+	float: right;
+	margin: 0;
+}
+.cssClassGridWrapperCurve .cssClassGridWrapperHeading .cssClassButtonWrapper input {
+	margin: 0 0 0 10px;
+}
+.cssClassGridWrapperCurve .cssClassButtonWrapper {
+	margin: 10px 0 0;
+}
+.cssClassGridWrapperCurve .cssClassButtonWrapper p {
+	float: left;
+}
+.cssClassGridWrapperCurve .cssClassButtonWrapper input {
+	background-color: #B8E0FF;
+	border: medium none;
+	color: #003366;
+	cursor: pointer;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	margin: 0 10px 0 0;
+	outline: medium none;
+	padding: 2px 4px;
+	text-shadow: 1px 1px 0 #DDF0FF;
+}
+.cssClassGridWrapperCurve .cssClassButtonWrapper input:hover {
+	background-color: #DAEFFF;
+}
+.cssClassGripWrapperContent {
+	padding: 10px;
+}
+.cssClassGripWrapperContent table {
+	border: 1px solid #BBE6FF;
+}
+.cssClassGripWrapperContent table td {
+	border-bottom: 1px solid #FFFFFF;
+	padding: 5px 0 5px 5px;
+}
+tr.cssClassTRHeading {
+	background-color: #BBE6FF;
+	color: #666666;
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+}
+.cssClassMultipleCheckout .ui-corner-top a:hover {
+	cursor:default;
+}
+.cssClassMultipleCheckout table.cssClassBorder1 {
+	border-width: 5px;
+}
+a.cssClassProductName {
+	color: #000033;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+a.cssClassProductName:hover {
+	color: #000000;
+	text-decoration: none;
+}
+.cssClassGridWrapperCurve .cssClassButtonWrapper p.cssClassContinueShopping input {
+	background-color: #4991CA;
+	color: #FFFFFF;
+	text-shadow: none;
+}
+.cssClassRight input {
+	float:left;
+}
+p.cssClassContinueShopping input {
+	float:right;
+}
+input.cssClassQuantity {
+	width: 70px;
+}
+.cssClassGripWrapperContent table.cssClassTBLBorderNone {
+	border: medium none;
+}
+td.cssClassShippingHeading {
+	background:#4991CA;
+	color:#fff;
+	font: bold 13px Arial, Helvetica, sans-serif;
+}
+a.cssClassChange {
+	color: #006699;
+	margin: 0 0 0 10px;
+	text-decoration: underline;
+}
+a.cssClassChange:hover {
+	color: #000000;
+	text-decoration: none;
+}
+p.cssClassShippingAddressInfo {
+	padding: 10px 0 0;
+}
+.cssClassShippingMethodBox {
+	background-color: #F3FBFF;
+	border: 4px solid #F3FBFF;
+	margin: 20px 0 0;
+	padding: 0 10px 10px;
+}
+.cssClassShippingMethodBox p {
+	padding: 10px 0 0;
+}
+.cssClassEditItemBox {
+	background-color: #FFFFFF;
+	margin: 30px 0 0;
+	padding: 1px;
+}
+.cssClassEditItemBox table {
+	border: medium none !important;
+}
+.cssClassEditItemBox table tr.cssClassHeadeTitle {
+	background: none repeat scroll 0 0 #BBE6FF;
+	color: #377AAE;
+	font: bold 12px/20px Arial, Helvetica, sans-serif;
+	height: 20px;
+	padding: 0 0 0 5px;
+}
+td.cssClassQuantity {
+	width: 50px;
+}
+.cssClassEditItemBox a {
+	color: #306B00 !important;
+	font: bold 11px Arial, Helvetica, sans-serif;
+}
+.cssClassEditItemBox a:hover {
+	text-decoration: none;
+}
+.cssClassPaymentMethods p {
+	padding: 10px 0 0;
+}
+.cssClassPaymentMethods p.cssClassCheckBox {
+	clear:both;
+}
+.cssClassPaymentMethods label {
+	font-weight: bold;
+	display:inline-block;
+	font-size:11px;
+	padding:2px 5px 0;
+}
+.error {
+	white-space:nowrap;
+}
+.cssClassPaymentMethods input[type="radio"] {
+	vertical-align:top;
+}
+.cssClassHeading {
+	/* background-color: #4991CA; */
+     -webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+}
+.cssClassHeading h1, .cssClasMyAccountInformation .cssClassCommonCenterBox h2, .sub-title {
+	color: #0082b5;
+	text-shadow:0 1px 2px #fff;
+	font-size:14px !important;
+	line-height:26px;
+	padding:5px 2px 2px 0px;
+	margin-bottom:5px;
+	text-transform:uppercase;
+}
+.cssClassHeading h1, .cssClasMyAccountInformation .cssClassCommonCenterBox h2, .cssClassUserRegistration h3, .sub-title {
+	border-bottom:1px solid #ccc;
+	-moz-box-shadow: 0 1px 0 0 #FFF;
+	-webkit-box-shadow: 0 1px 0 0 #FFF;
+	box-shadow: 0 1px 0 0 #FFF;
+}
+.cssClassButtonWrapper p input.cssClassButton {
+	background: url("../images/search.png") no-repeat scroll 0 0 transparent;
+	border: medium none;
+	color: #FFFFFF;
+	cursor: pointer;
+	float: right;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	height: 44px;
+	margin: 8px 99px 0 0;
+	outline: medium none;
+	width: 126px;
+}
+.cssClassButtonWrapper p input.cssClassButton:hover {
+	height: 44px;
+	outline: medium none;
+	width: 126px;
+}
+.cssClassButtonWrapper p.cssClassButtonLink a {
+	background: none repeat scroll 0 0 transparent;
+	color: #003366;
+	cursor: pointer;
+	font: bold 11px/22px Arial, Helvetica, sans-serif;
+	padding: 0 10px 0 0;
+}
+.cssClassButtonWrapper .cssClassButtonLink a:hover {
+	background: none repeat scroll 0 0 transparent;
+}
+.cssClassAddressBook {
+	padding: 8px 0 0;
+}
+.cssClassAddressBook ol {
+}
+.cssClassAddressBook ol li {
+	background-color: #FFFFFF;
+	border: 1px solid #BBE6FF;
+	margin: 10px 0 0;
+	padding: 10px;
+}
+.cssClassAddressBook ol h3 {
+	color: #666666;
+	font-size: 12px;
+	padding: 0 0 5px;
+}
+p.cssClassChange a {
+	color: #006699;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	margin: 0 10px 0 0;/*padding: 5px 0 0;
+    text-decoration: underline;*/
+}
+p.cssClassChange a:hover {
+	text-decoration: none;
+}
+.cssClassEditWrapper, .cssClassEditWrapper .cssClassFormWrapper {
+	z-index: 9999;
+	clear:both;
+}
+.cssClassEditWrapper .cssClassFormWrapper {
+}
+.cssClassHtmlViewCursor {
+	cursor: pointer;
+}
+.cssClassHtmlViewBorder {
+	border: 4px solid #EBCD5F;
+}
+td.editorheading {
+	background-color: #EBCD5F;
+}
+.cssClassHtmlViewTable {
+	width: 100%;
+}
+.cssClassCommentBy {
+	color: #996600;
+	font: bold 12px/22px Arial, Helvetica, sans-serif;
+}
+.cssClassComment {
+	color: #000000;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+	padding: 8px;
+	text-align: justify;
+}
+.cssClassHtmlViewComentTable table {
+	border: 1px solid #FFCDA0;
+}
+.cssClassHtmlViewComentTable table td, .cssClassHtmlViewComentTable table td span {
+	vertical-align: top;
+}
+.cssClassHtmlViewComentTable table td img {
+	margin: 5px 0 0;
+}
+.cssClassHtmlViewComentTable input.cssClassColumnEdit, .cssClassHtmlViewComentTable input.cssClassColumnDelete {
+	padding: 5px;
+}
+.cssClassFormWrapper textarea.CssClassNormalTextBoxHtml {
+	width: 100% !important;
+}
+.cssClassMasterRight table.cssClassHtmlViewTable textarea.CssClassNormalTextBox {
+	background-color: #FFFFFF !important;
+	border-color: #D9B392 #E8C09C #FED1AA #F7CDAA;
+	border-style: solid;
+	border-width: 1px;
+	color: #000000;
+	font: 11px/18px Arial, Helvetica, sans-serif;
+	margin: 10px 0 0;
+	outline: medium none;
+	padding: 0 0 2px 2px;
+	width: 115px !important;
+}
+.cssClassregvalidation {
+	background: none repeat scroll 0 0 #FFFFFF;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 250px;
+}
+.cssClassTopSetting {
+	font: bold 12px/16px Verdana, Geneva, sans-serif;
+	margin: 0 !important;
+	text-transform: none;
+	width: 55px;
+}
+.cssClassTopSetting label, .cssClassTopSetting input {
+	float: left;
+}
+.cssClassTopSetting label {
+	padding: 0 4px;
+}
+.cssClassTopSetting:hover {
+	color: #CC9933;
+}
+.cssClassMessageWrapper .cssClassMessageBox {
+	padding:7px 0 17px 10px;
+	clear:both;	z-index: 9999;
+	-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:0 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow:0 1px 2px rgba(0, 0, 0, 0.3);
+	margin-bottom:15px;
+}
+.cssClassCustomMessage {
+	color: #000;
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 0 0 0 40px;
+}
+.cssClassSuccess .cssClassMessageBox {
+	background: url("../images/admin/success.png") no-repeat scroll 10px 9px #a0d39c;
+}
+.cssClassError .cssClassMessageBox {
+	background: url("../images/error.png") no-repeat scroll 10px 8px #e39494;
+}
+.cssClassAlert .cssClassMessageBox {
+	background: url("../images/admin/notification.png") no-repeat scroll 10px 8px #FFFFE2;
+}
+.cssClassMessageTitle {
+	color: #ffc;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	padding: 0 0 0 40px;
+	display:block;
+}
+.cssClassAlert .cssClassMessageTitle {
+	color:#000;
+}
+.cssClassDetailMessage {
+	color: #000;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	padding: 0 0 0 38px;
+}
+.cssClassloginbox {
+	background-color: #f2f2f2;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	margin: 0 auto;
+	padding: 12px;
+	width: 465px;
+	border:1px solid #c4c4c4 !important;
+	-webkit-box-shadow: 0px 0px 10px #fff inset;
+	-moz-box-shadow: 0px 0px 10px #fff inset;
+	box-shadow: 0px 0px 10px #fff inset;
+}
+.cssClassloginboxInside {
+	/*background: url("../images/admin/login-top-bg.jpg") no-repeat scroll left top transparent;*/
+    padding: 17px 0 0;
+}
+.cssClassloginboxInsideDetails {/*
+    background: url("../images/admin/login-mid-bg.jpg") repeat-y scroll left center transparent;*/
+	overflow: hidden;
+	padding: 3px 23px 23px;
+}
+.cssClassloginbox h1 {
+	background: url("../images/admin/log_in.png") no-repeat scroll 0 0 transparent;
+	color: #069;
+	font: bold 18px/16px Arial, Helvetica, sans-serif;
+	padding: 0 0 20px 23px;
+	text-shadow: 1px 1px 0 #fff;
+}
+.cssClassloginbox label.cssClassNormalText {
+	color: #797977;
+	display:block;
+	padding-top:10px;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.cssClassloginbox .cssClassTextBox span {
+	background: none repeat scroll 0 0 transparent;
+	margin: 0 0 0 6px;
+}
+.cssClassloginbox .cssClassTextBox input {
+	background:#fff;
+	color: #797977;
+	font: 12px/24px Arial, Helvetica, sans-serif;
+	height: 24px;
+	outline: medium none;
+	overflow: hidden;
+	padding: 0 0 0 5px;
+	width: 190px;
+}
+.cssClassloginbox span.cssClassCheckBox input {
+	margin: 0;
+	padding: 0;
+}
+.cssClassloginbox span.cssClassForgetPass a {
+	color: green;
+	font: 11px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 0 #FFFFFF;
+	border-bottom:1px inset green;
+}
+.cssClassloginbox span.cssClassForgetPass a:hover {
+	border-bottom:1px solid green;
+	text-decoration:none;
+}
+.cssClassloginbox .cssClassButtonWrapper {
+	float: left;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: auto;
+}
+.cssClassloginbox .cssClassButtonWrapper:active {
+	top:16px;
+	position:relative;
+}
+.cssClassloginbox .cssClassButtonWrapper span, .cssClassUserRegistration .cssClassButtonWrapper span {
+	float: left;
+	color:#fff;
+	background: url("../images/admin/login-btn-left.png") no-repeat scroll left top transparent;
+	padding-left: 4px;
+}
+.cssClassloginbox .cssClassButtonWrapper span span, .cssClassUserRegistration .cssClassButtonWrapper span span {
+	background: url("../images/admin/login-btn-right.png") no-repeat scroll right top transparent;
+	cursor: pointer;
+	float: left;
+	padding-right: 9px;
+}
+.cssClassloginbox .cssClassButtonWrapper input, .cssClassUserRegistration .cssClassButtonWrapper input {
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	color: #fff !important;
+	cursor: pointer;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	outline: medium none;
+	height:30px;
+}
+.cssClassloginbox .cssClassButtonWrapper span:hover span input {
+	color: #FFFFFF;
+	text-shadow: none;
+}
+.cssClassloginbox table table {
+	margin-left: 0;
+}
+.cssClassloginbox a {
+	color: #FF0000;
+	text-decoration: none;
+}
+.cssClassloginbox a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+.cssClassloginbox .cssClassloginboxbg {
+	background-color: #FFF5D9;
+	border: 1px solid #E3C36E;
+	padding: 20px;
+}
+.cssClassloginbox .cssClassRemember {
+	color: #797977;
+	font: 14px Arial, Helvetica, sans-serif;
+}
+.cssClassLoginLeftBox {
+	float: left;
+	width: 227px;
+}
+.cssClassLoginRighttBox {
+	float: right;
+	width: 160px;
+}
+.cssClassLoginRighttBox h2 {
+	background: url("../images/admin/new-user.jpg") no-repeat scroll right center transparent;
+	height: 70px;
+}
+.cssClassLoginRighttBox h2 span {
+	color: #006699;
+	display: block;
+	font: bold 18px Arial, Helvetica, sans-serif;
+	padding: 6px 0 0;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassLoginRighttBox p {
+	color: #797977;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	padding: 32px 0 0;
+}
+.cssClassLoginRighttBox p a {
+	color: green;
+	border-bottom:1px inset green;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+}
+.cssClassLoginRighttBox p a:hover {
+	border-bottom:1px solid green;
+	color:green !important;
+	text-decoration:none;
+}
+.cssClassNewSIgnUp {
+	bottom: -5px;
+	height: 28px;
+	padding: 10px 0 0 48px;
+	position: absolute;
+	right: 0;
+	width: 80px;
+	display:none;
+}
+.cssClassNewSIgnUp a {
+	color: #AFAEAD;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.cssClassNewSIgnUp a:hover {
+	color: #000000;
+}
+.cssClassNewSIgnUp span {
+	color: #ECBE8A;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.cssClassloginbox .cssClasscheck input {
+	border: 4px solid #000000;
+	margin: 0 2px 0 0;
+	outline: medium none;
+	width: 20px;
+}
+.cssClassloginbox input.cssClasssubmitbtn {
+	background-color: #380600;
+	background-image: none;
+	border: medium none;
+	cursor: pointer;
+	font: 11px Arial, Helvetica, sans-serif;
+	height: 24px;
+	outline: medium none;
+	overflow: auto;
+	padding: 3px;
+	text-align: center;
+	width: 60px;
+}
+.cssClassloginbox input.cssClasssubmitbtn:hover {
+	background-color: #666666;
+}
+.cssClassusernotfound {
+	color: #DD6A00;
+	padding-top:20px;
+	font: bold 11px Arial, Helvetica, sans-serif;
+}
+.cssClassCheckBox input {
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	outline: medium none;
+}
+.cssClassMasterCenter span.cssClassLogoutPageBtn {
+	float: left;
+	height: 97px;
+	overflow: hidden;
+	padding: 0 0 0 27px;
+}
+.cssClassMasterCenter span.cssClassLogoutPageBtn a {
+	color: #690;
+	float: left;
+	font: bold 16px/35px Arial, Helvetica, sans-serif;
+	height: 97px;
+	overflow: hidden;
+	padding: 0 47px 0 20px;
+}
+.cssClassMasterCenter span.cssClassLogoutPageBtn:hover {
+	overflow: hidden;
+}
+.cssClassUserRegistrationPage {
+	position:relative;
+	float: left;
+	overflow: hidden;
+	width: 527px;
+}
+.cssClassUserRegistration {
+}
+.cssClassUserRegistration span.cssClassRequired {
+	color: #000;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.cssClassUserRegistration span.cssClassRequired b {
+	color:red;
+}
+.cssClassUserRegistration .cssClassUserRegistrationInfoLeft {
+	border: medium none;
+	border-radius: 5px 5px 5px 5px;
+	margin: 5px 0 0;
+	padding: 0 7px 0;
+}
+.cssClassUserRegistration .cssClassFormWrapper {
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+	margin: 0;
+	padding: 0;
+}
+.cssClassUserRegistration .cssClassrequired {
+	color: red;
+	font: bold 11px/18px Arial;
+	text-shadow: 1px 1px 0 #FFFFFF;
+}
+.cssClassUserRegistration h1 {
+	border-bottom: 1px dashed #E5E5E5;
+	color: #A0A0A0;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	margin: 0 0 15px;
+	padding: 0 0 4px;
+}
+.cssClassUserRegistration h3 {
+	color: #069;
+	text-transform:uppercase;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	height: 18px;
+	margin: 10px 0;
+	padding: 0 0 3px;
+}
+.cssClassUserRegistration td {
+	vertical-align: top;
+}
+.cssClassUserRegistration .cssClassFormWrapper label {
+	color: #767676;
+	font: 12px Arial, Helvetica, sans-serif !important;
+	padding: 0;
+}
+.cssClassUserRegistration .cssClassFormWrapper label span {
+	color: #EC9009;
+}
+.cssClassUserRegistration .cssClassFormWrapper p {
+	margin: 0;
+	padding: 0;
+}
+.cssClassRegisterInputBg input, p.cssClassRegisterInputBgBig input {
+	border: 1px solid #84B3CB;
+	-moz-box-shadow:inset 1px 1px 5px #C3DEF2 !important;
+	-webkit-box-shadow:inset 1px 1px 5px #C3DEF2 !important;
+	box-shadow:inset 1px 1px 5px #C3DEF2 !important;
+	margin-left:0;
+	overflow: hidden;
+	background:#fff;
+	width: 220px;
+	margin-top:1px;
+	font-size:12px;
+}
+p.cssClassRegisterInputBgBig input {
+	width: 489px;
+}
+.cssClassUserRegistrationPage .cssClassButtonWrapper .cssClassCreateUserButton {
+	background: url("../images/user-registration-btn-bg.gif") repeat-x scroll 0 0 transparent;
+	border: 1px solid #FDBD50;
+	border-radius: 5px 5px 5px 5px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font: bold 11px/23px Arial;
+	height: 23px;
+	margin: 0 !important;
+	padding: 0 5px !important;
+	text-align: center;
+}
+.cssClassUserRegistrationPage .cssClassButtonWrapper .cssClassCreateUserButton:hover {
+	background: url("../images/user-registration-btn-bg-hover.gif") repeat-x scroll 0 0 transparent !important;
+	border: 1px solid #FDBD50;
+}
+.cssClassUserRegistrationPage .cssClassregvalidation {
+	color: #EBA43F;
+	padding: 0;
+}
+.cssClassUserRegistrationPage .cssClassregvalidation ul {
+	margin: 0 0 0 5px;
+	padding: 0;
+}
+.cssClassUserRegistrationInfo {
+	background-color: #009900;
+	float: right;
+	width: 400px;
+}
+.cssClassRegistrationInformation {
+	color: #A0A0A0;
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 0 0 4px;
+}
+.cssClassGridWrapper {
+	margin: 10px 0 0;
+}
+/*.cssClassGridWrapperContent table tr:first-child td{ background:#cae0ed;}
+*/
+.cssClassGridWrapper table {
+	border-color:#9ABBD4;
+	border-style:solid;
+	border-width: 1px 0 1px 1px;
+	border-right:none;
+}
+.cssClassGridWrapper table td {
+	border-right: 1px solid #9ABBD4;
+	padding:5px;
+}
+.cssClassMyAccountInformation .cssClassHeading {
+	background:none;
+	color:blue;
+}
+.cssClassGridWrapper tr.cssClassHeading, .cssClassGridWrapper tr.cssClassHeadingOne {
+	background:#4991CA;
+	border-bottom: 1px solid #2A699A;
+	color: #FFFFFF;
+	font: bold 12px/16px Arial, Helvetica, sans-serif;
+	height: 30px;
+	padding: 4px 0 4px 5px;
+	text-shadow: none;
+}
+.cssClassGridWrapper th {
+	border-right: 1px solid #9ABBD4;
+	padding: 0 14px 0 5px;
+}
+.cssClassGridWrapper .cssClassHeadingOne th {
+	border-left: 1px solid #9ABBD4;
+	color: #FFFFFF;
+}
+th.cssClassHeadCheckBox {
+	width: 20px;
+	padding:0!important;
+}
+th.cssClassHeadDate {
+	width: 115px;/* white-space:nowrap;*/
+}
+th.cssClassAction {
+	width: 40px;
+}
+.cssClassActionOnClick {
+	position: relative;
+}
+.cssClassActionOnClickShow {
+	background: url("../images/onclickarrow.png") no-repeat scroll 90% top;
+	padding: 0;
+	position: absolute;
+	right: 30px;
+	top: 0;
+	z-index: 10;
+}
+.cssClassActionOnClickShowInfo {
+	background-color: #55B1E9;/*
+    -moz-box-shadow: 3px 3px 4px #000000;
+	-webkit-box-shadow: 3px 3px 4px #000000;
+	 box-shadow: 3px 3px 4px #000000;*/
+	margin: 0 16px 0 0;
+}
+.cssClassActionOnClickShowInfo p a {
+	color: #FFFFFF;
+	font: bold 12px/18px Arial, Helvetica, sans-serif;
+	padding: 5px 10px 0;
+}
+.cssClassActionOnClickShowInfo p a:hover {
+	color: #FFD599;
+}
+.cssClassActionOnClickShowInfo a {
+	display: block;
+	height: 22px;
+}
+p.cssClassActionImg a {
+	background: url("../images/action.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	margin: 0 0 0 15px;
+	outline: medium none;
+	text-indent: -9999px;
+	width:16px;
+	height:16px;
+}
+.cssClassRoundedBoxDetails {
+	padding: 0;
+}
+.cssClassRoundedBoxDetails table {
+	border: medium none;
+}
+.cssClassRoundedBoxDetails table td {
+	border: medium none;
+	padding: 5px;
+}
+.cssClassRoundedBoxDetails table td table td {
+	padding: 0;
+}
+.cssClassRoundedBoxDetails .cssClassRoundedBoxDetails {
+	padding: 0;
+}
+.cssClassCategoryWrapper .cssClassNotFound {
+	line-height:25px;
+}
+.cssClassNotFound, .cssClassTagsNotFound {
+	color: #da5454;
+	padding:5px 10px;
+	display: inline-block;
+	font: bold 12px Arial, Helvetica, sans-serif;
+}
+.cssClassCouponList a {
+	padding:5px;
+}
+.cssClassTagsNotFound {
+	margin-left:0px;
+}
+.cssClassPageNumber {
+	margin:5px 0;
+}
+.cssClassPageNumberLeftBg {
+	background: url("../images/pagination-left.jpg") no-repeat scroll left center transparent;
+	height: 26px;
+	padding: 0 0 0 8px;
+}
+.cssClassPageNumberRightBg {
+	background: url("../images/pagination-right.jpg") no-repeat scroll right center transparent;
+	height: 26px;
+	padding: 0 8px 0 0;
+}
+.cssClassPageNumberMidBg {
+	background: url("../images/pagination-mid.jpg") repeat-x scroll 0 0 transparent;
+	height: 26px;
+	position:relative;
+	font-size:11px;
+}
+.cssClassPages {
+	color: #FFFFFF;
+	float: left;
+	font: bold 11px/26px Arial, Helvetica, sans-serif;
+}
+.cssClassPages input[type="text"] {
+	border: medium none;
+	color: #000000;
+	margin: 0 3px;
+	text-align: center; padding:0;
+	width: 22px; height:18px; font-weight:normal;
+}
+.Pagination {
+	float: left !important;
+	margin: 0 0 0 20px;
+}
+.cssClassPageNumber b {
+	font: bold 14px Arial, Helvetica, sans-serif;
+}
+.cssClassPageNumber b a {
+	background: none repeat scroll 0 0 transparent;
+	border: medium none;
+}
+a.cssClassPagePrevNxt {
+	font: bold 14px Arial, Helvetica, sans-serif;
+}
+a.cssClassPagePrevNxt {
+	background: none repeat scroll 0 0 transparent !important;
+	border: medium none !important;
+}
+a.cssClassPagePrevNxt:hover {
+	background-color: #FFFFFF !important;
+}
+.cssClassPageNumber span {
+	background-color: #D8F0FF;
+	color: #000000;
+	font: 12px/26px segoe, Arial, Helvetica, sans-serif;
+	padding: 1px 5px;
+	text-align: center;
+	text-decoration: none;
+	margin:0 2px;
+}
+.cssClassPageNumber a {
+	color: #FFFFFF;
+	font: 12px/26px Arial, Helvetica;
+	margin: 0;
+	padding: 5px 6px;
+	text-align: center;
+	text-decoration: none;
+}
+.cssClassPageNumber a:hover {
+	background-color: #D8F0FF;
+	color: #000000;
+}
+.cssClassViewPerPage {
+	color: #FFFFFF;
+	float: right;
+	position: absolute;
+	right: 0;
+	top:0;
+}
+.cssClassPageNumberMidBg .cssClassViewPerPage {
+	position:absolute;
+	top:0;
+}
+.cssClassViewPerPage select {
+	width:50px;
+}
+.cssClassPageNumber table {
+	border: medium none;
+}
+.cssClassPageNumber td {
+	color: #FFFFFF;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.cssClassCommonBox {
+	border: 1px solid #9ABBD4;
+	margin: 15px 0 0;
+	background:#fff;
+}
+.cssClassMyDashBoard .cssClassCommonBox {
+	margin-top:5px;
+	background:#fff;
+}
+.cssClassCommonBox .cssClassHeader {
+	background: url("../images/product-detail-information-heading.jpg") repeat-y scroll center center #237BC6;
+	border-bottom: 1px solid #2A699A;
+	margin: 0;
+}
+.cssClassCommonBox .cssClassGridWrapper, .cssClassCompareBox .cssClassFormWrapper {
+	margin: 0;
+	padding: 10px;
+}
+.cssClassHeader {
+	margin: 15px 0 0;
+	overflow: hidden;
+	min-height:33px;
+}
+.cssClassHeader h2 {
+	color: #FFFFFF;
+	float: left;
+	font: bold 12px/30px Arial, Helvetica, sans-serif;
+	height: 30px;
+	padding: 0 0 0 12px;
+}
+.cssClassHeader .cssClassHeaderRight {
+	float: right;
+	overflow: hidden;
+}
+.cssClassHeader .cssClassHeaderRight .cssClassButtonWrapper {
+	margin: 5px 10px 0 0;
+	padding: 0;
+}
+.cssClassHeader .cssClassHeaderRight .cssClassButtonWrapper p {
+	float: left;
+}
+#divCheckBox li {
+	float: left;
+	width: 147px;
+}
+.searchForTextBox {
+	margin-bottom: 15px !important;
+	width: 55% !important;
+}
+.cssClasssearchFor {
+	float:left;
+	line-height:33px !important;
+}
+.cssClassAdvenceSearch .cssClassLabel {
+}
+.cssClassAdvenceSearch .cssClassDropDown {
+	margin-top: 20px;
+}
+.cssClassMasterCenter input[type="text"], .cssClassMasterCenter input[type="password"], .cssClassMasterCenter select, .cssClassMasterCenter textarea, .cssClassNewsLetter p input.cssClassNewsLetterEmailBox {
+	padding:3px 5px;
+	background: none repeat scroll 0 0 #FFFFFF !important;
+	border: 1px solid #84B3CB !important;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	-moz-box-shadow:inset 1px 1px 5px #C3DEF2;
+	-webkit-box-shadow:inset 1px 1px 5px #C3DEF2;
+	box-shadow:inset 1px 1px 5px #C3DEF2;
+	font-family:segoe, Arial, Helvetica, sans-serif;
+}
+.cssClassMasterCenter input:focus, .cssClassMasterCenter input[type="password"]:focus, .cssClassMasterCenter textarea:focus, .cssClassNewsLetter p input.cssClassNewsLetterEmailBox:focus, select:focus {
+	-moz-box-shadow: 0px 0px 5px #84B3CB !important;
+	-webkit-box-shadow: 0px 0px 5px #84B3CB !important;
+	box-shadow: 0px 0px 5px #84B3CB !important;
+	outline:none !important;
+}
+button::-moz-focus-inner, select::-moz-focus-inner, input::-moz-focus-inner {
+ border: 0;
+}
+.cssClassMultipleCheckout .cssClassButtonWrapper input {
+	padding:0 5px;
+	font-weight:bold;
+	margin-left:5px;
+}
+.cssClassOrderReview .cssClassButtonWrapper input {
+	float:right; cursor:pointer;
+}
+.cssClassOrderReview .cssClassButtonWrapper {
+	float:right;
+}
+a.screenshot {
+	float:left;
+	width:100%;
+	text-align:left !important;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:green;
+}
+a.screenshot:hover {
+	background:none;
+	color:#690;
+}
+input.cssClassSubmitBtn {
+	/*	padding:0 5px;
+*/	margin:10px 12px 0;
+	font:bold 12px Arial, Helvetica, sans-serif;
+}
+#categoryListings a {
+	background: url("../images/register-navi-seperator.jpg") no-repeat scroll right center transparent;
+	color: #306B00;
+	float: left;
+	padding: 0 10px;
+	font-weight:bold;
+}
+#categoryListings a:first-child {
+	padding-left:0;
+}
+#categoryListings a:hover {
+	color: #63a90b;
+}
+#categoryListings a:last-child {
+	background: none repeat scroll 0 0 transparent;
+}
+.cssClassloginbox .cssClassButtonWrapper {
+	position: relative;
+	right: -2px;
+	top: 15px;
+}
+#ShoppingCartPopUp .cssClassCommonSideBoxTable a {
+	font:bold 12px Arial, Helvetica, sans-serif;
+	padding: 0 10px;
+	color:#538F23;
+}
+#ShoppingCartPopUp .cssClassCommonSideBoxTable>a {/* background: url("../images/register-bg.png") repeat-x !important; */
+	border-bottom:1px solid #306B00;
+	color:#fff;
+	-webkit-border-radius:21px;
+	-moz-border-radius: 21px;
+	border-radius:21px;
+	padding:3px 12px;
+}
+#ShoppingCartPopUp .cssClassCommonSideBoxTable>a:hover {
+/*	border-bottom:1px solid #63A90B;
+	color:#63A90B;*/
+}
+.cssClassBestSeller {
+	margin-left: 6px;
+}
+#ShoppingCartPopUp h2 {
+	padding:2px 10px;
+	color:#2086E3;
+}
+#ShoppingCartPopUp table {
+	margin-bottom: 10px;
+}
+#ShoppingCartPopUp table td {
+	padding: 5px 0;
+}
+#ShoppingCartPopUp table tr {
+	background: none repeat scroll 0 0 #CEE5F3;
+}
+#ShoppingCartPopUp table tr:nth-child(2n+1) {
+	background: none repeat scroll 0 0 #DBECF6 !important;
+}
+#divHeader {
+	font:bold 17px/25px Arial, Helvetica, sans-serif;
+	color:#069;
+	background:#fff;
+	border:1px solid #ccc;
+	width:auto;
+}
+#divHeader img {
+	display:block;
+	text-indent:-9999px;
+	/*	width:1002px;
+*/	height:250px;
+}
+#divHeader a {
+	float:left;
+	text-indent:-9999px;
+}
+#divHeader a.bx-next {
+	background: url("../images/next-1.png") no-repeat scroll right center transparent;
+	margin: 0 5px;
+	height:25px;
+	width:25px;
+	text-indent:-9999px;
+}
+#CategoryCaption {
+	overflow:hidden;
+}
+#divHeader a.bx-prev {
+	background: url("../images/previous-1.png") no-repeat scroll right center transparent;
+	margin: 0 5px;
+	height:25px;
+	width:25px;
+	text-indent:-9999px;
+}
+.cssClassAddtoCard .cssClassWishListButton {
+	background: none repeat scroll 0 0 transparent;
+	float: left;
+	cursor:pointer;
+	margin-left: 100px;
+	margin-top: -29px;
+}
+.cssClassAddtoCard .cssClassWishListButton span {
+	background: url("../images/button-left.png") no-repeat scroll left top transparent;
+	color: #FFFFFF;
+	cursor: pointer;/*
+    float: left;*/
+	display:block;
+	font: 12px/24px Arial, Helvetica;
+	height: 24px;
+	padding: 0 0 0 12px;
+}
+.cssClassAddtoCard .cssClassWishListButton span span {
+	background: url("../images/button-right.png") no-repeat scroll right top transparent;
+	cursor: pointer;
+	float: left;
+	height: 24px;
+	padding: 0 12px 0 0;
+}
+.cssClassCheckout h2 {
+	padding:6px 25px;
+	color:#fff;
+	background:url("../images/specials-heading.jpg") repeat-x scroll left top #3f99d5;
+	font-size:13px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.ui-accordion .ui-accordion-header {
+	margin-top:4px !important;
+	cursor:default !important;
+}
+.ui-accordion .ui-state-active {
+	background:none !important;
+}
+.cssClassCheckout h2 span {
+	padding-right:7px;
+	position:relative;
+}
+.cssClassCheckout h2 span:after {
+	content:". ";
+	position:absolute;
+	left:8px;
+	top:0;
+}
+.cssClassWishListButton span span span { /*text-indent:-9999px; */
+}
+.cssClassMasterRight td.cssClassWishItemDetails span.cssClassPrice {
+	text-align:left !important;
+}
+#ShoppingCartPopUp {
+	position: absolute;
+	right: 0;
+	top:50px;
+	width: 590px;
+	z-index:9999;
+	-moz-box-shadow:0px 4px 3px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow:0px 4px 3px rgba(0, 0, 0, 0.5);
+	box-shadow:0px 4px 3px rgba(0, 0, 0, 0.5);
+}
+.cssClassShoppingCart img, #ShoppingCartPopUp img {
+	cursor:pointer;
+}
+#ShoppingCartPopUp .cssClassCommonSideBoxTable {
+	padding:10px;
+	z-index:1;
+	background:#fff;
+}
+#ShoppingCartPopUp .cssClassCommonSideBoxTable tr:hover {
+	background:#cae0ed !important;
+}
+#ShoppingCartPopUp .cssClassCommonSideBoxTable td {
+	border-bottom:1px solid #fff;
+	font-weight:bold;
+}
+#divItemRatingForm .cssClassButtonWrapper p {
+	float:left;
+}
+::selection {
+	background:#3b89c4;
+	color:#fff;
+	text-shadow:none;
+}
+::-moz-selection {
+background:#3b89c4;
+color:#fff;
+text-shadow:none;
+}
+/* COMPARE PAGE */
+.cssClassCompareBox { width:1000px; overflow:auto;}
+.cssClassCompareBox p {
+	text-align:center;
+}
+#ltrlCategryLister span {
+	height:33px;
+	display:block;
+	line-height: 44px;
+}
+.cssClassTabPanelTable table tr {
+	padding:0 5px;
+}
+.cssClassItemOverviewContent h3 {
+	padding-left:10px;
+	padding-top:5px;
+}
+.cssClassItemOverviewContent p {
+	padding:5px 10px;
+}
+.cssClassTabPanelTable {
+	margin-top:50px;
+}
+#tblCartInfo select {
+	width:345px;
+	margin:7px;
+}
+.ui-tabs-panel .cssClasssubmitbtn {
+	background:#4991CA;
+	color:#fff;
+	cursor:pointer;
+}
+input[type="text"], input[type="password"] {
+	background:#fff;
+}
+.cssClassProductDetailInformation .cssClassTabPanelTable table td {
+	border-top:1px dotted #999;
+	padding:5px 10px;
+}
+.cssClassProductDetailInformation .cssClassTabPanelTable table tr:first-child td {
+	border:none;
+}
+.cssClassTableLeftCol label {
+	padding-right:12px;
+}
+#divCheckBox input {
+	border:none !important;
+}
+.cssClassWishListButton button span, .cssClassCompareButton button span {
+	float:none !important;
+}
+#accordion select {
+	width:250px;
+	font-size:12px;
+}
+#accordion label {
+	font:normal 12px segoe, Arial, Helvetica, sans-serif;
+}
+.breadCrumb li {
+	float:left;
+}
+.ui-accordion .ui-widget-content {
+	border:none;
+}
+#divCheckoutTypes, #divMiniCheckoutTypes {
+	text-align:center;
+	padding:10px;
+}
+#divCheckoutTypes a, #divMiniCheckoutTypes a, #divMiniCheckoutTypes span, #divCheckoutTypes span {
+	display:block;
+	font-weight:bold;
+}
+.cssClassloadingDiv {
+	position:fixed;
+	top:47%;
+	left:47%;
+	z-index:9999 !important;
+}
+.cssClassMultipleCheckout {
+	margin-top:10px !important;
+}
+.cssClassMultipleCheckout tr {
+	background:#CEE5F3;
+}
+.cssClassMultipleCheckout td {
+	padding-left:5px !important;
+}
+.cssClassMultipleCheckout tr:nth-child(2n+1) {
+	background:#DBECF6
+}
+.cssClassMultipleCheckout .cssClassRight {
+	clear:both;
+}
+.cssClassMultipleCheckout .cssClassPaymentMethods input[type="radio"] {
+	vertical-align:top;
+}
+.ui-tabs-panel a.cssClassChange, .cssClassButtonLink a, .cssClassMultipleCheckout p.cssClassButtonLink a {
+	border:none;
+	padding:3px 4px;
+	color:#fff;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	margin-right:10px;
+	text-decoration:none;
+	cursor:pointer;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	color:#306B00;
+}
+.ui-tabs-panel a.cssClassChange:hover, .cssClassButtonLink a:hover, .cssClassMultipleCheckout p.cssClassButtonLink a:hover {
+	color:#690;
+}
+.cssClassMultipleCheckout p.cssClassButtonLink a {
+	height:17px;/* position:absolute; left:27px; padding:4px 21px;*/
+	line-height:17px;
+	font-size:11px;
+	padding:4px 15px;
+}
+.cssClassBack {
+	position:relative;
+	top:10px;
+}
+.cssClassMultipleCheckout p.cssClassButtonLink a, .cssClassChange a, .cssClassBack {
+	color:#306B00 !important;
+	border-bottom:1px inset green;
+}
+.cssClassMultipleCheckout p.cssClassButtonLink a:hover, .cssClassChange a:hover, .cssClassBack:hover {
+	color:#63a90b;
+}
+.cssClassChange {
+	margin:5px 0;
+}
+#slider-wrapper {
+	margin-bottom:10px;
+}
+.cssClassNavigationShadow {
+	background: url("../images/navigation-bg.png") no-repeat scroll center top transparent;
+	height: 9px;
+}
+.cssClassProductsBoxNoMargin {
+	margin-right:0;
+}
+.cssClassFormWrapper li {
+	list-style:none;
+}
+.cssClassProductsBoxInfo .cssClassProductPriceBox {
+	float:none;
+}
+.cssClassAccordionWrapper {
+	float:left;
+	width:73%;
+}
+.cssClassRightAccordainMenu {
+	margin-top:15px;
+	float:right;
+	width:247px;
+}
+.cssClassMultipleCheckout table td {
+	padding:10px 5px !important;
+}
+.tag_content {
+	float:left;
+	margin-right:15px;
+}
+.cssClassCross {
+	margin-left: 5px;
+	text-indent: -9999px;
+	width: 20px;
+	border:none;
+	background:url("../images/admin/icon_delete.gif") no-repeat;
+}
+a.js-tooltip {
+	color:#538F23;
+	font-weight:bold;
+}
+.lightText {
+	color: #9B9B9B;
+}
+.cssClassDownload .cssClassLink, .cssClassAddYourReview, .cssClassLink {
+	color:#538F23 !important;
+	font:bold 12px Arial, Helvetica, sans-serif;
+	cursor:pointer;
+}
+.cssClassDownload .cssClassLink:hover, .cssClassAddYourReview:hover, .cssClassLink:hover, .ui-widget-content a:hover {
+	color:#63A90B !important;
+}
+.cssClassapplycoupon {
+	float:right;
+	margin-bottom: 15px;
+}
+.cssClassapplycoupon h3 {
+	padding-bottom:5px;
+}
+.cssClassapplycoupon input {
+	float:left;
+}
+.cssClassapplycoupon .cssClassButtonWrapper {
+	margin:-5px 6px;
+	float:left;
+}
+a.continueshop {
+	display:inline-block;
+}
+.cssClassFooterLogo a {
+	background:url(../images/footer-logo.png) no-repeat center;
+	display:block;
+	width:auto;
+	height:42px;
+	text-indent:-999px;
+}
+p.cssClassPayment {
+	background:url(../images/paypal.png) no-repeat center;
+	display:block;
+	width:auto;
+	height:36px;
+	text-indent:-9999px;
+}
+/*Download sample popup styles*/
+	.ui-draggable .ui-widget-header {
+	background:#3BC0FA;
+	color:#fff;
+}
+.ui-draggable button {
+	background:url(../images/register-bg.png) repeat-x !important;
+	border:none !important;
+}
+.ui-draggable button:hover {
+	background:url(../images/register-bg-hover.png) repeat-x !important;
+}
+.cssClassQtyDiscount td, .cssClassQtyDiscount th {
+	text-align:center;
+	padding:5px;
+}
+.cssClassQtyDiscount th {
+	background:#cae0ed !important;
+}
+.cssClassBillingAddressInfo, .cssClassShippingAddressInfo {
+	margin-top:10px;
+	display:block;
+}
+.cssClassTabPanelTable table {
+	font:12px segoe, Arial, Helvetica, sans-serif;
+}
+.cssClassCheckoutInformationContent input[type="text"], .cssClassCheckoutInformationContent select {
+	margin:0px;
+	padding:2px;
+}
+.cssClassCheckoutInformationContent br, .cssClassCheckoutInformationContent p {
+	clear:both;
+}
+.cssClassQTYInput input {
+	width:50px;
+	padding:3px 5px;
+}
+.cssSClassDownload, .cssAClassDownload {
+	cursor:pointer;
+	color:green;
+}
+#dvBillingInfo p {
+	float:none !important;
+}
+.cssClassForgetPasswordPageLeft input {
+	margin:5px 10px;
+	padding:2px 7px;
+}
+.cssClassForgetPasswordPageLeft .cssClassButtonWrapper { float:left;}
+.ClassDeleteCartItems {
+	cursor:pointer;
+	width:16px !important;
+	height:16px !important;
+}
+.cssClassCenterPopBox {
+	top:25% !important;
+	position:fixed;
+}
+h2.product-name {
+	background:none !important;
+	text-shadow:none !important;
+}
+.back {
+	float:left;
+}
+.cssClassCheckout .cssClassButtonWrapper button {
+	margin-right:10px;
+}
+.cssClassMasterCenter input[disabled=disabled] {
+	border:none !important;
+	background:none !important;
+	padding:3px;
+}
+.gowishlist {
+	padding-left:7px;
+}
+.cssClaastablestyle {
+	border-color: #9ABBD4 -moz-use-text-color #9ABBD4 #9ABBD4;
+	border-style: solid none solid solid;
+	border-width: 1px medium 1px 1px;
+}
+tr.cssClassHeading {
+	background:#4991CA !important;
+	text-shadow:none !important;
+	color:#fff !important;
+}
+#divOrderDetails table {
+	border:1px solid #4991CA;
+	background:#F4FBFF;
+}
+#divOrderDetails table tr:nth-child(2n+1) {
+	background:#E6F0F6;
+}
+#divOrderDetails table td {
+	padding:5px 20px 5px 5px !important;
+}
+.cssClassPaymentMethods select {
+	width:auto !important;
+}/*
+	.ui-tabs ul.ui-tabs-nav li.ui-state-default a { cursor:default !important;}*/
+ @media print {
+.popupbox .cssClassButtonWrapper {
+	display:none !important;
+}
+}
+#compareItemBottons {
+	margin:5px 20px;
+}
+.cssClassSageSearchWrapper a {
+	margin-left:5px;
+	border-bottom:1px inset green;
+	font-weight:bold;
+	color:#306B00;
+	line-height:28px;
+}
+.cssClassSageSearchWrapper a:hover {
+	color:#63a90b;
+	border-bottom:none;
+}
+.cssClassCurrencySelect {
+	color:#557092;
+	text-shadow:0 1px 1px #FFFFFF;
+	font-size: 12px;
+	width:250px;
+	line-height:22px;
+	position: absolute;
+	right:218px;
+	height:30px;
+	top: 37px;
+*top:30px;
+}
+.cssClassCurrencySelect select {
+	border:1px solid #557092;
+	font-size:12px;
+	background-color:transparent;
+	margin-left:5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.sfInformationheader {
+	background:#0084b7;
+	padding:3px 10px;
+	-moz-transition: all 0.3s ease-out;
+}
+.sfInformationheader h2 {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#fff;
+	text-shadow:1px 1px 0 #006a92;
+	margin:0;
+	padding:5px 0;
+	-moz-transition: all 0.3s ease-out;
+}
+.sfInformationheader:hover {
+	background:#039dd9;
+	cursor:pointer;
+}
+.sfInformationheader:hover h2, .sfInformation .Active .sfInformationheader h2 {
+	-moz-transition: all 0.3s ease-out;
+}
+.cssClassOutOfStock a {
+	background:none;
+}
+.cssClassOutOfStock button, .cssClassOutOfStock a {
+	background: rgb(169,3,41); /* Old browsers */
+	border:1px solid #8f0222; margin-top:6px; white-space:nowrap;
+background: rgba(69,72,77,1);
+	background: -moz-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(169,3,41,1)), color-stop(44%, rgba(143,2,34,1)), color-stop(100%, rgba(109,0,25,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=0 ); /* IE6-8 */
+}
+.cssClassOutOfStock button:hover, .cssClassOutOfStock a:hover {
+	background:#a90329 !important;
+	cursor:default !important;
+}
+.tag_content a, .tag_content a label {
+	font-weight:bold;
+	cursor:pointer !important;
+}
+.cssClassCross:hover {
+	cursor:pointer !important;
+}
+.cssClassDisplayResult .cssClassProductsBox .cssClassOutOfStock, .cssClassGrid2Box .cssClassOutOfStock, .cssClassDisplayResult .cssClassProductsGridBox .cssClassOutOfStock, .cssClassCompareBox .cssClassOutOfStock {
+	background: url("../images/addcartbg.jpg") repeat-x scroll 0 0 transparent;
+	height:46px; text-align:center; white-space:nowrap;
+}
+/*.cssClassDisplayResult .cssClassProductsBox {
+	width:192px;
+	padding:0px;
+	margin:0 3px 7px 3px;
+}*/
+#divQtyDiscount {
+}
+#divQtyDiscount p {
+	font-weight:bold;
+	color:#005CA4;
+}
+#divQtyDiscount table {
+	border:1px solid #fff;
+}
+#AddTagTable td {
+	width: 500px;
+}
+.cssClassDecrease, .cssClassIncrease {
+	width:25px;
+	overflow:hidden;
+	margin:0 3px;
+	display:inline-block;
+}
+.cssClassTax #spanTax {
+	font-weight:bold;
+	color:#005CA4;
+}
+.cssClassYouSave b {
+	background:url(../images/save.png) no-repeat;
+	text-align:center;
+	display:inline-block;
+	line-height:52px;
+	width:52px;
+	color:#fff !important;
+}
+.cssClassBulkDiscount {
+	color:#8f2f0e !important;
+}
+/*#divShowAdvanceSearchResult .cssClassProductsBox {
+	width:176px;
+	padding:0px;
+}*/
+.cssClassMasterCenter input[type="text"], .cssClassMasterCenter input[type="password"] {
+	border:1px solid #84B3CB;
+	padding:3px 9px;
+	margin:0px 0 10px 0px !important;
+}
+.cssClassDownload {
+	float:left !important;
+}
+.noaccess, .closed {
+	background:url(../images/not.png) no-repeat center bottom;
+	width:453px;
+	height:250px;
+	display:block;
+	margin:50px auto;
+}
+.noaccess h2, .closed h2 {
+	color:#d75104;
+	font-size:15px;
+	background:url(../images/delete.gif) no-repeat;
+	padding:5px 5px 55px 55px;
+	line-height:18px;
+	text-shadow:0 1px 1px #fff;
+}
+.closed {
+	background:url(../images/closed.png) no-repeat center bottom;
+}
+.closed h2 {
+	color:#cc6600;
+	background:url(../images/alert.png) no-repeat;
+}
+input [type=radio], input [type="checkbox"] {
+	margin:0 10px 0 3px !important;
+	vertical-align:middle;
+}
+.cssClassProductPictureDetails td {
+	vertical-align:top;
+}
+.cssClassRatingStar {
+	float:left;
+}
+.cssClassRatingTitle {
+}
+.noborder {
+	border:none !important;
+}
+input[type=submit]:focus, input[type=button]:focus, button:focus, .cssClassMasterCenter input[disabled=disabled], .cssClassMasterCenter input[disabled=disabled]:focus {
+	-moz-box-shadow:none !important;
+	-webkit-box-shadow:none;
+	box-shadow:none !important;
+}
+.cssClassCouponHelp {
+	position:absolute;
+	right:300px;
+	color:#666;
+}
+.cssClassCouponHelp h3 {
+	width:259px;
+	text-align:left;
+	color:#666;
+	font:normal 12px segoe, Arial, Helvetica, sans-serif !important;
+	text-shadow:0 1px 1px #fff;
+}
+.AIMChild {
+	margin-top:15px;
+	padding-top:15px;
+	border-top:1px solid #ccc;
+}
+.cssClassAIMChildContent {
+	width:360px;
+	clear:both;
+}
+.cssClassAIMChildContent label {
+	float:left;
+	clear:both;
+	line-height:30px;
+}
+.cssClassAIMChildContent input[type="text"] {
+	float:right;
+	width:230px !important;
+	margin:3px 0;
+}
+.cssClassAIMChildContent select {
+	float:right;
+	width:242px !important;
+	margin:3px 0;
+}
+.adp-legal {
+	display:none !important;
+}
+.cssClassCartPicture, .cssClassProductPicture, .cssClassImage, .cssClassGridImage, .cssClassGrid2Picture, .cssClassProductsGridPicture, .cssClassGrid3Picture {
+	display:block;
+	background:#fff;
+	border-left:none;
+	border-right:none;
+	text-align:center;
+	min-height:127px!important;
+}
+
+/* Store Front Locator */
+#map_canvas {
+	border:1px solid #999;
+	-moz-box-shadow:0 0 0 2px #fff;
+}
+#divMap #sidebar {
+	width:310px;
+}
+#sidebar div {
+	display:inline-block;
+	padding:10px;
+	background:#ccc !important;
+}
+#sidebar div:hover {
+	background:#fff !important;
+}
+#BoxOverlay {
+	position:fixed !important;
+}
+.cssClassMasterCenter input.cssClassFormatCurrency, .cssClassMasterCenter .cssClassPreviewQTY input {
+	color:#069;
+	border:none !important;
+	background:none !important;
+	box-shadow:none;
+	width:111px;
+	border-radius:0px;
+}
+.cssClassMasterCenter .cssClassPreviewQTY input {
+	width:50px;
+}
+.cssClassMasterCenter input.cssClassFormatCurrency:focus, .cssClassPreviewQTY input:focus {
+	-webkit-box-shadow:0 0 0 #fff !important;
+	-moz-box-shadow:0 0 0 #fff !important;
+	box-shadow:0 0 0 #fff !important;
+}
+.cssClassTabPanelTable .cssClassPageNumberMidBg .cssClassViewPerPage {
+	top:-6px;
+}
+.cssClasMyAccountInformation .cssClassRatingTitle {
+	float:left;
+}
+.cssClasMyAccountInformation .cssClassToolTip {
+	width:auto;
+}
+/* payment sucess */
+.Page {
+	border: #828282 1px solid;
+	padding: 5px;
+	width:570px;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	background:#fff;
+}
+.PageOuter {
+	text-align:center;
+	width:600px;
+	margin:15px auto;
+}
+.PageOuter a {
+	font:bold 12px Arial, Helvetica, sans-serif;
+}
+.SectionHeading {
+	font-size: 18px;
+	font-weight:bold;
+}
+.BorderBottom {
+	border-bottom: #828282 1px solid;
+}
+.BorderTop {
+	border-top: #828282 1px solid;
+}
+.BorderAll {
+	border: #828282 1px solid;
+}
+.SectionHeadingBorder {
+	margin-top: 15px;
+	margin-bottom: 5px;
+	border-bottom: #828282 1px solid;
+	width: 100%;
+}
+.SectionBar {
+	background-color: #a0a0a0;
+	color: #ffffff;
+	padding:5px;
+	margin: 5px 0;
+}
+.HorizontalLine {
+	background-color: #666666;
+	height: 1px;
+}
+HR {
+	border: 0px;
+	border-top: 1px solid #828282;
+	height: 1px;
+}
+HR.HrTop {
+	border-top-color: #929292;
+}
+HR.HrLineItem {
+	border-top-color: #c0c0c0;
+}
+/* SELECT DROPDOWN */
+
+
+.tzSelect {
+	/* This is the container of the new select element */
+
+	height:26px;
+	float:right;
+	position:relative;
+	/*display:inline-block;*/
+	position:*absolute;
+	color:#666;
+	/* Preloading the background image for the dropdown */ -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	line-height:26px;
+	border:1px solid #ccc;
+*float:left;
+	background:#f9f9f9 url("../images/select_arrow.png") no-repeat 98% center;
+	width:155px !important;
+}
+.tzSelect:hover, .tzSelect:focus {
+	background:#f9f9f9 url("../images/select_arrow_hover.png") no-repeat 98% center;
+}
+.tzSelect .selectBox {
+	position:absolute;
+	line-height:25px;
+	padding-left:5px;
+	height:100%;
+	cursor:pointer;
+	width:100%;
+}
+.tzSelect .dropDown {
+	position:absolute;
+	top:30px;
+	left:0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width:100%;
+	height:auto;
+	z-index:9999;
+	border:1px solid #e7e7e7;
+	border-top:none;
+	list-style:none;
+	background:#fff;
+	color:#666;
+	-webkit-box-shadow:0 4px 3px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 4px 3px rgba(0, 0, 0, 0.5);
+	box-shadow:0 4px 3px rgba(0, 0, 0, 0.5);
+}
+.tzSelect .dropDown li {
+	background:#fff;
+	padding:0 5px;
+}
+.tzSelect .dropDown li:hover {
+	background:#069;
+	color:#fff;
+	cursor:pointer;
+}
+.tzSelect .dropDown li span {
+	margin-left:1px;
+	text-shadow:none;
+	white-space:nowrap;
+}
+.cssClassCurrencySelect>span { display:none;}
+
+
+
+.nivo-controlNav a {
+	z-index:9999 !important;
+}
+#divShareWishList {
+	width:350px;
+}
+.nivo-caption span {
+*float:none !important;
+	padding-left:5px;
+}
+.cssClassLoadingBG {
+	background: none repeat scroll 0 0 #050505;
+	display: block;
+	height: 100%;
+	opacity: 0.7;
+	position: fixed;
+	width: 100%;
+	z-index:9000;
+}
+.cssClassloadingDiv {
+	background-color: #FFF6ED;
+	border: 1px solid #F4BF8F;
+	color: #E07A3A;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	height: 50px;
+	left: 50%;
+	margin-left: -75px;
+	margin-top: -25px;
+	padding: 2px 0 0;
+	position: fixed;
+	text-align: center;
+	top: 50%;
+	width: 150px;
+	z-index: 401;
+}
+.cssClassFooterRight .cssClassHTMLModule, .cssClassCustomerServices {
+	 position: absolute;
+    right: -86px;
+    top: 0;
+}
+.cssClassFooterCenter .cssClassCustomerServices {
+	padding:0 0 0 5px;
+}
+/* 404 page  & Page Not Accessible*/
+
+.cssClassPagenotAccesible h3 {
+	display:block;
+	background:url(../images/noaccess.png) no-repeat;
+	width:238px;
+	height:193px;
+	text-indent:-9999px;
+}
+.cssClassPagenotAccesible p {
+	padding:15px 0;
+}
+.sfPageNotFound, .cssClassPagenotAccesible {
+	margin:40px auto;
+	width:330px;
+}
+.sfPageNotFound h1 {
+	display:block;
+	background:url(../images/404.png) no-repeat;
+	width:317px;
+	height:200px;
+	text-indent:-9999px;
+}
+p.sfPNFArrow {
+	background:url(../images/Arrow1.gif) no-repeat 5px 5px;
+	padding-left:20px;
+	font:12px/18px Arial, Helvetica, sans-serif;
+}
+.sfPageNotFound .sfButtonWrapper a:hover:after, .sfPagenotAccesibleInfo .sfButtonWrapper a:hover:after {
+	border-right:20px solid #069;
+}
+p.sfBack {
+	text-align:center;
+}
+.cssClassPoweredBy {
+	margin-top:10px; color:#333;
+}
+/* SOCIAL LINKS */
+.social_link {
+	float: right;
+	overflow: hidden;
+	padding: 0 0 10px;
+}
+.social_link li {
+	float: left;
+}
+.social_link li a {
+	background: url("../images/social_icons.png") no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 22px;
+	margin: 0 2px;
+	text-indent: -9999px;
+	width: 20px;
+}
+.social_link li a.utube {
+	background-position: 0 0;
+}
+.social_link li a.rss {
+	background-position: -20px 0;
+}
+.social_link li a.twitter {
+	background-position: -40px 0;
+}
+.social_link li a.facebook {
+	background-position: -60px 0;
+}
+/* Store Locator */
+.cssClassStoreLocator {
+	position:relative;
+	display:block;
+	clear:both;
+	background:url(../images/store-locator.jpg) no-repeat;
+	height:175px;
+}
+.cssClassStoreLocator span {
+	text-indent:-999em;
+	display:inline-block;
+	background:url(../images/store-locator-marker.png) no-repeat;
+	height:54px;
+	width:40px;
+	position:absolute;
+	left:33px;
+	top:69px;
+}
+.cssClassStoreLocator:hover span {
+	background:url(../images/store-locator-marker.png) no-repeat 0 -54px;
+}
+img.lazy {
+	vertical-align: text-top;
+}
+.cssClassProducts h1 {
+	text-shadow:0px 1px 0px #900;
+	background:url(../images/featuredbg.png) no-repeat !important;
+	height:37px;
+	width:221px;
+	color:#fff;
+	text-align:center;
+	line-height:30px;
+	position:relative;
+	left:-15px;
+	margin:0 0 10px 0;
+}
+.cssClassSlider {
+	background:#fff;
+	border:1px solid #ccc;
+}
+.tdpadding td {
+	padding:10px !important;
+}
+.cssClassProductPicture, .cssClassGrid2Picture, .cssClassGrid3Picture {
+	height:124px;
+	text-align: center;
+	vertical-align: middle;
+	width:173px; display:table-cell;
+}
+.cssClassProductPicture a{ display:block; width:100%; height:120px; overflow:hidden;}
+#divLatestItems {
+	background:#fff;
+	padding:5px;
+	border:1px solid #ccc;
+}
+.cssClassAddtoCard .cssClassButtonWrapper {
+	text-align:center;
+}
+* html .cell {
+	display:inline
+}
+.ticker {
+	height:21px;
+}
+#tblCartListItems {
+	width:250px;
+}
+#divShoppingCart table tr {
+	float:left;
+	width:242px;
+}
+.cssClassCommonSideBoxCartTable {
+}
+#divShoppingCart table tr td {
+	width:74px !important;
+	font:11px Arial, Helvetica, sans-serif !important;
+}
+#divShoppingCart .cssClassCommonSideBoxCartTable a {
+	padding:0px !important;
+	font:11px Arial, Helvetica, sans-serif !important;
+}
+#tblCartListItems img {
+	border: 0 none;
+	float: right !important;
+}
+#divShoppingCart .cssClassCommonSideBoxCartTable a#lnkViewShoppingCart, #divShoppingCart .cssClassCommonSideBoxCartTable a#lnkMiniShoppingCheckOut {
+	background:rgba(69,72,77,1);
+	background: -moz-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(69,72,77,1)), color-stop(100%, rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(top, rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000', GradientType=0 ); /* IE6-8 */
+	-moz-border-radius:4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.28);
+	border: 1px solid #2d2d2d;
+	color:#fff;
+	-webkit-transition: background-color .15s ease-in-out;
+	-moz-transition: background-color .15s ease-in-out;
+	-o-transition: background-color .15s ease-in-out;
+	font:12px Verdana, Geneva, sans-serif;
+	padding:5px !important;
+	display:inline-block;
+	color:#fff;
+	margin:10px 0 10px 10px;
+}
+#divShoppingCart .cssClassCommonSideBoxCartTable a#lnkViewShoppingCart:hover, #divShoppingCart .cssClassCommonSideBoxCartTable a#lnkMiniShoppingCheckOut:hover {
+	background: #0e0e0e;
+}
+
+
+.cssClassAdvenceSearch .cssClassButtonWrapper{
+	display:block;
+	overflow:hidden;}
+	
+	
+ #divThankYou {
+	font:bold 15px Arial, Helvetica, sans-serif
+}
+.LabelColInfo1R, .LabelColInfo2R {
+	width:130px;
+	font:bold 12px Arial, Helvetica, sans-serif;
+}
+.DataColInfo1R, .DataColInfo2R {
+	width:200px;
+}
+.cssClassOrderReview .cssClassSubTotalAmount input, .cssClassOrderReview .cssClassGrandTotalAmountWidth input { text-align:right;}
+.test .bx-prev { left:-6% !important;}
+.test .bx-next { right:-6% !important;}
+
+.cssClassCompareAttributeClass { vertical-align:top;}
+p.cssClassTextBox { padding-top:5px;}

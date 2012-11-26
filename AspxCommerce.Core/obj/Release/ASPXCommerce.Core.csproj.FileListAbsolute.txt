@@ -1,0 +1,448 @@
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+E:\Projects\ASPXCommerce_20101221\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+E:\Projects\sageframe-Beta-2011_01_26\sageframe-Beta-2011_01_26\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+E:\Projects\sageframe-Beta-2011_01_26\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+E:\ASPX-SageFrameBeta-2011_02_09_Back\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+E:\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+D:\ASPX_COMMERCE\ASPX-SageFrameBeta-2011_02_09\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+D:\ASPXCommerce-SageFrame\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+D:\wwwroot\ASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+D:\ASPXCommerce\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\ASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+D:\ASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+D:\ASPXCommerceJune\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+D:\ASPXCommerceJune\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\ASPXCommerceJune\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+D:\SageASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+D:\SageASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.pdb
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+E:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+E:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+E:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+E:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+E:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+E:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+E:\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+E:\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+E:\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+E:\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+E:\liVE\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+E:\liVE\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+E:\liVE\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+E:\liVE\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+E:\liVE\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+E:\liVE\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\liVE\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+E:\liVE\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+E:\liVE\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+E:\liVE\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+E:\liVE\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+E:\liVE\!Sep2\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\SageFrame.Security.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\SageFrame.Templating.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\SageFrame.Templating.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\bin\Release\SageFrame.Security.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\SageFrame.Security.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\SageFrame.Templating.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\SageFrame.Templating.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\bin\Release\SageFrame.Security.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.dll
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\ASPXCommerce.Core.pdb
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Security.dll
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Templating.dll
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Templating.pdb
+F:\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Security.pdb
+F:\AspxCommerceFinal\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+F:\AspxCommerceFinal\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.dll
+F:\AspxCommerceFinal\ASPXCommerce.Core\obj\Release\ASPXCommerce.Core.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\AspxCommerce.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\AspxCommerce.Core.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Common.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Security.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\AjaxControlToolkit.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Templating.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Core.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Common.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Templating.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\bin\Release\SageFrame.Security.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\obj\Release\AspxCommerce.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Core\obj\Release\AspxCommerce.Core.pdb
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\AspxCommerce.Core.dll
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\AspxCommerce.Core.pdb
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\SageFrame.Common.dll
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\SageFrame.Core.dll
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\SageFrame.Security.dll
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\AjaxControlToolkit.dll
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\SageFrame.Templating.dll
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\SageFrame.Core.pdb
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\SageFrame.Common.pdb
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\SageFrame.Templating.pdb
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\bin\Release\SageFrame.Security.pdb
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\obj\Release\AspxCommerce.Core.dll
+D:\WORKING\AspxCommerceTest\AspxCommerce.Core\obj\Release\AspxCommerce.Core.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.Core\obj\Release\AspxCommerce.Core.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.Core\obj\Release\ResolveAssemblyReference.cache

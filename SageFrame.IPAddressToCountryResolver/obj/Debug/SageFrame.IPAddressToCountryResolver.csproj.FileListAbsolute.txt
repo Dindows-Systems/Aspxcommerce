@@ -1,0 +1,215 @@
+D:\SageFrameWebsite\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameWebsite\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageFrameWebsite\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\SageFrameWebsite\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageFrameWebsite\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\WebSites\SageFrameWebsite\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\WebSites\SageFrameWebsite\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\WebSites\SageFrameWebsite\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\WebSites\SageFrameWebsite\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\WebSites\SageFrameWebsite\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\WebSites\SageFrame Ver 1.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\WebSites\SageFrame Ver 1.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\WebSites\SageFrame Ver 1.0\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\WebSites\SageFrame Ver 1.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\WebSites\SageFrame Ver 1.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+\\192.168.3.26\SageFrame Ver 1.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+\\192.168.3.26\SageFrame Ver 1.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+\\192.168.3.26\SageFrame Ver 1.0\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+\\192.168.3.26\SageFrame Ver 1.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+\\192.168.3.26\SageFrame Ver 1.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+C:\Documents and Settings\Administrator\Desktop\fas\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+C:\Documents and Settings\Administrator\Desktop\fas\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+C:\Documents and Settings\Administrator\Desktop\fas\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\fas\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+C:\Documents and Settings\Administrator\Desktop\fas\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+C:\Documents and Settings\Administrator\Desktop\SageFrame_Publish_Version1.0.0.0\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+C:\Documents and Settings\Administrator\Desktop\SageFrame_Publish_Version1.0.0.0\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+C:\Documents and Settings\Administrator\Desktop\SageFrame_Publish_Version1.0.0.0\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Desktop\SageFrame_Publish_Version1.0.0.0\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+C:\Documents and Settings\Administrator\Desktop\SageFrame_Publish_Version1.0.0.0\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\SageFrame_Source_Version1.0.0.0\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\SageFrame_Source_Version1.0.0.0\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\SageFrame_Source_Version1.0.0.0\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrame_Source_Version1.0.0.0\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\SageFrame_Source_Version1.0.0.0\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\EEEEEEEEEEEEEEEEEEEE\BrainDigit Learnings\!#Projects Works\!27 August\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\EEEEEEEEEEEEEEEEEEEE\BrainDigit Learnings\!#Projects Works\!27 August\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\EEEEEEEEEEEEEEEEEEEE\BrainDigit Learnings\!#Projects Works\!27 August\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\EEEEEEEEEEEEEEEEEEEE\BrainDigit Learnings\!#Projects Works\!27 August\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\EEEEEEEEEEEEEEEEEEEE\BrainDigit Learnings\!#Projects Works\!27 August\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+C:\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+C:\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+C:\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+C:\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+C:\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\EEEEEEEEEEEEEEEEEEEE\BrainDigit Learnings\!#Projects Works\!3 September\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\EEEEEEEEEEEEEEEEEEEE\BrainDigit Learnings\!#Projects Works\!3 September\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\EEEEEEEEEEEEEEEEEEEE\BrainDigit Learnings\!#Projects Works\!3 September\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\EEEEEEEEEEEEEEEEEEEE\BrainDigit Learnings\!#Projects Works\!3 September\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\EEEEEEEEEEEEEEEEEEEE\BrainDigit Learnings\!#Projects Works\!3 September\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\XX\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\XX\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\XX\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\XX\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\XX\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\XXX\!10Sep\SageFrame_Source_Version1.0.0.0(10)\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\XXX\!10Sep\SageFrame_Source_Version1.0.0.0(10)\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\XXX\!10Sep\SageFrame_Source_Version1.0.0.0(10)\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\XXX\!10Sep\SageFrame_Source_Version1.0.0.0(10)\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\XXX\!10Sep\SageFrame_Source_Version1.0.0.0(10)\SageFrame_Source_Version1.0.0.0\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\SageFrame_Source_Version1.0.0.1\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageFrame_Source_Version1.0.0.1\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\SageFrame_Source_Version1.0.0.1\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrame_Source_Version1.0.0.1\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageFrame_Source_Version1.0.0.1\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\sageframe_20110109\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\sageframe_20110109\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\sageframe_20110109\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\sageframe_20110109\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\sageframe_20110109\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\sageframe-Beta-01\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\sageframe-Beta-01\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\sageframe-Beta-01\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\sageframe-Beta-01\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\sageframe-Beta-01\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\wwwroot\sageframe-Beta-2011_01_20\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\wwwroot\sageframe-Beta-2011_01_20\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\wwwroot\sageframe-Beta-2011_01_20\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\wwwroot\sageframe-Beta-2011_01_20\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\wwwroot\sageframe-Beta-2011_01_20\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\wwwroot\sageframe-Beta-fresh\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\wwwroot\sageframe-Beta-fresh\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\wwwroot\sageframe-Beta-fresh\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\wwwroot\sageframe-Beta-fresh\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\wwwroot\sageframe-Beta-fresh\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\Projects Backup\SourceCode\sageframe-Beta\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\Projects Backup\SourceCode\sageframe-Beta\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\Projects Backup\SourceCode\sageframe-Beta\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\Projects Backup\SourceCode\sageframe-Beta\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\Projects Backup\SourceCode\sageframe-Beta\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\SageFrameIntegration\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageFrameIntegration\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\SageFrameIntegration\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameIntegration\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageFrameIntegration\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\SageFrameBetaFreshMay10\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\SageFrameBetaFreshMay10\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\SageFrameBetaFreshMay10\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameBetaFreshMay10\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\SageFrameBetaFreshMay10\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\wwwroot\sageframe_paras\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\wwwroot\sageframe_paras\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\wwwroot\sageframe_paras\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\wwwroot\sageframe_paras\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\wwwroot\sageframe_paras\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\@BrainDigit\SageFrameFinal\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\@BrainDigit\SageFrameFinal\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\@BrainDigit\SageFrameFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\@BrainDigit\SageFrameFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\@BrainDigit\SageFrameFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\SageASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\SageASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\SageASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\liVE\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+F:\AspxCommerceFinal\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+F:\AspxCommerceFinal\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+F:\AspxCommerceFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+F:\AspxCommerceFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+F:\AspxCommerceFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\AspxCommerceFinalRelease\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\AspxCommerceFinalRelease\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+D:\AspxCommerceFinalRelease\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+D:\AspxCommerceFinalRelease\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.IPAddressToCountryResolver\bin\Debug\SageFrame.IPAddressToCountryResolver.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.IPAddressToCountryResolver\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.IPAddressToCountryResolver\obj\Debug\SageFrame.IPAddressToCountryResolver.pdb

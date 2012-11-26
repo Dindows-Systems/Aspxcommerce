@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace SageFrame.Templating.xmlparser
+{
+    public enum XmlAttributeTypes
+    {
+        NAME=1,
+        STYLE=2,
+        WIDTH=3,
+        TYPE=4,
+        CUSTOMSTYLE=5,
+        CSSCLASS=6,
+        SPLIT=7,
+        COLWIDTH=8,
+        MOREDIVSIN=9,
+        MOREDIVSOUT=10,
+        MINHEIGHT=11,
+        WRAPPER=12,
+        CUSTOM=13,
+        MODE=14,
+        CLASS=15,
+        DEPTH=16,
+        WRAPINNER=17,
+        WRAPOUTER=18
+
+
+    }
+}

@@ -1,0 +1,252 @@
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.pdb
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\SageFrame.Common.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\SageFrame.Core.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\AjaxControlToolkit.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\ICSharpCode.SharpZipLib.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\AjaxControlToolkit.pdb
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\SageFrame.Core.pdb
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\SageFrame.Common.pdb
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\ar\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\cs\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\de\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\es\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\fr\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\he\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\hi\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\it\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\ja\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\ko\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\nl\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\pt\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\ru\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+D:\SageASPXCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+D:\SageASPXCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.pdb
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\ASPXCommerce.Core.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\SageFrame.Common.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\SageFrame.Core.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\AjaxControlToolkit.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\ICSharpCode.SharpZipLib.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\AjaxControlToolkit.pdb
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\SageFrame.Core.pdb
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\SageFrame.Common.pdb
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\ASPXCommerce.Core.pdb
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\ar\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\cs\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\de\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\es\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\fr\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\he\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\hi\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\it\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\ja\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\ko\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\nl\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\pt\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\ru\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\SageASPXCommerce_home\SageASPXCommerce\SageFrame\Modules\ASPXCommerce\PaymentGateways\!BackUps\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.pdb
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\ASPXCommerce.Core.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\SageFrame.Common.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\SageFrame.Core.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\AjaxControlToolkit.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\ICSharpCode.SharpZipLib.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\AjaxControlToolkit.pdb
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\SageFrame.Core.pdb
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\SageFrame.Common.pdb
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\ASPXCommerce.Core.pdb
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\ar\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\cs\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\de\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\es\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\fr\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\he\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\hi\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\it\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\ja\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\ko\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\nl\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\pt\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\ru\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+C:\Documents and Settings\b\Desktop\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.pdb
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Core.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Common.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Core.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\AjaxControlToolkit.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ICSharpCode.SharpZipLib.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\AjaxControlToolkit.pdb
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Core.pdb
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Common.pdb
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Core.pdb
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ar\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\cs\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\de\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\es\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\fr\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\he\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\hi\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\it\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ja\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ko\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\nl\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\pt\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ru\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\tr-TR\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\zh-CHS\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+E:\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.pdb
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Core.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Common.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Core.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\AjaxControlToolkit.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ICSharpCode.SharpZipLib.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\AjaxControlToolkit.pdb
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Core.pdb
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Common.pdb
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Core.pdb
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ar\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\cs\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\de\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\es\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\fr\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\he\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\hi\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\it\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ja\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ko\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\nl\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\pt\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ru\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\tr-TR\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\zh-CHS\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE_latest._New\SAGEASPXCOMMERCE_latest\SAGEASPXCOMMERCE_home\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Paypal.pdb
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Core.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Common.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Core.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\AjaxControlToolkit.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ICSharpCode.SharpZipLib.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\AjaxControlToolkit.pdb
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Core.pdb
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\SageFrame.Common.pdb
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ASPXCommerce.Core.pdb
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ar\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\cs\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\de\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\es\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\fr\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\he\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\hi\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\it\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ja\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ko\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\nl\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\pt\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\ru\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\tr-TR\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\zh-CHS\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\bin\zh-CHT\AjaxControlToolkit.resources.dll
+E:\SAGEASPXCOMMERCE\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+D:\SageFrameASPXCommerce\SageFrame\bin\ASPXCommerce.Paypal.dll
+D:\SageFrameASPXCommerce\SageFrame\bin\ASPXCommerce.Paypal.pdb
+D:\SageFrameASPXCommerce\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+D:\SageFrameASPXCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+E:\SageFrameASPXCommerce(August9)\SageFrameASPXCommerce\SageFrame\bin\ASPXCommerce.Paypal.dll
+E:\SageFrameASPXCommerce(August9)\SageFrameASPXCommerce\SageFrame\bin\ASPXCommerce.Paypal.pdb
+E:\SageFrameASPXCommerce(August9)\SageFrameASPXCommerce\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameASPXCommerce(August9)\SageFrameASPXCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+E:\SageFrameASPXCommerce(August9)\SageFrameASPXCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\SageFrame\bin\ASPXCommerce.Paypal.dll
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\SageFrame\bin\ASPXCommerce.Paypal.pdb
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Release\ASPXCommerce.Paypal.dll
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Release\ASPXCommerce.Paypal.pdb
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Release\ASPXCommerce.Core.dll
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Release\SageFrame.Common.dll
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Release\SageFrame.Core.dll
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Release\AjaxControlToolkit.dll
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Release\ICSharpCode.SharpZipLib.dll
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Release\SageFrame.Core.pdb
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Release\SageFrame.Common.pdb
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Release\ASPXCommerce.Core.pdb
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+C:\Documents and Settings\b\Desktop\paypal_new\payment_gateways_source\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+F:\Latestpaymentgateways\PaymentGateWay(source)\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+F:\Latestpaymentgateways\PaymentGateWay(source)\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+F:\Latestpaymentgateways\PaymentGateWay(source)\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+E:\!Test\!sfa\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+E:\!Test\!sfa\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+E:\!Test\!sfa\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+E:\!Test\!sfa\AspxCommerce\SageFrame\bin\ASPXCommerce.Paypal.dll
+E:\!Test\!sfa\AspxCommerce\SageFrame\bin\ASPXCommerce.Paypal.pdb
+E:\!Test\AspxCommerce\SageFrame\bin\ASPXCommerce.Paypal.dll
+E:\!Test\AspxCommerce\SageFrame\bin\ASPXCommerce.Paypal.pdb
+E:\!Test\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+E:\!Test\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+E:\!Test\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\SageFrame\bin\ASPXCommerce.Paypal.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\SageFrame\bin\ASPXCommerce.Paypal.pdb
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+E:\liVE\!Sep2\AspxCommerce\SageFrame\bin\ASPXCommerce.Paypal.dll
+E:\liVE\!Sep2\AspxCommerce\SageFrame\bin\ASPXCommerce.Paypal.pdb
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+D:\oct12\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+D:\oct12\SageFrame\bin\ASPXCommerce.Paypal.dll
+D:\oct12\SageFrame\bin\ASPXCommerce.Paypal.pdb
+D:\oct12\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.dll
+D:\oct12\ASPXCommerce.Paypal\obj\Debug\ASPXCommerce.Paypal.pdb
+D:\ASPXFINAL\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\AspxCommerce.Paypal.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\AspxCommerce.Paypal.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\AspxCommerce.Paypal.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\AspxCommerce.Paypal.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame\bin\AspxCommerce.Paypal.dll
+D:\AspxCommerceFinalRelease\SageFrame\bin\AspxCommerce.Paypal.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\AspxCommerce.Paypal.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\AspxCommerce.Paypal.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.Paypal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.Paypal\obj\Debug\AspxCommerce.Paypal.pdb

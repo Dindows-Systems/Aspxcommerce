@@ -1,0 +1,45 @@
+D:\SageFrameBeta_Source\SageFrame.Ticker\bin\Debug\SageFrame.Ticker.dll
+D:\SageFrameBeta_Source\SageFrame.Ticker\bin\Debug\SageFrame.Ticker.pdb
+D:\SageFrameBeta_Source\SageFrame.Ticker\bin\Debug\SageFrame.Common.dll
+D:\SageFrameBeta_Source\SageFrame.Ticker\bin\Debug\SageFrame.Core.dll
+D:\SageFrameBeta_Source\SageFrame.Ticker\bin\Debug\AjaxControlToolkit.dll
+D:\SageFrameBeta_Source\SageFrame.Ticker\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\SageFrameBeta_Source\SageFrame.Ticker\bin\Debug\SageFrame.Core.pdb
+D:\SageFrameBeta_Source\SageFrame.Ticker\bin\Debug\SageFrame.Common.pdb
+D:\SageFrameBeta_Source\SageFrame.Ticker\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameBeta_Source\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+D:\SageFrameBeta_Source\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb
+C:\Users\brainsuman\Desktop\latesttestSageBanner\sageframe.Ticker\bin\Debug\SageFrame.Ticker.dll
+C:\Users\brainsuman\Desktop\latesttestSageBanner\sageframe.Ticker\bin\Debug\SageFrame.Ticker.pdb
+C:\Users\brainsuman\Desktop\latesttestSageBanner\sageframe.Ticker\bin\Debug\SageFrame.Common.dll
+C:\Users\brainsuman\Desktop\latesttestSageBanner\sageframe.Ticker\bin\Debug\SageFrame.Core.dll
+C:\Users\brainsuman\Desktop\latesttestSageBanner\sageframe.Ticker\bin\Debug\AjaxControlToolkit.dll
+C:\Users\brainsuman\Desktop\latesttestSageBanner\sageframe.Ticker\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\brainsuman\Desktop\latesttestSageBanner\sageframe.Ticker\bin\Debug\SageFrame.Core.pdb
+C:\Users\brainsuman\Desktop\latesttestSageBanner\sageframe.Ticker\bin\Debug\SageFrame.Common.pdb
+C:\Users\brainsuman\Desktop\latesttestSageBanner\sageframe.Ticker\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\brainsuman\Desktop\latesttestSageBanner\sageframe.Ticker\obj\Debug\SageFrame.Ticker.dll
+C:\Users\brainsuman\Desktop\latesttestSageBanner\sageframe.Ticker\obj\Debug\SageFrame.Ticker.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SourceTicker\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SourceTicker\obj\Debug\SageFrame.Ticker.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SourceTicker\obj\Debug\SageFrame.Ticker.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\SageFrame.Ticker.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\SageFrame.Ticker.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\SageFrame.Ticker.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\SageFrame.Ticker.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\obj\Debug\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame\bin\SageFrame.Ticker.dll
+D:\AspxCommerceFinalRelease\SageFrame\bin\SageFrame.Ticker.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\SageFrame.Ticker.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\SageFrame.Ticker.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\obj\Debug\SageFrame.Ticker.pdb

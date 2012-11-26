@@ -1,0 +1,164 @@
+/* CSS Document */
+.popupbox {
+	background-color:#FFF;
+	display: none;
+	position: fixed;
+	top:50%;
+	left:50%; width:auto;
+	z-index: 9999;
+	-webkit-box-shadow:0 0 5px #FFFFFF, 0 0 20px #fff;
+	-moz-box-shadow:0 0 5px #FFFFFF, 0 0 20px #fff;
+	box-shadow:0 0 5px #FFFFFF, 0 0 20px #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    border-radius: 5px;
+	min-height:160px;zoom:1;
+	min-width:500px;
+
+}
+#fade {
+	display: none;
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000); 
+            zoom: 1;  
+	left: 0; position:fixed; z-index:9000;
+	top: 0; width:100%; height:100%;}
+	
+	
+.popupbox  .cssClassFormWrapper {padding:10px 15px 0; overflow:hidden }
+.popupbox *{ z-index:9999;}
+.popupbox2 {
+	width:454px;
+	height:307px;
+	background-image:url(../../images/pu_03.png);
+	background-repeat:no-repeat;
+	display: none;
+	float: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 9999;
+	-webkit-box-shadow: 0px 0px 10px #fff;
+	-moz-box-shadow: 0px 0px 10px #fff;
+	box-shadow: 0px 0px 10px #fff;
+}
+.popupbox3 {
+	width:502px;
+	height:302px;
+	background-image:url(../../images/3_03.png);
+	background-repeat:no-repeat;
+	display: none;
+	float: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 9999;
+	-webkit-box-shadow: 0px 0px 10px #fff;
+	-moz-box-shadow: 0px 0px 10px #fff;
+	box-shadow: 0px 0px 10px #fff;
+}
+
+#intabdiv {
+	padding:10px;
+}
+#close img {
+	text-decoration:none;
+}
+#close {
+	width:50px;
+	height:50px;
+	position: absolute;
+	float:right;
+}
+#intabdiv2 {
+	padding:70px;
+}
+.popupbox h2 {	background-color:#3bc0fa; margin:2px;
+	font:bold 16px/16px Arial, Helvetica, sans-serif;
+	color:#fff;
+	padding:10px 20px;-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+#intabdiv2 p {
+	font-size:12px;
+	color:#696868;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:20px;
+}
+#intabdiv3 {
+	padding:70px;
+}
+.popupbox .cssClassButtonWrapper { margin:10px; float:right;}
+
+.popupbox .cssClassFormWrapper .cssClassLabel { padding:0 10px;}
+
+.popupbox  .cssClassFormWrapper input[type="text"], .popupbox  .cssClassFormWrapper textarea, .popupbox .cssClassFormWrapper select { -moz-box-shadow: 1px 1px 5px #C3DEF2 inset; -webkit-box-shadow: 1px 1px 5px #C3DEF2 inset;box-shadow: 1px 1px 5px #C3DEF2 inset; padding:3px 5px;width:250px;} 
+.popupbox  .cssClassFormWrapper input:focus, .cssClassFormWrapper textarea:focus {-moz-box-shadow: 0 0 5px #84B3CB !important;
+	-webkit-box-shadow: 0 0 5px #84B3CB  !important;
+	 box-shadow: 0 0 5px #84B3CB  !important; background:#fff;}
+
+.popupbox .cssClassFormWrapper .cssClassTextarea {
+	width: 255px; height:110px;
+} 
+.popupbox .cssClassFormWrapper select { width:262px; margin:3px 5px;}
+.error {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#F00;
+	padding:0 0 0 5px;
+}
+.cssClassCloseIcon { position:relative;
+	z-index:9999;
+}
+.cssClassCloseIcon button {
+	background:none;
+	border:none;
+	outline:none;
+	text-indent:-6000px;
+	position:absolute;
+	right:-17px;
+	top:-19px;
+}
+button.cssClassClose {
+	background:url(../../images/close.png) no-repeat;
+	width:24px;
+	height:24px;
+	cursor:pointer;
+}
+.cssClassReviewInfos {
+	padding:5px;
+	background-color:#bcebff;
+	margin:5px 0 0 0;
+}
+.cssClassReviewInfos a {
+	text-decoration:underline;
+}
+.cssClassPopUpHeading {
+	margin:7px 0;
+}
+span.star-rating-control {
+	float:left;
+	width:90px; padding-bottom:6px;
+}
+.cssClassToolTipInfo span.star-rating-control {
+	float:right;
+}
+span.cssClassRatingText {
+	float:left;
+	padding:0 0 0 5px;
+}
+td.cssClassReviewCriteria {
+	width:152px;
+}
+.cssClassItemCostVariant { width:auto;}
+.cssClassItemCostVariant .ui-corner-all {max-height:390px; margin: 12px 10px 0; overflow: auto;width: 640px;} 
+.cssClassItemCostVariant .ui-tabs .ui-tabs-panel {padding: 20px 0 0;}
+
+.popupbox  .cssClassFormWrapper input{ margin:5px; padding:4px 5px; }
+#trigger {
+	text-align:center;
+}

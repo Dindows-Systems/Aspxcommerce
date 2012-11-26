@@ -1,0 +1,41 @@
+.popupbox {
+	background-color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	box-shadow: 0 0 20px #000000;
+	display: none;
+	left: 50%;
+	padding: 10px;
+	position: fixed;
+	top: 50%;
+	width: 630px;
+	height:500px;
+	z-index: 400;
+}
+#fade {
+	display: none;
+	background: #000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .80;
+	z-index: 399;
+}
+#close img {
+	text-decoration:none;
+}
+#close {
+	width:50px;
+	height:50px;
+	position: absolute;
+	float:right;
+}
+span.closePopUp {
+	position:absolute;
+	top:-20px;
+	right:-18px;
+	cursor:pointer;
+}

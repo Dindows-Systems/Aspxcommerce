@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="SageFrameWebSite" Class="TemplateDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.3.26;Initial Catalog=SageFrame;User ID=sa" SettingsObjectName="SageFrame.Template.Properties.Settings" SettingsPropertyName="SageFrameConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_TemplateAdd" Method="sp_TemplateAdd">
+    <Parameter Name="TemplateTitle" Parameter="templateTitle" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_TemplateDelete" Method="sp_TemplateDelete">
+    <Parameter Name="TemplateID" Parameter="templateID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TemplateTitle" Parameter="templateTitle" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <ElementType Name="sp_TemplateDeleteResult">
+      <Column Name="ReturnCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ReturnMessage" Type="System.String" DbType="VarChar(51) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_TemplateGetList" Method="sp_TemplateGetList">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <ElementType Name="sp_TemplateGetListResult">
+      <Column Name="TemplateID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TemplateTitle" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

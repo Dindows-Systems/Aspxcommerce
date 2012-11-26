@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="SageFrame" Class="PagePermissionDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=braindignet;Initial Catalog=SageFrame;User ID=sa" SettingsObjectName="SageFrame.PagePermission.Properties.Settings" SettingsPropertyName="SageFrameConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_PagePermissionAdd" Method="sp_PagePermissionAdd">
+    <Parameter Name="PagePermission" Parameter="pagePermission" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PermissionID" Parameter="permissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AllowAccess" Parameter="allowAccess" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="RoleID" Parameter="roleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PagePermissionUpdate" Method="sp_PagePermissionUpdate">
+    <Parameter Name="PagePermissionID" Parameter="pagePermissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PermissionID" Parameter="permissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AllowAccess" Parameter="allowAccess" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="RoleID" Parameter="roleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="UpdatedOn" Parameter="updatedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UpdatedBy" Parameter="updatedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PagePermissionByPagePermissionID" Method="sp_PagePermissionByPagePermissionID">
+    <Parameter Name="PagePermissionID" Parameter="pagePermissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionByPagePermissionIDResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionDelete" Method="sp_PagePermissionDelete">
+    <Parameter Name="PagePermissionID" Parameter="pagePermissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DeletedBy" Parameter="deletedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PagePermissionGetActiveByPageID" Method="sp_PagePermissionGetActiveByPageID">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionGetActiveByPageIDResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionGetActiveByPermissionID" Method="sp_PagePermissionGetActiveByPermissionID">
+    <Parameter Name="PermissionID" Parameter="permissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionGetActiveByPermissionIDResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionGetALLByPageID" Method="sp_PagePermissionGetALLByPageID">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionGetALLByPageIDResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionGetAllByPermissionID" Method="sp_PagePermissionGetAllByPermissionID">
+    <Parameter Name="PermissionID" Parameter="permissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionGetAllByPermissionIDResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionGetDeletedByPageID" Method="sp_PagePermissionGetDeletedByPageID">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionGetDeletedByPageIDResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionGetDeletedByPermissionID" Method="sp_PagePermissionGetDeletedByPermissionID">
+    <Parameter Name="PermissionID" Parameter="permissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionGetDeletedByPermissionIDResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionGetModifiedByPageID" Method="sp_PagePermissionGetModifiedByPageID">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionGetModifiedByPageIDResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionGetModifiedByPermissionID" Method="sp_PagePermissionGetModifiedByPermissionID">
+    <Parameter Name="PermissionID" Parameter="permissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionGetModifiedByPermissionIDResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionListActive" Method="sp_PagePermissionListActive">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionListActiveResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionListAll" Method="sp_PagePermissionListAll">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionListAllResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionListDeleted" Method="sp_PagePermissionListDeleted">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionListDeletedResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionListModified" Method="sp_PagePermissionListModified">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagePermissionListModifiedResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionByRolePermissionInsert" Method="sp_PagePermissionByRolePermissionInsert">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="RoleID" Parameter="roleID" Type="System.String" DbType="NVarChar(800)" />
+    <Parameter Name="PermissionID" Parameter="permissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AllowAccess" Parameter="allowAccess" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_GetPagePermissionsByPageID" Method="sp_GetPagePermissionsByPageID">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetPagePermissionsByPageIDResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PermissionCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ModuleDefID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionKey" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PermissionName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="RoleName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionByuserNamePermissionInsert" Method="sp_PagePermissionByuserNamePermissionInsert">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="RoleID" Parameter="roleID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="PermissionID" Parameter="permissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AllowAccess" Parameter="allowAccess" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(800)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_GetPagePermissionsByPageIDAndPermissionID" Method="sp_GetPagePermissionsByPageIDAndPermissionID">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PermissionID" Parameter="permissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetPagePermissionsByPageIDAndPermissionIDResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="RoleName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagePermissionDeleteByPageID" Method="sp_PagePermissionDeleteByPageID">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_GetPagePermissionsByPageIDAndPermissionIDNoRoleName" Method="sp_GetPagePermissionsByPageIDAndPermissionIDNoRoleName">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PermissionID" Parameter="permissionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetPagePermissionsByPageIDAndPermissionIDNoRoleNameResult">
+      <Column Name="PagePermissionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PermissionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AllowAccess" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_CheckUserModulePermissionByPermissionKey" Method="sp_CheckUserModulePermissionByPermissionKey">
+    <Parameter Name="PermissionKey" Parameter="permissionKey" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

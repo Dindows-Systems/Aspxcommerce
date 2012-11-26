@@ -1,0 +1,667 @@
+﻿#divFileTreeOuter {
+}
+#divFileTree {
+	min-height:300px;
+	overflow:auto;
+}
+#divBottomControls {
+	background-color:#fff;
+	height:20px;
+	padding:5px;
+	border:1px solid #D3CCC3;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+#divBottomControls li.control {
+	float:left;
+	cursor:pointer;
+	background:none;
+	text-align:center;
+	margin:0 0 0 24px;
+	width:auto;
+}
+#divFileList {
+}
+#divRoles {
+	background-color:#E2EEF2;
+}
+.cssClassClientFileManager #divRoles {
+	background-color:#F0EDE9;
+}
+#divUsers {
+}
+#divPermissions {
+	border: 1px solid #D3CCC3;
+	float: right;
+	min-height: 334px;
+	padding: 10px;
+	width: 733px;
+}
+.displaynone {
+	display:none;
+}
+.displayblock {
+	display:block;
+}
+#divHeader {
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #5695af;
+	margin-bottom: 5px;
+	width:95%;
+}
+#divSearch {
+}
+#divSearch span.search {
+	float:right;
+	margin-right:5px;
+}
+#divSearch span.pager {
+	float:right;
+}
+#txtAddress {
+}
+#divControls {
+}
+#fileList {
+}
+#fileList ul {
+	padding:10px 0 0 0;
+}
+#fileList li {
+	border-bottom:1px solid #f7f4f0;
+	overflow:hidden;
+	padding:3px 0 3px 10px;
+}
+#fileList li a.download_link {
+	float: left;
+	width:265px;
+	color:#000;
+	margin:0 0 0 33px;
+}
+#fileList li a.delete {
+	float: left;
+	width:20px;
+}
+#fileList li aspan.decompress {
+	float:left;
+	width:20px;
+}
+#fileList li a.edit {
+	width: 20px;
+	float: left;
+}
+#fileList li img {
+	border: none;
+}
+#fileList li span.info {
+	width: 300px;
+	float: left;
+}
+span.decompress{ float:left; width:25px; height:20px;}
+span.preview{ float:left; width:25px; height:20px;}
+#fileList li span.check {
+	float:left;
+	width:20px;
+}
+#backgroundFilter {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	background-color: #000;
+	filter: alpha(opacity=60);
+	opacity: 0.5;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+}
+.backgroundFilterDisplay {
+	display: block;
+}
+.backgroundFilterHide {
+	display: none;
+}
+#divControls div {
+}
+#divFileHeader {
+	overflow:hidden;
+}
+#divFileHeader span.fileName {
+	float:left;
+	width:270px;
+	padding:0 0 0 33px;
+	cursor:pointer;
+	text-decoration:underline;
+}
+#divFileHeader span.fileName img {
+	cursor:pointer;
+}
+#divFileHeader span.selectAll {
+	float:left;
+	width:20px;
+	margin:0 0 0 7px;
+}
+#divFileHeader span.fileInfo {
+	float:left;
+}
+.selectedTree {
+	background-color:#305196;
+}
+/*=============paging navigator style=========*/
+.simplePagerNav {
+	list-style:none;
+	float:right;
+	margin-top:0px;
+}
+.simplePagerNav li {
+	float:left;
+}
+/*=============paging navigator style=========*/
+#divRoles ul.ulPermission {
+}
+#divRoles ul.ulPermission li {
+	list-style-type:none;
+	overflow:hidden;
+}
+ul.header {
+	background-color:#ACD2E2;
+}
+#divRoles ul li ul.header li.role {
+	min-width:120px;
+	float:left;
+	list-style-type:none;
+}
+#divRoles ul li ul.header li.check {
+	min-width:120px;
+	float:left;
+	list-style-type:none;
+}
+#divRoles ul li ul.header li.head {
+	min-width:120px;
+	float:left;
+	list-style-type:none;
+}
+#divUsers ul.ulUsers {
+}
+#divUsers ul.ulUsers li {
+	list-style-type:none;
+}
+.cssClassAdminFileManager ul.cssClassHeader {
+	background-color:#A3D6E9;
+	overflow:hidden;
+}
+.cssClassAdminFileManager ul.cssClassHeader li{
+	background-color:#A3D6E9;
+	float:left;
+	min-width:115px;
+	padding:0 0 0 5px;
+	font:bold 11px/22px Arial, Helvetica, sans-serif;
+}
+ul.header {
+	overflow:hidden;
+	background-color:#e2eef2;
+	border-bottom:1px solid #fff;
+	padding:3px 5px;
+}
+.cssClassClientFileManager ul.header {
+	background-color:#F0EDE9;
+}
+#divUsers ul li ul.header li.role {
+	min-width:120px;
+	float:left;
+	list-style-type:none;
+}
+#divUsers ul li ul.header li.check {
+	min-width:120px;
+	float:left;
+	list-style-type:none;
+}
+#divUsers ul li ul.header li.head {
+	min-width:120px;
+	float:left;
+	list-style-type:none;
+}
+#divBottomControl {
+	height: 30px;
+	padding: 3px;
+}
+#divPagerNav {
+	float:right;
+	width:733px;
+	
+}
+#divFileUpload {
+	width:30%;
+	float:left;
+}
+#divSpaceUsageStat {
+	float:left;
+	width:20%;
+}
+.cssClassButtonWrapper .cssClassBtn {
+	background-color: #2CA3D2;
+	border-radius: 3px 3px 3px 3px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 2px 8px !important;
+	text-align: center;
+}
+.cssClassButtonWrapper input[type="text"] {
+}
+.cssClassButtonWrapper span {
+	float:left;
+	font-weight:bold;
+}
+.cssClassNoFilesDiv {
+	text-align:center;
+	font:bold 14px/20px Arial, Helvetica, sans-serif;
+	padding:5px;
+}
+.tooltip {
+	display:none;
+	background-color:#f7f4f0;
+	border:2px solid #b0b0b0;
+	color:#000;
+	-moz-border-radius:3px;
+	-moz-box-shadow:2px 2px 2px #333;
+	font:11px Arial, Helvetica, sans-serif;
+	color:#333;
+	text-align:center;
+	padding:3px 5px;
+}
+/*===============FileManagerEdit Styles===========*/
+.cssClassFileManagerEdit {
+}
+.cssClassfileManagerEditGridWrapper {
+	border:1px solid #ACD2E2;
+	background-color:#fff;
+	padding:5px;
+}
+.cssClassFileManagerEdit .cssClassFormWrapper .cssClassFormLabel {
+	padding:0 10px 0 0;
+	font:bold 11px/18px Arial, Helvetica, sans-serif !important
+}
+#divRootFolders {
+}
+#divRootFolders #ulRootFolder {
+}
+#ulRootFolder ul {
+	padding:10px;
+}
+#ulRootFolder li {
+	list-style:none;
+	padding:5px;
+	border-bottom:1px solid #fff;
+	background-color:#F5F9FB;
+}
+#ulRootFolder li:hover {
+	background-color:#e6eff3;
+}
+#ulRootFolder li span {
+	font:12px Arial, Helvetica, sans-serif;
+	color:#333;
+	padding:0 0 0 5px;
+}
+#ulRootFolder li img {
+	cursor:pointer;
+	float:right;
+}
+.simplePagerContainer {
+	border:1px solid #d3ccc3;
+}
+.simplePagerContainer ul {
+}
+.invisibleDiv {
+	width:430px;
+	background-color:#b0b0b0;
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 99999;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	padding:10px;
+}
+.loading-visible {
+	z-index: 10;
+	background: #fff;
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	display: none;
+	border: 17px solid #C0C0C0;
+	border-radius: 5px;
+	box-shadow: 0 0 20px #000000;
+}
+.cssClassButtonWrapper .cssClassFormLabelTxt {
+	padding:0 10px 0 0;
+	font: bold 11px/20px Arial, Helvetica, sans-serif !important;
+}
+.cssClassDisable {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+}
+.cssClassFileManagerFileTree {
+	float:left;
+	width:200px;
+	min-height:340px;
+	padding:5px;
+}
+.cssClassFileManagerRightInfo {
+	float:right;
+	width:715px;
+	min-height:334px;
+	padding:10px;
+}
+/*--------------------------------------CLIENT POPUP------------------------------------*/
+.cssClassClientFileManager .cssClassButtonWrapper, .cssClassAdminFileManager .cssClassButtonWrapper {
+	overflow:hidden;
+	padding:0;
+}
+.cssClassClientFileManager .cssClassButtonWrapper .cssClassBtn {
+	background-color: #DFCC9A;
+	border-radius: 3px 3px 3px 3px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 2px 8px !important;
+	text-align: center;
+}
+.cssClassClientFileManager .cssClassButtonWrapper .cssClassBtn:hover {
+	background-color:#a59362;
+}
+.cssClassClientFileManager .cssClassFormHeading, h2.cssClassFormHeading {
+	border:none;
+}
+.cssClassClientFileManager .cssClassFormWrapper {
+	border:1px solid #E8D5A2;
+	background-color:#fff;
+}
+.cssClassClientFileManager .cssClassFormWrapper .cssClassDivControls {
+}
+.cssClassClientFileManager .cssClassFormWrapper .cssClassDivControls ul li {
+	float:left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #dfd0bc;
+	margin:0 0 0 14px;
+	width:200px;
+}
+.cssClassClientFileManager .cssClassFormWrapper .cssClassDivControls ul li span {
+	float:left;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #fff;
+	background-color:#f0ede9;
+	min-height:4px;
+	padding:2px 24px;
+	font:bold 11px/22px Arial, Helvetica, sans-serif;
+	color:#8c7431;
+	
+	text-shadow:1px 1px 0 #fff;
+}
+.cssClassClientFileManager .cssClassFormWrapper .cssClassDivControls ul li:hover span {
+	cursor:pointer;
+	-moz-box-shadow: 0 0 5px #44341f;
+	-webkit-box-shadow: 0 0 5px #44341f;
+	box-shadow:  0 0 5px #44341f;
+}
+.cssClassClientFileManager .cssClassFormWrapper .cssClassDivControls ul li.upload {
+	margin:0;
+}
+.cssClassClientFileManager .cssClassFormWrapper .cssClassDivControls ul li span img {
+	float:left;
+	padding:0 10px 0 0;
+}
+.cssClassClientFileManager .cssClassFormWrapper .cssClassFileManagerSearch {
+	overflow:hidden;
+	margin:10px 0 0 0;
+	padding:3px;
+	background-color:#f8f0e6;
+}
+.cssClassClientFileManager .cssClassFormWrapper .cssClassFileManagerSearch span.address input {
+	font:11px/18px Arial, Helvetica, sans-serif;
+	color:#000;
+	padding:3px;
+	width:250px;
+	height:17px;
+	background-color:#fff;
+	border:1px solid #dfd0bc;
+	margin:0 0 0 10px;
+}
+.cssClassClientFileManager .cssClassFormWrapper .cssClassFileManagerSearch span.search input {
+	font:11px/18px Arial, Helvetica, sans-serif;
+	color:#000;
+	padding:3px;
+	width:160px;
+	height:17px;
+	background-color:#fff;
+	border:1px solid #dfd0bc;
+	margin:0 0 0 10px;
+}
+.cssClassClientFileManager .cssClassFormWrapper .cssClassFileManagerSearch span.pager select.cssClassDropDown {
+	width:40px;
+	border:1px solid #dfd0bc;
+	background-color:#fff;
+	color:#666;
+}
+.cssClassClientFileManager .cssClassFileManagerMidContent {
+	margin:20px 0 0 0;
+	color:#333;
+}
+.cssClassClientFileManager .cssClassFileManagerFileTree {
+	background-color:#f7f4f0;
+	border:1px solid #d3ccc3;
+}
+.cssClassClientFileManager .cssClassFileManagerRightInfo {
+	border:1px solid #d3ccc3;
+	padding:10px;
+}
+.cssClassClientFileManager .cssClassFileManagerRightInfo #divFileHeader {
+	background-color:#e5e0d8;
+	font:bold 11px Arial, Helvetica, sans-serif;
+	padding:5px;
+}
+.cssClassClientFileManager ul.cssClassHeader {
+	background-color:#e8d4a0;
+	overflow:hidden;
+}
+.cssClassClientFileManager ul.cssClassHeader li{
+	background-color:#e8d4a0;
+	float:left;
+	min-width:115px;
+	padding:0 0 0 5px;
+	font:bold 11px/22px Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------ADMIN POPUP------------------------------------*/
+.cssClassAdminFileManager .cssClassFileManagerRightInfo{ width:723px;}
+.cssClassClientFileManager ul.simplePagerNav li a {
+	background-color: #c5a95d;
+	color: #FFFFFF;
+	font: bold 11px/20px Arial;
+	margin-right: 2px;
+	padding: 2px 6px;
+	text-align: center;
+	text-decoration: none;
+}
+.cssClassClientFileManager ul.simplePagerNav li a:hover, .cssClassClientFileManager ul.simplePagerNav li.currentPage a {
+	background-color: #a59362;
+	color: #FFFFFF;
+	font: bold 11px/20px Arial;
+	margin-right: 2px;
+	padding: 2px 6px;
+	text-align: center;
+	text-decoration: none;
+}
+.cssClassAdminFileManager .cssClassFormHeading, h2.cssClassFormHeading {
+	border:none;
+}
+.cssClassAdminFileManager ul li {
+	list-style:none;
+}
+.cssClassAdminFileManager .cssClassFormWrapper {/*
+	border:1px solid #9ABDCA;*/
+	background-color:#fff;
+}
+.cssClassAdminFileManager .cssClassFormWrapper .cssClassDivControls {
+}
+.cssClassAdminFileManager .cssClassFormWrapper .cssClassDivControls ul li {
+	float:left;
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #97cee3;*/
+	margin:0 0 0 14px;
+}
+.cssClassAdminFileManager .cssClassFormWrapper .cssClassDivControls ul li span {
+	float:left;
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border:1px solid #fff;*/
+	background-color:#534737;
+	min-height:4px;
+	padding:2px 5px;
+	font:bold 11px/22px Arial, Helvetica, sans-serif;
+	color:#fff;
+}
+.cssClassAdminFileManager .cssClassFormWrapper .cssClassDivControls ul li:hover span {
+	cursor:pointer; background-color:#735b3b;/*
+	-moz-box-shadow: 0 0 5px #2b6479;
+	-webkit-box-shadow: 0 0 5px #2b6479;
+	box-shadow:  0 0 5px #2b6479;*/
+}
+.cssClassAdminFileManager .cssClassFormWrapper .cssClassDivControls ul li.upload {
+	margin:0;
+}
+.cssClassAdminFileManager .cssClassFormWrapper .cssClassDivControls ul li span img {
+	float:left;
+	padding:0 10px 0 0;
+}
+.cssClassAdminFileManager .cssClassFormWrapper .cssClassFileManagerSearch {
+	overflow:hidden;
+	margin:60px 0 0 0;
+	background-color:#F1E7D9;
+	padding:3px;
+}
+.cssClassAdminFileManager .cssClassFormWrapper .cssClassFileManagerSearch span.address input {
+	font:11px/18px Arial, Helvetica, sans-serif;
+	color:#000;
+	padding:3px;
+	width:250px;
+	height:17px;
+	background-color:#fff;
+	/*border:1px solid #5dabc8;*/
+	margin:0 0 0 10px;
+}
+.cssClassAdminFileManager .cssClassFormWrapper .cssClassFileManagerSearch span.search input {
+	font:11px/18px Arial, Helvetica, sans-serif;
+	color:#000;
+	padding:3px;
+	width:160px;
+	height:17px;
+	background-color:#fff;
+	/*border:1px solid #5dabc8;*/
+	margin:0 0 0 10px;
+}
+.cssClassAdminFileManager .cssClassFormWrapper .cssClassFileManagerSearch span.pager select.cssClassDropDown {
+	width:40px;/*
+	border:1px solid #5dabc8;*/
+	background-color:#fff;
+	color:#666;
+}
+.cssClassAdminFileManager .cssClassFileManagerMidContent {
+	margin:20px 0 0 0;
+	color:#333;
+}
+.cssClassAdminFileManager .cssClassFileManagerFileTree {
+	background-color:#F1E7D9;
+	border:1px solid #CBBBA5;
+}
+.cssClassAdminFileManager .cssClassFileManagerRightInfo {
+	border:1px solid #CBBBA5;
+}
+.cssClassAdminFileManager .cssClassFileManagerRightInfo #divFileHeader {
+	background-color:#6CACC4;
+	font:bold 11px Arial, Helvetica, sans-serif;
+	padding:5px;
+	color:#fff;
+}
+.cssClassAdminFileManager #divBottomControls {
+	background-color:#fff;
+	height:20px;
+	padding:5px;
+	border:1px solid #ACD2E2;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+.cssClassAdminFileManager #divBottomControls li.control {
+	float:left;
+	cursor:pointer;
+	background:none;
+	text-align:center;
+	margin:0 0 0 24px;
+	width:auto;
+}
+.cssClassAdminFileManager .simplePagerContainer {
+	border: 1px solid #6CACC4;
+}
+.cssClassAdminFileManager ul.simplePagerNav {
+	list-style:none;
+	float:right;
+	margin-top:0px;
+}
+.cssClassAdminFileManager ul.simplePagerNav li {
+	float:left;
+}
+.cssClassAdminFileManager ul.simplePagerNav li a {
+	background-color: #0082B5;
+	color: #FFFFFF;
+	font: bold 11px/20px Arial;
+	margin-right: 2px;
+	padding: 2px 6px;
+	text-align: center;
+	text-decoration: none;
+}
+.cssClassAdminFileManager ul.simplePagerNav li a:hover, .cssClassAdminFileManager ul.simplePagerNav li.currentPage a {
+	background-color: #3FB8E7;
+	color: #FFFFFF;
+	font: bold 11px/20px Arial;
+	margin-right: 2px;
+	padding: 2px 6px;
+	text-align: center;
+	text-decoration: none;
+}
+.cssClassAdminFileManager #divPermissions {
+	border: 1px solid #ACD2E2;
+}
+.cssClassAdminFileManager #spnAddress {/*
+	border: 1px solid #ACD2E2;*/
+}
+#divUsers{ margin:20px 0 0 0;}
+
+.cssClassAddress
+{
+}
+.cssClassIsFolderEnabled {
+    width: 65px;
+}
+.cssClassAdminFileManager .cssClassFileManagerFileTree UL.jqueryFileTree LI { background:none;}

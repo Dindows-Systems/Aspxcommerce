@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkCopyrightResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkCopyrightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSMTPEnableSSLResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSMTPEnableSSLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkUseCustomErrorMessagesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkUseCustomErrorMessagesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkUseFriendlyUrlsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkUseFriendlyUrlsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlHostPortalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTemplateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbRestartResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbRestartResource1.ToolTip" xml:space="preserve">
+    <value>Restart Application</value>
+  </data>
+  <data name="imbSaveResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSaveResource1.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblAdvancedSettingsHelpResource1.Text" xml:space="preserve">
+    <value>Enter advanced settings for your Hosting Account</value>
+  </data>
+  <data name="lblAdvancedSettingsHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvanceSettingResource1.Text" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="lblAdvanceSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblASPDotNetIdentiyResource1.Text" xml:space="preserve">
+    <value>ASP.NET Identity:</value>
+  </data>
+  <data name="lblASPDotNetIdentiyResource1.ToolTip" xml:space="preserve">
+    <value>The Windows user account under which the application is running. This is the account which needs to be granted folder permissions on the server.</value>
+  </data>
+  <data name="lblBasicSettingResource1.Text" xml:space="preserve">
+    <value>Basic Setting</value>
+  </data>
+  <data name="lblBasicSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasicSettingsHelpResource1.Text" xml:space="preserve">
+    <value>Enter basic settings for your Hosting Account</value>
+  </data>
+  <data name="lblBasicSettingsHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCopyrightResource1.Text" xml:space="preserve">
+    <value>Show Copyright Credits?</value>
+  </data>
+  <data name="lblCopyrightResource1.ToolTip" xml:space="preserve">
+    <value>Select this to add the SageFrame copyright credits to the Page Source</value>
+  </data>
+  <data name="lblDataProviderResource1.Text" xml:space="preserve">
+    <value>Data Provider:</value>
+  </data>
+  <data name="lblDataProviderResource1.ToolTip" xml:space="preserve">
+    <value>The provider name which is identified as the default data provider in the web.config file</value>
+  </data>
+  <data name="lblDotNetFrameWorkResource1.Text" xml:space="preserve">
+    <value>.Net Framework:</value>
+  </data>
+  <data name="lblDotNetFrameWorkResource1.ToolTip" xml:space="preserve">
+    <value>The .NET Framework version which the application is running on - specified through IIS</value>
+  </data>
+  <data name="lblErrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileExtensionsResource1.Text" xml:space="preserve">
+    <value>Allowable File Extensions:</value>
+  </data>
+  <data name="lblFileExtensionsResource1.ToolTip" xml:space="preserve">
+    <value>Enter the allowable file extensions (separated by commas)</value>
+  </data>
+  <data name="lblGUIDResource1.Text" xml:space="preserve">
+    <value>GUID:</value>
+  </data>
+  <data name="lblGUIDResource1.ToolTip" xml:space="preserve">
+    <value>The globally unique identifier which can be used to identify this application.</value>
+  </data>
+  <data name="lblHelpUrlResource1.Text" xml:space="preserve">
+    <value>Help URL:</value>
+  </data>
+  <data name="lblHelpUrlResource1.ToolTip" xml:space="preserve">
+    <value>Enter the URL for the Online Help you will be providing. If you leave the entry blank then no Online Help will be offered for the Admin/Host areas of SageFrame.</value>
+  </data>
+  <data name="lblHostEmailResource1.Text" xml:space="preserve">
+    <value>Site Email:</value>
+  </data>
+  <data name="lblHostEmailResource1.ToolTip" xml:space="preserve">
+    <value>Enter a support email adress for your Hosting Account</value>
+  </data>
+  <data name="lblHostPortalResource1.Text" xml:space="preserve">
+    <value>Default Portal:</value>
+  </data>
+  <data name="lblHostPortalResource1.ToolTip" xml:space="preserve">
+    <value>Select the default portal</value>
+  </data>
+  <data name="lblHostTitleResource1.Text" xml:space="preserve">
+    <value>Site Title:</value>
+  </data>
+  <data name="lblHostTitleResource1.ToolTip" xml:space="preserve">
+    <value>Enter the name of your Hosting Account</value>
+  </data>
+  <data name="lblHostUrlResource1.Text" xml:space="preserve">
+    <value>Site Url:</value>
+  </data>
+  <data name="lblHostUrlResource1.ToolTip" xml:space="preserve">
+    <value>Enter the url of your Hosting Account</value>
+  </data>
+  <data name="lblIpAddressResource1.Text" xml:space="preserve">
+    <value>IP Address:</value>
+  </data>
+  <data name="lblIpAddressResource1.ToolTip" xml:space="preserve">
+    <value>The IP Address of the Server.</value>
+  </data>
+  <data name="lblMasterSettingManagementResource1.Text" xml:space="preserve">
+    <value>Master Setting Management</value>
+  </data>
+  <data name="lblMasterSettingManagementResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPermissionsResource1.Text" xml:space="preserve">
+    <value>Permissions:</value>
+  </data>
+  <data name="lblPermissionsResource1.ToolTip" xml:space="preserve">
+    <value>The code access permissions available in the hosting environment.</value>
+  </data>
+  <data name="lblPhysicalPathResource1.Text" xml:space="preserve">
+    <value>Physical Path:</value>
+  </data>
+  <data name="lblPhysicalPathResource1.ToolTip" xml:space="preserve">
+    <value>The physical location of the site root on the server.</value>
+  </data>
+  <data name="lblProductResource1.Text" xml:space="preserve">
+    <value>SageFrame Product:</value>
+  </data>
+  <data name="lblProductResource1.ToolTip" xml:space="preserve">
+    <value>The SageFrame application you are running</value>
+  </data>
+  <data name="lblRelativePathResource1.Text" xml:space="preserve">
+    <value>Relative Path:</value>
+  </data>
+  <data name="lblRelativePathResource1.ToolTip" xml:space="preserve">
+    <value>The relative location of the application in relation to the root of the site.</value>
+  </data>
+  <data name="lblRestartResource1.Text" xml:space="preserve">
+    <value>Restart Application</value>
+  </data>
+  <data name="lblRestartResource1.ToolTip" xml:space="preserve">
+    <value>Restart Application</value>
+  </data>
+  <data name="lblSaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblServerNameResource1.Text" xml:space="preserve">
+    <value>Server Name:</value>
+  </data>
+  <data name="lblServerNameResource1.ToolTip" xml:space="preserve">
+    <value>The Name of the Server.</value>
+  </data>
+  <data name="lblServerTimeResource1.Text" xml:space="preserve">
+    <value>Server Time:</value>
+  </data>
+  <data name="lblServerTimeResource1.ToolTip" xml:space="preserve">
+    <value>The current date and time for the web server</value>
+  </data>
+  <data name="lblSMTPAuthenticationResource1.Text" xml:space="preserve">
+    <value>SMTP Authentication:</value>
+  </data>
+  <data name="lblSMTPAuthenticationResource1.ToolTip" xml:space="preserve">
+    <value>Enter the SMTP Server Address. You can also specify an alternate port by adding a colon and the port number (e.g. smtp.googlemail.com:587). Enter the SMTP server name only to use default port number (25)</value>
+  </data>
+  <data name="lblSMTPEmailTestResultResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSMTPEmailTestResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSMTPEnableSSLResource1.Text" xml:space="preserve">
+    <value>SMTP Enable SSL: </value>
+  </data>
+  <data name="lblSMTPEnableSSLResource1.ToolTip" xml:space="preserve">
+    <value>Enter the SMTP Server Address. You can also specify an alternate port by adding a colon and the port number (e.g. smtp.googlemail.com:587). Enter the SMTP server name only to use default port number (25)</value>
+  </data>
+  <data name="lblSMTPServerAndPortResource1.Text" xml:space="preserve">
+    <value>SMTP Server and port:</value>
+  </data>
+  <data name="lblSMTPServerAndPortResource1.ToolTip" xml:space="preserve">
+    <value>Enter the SMTP Server Address. You can also specify an alternate port by adding a colon and the port number (e.g. smtp.googlemail.com:587). Enter the SMTP server name only to use default port number (25)</value>
+  </data>
+  <data name="lblTemplateResource1.Text" xml:space="preserve">
+    <value>Template:</value>
+  </data>
+  <data name="lblTemplateResource1.ToolTip" xml:space="preserve">
+    <value>Select the default template to use for your sites</value>
+  </data>
+  <data name="lblUseCustomErrorMessagesResource1.Text" xml:space="preserve">
+    <value>Use Custom Error Messages?</value>
+  </data>
+  <data name="lblUseCustomErrorMessagesResource1.ToolTip" xml:space="preserve">
+    <value>Select this to use Custom Error Messages</value>
+  </data>
+  <data name="lblUseFriendlyUrlsResource1.Text" xml:space="preserve">
+    <value>Use Friendly Urls?</value>
+  </data>
+  <data name="lblUseFriendlyUrlsResource1.ToolTip" xml:space="preserve">
+    <value>Check to enable search engine friendly urls.</value>
+  </data>
+  <data name="lblVASPDotNetIdentiyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVASPDotNetIdentiyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVDataProviderResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVDataProviderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVDotNetFrameWorkResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVDotNetFrameWorkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVersionResource1.Text" xml:space="preserve">
+    <value>SageFrame Version:</value>
+  </data>
+  <data name="lblVersionResource1.ToolTip" xml:space="preserve">
+    <value>The SageFrame application version you are running</value>
+  </data>
+  <data name="lblVGUIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVGUIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVIpAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVIpAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVPermissionsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVPermissionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVPhysicalPathResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVPhysicalPathResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVProductResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVProductResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVRelativePathResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVRelativePathResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVServerNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVServerNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVServerTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVServerTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVVersionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkTestSMTPResource1.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="lnkTestSMTPResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblSMTPAuthenticationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabAdvanceSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabBasicSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabContainerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFileExtensionsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFileExtensionsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHelpUrlResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHelpUrlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHostEmailResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHostEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHostTitleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHostTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHostUrlResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtHostUrlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSMTPServerAndPortResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSMTPServerAndPortResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

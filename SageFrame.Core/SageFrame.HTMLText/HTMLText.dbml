@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="SageFrame" Class="HTMLTextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.3.26;Initial Catalog=SageFrame;Persist Security Info=True;User ID=sa" SettingsObjectName="SageFrame.HTMLText.Properties.Settings" SettingsPropertyName="SageFrameConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_CheckUserModulePermissionByPermissionKey" Method="sp_CheckUserModulePermissionByPermissionKey">
+    <Parameter Name="PermissionKey" Parameter="permissionKey" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_HtmlCommentAdd" Method="sp_HtmlCommentAdd">
+    <Parameter Name="HTMLCommentID" Parameter="hTMLCommentID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="HTMLTextID" Parameter="hTMLTextID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Comment" Parameter="comment" Type="System.String" DbType="NText" />
+    <Parameter Name="IsApproved" Parameter="isApproved" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_HTMLCommentDeleteByCommentID" Method="sp_HTMLCommentDeleteByCommentID">
+    <Parameter Name="HTMLCommentID" Parameter="hTMLCommentID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DeletedBy" Parameter="deletedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_HtmlCommentGetByHTMLCommentID" Method="sp_HtmlCommentGetByHTMLCommentID">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="HTMLCommentID" Parameter="hTMLCommentID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_HtmlCommentGetByHTMLCommentIDResult">
+      <Column Name="HTMLCommentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HTMLTextID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="IsApproved" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ApprovedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="ApprovedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_HtmlCommentGetByHTMLTextID" Method="sp_HtmlCommentGetByHTMLTextID">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="HTMLTextID" Parameter="hTMLTextID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_HtmlCommentGetByHTMLTextIDResult">
+      <Column Name="HTMLTextID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="IsApproved" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ApprovedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="ApprovedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_HtmlCommentUpdate" Method="sp_HtmlCommentUpdate">
+    <Parameter Name="HTMLCommentID" Parameter="hTMLCommentID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Comment" Parameter="comment" Type="System.String" DbType="NText" />
+    <Parameter Name="IsApproved" Parameter="isApproved" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsModified" Parameter="isModified" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="UpdatedOn" Parameter="updatedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UpdatedBy" Parameter="updatedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_HtmlActiveCommentGetByHTMLTextID" Method="sp_HtmlActiveCommentGetByHTMLTextID">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="HTMLTextID" Parameter="hTMLTextID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_HtmlActiveCommentGetByHTMLTextIDResult">
+      <Column Name="HTMLCommentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HTMLTextID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="IsApproved" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ApprovedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="ApprovedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_HtmlCommentGetAllByHTMLTextID" Method="sp_HtmlCommentGetAllByHTMLTextID">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="HTMLTextID" Parameter="hTMLTextID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_HtmlCommentGetAllByHTMLTextIDResult">
+      <Column Name="HTMLCommentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HTMLTextID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="IsApproved" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ApprovedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="ApprovedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_HtmlTextAdd" Method="sp_HtmlTextAdd">
+    <Parameter Name="HTMLTextID" Parameter="hTMLTextID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Content" Parameter="content" Type="System.String" DbType="NText" />
+    <Parameter Name="CultureName" Parameter="cultureName" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="IsAllowedToComment" Parameter="isAllowedToComment" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsModified" Parameter="isModified" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_HtmlTextUpdate" Method="sp_HtmlTextUpdate">
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Content" Parameter="content" Type="System.String" DbType="NText" />
+    <Parameter Name="CultureName" Parameter="cultureName" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="IsAllowedToComment" Parameter="isAllowedToComment" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsModified" Parameter="isModified" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="UpdatedOn" Parameter="updatedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UpdatedBy" Parameter="updatedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_HtmlTextGetByPortalAndUserModule" Method="sp_HtmlTextGetByPortalAndUserModule">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UsermoduleID" Parameter="usermoduleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CultureName" Parameter="cultureName" Type="System.String" DbType="NVarChar(256)" />
+    <ElementType Name="sp_HtmlTextGetByPortalAndUserModuleResult">
+      <Column Name="HtmlTextID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Content" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="CultureName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsAllowedToComment" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_HtmlTextPageModulesGetByPages" Method="sp_HtmlTextPageModulesGetByPages">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_HtmlTextPageModulesGetByPagesResult">
+      <Column Name="PageModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserModuleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PaneName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ModuleOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CacheTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Alignment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Color" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Border" Type="System.Char" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Visibility" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DisplayTitle" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DisplayPrint" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

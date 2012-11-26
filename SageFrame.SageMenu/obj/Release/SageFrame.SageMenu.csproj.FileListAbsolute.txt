@@ -1,0 +1,191 @@
+E:\!Latest SageASPXCommerce\SageFrame_1_1_Source\sfsource\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+E:\!Latest SageASPXCommerce\SageFrame_1_1_Source\sfsource\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+E:\!Latest SageASPXCommerce\SageFrame_1_1_Source\sfsource\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+E:\!Latest SageASPXCommerce\SageFrame_1_1_Source\sfsource\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+E:\!Latest SageASPXCommerce\SageFrame_1_1_Source\sfsource\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+E:\!Latest SageASPXCommerce\SageFrame_1_1_Source\sfsource\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\!Latest SageASPXCommerce\SageFrame_1_1_Source\sfsource\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+E:\!Latest SageASPXCommerce\SageFrame_1_1_Source\sfsource\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+E:\!Latest SageASPXCommerce\SageFrame_1_1_Source\sfsource\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+E:\!Latest SageASPXCommerce\SageFrame_1_1_Source\sfsource\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+E:\!Latest SageASPXCommerce\SageFrame_1_1_Source\sfsource\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.pdb
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+D:\SageASPXCommerce\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+D:\SageASPXCommerce\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.pdb
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+D:\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+E:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+E:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+E:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+E:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+E:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+E:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+E:\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+E:\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+E:\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+E:\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+E:\liVE\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\bin\Release\SageFrame.Templating.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\bin\Release\SageFrame.Templating.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\bin\Release\SageFrame.Templating.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\bin\Release\SageFrame.Templating.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+F:\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+F:\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+F:\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+F:\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+F:\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+F:\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Templating.dll
+F:\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+F:\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+F:\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Templating.pdb
+F:\AspxCommerceFinal\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+F:\AspxCommerceFinal\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+F:\AspxCommerceFinal\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Templating.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\bin\Release\SageFrame.Templating.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\bin\Release\SageFrame.Templating.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\bin\Release\SageFrame.Templating.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\bin\Release\SageFrame.Templating.dll
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\bin\Release\SageFrame.Templating.pdb
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+D:\AspxCommerceFinalRelease\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\bin\Release\SageFrame.SageMenu.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\bin\Release\SageFrame.Common.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\bin\Release\SageFrame.Core.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\bin\Release\AjaxControlToolkit.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\bin\Release\SageFrame.Templating.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\bin\Release\SageFrame.Core.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\bin\Release\SageFrame.Templating.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.SageMenu\obj\Release\SageFrame.SageMenu.pdb

@@ -1,0 +1,45 @@
+.cssClassLatestItemList .bx-wrapper {
+	padding:0 40px 0 20px !important;
+}
+#divlatestItemsNew li {
+	float: left;
+	width: 220px !important;
+}
+#divlatestItemsNew .cssClassProductsBox {
+	width:auto !important;
+	height:248px !important;
+	overflow:hidden;
+	margin:0px 0 20px 0 !important;
+}
+#divlatestItemsNew {
+}
+.cssClassLatestItemList .bx-window ul {
+	height:260px !important;
+	margin:0px 0 20px 0 !important;
+}
+#divLatestItemTemp {
+	height:260px !important;
+}
+.test {
+	padding:10px 17px 0 43px;
+}
+.bx-prev {
+	left:1% !important;
+}
+.bx-next {
+	right:1% !important;
+}
+.cssClassLatestItemList h2 {
+	background:none !important;
+	color:  #202020 !important
+}
+.cssClassLatestItemList .cssClassDiscountPrice, .cssClassLatestItemList .cssClassProductPriceBox {
+	text-align:center;
+}
+.cssClassLatestItemList .cssClassProductPicture {
+	width:210px !important;
+	min-height:200px;
+}
+
+#divlatestItemsNew h2{
+	padding:0 0 0 10px;}

@@ -1,0 +1,33 @@
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\bin\Debug\SageFrame.Core.dll.config
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\bin\Debug\SageFrame.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\bin\Debug\SageFrame.Core.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\bin\Debug\AjaxControlToolkit.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\bin\Debug\SageFrame.Common.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\bin\Debug\SageFrame.Templating.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\bin\Debug\SageFrame.Common.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\bin\Debug\SageFrame.Templating.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\SageFrame.Core.dll.config
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\SageFrame.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\SageFrame.Core.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\obj\Debug\SageFrame.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Core\obj\Debug\SageFrame.Core.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\SageFrame.Core.dll.config
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\SageFrame.Core.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\SageFrame.Core.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Core\obj\Debug\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Core\obj\Debug\SageFrame.Core.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Core\obj\Debug\SageFrame.Core.pdb
+D:\AspxCommerceFinalRelease\SageFrame\bin\SageFrame.Core.dll.config
+D:\AspxCommerceFinalRelease\SageFrame\bin\SageFrame.Core.dll
+D:\AspxCommerceFinalRelease\SageFrame\bin\SageFrame.Core.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame.Core\obj\Debug\SageFrame.Core.dll
+D:\AspxCommerceFinalRelease\SageFrame.Core\obj\Debug\SageFrame.Core.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\SageFrame.Core.dll.config
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\SageFrame.Core.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\SageFrame.Core.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Core\obj\Debug\SageFrame.Core.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Core\obj\Debug\SageFrame.Core.pdb

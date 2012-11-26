@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="SageFrameIntegration" Class="SiteMapDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DINESH_DOTNET;Initial Catalog=SageFrameIntegration;User ID=sa" SettingsObjectName="SageFrame.Core.Properties.Settings" SettingsPropertyName="SageFrameIntegrationConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_GetSiteMapNodeWithRolesByParentNodeID" Method="sp_GetSiteMapNodeWithRolesByParentNodeID">
+    <Parameter Name="ParentNodeID" Parameter="parentNodeID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetSiteMapNodeWithRolesByParentNodeIDResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(260)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PageRoles" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetSiteMapNodeByParentNodeID" Method="sp_GetSiteMapNodeByParentNodeID">
+    <Parameter Name="ParentNodeID" Parameter="parentNodeID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetSiteMapNodeByParentNodeIDResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(260)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PageRoles" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetAdminSiteMapNodeWithRolesByParentNodeID" Method="sp_GetAdminSiteMapNodeWithRolesByParentNodeID">
+    <Parameter Name="ParentNodeID" Parameter="parentNodeID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetAdminSiteMapNodeWithRolesByParentNodeIDResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(260)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PageRoles" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetFooterSiteMapNodeWithRolesByParentNodeID" Method="sp_GetFooterSiteMapNodeWithRolesByParentNodeID">
+    <Parameter Name="ParentNodeID" Parameter="parentNodeID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetFooterSiteMapNodeWithRolesByParentNodeIDResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(460)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PageRoles" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.usp_GetAllPages" Method="usp_GetAllPages">
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsDeleted" Parameter="isDeleted" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <ElementType Name="usp_GetAllPagesResult">
+      <Column Name="SEOName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>scriptResultGrid2</title>
+</head>
+<body>
+    <div>
+        <div class="cssClassGrid2Box">
+            <div class="cssClassGrid2BoxInfo">
+                <h2>
+                    <a href="${aspxRedirectPath}item/${sku}.aspx">${name}</a></h2>
+                <div class="cssClassGrid2Picture">
+                    <a href="${aspxRedirectPath}item/${sku}.aspx">
+                        <img alt='${alternateText}' class="lazy" data-original='${imagePath}' src='${loaderpath}' title='${name}' />
+                    </a>
+                </div>
+                <div class="cssClassGrid2PriceBox">
+                    <div class="cssClassGrid2Price">
+                        <p class="cssClassGrid2OffPrice">
+                            Price : <span class="cssClassFormatCurrency">${listPrice}</span> <span class="cssClassGrid2RealPrice">
+                                <span class="cssClassFormatCurrency">${price}</span></span>
+                        </p>
+                    </div>
+                    <div class="cssClassAddtoCard_${itemID} cssClassAddtoCard">
+                        <div class="cssClassButtonWrapper">
+                            <a href="#" onclick="AspxCommerce.RootFunction.AddToCartToJSFromTemplate(${itemID},${price},${JSON2.stringify(sku)},${1});">
+                                <span>Add to Cart</span></a>
+                        </div>
+                    </div>
+                    <div class="cssClassclear">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

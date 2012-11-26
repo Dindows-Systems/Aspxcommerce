@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="DineshTest" Class="SessionTrackingDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.3.26;Initial Catalog=DineshTest;User ID=sa" SettingsObjectName="SageFrame.SessionTracking.Properties.Settings" SettingsPropertyName="SageFrameConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_SessionTrackerAdd" Method="sp_SessionTrackerAdd">
+    <Parameter Name="SessionUserHostAddress" Parameter="sessionUserHostAddress" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="SessionUserAgent" Parameter="sessionUserAgent" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="SessionBrowser" Parameter="sessionBrowser" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="SessionCrawler" Parameter="sessionCrawler" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="SessionURL" Parameter="sessionURL" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="SessionVisitCount" Parameter="sessionVisitCount" Type="System.Int32" DbType="Int" />
+    <Parameter Name="SessionOriginalReferrer" Parameter="sessionOriginalReferrer" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="SessionOriginalURL" Parameter="sessionOriginalURL" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

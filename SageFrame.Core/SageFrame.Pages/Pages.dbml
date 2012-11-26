@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="SageFrameFresh" Class="PagesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=SageFrameFresh;User ID=sa" SettingsObjectName="SageFrame.Core.Properties.Settings" SettingsPropertyName="SageFrameFreshConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_PageModulesSortOrderUpdate" Method="sp_PageModulesSortOrderUpdate">
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MoveUp" Parameter="moveUp" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_GetUserModulebyUserModuleIDAndPageID" Method="sp_GetUserModulebyUserModuleIDAndPageID">
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetUserModulebyUserModuleIDAndPageIDResult">
+      <Column Name="FriendlyName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="UserModuleTitle" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="PaneName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Visibility" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetUserModulesByPageID" Method="sp_GetUserModulesByPageID">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetUserModulesByPageIDResult">
+      <Column Name="UserModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ModuleDefID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="InheritView" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AllPages" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PaneName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ModuleOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CacheTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Alignment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Visibility" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ModuleName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="MaxModuleOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MinModuleOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PageSortOrderUpdate" Method="sp_PageSortOrderUpdate">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MoveUp" Parameter="moveUp" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_UserModulesDelete" Method="sp_UserModulesDelete">
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DeletedBy" Parameter="deletedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PageGetByUsername" Method="sp_PageGetByUsername">
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PageGetByUsernameResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SEOName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsShowInFooter" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsRequiredPage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagesAdd" Method="sp_PagesAdd">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="PageOrder" Parameter="pageOrder" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageName" Parameter="pageName" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="IsVisible" Parameter="isVisible" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ParentID" Parameter="parentID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Level" Parameter="level" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IconFile" Parameter="iconFile" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="DisableLink" Parameter="disableLink" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Title" Parameter="title" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="KeyWords" Parameter="keyWords" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Url" Parameter="url" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="TabPath" Parameter="tabPath" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="StartDate" Parameter="startDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="EndDate" Parameter="endDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="RefreshInterval" Parameter="refreshInterval" Type="System.Decimal" DbType="Decimal" />
+    <Parameter Name="PageHeadText" Parameter="pageHeadText" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="IsSecure" Parameter="isSecure" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="SEOName" Parameter="sEOName" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="IsShowInFooter" Parameter="isShowInFooter" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsRequiredPage" Parameter="isRequiredPage" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PagesGetByPortalID" Method="sp_PagesGetByPortalID">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagesGetByPortalIDResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SEOName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsShowInFooter" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsRequiredPage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagesDelete" Method="sp_PagesDelete">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DeletedBy" Parameter="deletedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PagesGetByPageID" Method="sp_PagesGetByPageID">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagesGetByPageIDResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SEOName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsShowInFooter" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsRequiredPage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagesGetByPortalAndInMenuTab" Method="sp_PagesGetByPortalAndInMenuTab">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PagesGetByPortalAndInMenuTabResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SEOName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsShowInFooter" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsRequiredPage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PagesUpdate" Method="sp_PagesUpdate">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageOrder" Parameter="pageOrder" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageName" Parameter="pageName" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="IsVisible" Parameter="isVisible" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ParentID" Parameter="parentID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Level" Parameter="level" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IconFile" Parameter="iconFile" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="DisableLink" Parameter="disableLink" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Title" Parameter="title" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="KeyWords" Parameter="keyWords" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Url" Parameter="url" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="TabPath" Parameter="tabPath" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="StartDate" Parameter="startDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="EndDate" Parameter="endDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="RefreshInterval" Parameter="refreshInterval" Type="System.Decimal" DbType="Decimal" />
+    <Parameter Name="PageHeadText" Parameter="pageHeadText" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="IsSecure" Parameter="isSecure" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsModified" Parameter="isModified" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="UpdatedOn" Parameter="updatedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UpdatedBy" Parameter="updatedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="SEOName" Parameter="sEOName" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="IsShowInFooter" Parameter="isShowInFooter" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsRequiredPage" Parameter="isRequiredPage" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_CheckUnquiePageName" Method="sp_CheckUnquiePageName">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageName" Parameter="pageName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="isEdit" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="pageCount" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PagesUpdateChanges" Method="sp_PagesUpdateChanges">
+    <Parameter Name="PageIDs" Parameter="pageIDs" Type="System.String" DbType="NVarChar(4000)" />
+    <Parameter Name="IsActives" Parameter="isActives" Type="System.String" DbType="NVarChar(4000)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UpdatedBy" Parameter="updatedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PageGetByCustomPrefix" Method="sp_PageGetByCustomPrefix">
+    <Parameter Name="prefix" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsDeleted" Parameter="isDeleted" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="IsVisible" Parameter="isVisible" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsRequiredPage" Parameter="isRequiredPage" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="sp_PageGetByCustomPrefixResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LevelPageName" Type="System.String" DbType="VarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SEOName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MaxPageOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MinPageOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PageGetByParentID" Method="sp_PageGetByParentID">
+    <Parameter Name="ParentID" Parameter="parentID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsVisible" Parameter="isVisible" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsRequiredPage" Parameter="isRequiredPage" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_PageGetByParentIDResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SEOName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsShowInFooter" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsRequiredPage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PageAddBlock" Method="sp_PageAddBlock">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageOrder" Parameter="pageOrder" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageName" Parameter="pageName" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="IsVisible" Parameter="isVisible" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ParentID" Parameter="parentID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IconFile" Parameter="iconFile" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="DisableLink" Parameter="disableLink" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Title" Parameter="title" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="KeyWords" Parameter="keyWords" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Url" Parameter="url" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="StartDate" Parameter="startDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="EndDate" Parameter="endDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="RefreshInterval" Parameter="refreshInterval" Type="System.Decimal" DbType="Decimal" />
+    <Parameter Name="PageHeadText" Parameter="pageHeadText" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="IsSecure" Parameter="isSecure" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="IsShowInFooter" Parameter="isShowInFooter" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsRequiredPage" Parameter="isRequiredPage" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="BeforeID" Parameter="beforeID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AfterID" Parameter="afterID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ViewPermissionRoles" Parameter="viewPermissionRoles" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="EditPermissionRoles" Parameter="editPermissionRoles" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="ViewUsers" Parameter="viewUsers" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="EditUsers" Parameter="editUsers" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="ModuleIDs" Parameter="moduleIDs" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="UserModuleIDs" Parameter="userModuleIDs" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="ModuleTitles" Parameter="moduleTitles" Type="System.String" DbType="NVarChar(4000)" />
+    <Parameter Name="ModulesPanes" Parameter="modulesPanes" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="ModuleAllPages" Parameter="moduleAllPages" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="SameAsPages" Parameter="sameAsPages" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="InheritViewPermissions" Parameter="inheritViewPermissions" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="Positions" Parameter="positions" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="Instances" Parameter="instances" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="ModuleIsActives" Parameter="moduleIsActives" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="InsertedPageID" Parameter="insertedPageID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_UserModuleUpdate" Method="sp_UserModuleUpdate">
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Title" Parameter="title" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="InheritView" Parameter="inheritView" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="PaneName" Parameter="paneName" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="UpdatedBy" Parameter="updatedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="ShowInAllPages" Parameter="showInAllPages" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="OldPaneName" Parameter="oldPaneName" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="IsPaneChanged" Parameter="isPaneChanged" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PagePortalGetByCustomPrefix" Method="sp_PagePortalGetByCustomPrefix">
+    <Parameter Name="prefix" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsDeleted" Parameter="isDeleted" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="IsVisible" Parameter="isVisible" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsRequiredPage" Parameter="isRequiredPage" Type="System.Boolean" DbType="Bit" />
+    <ElementType Name="sp_PagePortalGetByCustomPrefixResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LevelPageName" Type="System.String" DbType="VarChar(25) NOT NULL" CanBeNull="false" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SEOName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MaxPageOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MinPageOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_AdminPageAddBlock" Method="sp_AdminPageAddBlock">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageOrder" Parameter="pageOrder" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageName" Parameter="pageName" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="IsVisible" Parameter="isVisible" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ParentID" Parameter="parentID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IconFile" Parameter="iconFile" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="DisableLink" Parameter="disableLink" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Title" Parameter="title" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="KeyWords" Parameter="keyWords" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Url" Parameter="url" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="StartDate" Parameter="startDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="EndDate" Parameter="endDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="RefreshInterval" Parameter="refreshInterval" Type="System.Decimal" DbType="Decimal" />
+    <Parameter Name="PageHeadText" Parameter="pageHeadText" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="IsSecure" Parameter="isSecure" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="IsShowInFooter" Parameter="isShowInFooter" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsRequiredPage" Parameter="isRequiredPage" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="BeforeID" Parameter="beforeID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AfterID" Parameter="afterID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ViewPermissionRoles" Parameter="viewPermissionRoles" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="EditPermissionRoles" Parameter="editPermissionRoles" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="ViewUsers" Parameter="viewUsers" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="EditUsers" Parameter="editUsers" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="ModuleIDs" Parameter="moduleIDs" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="UserModuleIDs" Parameter="userModuleIDs" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="ModuleTitles" Parameter="moduleTitles" Type="System.String" DbType="NVarChar(4000)" />
+    <Parameter Name="ModulesPanes" Parameter="modulesPanes" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="ModuleAllPages" Parameter="moduleAllPages" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="SameAsPages" Parameter="sameAsPages" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="InheritViewPermissions" Parameter="inheritViewPermissions" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="Positions" Parameter="positions" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="Instances" Parameter="instances" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="ModuleIsActives" Parameter="moduleIsActives" Type="System.String" DbType="VarChar(4000)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="InsertedPageID" Parameter="insertedPageID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PageGetByCustomPrefixAdmin" Method="sp_PageGetByCustomPrefixAdmin">
+    <Parameter Name="prefix" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsDeleted" Parameter="isDeleted" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="IsVisible" Parameter="isVisible" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsRequiredPage" Parameter="isRequiredPage" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_AdminPageGetByParentID" Method="sp_AdminPageGetByParentID">
+    <Parameter Name="ParentID" Parameter="parentID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsVisible" Parameter="isVisible" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsRequiredPage" Parameter="isRequiredPage" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_AdminPageGetByParentIDResult">
+      <Column Name="PageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PageName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsVisible" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ParentID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="[Level]" Member="Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="DisableLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="KeyWords" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Url" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="TabPath" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="RefreshInterval" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="PageHeadText" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="IsSecure" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SEOName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsShowInFooter" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsRequiredPage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetAdminParentPages" Method="sp_GetAdminParentPages">
+    <Parameter Name="prefix" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsDeleted" Parameter="isDeleted" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="IsVisible" Parameter="isVisible" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsRequiredPage" Parameter="isRequiredPage" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.usp_PagesGetPossibleParents" Method="usp_PagesGetPossibleParents">
+    <Parameter Name="prefix" Type="System.String" DbType="NVarChar(10)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsDeleted" Parameter="isDeleted" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="IsVisible" Parameter="isVisible" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsRequiredPage" Parameter="isRequiredPage" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

@@ -1,0 +1,52 @@
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\bin\Release\SageFrame.Ticker.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\bin\Release\SageFrame.Ticker.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\bin\Release\SageFrame.Common.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\bin\Release\SageFrame.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\bin\Release\AjaxControlToolkit.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\bin\Release\SageFrame.Templating.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\bin\Release\SageFrame.Core.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\bin\Release\SageFrame.Common.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\bin\Release\SageFrame.Templating.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\obj\Release\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\obj\Release\SageFrame.Ticker.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Ticker\obj\Release\SageFrame.Ticker.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\bin\Release\SageFrame.Ticker.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\bin\Release\SageFrame.Ticker.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\bin\Release\SageFrame.Common.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\bin\Release\SageFrame.Core.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\bin\Release\AjaxControlToolkit.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\bin\Release\SageFrame.Templating.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\bin\Release\SageFrame.Core.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\bin\Release\SageFrame.Common.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\bin\Release\SageFrame.Templating.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\obj\Release\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\obj\Release\SageFrame.Ticker.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Ticker\obj\Release\SageFrame.Ticker.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\bin\Release\SageFrame.Ticker.dll
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\bin\Release\SageFrame.Ticker.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\bin\Release\SageFrame.Common.dll
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\bin\Release\SageFrame.Core.dll
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\bin\Release\AjaxControlToolkit.dll
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\bin\Release\SageFrame.Templating.dll
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\bin\Release\SageFrame.Core.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\bin\Release\SageFrame.Common.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\bin\Release\SageFrame.Templating.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\obj\Release\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\obj\Release\SageFrame.Ticker.dll
+D:\AspxCommerceFinalRelease\SageFrame.Ticker\obj\Release\SageFrame.Ticker.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\bin\Release\SageFrame.Ticker.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\bin\Release\SageFrame.Ticker.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\bin\Release\SageFrame.Common.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\bin\Release\SageFrame.Core.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\bin\Release\AjaxControlToolkit.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\bin\Release\SageFrame.Templating.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\bin\Release\SageFrame.Core.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\bin\Release\SageFrame.Templating.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\obj\Release\SageFrame.Ticker.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Ticker\obj\Release\SageFrame.Ticker.pdb

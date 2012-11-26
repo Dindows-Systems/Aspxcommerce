@@ -1,0 +1,188 @@
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\SageFrame.FileManager.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\SageFrame.FileManager.pdb
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\SageFrame.Common.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\SageFrame.Core.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\AjaxControlToolkit.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\AjaxControlToolkit.pdb
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\SageFrame.Core.pdb
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\SageFrame.Common.pdb
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\ar\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\cs\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\de\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\es\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\fr\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\he\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\hi\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\it\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\ja\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\ko\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\nl\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\pt\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\ru\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\tr-TR\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\zh-CHS\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\bin\Debug\zh-CHT\AjaxControlToolkit.resources.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\svnfeb13_\sageframe-Beta-01\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\SageFrameLocalization on 192.168.3.27\SageFrame\bin\SageFrame.FileManager.dll
+E:\SageFrameLocalization on 192.168.3.27\SageFrame\bin\SageFrame.FileManager.pdb
+E:\SageFrameLocalization on 192.168.3.27\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameLocalization on 192.168.3.27\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\SageFrameLocalization on 192.168.3.27\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\wwwroot\SageFrameFileManager\SageFrame\bin\SageFrame.FileManager.dll
+D:\wwwroot\SageFrameFileManager\SageFrame\bin\SageFrame.FileManager.pdb
+D:\wwwroot\SageFrameFileManager\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\wwwroot\SageFrameFileManager\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\wwwroot\SageFrameFileManager\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\SageFrameFileMgr\SageFrame\bin\SageFrame.FileManager.dll
+E:\SageFrameFileMgr\SageFrame\bin\SageFrame.FileManager.pdb
+E:\SageFrameFileMgr\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameFileMgr\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\SageFrameFileMgr\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+\\192.168.3.27\SageFrameFileManager\SageFrame\bin\SageFrame.FileManager.dll
+\\192.168.3.27\SageFrameFileManager\SageFrame\bin\SageFrame.FileManager.pdb
+\\192.168.3.27\SageFrameFileManager\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+\\192.168.3.27\SageFrameFileManager\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+\\192.168.3.27\SageFrameFileManager\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\FileManagerWrapUp\SageFrame\bin\SageFrame.FileManager.dll
+E:\FileManagerWrapUp\SageFrame\bin\SageFrame.FileManager.pdb
+E:\FileManagerWrapUp\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\FileManagerWrapUp\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\FileManagerWrapUp\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\FileManagerWrapUp2\SageFrame\bin\SageFrame.FileManager.dll
+E:\FileManagerWrapUp2\SageFrame\bin\SageFrame.FileManager.pdb
+E:\FileManagerWrapUp2\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\FileManagerWrapUp2\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\FileManagerWrapUp2\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\SageFrameIntegrated\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameIntegrated\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\SageFrameIntegrated\SageFrame\bin\SageFrame.FileManager.dll
+E:\SageFrameIntegrated\SageFrame\bin\SageFrame.FileManager.pdb
+E:\SageFrameIntegrated\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\wwwroot\SageFrameIntegrated\SageFrame\bin\SageFrame.FileManager.dll
+D:\wwwroot\SageFrameIntegrated\SageFrame\bin\SageFrame.FileManager.pdb
+D:\wwwroot\SageFrameIntegrated\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\wwwroot\SageFrameIntegrated\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\wwwroot\SageFrameIntegrated\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\SageFrameBetaFreshMay10\SageFrame\bin\SageFrame.FileManager.dll
+E:\SageFrameBetaFreshMay10\SageFrame\bin\SageFrame.FileManager.pdb
+E:\SageFrameBetaFreshMay10\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameBetaFreshMay10\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\SageFrameBetaFreshMay10\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\wwwroot\sageframe_paras\SageFrame\bin\SageFrame.FileManager.dll
+D:\wwwroot\sageframe_paras\SageFrame\bin\SageFrame.FileManager.pdb
+D:\wwwroot\sageframe_paras\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\wwwroot\sageframe_paras\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\wwwroot\sageframe_paras\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source\SageFrame\bin\SageFrame.FileManager.dll
+D:\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source\SageFrame\bin\SageFrame.FileManager.pdb
+D:\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame\bin\SageFrame.FileManager.dll
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame\bin\SageFrame.FileManager.pdb
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\@BrainDigit\SageFrameFinal\SageFrame\bin\SageFrame.FileManager.dll
+E:\@BrainDigit\SageFrameFinal\SageFrame\bin\SageFrame.FileManager.pdb
+E:\@BrainDigit\SageFrameFinal\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\@BrainDigit\SageFrameFinal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\@BrainDigit\SageFrameFinal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame\bin\SageFrame.FileManager.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame\bin\SageFrame.FileManager.pdb
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame\bin\SageFrame.FileManager.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame\bin\SageFrame.FileManager.pdb
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame\bin\SageFrame.FileManager.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame\bin\SageFrame.FileManager.pdb
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\SageASPXCommerce\SageFrame\bin\SageFrame.FileManager.dll
+D:\SageASPXCommerce\SageFrame\bin\SageFrame.FileManager.pdb
+D:\SageASPXCommerce\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\SageASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\SageASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame\bin\SageFrame.FileManager.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame\bin\SageFrame.FileManager.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.dll
+D:\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.pdb
+D:\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.pdb
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.dll
+E:\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.pdb
+E:\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\liVE\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.pdb
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame\bin\SageFrame.FileManager.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame\bin\SageFrame.FileManager.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame\bin\SageFrame.FileManager.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame\bin\SageFrame.FileManager.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame\bin\SageFrame.FileManager.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+F:\AspxCommerceFinal\SageFrame\bin\SageFrame.FileManager.dll
+F:\AspxCommerceFinal\SageFrame\bin\SageFrame.FileManager.pdb
+F:\AspxCommerceFinal\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+F:\AspxCommerceFinal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+F:\AspxCommerceFinal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\SageFrame.FileManager.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\SageFrame.FileManager.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\SageFrame.FileManager.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\SageFrame.FileManager.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+D:\AspxCommerceFinalRelease\SageFrame\bin\SageFrame.FileManager.dll
+D:\AspxCommerceFinalRelease\SageFrame\bin\SageFrame.FileManager.pdb
+D:\AspxCommerceFinalRelease\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+D:\AspxCommerceFinalRelease\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\SageFrame.FileManager.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\SageFrame.FileManager.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.FileManager\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.FileManager\obj\Debug\SageFrame.FileManager.pdb

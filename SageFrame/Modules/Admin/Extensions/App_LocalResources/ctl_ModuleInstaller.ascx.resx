@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CancelButtonResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CancelButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CancelButtonResource2.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CancelButtonResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkAcceptLicenseResource1.Text" xml:space="preserve">
+    <value>Accept License?</value>
+  </data>
+  <data name="chkAcceptLicenseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRepairInstallResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkRepairInstallResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FinishButtonResource1.Text" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="FinishButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAcceptMessageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAcceptMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBrowseFileHelpResource1.Text" xml:space="preserve">
+    <value>Use the browse button to browse your local file system to find the extension package you wish to install, then click Next to continue.</value>
+  </data>
+  <data name="lblBrowseFileHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionResource1.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lblDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailResource1.Text" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="lblEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFriendlyNameDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFriendlyNameDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFriendlyNameResource1.Text" xml:space="preserve">
+    <value>FriendlyName:</value>
+  </data>
+  <data name="lblFriendlyNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHelpResource1.Text" xml:space="preserve">
+    <value>Help for Installing Module</value>
+  </data>
+  <data name="lblHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInstallMessageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInstallMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLicenseDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLicenseDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLicenseResource1.Text" xml:space="preserve">
+    <value>License:</value>
+  </data>
+  <data name="lblLicenseResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLoadMessageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLoadMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNameResource1.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="lblNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrganizationDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrganizationDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrganizationResource1.Text" xml:space="preserve">
+    <value>Organization:</value>
+  </data>
+  <data name="lblOrganizationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOwnerDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOwnerDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOwnerResource1.Text" xml:space="preserve">
+    <value>Owner:</value>
+  </data>
+  <data name="lblOwnerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPackageTypeDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPackageTypeDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPackageTypeResource1.Text" xml:space="preserve">
+    <value>PackageType:</value>
+  </data>
+  <data name="lblPackageTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReleaseNotesDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReleaseNotesDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReleaseNotesResource1.Text" xml:space="preserve">
+    <value>ReleaseNotes:</value>
+  </data>
+  <data name="lblReleaseNotesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepairInstallHelpResource1.Text" xml:space="preserve">
+    <value>Repair Install the previous installed Module overwrite all database and files contents.</value>
+  </data>
+  <data name="lblRepairInstallHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleResource1.Text" xml:space="preserve">
+    <value>Install Module</value>
+  </data>
+  <data name="lblTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUrlDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUrlDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUrlResource1.Text" xml:space="preserve">
+    <value>Url:</value>
+  </data>
+  <data name="lblUrlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVersionDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVersionDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVersionResource1.Text" xml:space="preserve">
+    <value>Version:</value>
+  </data>
+  <data name="lblVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWarningMessageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblWarningMessageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Panel1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPackageResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPackageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlReleaseNotesResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlReleaseNotesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRepairResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRepairResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StartNextButtonResource1.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="StartNextButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Step0Resource1.Title" xml:space="preserve">
+    <value>Introduction</value>
+  </data>
+  <data name="Step1Resource1.Title" xml:space="preserve">
+    <value>Warnings</value>
+  </data>
+  <data name="Step2Resource1.Title" xml:space="preserve">
+    <value>PackageInfo</value>
+  </data>
+  <data name="Step3Resource1.Title" xml:space="preserve">
+    <value>ReleaseNotes</value>
+  </data>
+  <data name="Step4Resource1.Title" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="Step5Resource1.Title" xml:space="preserve">
+    <value>InstallResults</value>
+  </data>
+  <data name="StepNextButtonResource1.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="StepNextButtonResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wizInstallResource1.CancelButtonText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="wizInstallResource1.FinishCompleteButtonText" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="wizInstallResource1.FinishPreviousButtonText" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="wizInstallResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="wizInstallResource1.SkipLinkText" xml:space="preserve">
+    <value>Skip Navigation Links.</value>
+  </data>
+  <data name="wizInstallResource1.StartNextButtonText" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="wizInstallResource1.StepNextButtonText" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="wizInstallResource1.StepPreviousButtonText" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="wizInstallResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

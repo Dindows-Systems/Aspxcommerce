@@ -1,0 +1,70 @@
+E:\DotNetProjects\sftemplating\SageFrame.Templating\bin\Debug\SageFrame.Templating.dll
+E:\DotNetProjects\sftemplating\SageFrame.Templating\bin\Debug\SageFrame.Templating.pdb
+E:\DotNetProjects\sftemplating\SageFrame.Templating\bin\Debug\SageFrame.Common.dll
+E:\DotNetProjects\sftemplating\SageFrame.Templating\bin\Debug\SageFrame.Common.pdb
+E:\DotNetProjects\sftemplating\SageFrame.Templating\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\sftemplating\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+E:\DotNetProjects\sftemplating\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+D:\WORKING\AspxCommerceRelease1.0\SageFrame.Templating\obj\Debug\ResolveAssemblyReference.cache
+D:\WORKING\AspxCommerceRelease1.0\SageFrame.Templating\bin\Debug\SageFrame.Templating.dll
+D:\WORKING\AspxCommerceRelease1.0\SageFrame.Templating\bin\Debug\SageFrame.Templating.pdb
+D:\WORKING\AspxCommerceRelease1.0\SageFrame.Templating\bin\Debug\SageFrame.Common.dll
+D:\WORKING\AspxCommerceRelease1.0\SageFrame.Templating\bin\Debug\SageFrame.Common.pdb
+D:\WORKING\AspxCommerceRelease1.0\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+D:\WORKING\AspxCommerceRelease1.0\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+D:\WORKING\AspxCommerceRelease1.0\ASPXJqueryOptimize\SageFrame.Templating\bin\Debug\SageFrame.Templating.dll
+D:\WORKING\AspxCommerceRelease1.0\ASPXJqueryOptimize\SageFrame.Templating\bin\Debug\SageFrame.Templating.pdb
+D:\WORKING\AspxCommerceRelease1.0\ASPXJqueryOptimize\SageFrame.Templating\bin\Debug\SageFrame.Common.dll
+D:\WORKING\AspxCommerceRelease1.0\ASPXJqueryOptimize\SageFrame.Templating\bin\Debug\SageFrame.Common.pdb
+D:\WORKING\AspxCommerceRelease1.0\ASPXJqueryOptimize\SageFrame.Templating\obj\Debug\ResolveAssemblyReference.cache
+D:\WORKING\AspxCommerceRelease1.0\ASPXJqueryOptimize\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+D:\WORKING\AspxCommerceRelease1.0\ASPXJqueryOptimize\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Templating\bin\Debug\SageFrame.Templating.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Templating\bin\Debug\SageFrame.Templating.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Templating\bin\Debug\SageFrame.Common.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Templating\bin\Debug\SageFrame.Common.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Templating\obj\Debug\ResolveAssemblyReference.cache
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Templating\bin\Debug\SageFrame.Templating.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Templating\bin\Debug\SageFrame.Templating.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Templating\bin\Debug\SageFrame.Common.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Templating\bin\Debug\SageFrame.Common.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Templating\obj\Debug\ResolveAssemblyReference.cache
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+F:\AspxCommerceFinal\SageFrame.Templating\bin\Debug\SageFrame.Templating.dll
+F:\AspxCommerceFinal\SageFrame.Templating\bin\Debug\SageFrame.Templating.pdb
+F:\AspxCommerceFinal\SageFrame.Templating\bin\Debug\SageFrame.Common.dll
+F:\AspxCommerceFinal\SageFrame.Templating\bin\Debug\SageFrame.Common.pdb
+F:\AspxCommerceFinal\SageFrame.Templating\obj\Debug\ResolveAssemblyReference.cache
+F:\AspxCommerceFinal\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+F:\AspxCommerceFinal\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Templating\bin\Debug\SageFrame.Templating.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Templating\bin\Debug\SageFrame.Templating.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Templating\bin\Debug\SageFrame.Common.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Templating\bin\Debug\SageFrame.Common.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Templating\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Templating\bin\Debug\SageFrame.Templating.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Templating\bin\Debug\SageFrame.Templating.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Templating\bin\Debug\SageFrame.Common.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Templating\bin\Debug\SageFrame.Common.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Templating\obj\Debug\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Templating\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame.Templating\bin\Debug\SageFrame.Templating.dll
+D:\AspxCommerceFinalRelease\SageFrame.Templating\bin\Debug\SageFrame.Templating.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Templating\bin\Debug\SageFrame.Common.dll
+D:\AspxCommerceFinalRelease\SageFrame.Templating\bin\Debug\SageFrame.Common.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+D:\AspxCommerceFinalRelease\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Templating\bin\Debug\SageFrame.Templating.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Templating\bin\Debug\SageFrame.Templating.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Templating\bin\Debug\SageFrame.Common.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Templating\bin\Debug\SageFrame.Common.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Templating\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Templating\obj\Debug\SageFrame.Templating.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Templating\obj\Debug\SageFrame.Templating.pdb

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="SageFrameWebSite" Class="NewLetterSubscriberDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=BRAINDIGNET;Initial Catalog=SageFrame;Persist Security Info=True;User ID=sa" SettingsObjectName="SageFrame.NewLetterSubscriber.Properties.Settings" SettingsPropertyName="SageFrameConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_NewLetterSubscribersAdd" Method="sp_NewLetterSubscribersAdd">
+    <Parameter Name="NewLetterSubscribersID" Parameter="newLetterSubscribersID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="ClientIP" Parameter="clientIP" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_NewsLetterSettingsUpdate" Method="sp_NewsLetterSettingsUpdate">
+    <Parameter Name="NewsLetterSettingValueID" Parameter="newsLetterSettingValueID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="SettingKey" Parameter="settingKey" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="SettingValue" Parameter="settingValue" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UpdatedBy" Parameter="updatedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

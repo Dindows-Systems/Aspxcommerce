@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>scriptCompactList</title>
+</head>
+<body>
+   <table width="100%" cellpadding="0" cellspacing="0" border="0" class="cssClassCompactList" >
+        <tbody>
+        <tr>
+            <td class="cssClassCLPicture">
+                <a href="${aspxRedirectPath}item/${sku}.aspx">
+                        <img class="lazy" data-original='${imagePath}' src='${loaderpath}' alt='${alternateText}' title='${name}' /></a>
+            </td>
+            <td class="cssClassCLProduct">
+                <p class="cssClassCLProductInfo">
+                    <a href="${aspxRedirectPath}item/${sku}.aspx">${name}</a></p>
+            </td>
+            <td class="cssClassCLProductCode">
+                <p>
+                    ${sku}</p>
+            </td>
+            <td class="cssClassCLPrice">
+                <p >
+                    <span class="cssClassFormatCurrency">${price}</span></p>
+            </td>
+            <td class="cssClassCLAddtoCart">
+                <div class="cssClassAddtoCard_${itemID}">
+                    <div class="cssClassButtonWrapper">
+                        <a href="#" onclick="AspxCommerce.RootFunction.AddToCartToJSFromTemplate(${itemID},${price},${JSON2.stringify(sku)},${1});">
+                            <span>Add to Cart</span></a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

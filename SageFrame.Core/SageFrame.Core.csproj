@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E01DB85D-70F0-4A32-AD9D-9D5CA1771D85}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SageFrame.Core</RootNamespace>
+    <AssemblyName>SageFrame.Core</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\SageFrame\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="AjaxControlToolkit, Version=3.0.30930.28736, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SageFrame\bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.1.271, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\BaseAdministrationUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\IConfigurePaymentMethodModule.cs" />
+    <Compile Include="Controls\SageUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Framework\CoreJS.cs" />
+    <Compile Include="Framework\PageBase.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Framework\SecurityPolicy.cs" />
+    <Compile Include="Framework\ServerController.cs" />
+    <Compile Include="Global.asax.cs" />
+    <Compile Include="Localization\Localization.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SageFrame.DashBoard\DashBoard.designer.cs">
+      <DependentUpon>DashBoard.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.ErrorLog\ErrorLog.designer.cs">
+      <DependentUpon>ErrorLog.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.HTMLText\HTMLContentInfo.cs" />
+    <Compile Include="SageFrame.HTMLText\HTMLController.cs" />
+    <Compile Include="SageFrame.HTMLText\HTMLText.designer.cs">
+      <DependentUpon>HTMLText.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.ListManagement\Controller\ListManagementController.cs" />
+    <Compile Include="SageFrame.ListManagement\ListInfo.cs" />
+    <Compile Include="SageFrame.ListManagement\ListManagement.designer.cs">
+      <DependentUpon>ListManagement.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.LogView\LogView.designer.cs">
+      <DependentUpon>LogView.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.Message\MessageManagement\MailHelper.cs" />
+    <Compile Include="SageFrame.Message\MessageManagement\MessageToken.cs" />
+    <Compile Include="SageFrame.Message\MessageTemplate.designer.cs">
+      <DependentUpon>MessageTemplate.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.Message\MessageTemplateType.designer.cs">
+      <DependentUpon>MessageTemplateType.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.Message\MessageToken.designer.cs">
+      <DependentUpon>MessageToken.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.ModuleControls\ModuleControls.designer.cs">
+      <DependentUpon>ModuleControls.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.Modules\Modules.designer.cs">
+      <DependentUpon>Modules.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.NewLetterSubscriber\NewLetterSubscriber.designer.cs">
+      <DependentUpon>NewLetterSubscriber.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.NewLetterSubscriber\NewsLetterSettingsInfo.cs" />
+    <Compile Include="SageFrame.Packages\Packages.designer.cs">
+      <DependentUpon>Packages.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.PagePermission\PagePermission.designer.cs">
+      <DependentUpon>PagePermission.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.Pages\PageInfo.cs" />
+    <Compile Include="SageFrame.Pages\Pages.cs">
+      <DependentUpon>Pages.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="SageFrame.Pages\Pages.designer.cs">
+      <DependentUpon>Pages.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.Permission\Permission.designer.cs">
+      <DependentUpon>Permission.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.PortalSetting\PortalSetting.designer.cs">
+      <DependentUpon>PortalSetting.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.ProfileManagement\ProfileManagement.designer.cs">
+      <DependentUpon>ProfileManagement.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.ProfileManagement\Profile\ProfilePropertyDefinitionCollection.cs" />
+    <Compile Include="SageFrame.ProfileManagement\Profile\ProfilePropertyDefinitionComparer.cs" />
+    <Compile Include="SageFrame.RolesManagement\RolesManagement.designer.cs">
+      <DependentUpon>RolesManagement.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.Search\SageFrameSearch.cs" />
+    <Compile Include="SageFrame.Search\SageFrameSearchProcedureInfo.cs" />
+    <Compile Include="SageFrame.Search\SageFrameSearchSettingInfo.cs" />
+    <Compile Include="SageFrame.SessionTracking\SessionLog.cs" />
+    <Compile Include="SageFrame.SessionTracking\SessionTracker.cs" />
+    <Compile Include="SageFrame.SessionTracking\SessionTrackerPage.cs" />
+    <Compile Include="SageFrame.SessionTracking\SessionTracking.designer.cs">
+      <DependentUpon>SessionTracking.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.SiteMap\PageMenu.cs" />
+    <Compile Include="SageFrame.SiteMap\SageFrameAdminSiteMap.cs" />
+    <Compile Include="SageFrame.SiteMap\SageFrameSiteMap.cs" />
+    <Compile Include="SageFrame.SiteMap\SageFrameSiteMapAdmin.cs" />
+    <Compile Include="SageFrame.SiteMap\SageFrameSiteMapHelper.cs" />
+    <Compile Include="SageFrame.SiteMap\SageFrameXmlSiteMapProvider.cs" />
+    <Compile Include="SageFrame.SiteMap\SiteMap.designer.cs" />
+    <Compile Include="SageFrame.SiteMap\SiteMap1.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SiteMap.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="SageFrame.Template\Template.designer.cs">
+      <DependentUpon>Template.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.Tracking\SessionLog.designer.cs">
+      <DependentUpon>SessionLog.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.UserManagement\UserManagement.designer.cs">
+      <DependentUpon>UserManagement.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrame.UserManagement\UserManagementController.cs" />
+    <Compile Include="SageFrame.UserManagement\UserManagementProvider.cs" />
+    <Compile Include="SageFrame.UserModules\UserModules.designer.cs">
+      <DependentUpon>UserModules.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SageFrameAJaxEditor.cs" />
+    <Compile Include="SageFrameClass\CaptchaImage.cs" />
+    <Compile Include="SageFrameClass\ErrorHandling.cs" />
+    <Compile Include="SageFrameClass\ImageFile.cs" />
+    <Compile Include="SageFrameClass\PictureManager.cs" />
+    <Compile Include="SageFrameClass\SageFrameEnums.cs" />
+    <Compile Include="SageFrameClass\SageFrameLists.cs" />
+    <Compile Include="SageFrameClass\SageFrameRoute.cs" />
+    <Compile Include="SageFrameClass\SageFrameRouteHandler.cs" />
+    <Compile Include="SageFrameClass\SageFrameWebService.asmx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Services\Installer\Common.Constant.cs" />
+    <Compile Include="Services\Installer\Installer.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services\Installer\ModuleInfo.cs" />
+    <Compile Include="Services\Installer\ZipUtil.cs" />
+    <Compile Include="Services\Minifiers\CssMinifier.cs" />
+    <Compile Include="Services\Minifiers\JsMinifier.cs" />
+    <Compile Include="TemplateManagement\TemplateController.cs" />
+    <Compile Include="TemplateManagement\TemplateDataProvider.cs" />
+    <Compile Include="TemplateManagement\TemplateInfo.cs" />
+    <Compile Include="TemplateManagement\TemplateSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.ErrorLog\ErrorLog.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>ErrorLog.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.DashBoard\DashBoard.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DashBoard.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SageFrame.ErrorLog\ErrorLog.dbml.layout">
+      <DependentUpon>ErrorLog.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.DashBoard\DashBoard.dbml.layout">
+      <DependentUpon>DashBoard.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.HTMLText\HTMLText.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>HTMLText.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.HTMLText\HTMLText.dbml.layout">
+      <DependentUpon>HTMLText.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.ListManagement\ListManagement.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>ListManagement.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.ListManagement\ListManagement.dbml.layout">
+      <DependentUpon>ListManagement.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.LogView\LogView.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>LogView.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.LogView\LogView.dbml.layout">
+      <DependentUpon>LogView.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.Message\MessageTemplate.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>MessageTemplate.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.Message\MessageTemplate.dbml.layout">
+      <DependentUpon>MessageTemplate.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.Message\MessageTemplateType.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>MessageTemplateType.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.Message\MessageTemplateType.dbml.layout">
+      <DependentUpon>MessageTemplateType.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.Message\MessageToken.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>MessageToken.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.Message\MessageToken.dbml.layout">
+      <DependentUpon>MessageToken.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.ModuleControls\ModuleControls.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>ModuleControls.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.ModuleControls\ModuleControls.dbml.layout">
+      <DependentUpon>ModuleControls.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.Modules\Modules.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Modules.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.Modules\Modules.dbml.layout">
+      <DependentUpon>Modules.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.NewLetterSubscriber\NewLetterSubscriber.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>NewLetterSubscriber.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.NewLetterSubscriber\NewLetterSubscriber.dbml.layout">
+      <DependentUpon>NewLetterSubscriber.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.Packages\Packages.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Packages.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.Packages\Packages.dbml.layout">
+      <DependentUpon>Packages.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.PagePermission\PagePermission.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>PagePermission.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.PagePermission\PagePermission.dbml.layout">
+      <DependentUpon>PagePermission.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.Pages\Pages.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Pages.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.Pages\Pages.dbml.layout">
+      <DependentUpon>Pages.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.Permission\Permission.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Permission.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.Permission\Permission.dbml.layout">
+      <DependentUpon>Permission.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.PortalSetting\PortalSetting.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>PortalSetting.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.PortalSetting\PortalSetting.dbml.layout">
+      <DependentUpon>PortalSetting.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.ProfileManagement\ProfileManagement.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>ProfileManagement.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.ProfileManagement\ProfileManagement.dbml.layout">
+      <DependentUpon>ProfileManagement.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.RolesManagement\RolesManagement.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>RolesManagement.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.RolesManagement\RolesManagement.dbml.layout">
+      <DependentUpon>RolesManagement.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.SessionTracking\SessionTracking.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>SessionTracking.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.SessionTracking\SessionTracking.dbml.layout">
+      <DependentUpon>SessionTracking.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.Template\Template.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Template.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.Template\Template.dbml.layout">
+      <DependentUpon>Template.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.Tracking\SessionLog.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>SessionLog.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.Tracking\SessionLog.dbml.layout">
+      <DependentUpon>SessionLog.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.UserManagement\UserManagement.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>UserManagement.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.UserManagement\UserManagement.dbml.layout">
+      <DependentUpon>UserManagement.dbml</DependentUpon>
+    </None>
+    <None Include="SageFrame.UserModules\UserModules.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>UserModules.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.UserModules\UserModules.dbml.layout">
+      <DependentUpon>UserModules.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SageFrame.Common\SageFrame.Common.csproj">
+      <Project>{6AF77849-4E47-4E74-8944-4BDAD509C0A3}</Project>
+      <Name>SageFrame.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SageFrame.Templating\SageFrame.Templating.csproj">
+      <Project>{0548FFEE-28AF-4A67-A41E-4783A38E952C}</Project>
+      <Name>SageFrame.Templating</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.SiteMap\SiteMap.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>SiteMap1.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SageFrame.SiteMap\SiteMap.dbml.layout">
+      <DependentUpon>SiteMap.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

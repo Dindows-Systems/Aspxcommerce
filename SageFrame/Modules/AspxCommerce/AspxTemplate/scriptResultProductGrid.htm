@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>scriptResultProductGrid</title>
+</head>
+<body>
+    <div>
+        <div class="cssClassProductsGridBox">
+            <div class="cssClassProductsGridInfo">
+                <h2>
+                    <a href="${aspxRedirectPath}item/${sku}.aspx">${name}</a></h2>
+                <div class="cssClassProductsGridPicture">
+                    <a href="${aspxRedirectPath}item/${sku}.aspx">
+                        <img class="lazy" data-original='${imagePath}' src='${loaderpath}' alt='${alternateText}' title='${name}' /></a></div>
+                <div class="cssClassProductsGridPriceBox">
+                    <div class="cssClassProductsGridPrice">
+                        <p class="cssClassProductsGridOffPrice">
+                            Price : <span class="cssClassFormatCurrency">${listPrice}</span> <span class="cssClassProductsGridRealPrice">
+                                <span class="cssClassFormatCurrency">${price}</span></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="cssClassButtonWrapper">
+                    <div class="cssClassWishListButton">
+                        <button onclick="AspxCommerce.RootFunction.AddToWishList(${itemID});" id="addWishListProductGrid" type="button">
+                            <span><span><span>+</span>Add to Wishlist</span></span></button>
+                    </div>
+                </div>
+                <div class="cssClassAddtoCard_${itemID} cssClassAddtoCard">
+                    <div class="cssClassButtonWrapper">
+                        <a href="#" onclick="AspxCommerce.RootFunction.AddToCartToJSFromTemplate(${itemID},${price},${JSON2.stringify(sku)},${1});">
+                            <span>Add to Cart</span></a>
+                    </div>
+                </div>
+                <div class="cssClassclear">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

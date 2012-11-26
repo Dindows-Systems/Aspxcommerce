@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="aspxCommerceDemoNov24" Class="MessageTokenDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.3.10;Initial Catalog=aspxCommerceDemoNov24;Persist Security Info=True;User ID=sa" SettingsObjectName="SageFrame.Core.Properties.Settings" SettingsPropertyName="aspxCommerceDemoNov24ConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_GetUserEmail" Method="sp_GetUserEmail">
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetUserEmailResult">
+      <Column Name="Email" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetUserFirstName" Method="sp_GetUserFirstName">
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetUserFirstNameResult">
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetUserLastName" Method="sp_GetUserLastName">
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetUserLastNameResult">
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetUserActivationCode" Method="sp_GetUserActivationCode">
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetUserActivationCodeResult">
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_MessageTemplateTypeTokenListByMessageTemplateType" Method="sp_MessageTemplateTypeTokenListByMessageTemplateType">
+    <Parameter Name="MessageTemplateTypeID" Parameter="messageTemplateTypeID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_MessageTemplateTypeTokenListByMessageTemplateTypeResult">
+      <Column Name="MessageTemplateTypeTokenID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MessageTemplateTypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MessageTokenID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MessageTokenKey" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MessageTokenName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetActivationTokenValue" Method="sp_GetActivationTokenValue">
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetActivationTokenValueResult">
+      <Column Name="[%UserActivationCode%]" Member="_UserActivationCode_" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="[%Username%]" Member="_Username_" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="[%UserFirstName%]" Member="_UserFirstName_" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="[%UserLastName%]" Member="_UserLastName_" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="[%UserEmail%]" Member="_UserEmail_" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetPasswordRecoveryTokenValue" Method="sp_GetPasswordRecoveryTokenValue">
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetPasswordRecoveryTokenValueResult">
+      <Column Name="[%UserActivationCode%]" Member="_UserActivationCode_" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="[%Username%]" Member="_Username_" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="[%UserFirstName%]" Member="_UserFirstName_" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="[%UserLastName%]" Member="_UserLastName_" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="[%UserEmail%]" Member="_UserEmail_" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetActivationSuccessfulTokenValue" Method="sp_GetActivationSuccessfulTokenValue">
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetActivationSuccessfulTokenValueResult">
+      <Column Name="[%UserActivationCode%]" Member="_UserActivationCode_" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="[%Username%]" Member="_Username_" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="[%UserFirstName%]" Member="_UserFirstName_" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="[%UserLastName%]" Member="_UserLastName_" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="[%UserEmail%]" Member="_UserEmail_" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetPasswordRecoverySuccessfulTokenValue" Method="sp_GetPasswordRecoverySuccessfulTokenValue">
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetPasswordRecoverySuccessfulTokenValueResult">
+      <Column Name="[%UserActivationCode%]" Member="_UserActivationCode_" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="[%Username%]" Member="_Username_" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="[%UserFirstName%]" Member="_UserFirstName_" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="[%UserLastName%]" Member="_UserLastName_" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="[%UserEmail%]" Member="_UserEmail_" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

@@ -1,0 +1,623 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="SageFrameFresh" Class="ModulesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=SageFrameFresh;User ID=sa" SettingsObjectName="SageFrame.Core.Properties.Settings" SettingsPropertyName="SageFrameFreshConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.sp_ModulesAdd" Method="sp_ModulesAdd">
+    <Parameter Name="ModuleID" Parameter="moduleID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="ModuleDefID" Parameter="moduleDefID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="PackageType" Parameter="packageType" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="License" Parameter="license" Type="System.String" DbType="NText" />
+    <Parameter Name="Owner" Parameter="owner" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Organization" Parameter="organization" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Url" Parameter="url" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="ReleaseNotes" Parameter="releaseNotes" Type="System.String" DbType="NText" />
+    <Parameter Name="FriendlyName" Parameter="friendlyName" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="NVarChar(2000)" />
+    <Parameter Name="Version" Parameter="version" Type="System.String" DbType="NVarChar(8)" />
+    <Parameter Name="IsPremium" Parameter="isPremium" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsAdmin" Parameter="isAdmin" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="BusinessControllerClass" Parameter="businessControllerClass" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="FolderName" Parameter="folderName" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="ModuleName" Parameter="moduleName" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="SupportedFeatures" Parameter="supportedFeatures" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CompatibleVersions" Parameter="compatibleVersions" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Dependencies" Parameter="dependencies" Type="System.String" DbType="NVarChar(400)" />
+    <Parameter Name="Permissions" Parameter="permissions" Type="System.String" DbType="NVarChar(400)" />
+    <Parameter Name="PackageID" Parameter="packageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_ModulesDelete" Method="sp_ModulesDelete">
+    <Parameter Name="ModuleID" Parameter="moduleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DeletedBy" Parameter="deletedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_ModulesGetByModuleID" Method="sp_ModulesGetByModuleID">
+    <Parameter Name="ModuleID" Parameter="moduleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_ModulesGetByModuleIDResult">
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FriendlyName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="IsPremium" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BusinessControllerClass" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="FolderName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ModuleName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="SupportedFeatures" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompatibleVersions" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Dependencies" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="Permissions" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="PackageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_ModulesGetByPortal" Method="sp_ModulesGetByPortal">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_ModulesGetByPortalResult">
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FriendlyName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="IsPremium" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BusinessControllerClass" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="FolderName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ModuleName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="SupportedFeatures" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompatibleVersions" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Dependencies" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="Permissions" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="PackageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_ModulesGetByPortalID" Method="sp_ModulesGetByPortalID">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_ModulesGetByPortalIDResult">
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FriendlyName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="IsPremium" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BusinessControllerClass" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="FolderName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ModuleName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="SupportedFeatures" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompatibleVersions" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Dependencies" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="Permissions" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="PackageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_ModulesList" Method="sp_ModulesList">
+    <ElementType Name="sp_ModulesListResult">
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FriendlyName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="IsPremium" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BusinessControllerClass" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="FolderName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ModuleName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="SupportedFeatures" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompatibleVersions" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Dependencies" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="Permissions" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="PackageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_ModuleDefinitionsGetByModules" Method="sp_ModuleDefinitionsGetByModules">
+    <Parameter Name="ModuleID" Parameter="moduleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_ModuleDefinitionsGetByModulesResult">
+      <Column Name="ModuleDefID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FriendlyName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DefaultCacheTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_ModulesGetByModuleName" Method="sp_ModulesGetByModuleName">
+    <Parameter Name="ModuleName" Parameter="moduleName" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_ModulesGetByModuleNameResult">
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FriendlyName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="IsPremium" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BusinessControllerClass" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="FolderName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ModuleName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="SupportedFeatures" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompatibleVersions" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Dependencies" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="Permissions" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="PackageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_ModulesGetByUserModuleID" Method="sp_ModulesGetByUserModuleID">
+    <ElementType Name="sp_ModulesGetByUserModuleIDResult">
+      <Column Name="UserModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ModuleDefID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserModuleTitle" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="AllPages" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="InheritViewPermissions" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Header" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Footer" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SEOName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="PageModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserModuleID1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PaneName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ModuleOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CacheTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Alignment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Color" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Border" Type="System.Char" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Visibility" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DisplayTitle" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DisplayPrint" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive1" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted1" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified1" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy1" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy1" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy1" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_UserModulesAdd" Method="sp_UserModulesAdd">
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="ModuleDefID" Parameter="moduleDefID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UserModuleTitle" Parameter="userModuleTitle" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="AllPages" Parameter="allPages" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="InheritViewPermissions" Parameter="inheritViewPermissions" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Header" Parameter="header" Type="System.String" DbType="NText" />
+    <Parameter Name="Footer" Parameter="footer" Type="System.String" DbType="NText" />
+    <Parameter Name="StartDate" Parameter="startDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="EndDate" Parameter="endDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Parameter Name="SEOName" Parameter="sEOName" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PageModulesAdd" Method="sp_PageModulesAdd">
+    <Parameter Name="PageModuleID" Parameter="pageModuleID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PaneName" Parameter="paneName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="ModuleOrder" Parameter="moduleOrder" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CacheTime" Parameter="cacheTime" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Alignment" Parameter="alignment" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Color" Parameter="color" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="Border" Parameter="border" Type="System.Char" DbType="NVarChar(1)" />
+    <Parameter Name="IconFile" Parameter="iconFile" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Visibility" Parameter="visibility" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DisplayTitle" Parameter="displayTitle" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="DisplayPrint" Parameter="displayPrint" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_GetPageModuleOrder" Method="sp_GetPageModuleOrder">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PaneName" Parameter="paneName" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="sp_GetPageModuleOrderResult">
+      <Column Name="PageModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserModuleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PaneName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ModuleOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CacheTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Alignment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Color" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Border" Type="System.Char" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Visibility" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DisplayTitle" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DisplayPrint" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_UpdateUserModuleOrder" Method="sp_UpdateUserModuleOrder">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ModuleOrder" Parameter="moduleOrder" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PaneName" Parameter="paneName" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_GetPagePanes" Method="sp_GetPagePanes">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetPagePanesResult">
+      <Column Name="PaneName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_GetPageModuleByUserModuleIDAndPageID" Method="sp_GetPageModuleByUserModuleIDAndPageID">
+    <Parameter Name="UserModuleID" Parameter="userModuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_GetPageModuleByUserModuleIDAndPageIDResult">
+      <Column Name="PageModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserModuleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PaneName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ModuleOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CacheTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Alignment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Color" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Border" Type="System.Char" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Visibility" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DisplayTitle" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DisplayPrint" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PortalModulesAdd" Method="sp_PortalModulesAdd">
+    <Parameter Name="PortalModuleID" Parameter="portalModuleID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ModuleID" Parameter="moduleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="AddedOn" Parameter="addedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="AddedBy" Parameter="addedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_ModulesRollBack" Method="sp_ModulesRollBack">
+    <Parameter Name="ModuleID" Parameter="moduleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_GetPageModulesByPageID" Method="sp_GetPageModulesByPageID">
+    <Parameter Name="PageID" Parameter="pageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PaneName" Parameter="paneName" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="sp_GetPageModulesByPageIDResult">
+      <Column Name="PageModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserModuleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PaneName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ModuleOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CacheTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Alignment" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Color" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Border" Type="System.Char" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Visibility" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DisplayTitle" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DisplayPrint" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UserModuleID1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ModuleDefID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserModuleTitle" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="AllPages" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="InheritViewPermissions" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Header" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Footer" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="IsActive1" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted1" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified1" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn1" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy1" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy1" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy1" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="SEOName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_ModuleDefinitionsGetByModuleDefID" Method="sp_ModuleDefinitionsGetByModuleDefID">
+    <Parameter Name="ModuleDefID" Parameter="moduleDefID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_ModuleDefinitionsGetByModuleDefIDResult">
+      <Column Name="ModuleDefID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FriendlyName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DefaultCacheTime" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_ModulesUpdate" Method="sp_ModulesUpdate">
+    <Parameter Name="ModuleID" Parameter="moduleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FriendlyName" Parameter="friendlyName" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="NVarChar(2000)" />
+    <Parameter Name="Version" Parameter="version" Type="System.String" DbType="NVarChar(8)" />
+    <Parameter Name="IsPremium" Parameter="isPremium" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsAdmin" Parameter="isAdmin" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="BusinessControllerClass" Parameter="businessControllerClass" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="FolderName" Parameter="folderName" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="ModuleName" Parameter="moduleName" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="SupportedFeatures" Parameter="supportedFeatures" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CompatibleVersions" Parameter="compatibleVersions" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="Dependencies" Parameter="dependencies" Type="System.String" DbType="NVarChar(400)" />
+    <Parameter Name="Permissions" Parameter="permissions" Type="System.String" DbType="NVarChar(400)" />
+    <Parameter Name="PackageID" Parameter="packageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsModified" Parameter="isModified" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="UpdatedOn" Parameter="updatedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UpdatedBy" Parameter="updatedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_CheckUnquieModuleDefName" Method="sp_CheckUnquieModuleDefName">
+    <Parameter Name="ModuleDefID" Parameter="moduleDefID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ModuleDefName" Parameter="moduleDefName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Count" Parameter="count" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_ModuleDefinitionsUpdate" Method="sp_ModuleDefinitionsUpdate">
+    <Parameter Name="ModuleDefID" Parameter="moduleDefID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FriendlyName" Parameter="friendlyName" Type="System.String" DbType="NVarChar(128)" />
+    <Parameter Name="DefaultCacheTime" Parameter="defaultCacheTime" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsModified" Parameter="isModified" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="UpdatedOn" Parameter="updatedOn" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UpdatedBy" Parameter="updatedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PortalsGetAll" Method="sp_PortalsGetAll">
+    <ElementType Name="sp_PortalsGetAllResult">
+      <Column Name="PortalID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="SEOName" Type="System.String" DbType="NChar(100)" CanBeNull="true" />
+      <Column Name="IsParent" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_PortalModulesUpdate" Method="sp_PortalModulesUpdate">
+    <Parameter Name="ModuleIDs" Parameter="moduleIDs" Type="System.String" DbType="NVarChar(4000)" />
+    <Parameter Name="IsActives" Parameter="isActives" Type="System.String" DbType="NVarChar(4000)" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UpdatedBy" Parameter="updatedBy" Type="System.String" DbType="NVarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.sp_PortalModulesGetByPortalID" Method="sp_PortalModulesGetByPortalID">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <ElementType Name="sp_PortalModulesGetByPortalIDResult">
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FriendlyName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="IsPremium" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BusinessControllerClass" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="FolderName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ModuleName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="SupportedFeatures" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompatibleVersions" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Dependencies" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="Permissions" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="PackageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IsPortalModuleActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_CheckEditSettingControlByModuleID" Method="sp_CheckEditSettingControlByModuleID">
+    <Parameter Name="ModuleID" Parameter="moduleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Username" Parameter="username" Type="System.String" DbType="NVarChar(256)" />
+    <ElementType Name="sp_CheckEditSettingControlByModuleIDResult">
+      <Column Name="EditControlCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SettingControlCount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_ModuleControlsGetModuleDefinitionsAndControlTypeByModuleID" Method="sp_ModuleControlsGetModuleDefinitionsAndControlTypeByModuleID">
+    <Parameter Name="ModuleID" Parameter="moduleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ControlType" Parameter="controlType" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_ModuleControlsGetModuleDefinitionsAndControlTypeByModuleIDResult">
+      <Column Name="ModuleControlID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ModuleDefID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ControlKey" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ControlTitle" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ControlSrc" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ControlType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DisplayOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HelpUrl" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="SupportsPartialRendering" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.sp_ModulesGetByPortalIDAdmin" Method="sp_ModulesGetByPortalIDAdmin">
+    <Parameter Name="PortalID" Parameter="portalID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="sp_ModulesGetByPortalIDAdminResult">
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FriendlyName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="IsPremium" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BusinessControllerClass" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="FolderName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ModuleName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="SupportedFeatures" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompatibleVersions" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Dependencies" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="Permissions" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="PackageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.usp_ModuleGetAllExisting" Method="usp_ModuleGetAllExisting">
+    <ElementType Name="usp_ModuleGetAllExistingResult">
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FriendlyName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="NVarChar(8)" CanBeNull="true" />
+      <Column Name="IsPremium" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BusinessControllerClass" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="FolderName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ModuleName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="SupportedFeatures" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CompatibleVersions" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Dependencies" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="Permissions" Type="System.String" DbType="NVarChar(400)" CanBeNull="true" />
+      <Column Name="PackageID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsModified" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="AddedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UpdatedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AddedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="UpdatedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

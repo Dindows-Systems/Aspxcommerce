@@ -1,0 +1,2181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Page Title</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Is Secure?</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Added On</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>Updated On</value>
+  </data>
+  <data name="btnAddAllRoleEditModuleResource1.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="btnAddAllRoleEditModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddAllRoleEditResource1.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="btnAddAllRoleEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddAllRoleViewModuleResource1.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="btnAddAllRoleViewModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddAllRoleViewResource1.Text" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="btnAddAllRoleViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddRoleEditModuleResource1.Text" xml:space="preserve">
+    <value> &gt; </value>
+  </data>
+  <data name="btnAddRoleEditModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddRoleEditResource1.Text" xml:space="preserve">
+    <value> &gt; </value>
+  </data>
+  <data name="btnAddRoleEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddRoleViewModuleResource1.Text" xml:space="preserve">
+    <value> &gt; </value>
+  </data>
+  <data name="btnAddRoleViewModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAddRoleViewResource1.Text" xml:space="preserve">
+    <value> &gt; </value>
+  </data>
+  <data name="btnAddRoleViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemoveAllRoleEditModuleResource1.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="btnRemoveAllRoleEditModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemoveAllRoleEditResource1.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="btnRemoveAllRoleEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemoveAllRoleViewResource1.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="btnRemoveAllRoleViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemoveRoleEditModuleResource1.Text" xml:space="preserve">
+    <value> &lt; </value>
+  </data>
+  <data name="btnRemoveRoleEditModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemoveRoleEditResource1.Text" xml:space="preserve">
+    <value> &lt; </value>
+  </data>
+  <data name="btnRemoveRoleEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemoveRoleViewModuleResource1.Text" xml:space="preserve">
+    <value> &lt; </value>
+  </data>
+  <data name="btnRemoveRoleViewModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemoveRoleViewResource1.Text" xml:space="preserve">
+    <value> &lt; </value>
+  </data>
+  <data name="btnRemoveRoleViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Button1Resource1.Text" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="Button1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboInstancesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboModulesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboPanesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboParentPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboPermissionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboPositionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboPositionTabResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkMenuResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkMenuResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSecureResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkSecureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkShowInAllPagesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkShowInAllPagesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPaneNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSearchEditRoleModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSearchEditRoleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSearchRoleModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSearchRoleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlVisibilityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="fileIconResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvEditUserModuleResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvEditUserModuleResource1.EmptyDataText" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="gdvEditUserModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvEditUsernamesModuleResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvEditUsernamesModuleResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvEditUsernamesModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvEditUsernamesResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvEditUsernamesResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvEditUsernamesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvEditUserResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvEditUserResource1.EmptyDataText" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="gdvEditUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvPageListResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvPageListResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvPageListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvUserModuleResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvUserModuleResource1.EmptyDataText" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="gdvUserModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvUserModulesResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvUserModulesResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvUserModulesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvUserResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvUserResource1.EmptyDataText" xml:space="preserve">
+    <value>User not found</value>
+  </data>
+  <data name="gdvUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvViewUsernamesModuleResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvViewUsernamesModuleResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvViewUsernamesModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvViewUsernamesResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvViewUsernamesResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="gdvViewUsernamesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibAddResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibAddResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibCancelPermissionResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibCancelPermissionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibCancelResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibModuleControlCancelResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibModuleControlCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibModuleControlSaveResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibModuleControlSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibSavePermissionResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibSavePermissionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibSaveResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ibSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbAddModulesResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbAddModulesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbAddUserEditPermissionModuleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbAddUserEditPermissionModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbAddUserEditPermissionResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbAddUserEditPermissionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbAddUserResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbAddUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbAddUserViewPermissionModuleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbAddUserViewPermissionModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbCancelEditModuleResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="imbCancelEditModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbCancelEditResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="imbCancelEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbCancelsResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbCancelsResource1.ToolTip" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="imbCancelViewModuleResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="imbCancelViewModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbCancelViewResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="imbCancelViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDelete2ModuleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDelete2ModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDelete2Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDelete2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDeleteModuleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDeleteModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDeletePageResource1.AlternateText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="imbDeletePageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDeleteResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDeleteResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDeleteResource2.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDeleteResource2.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="imbDeleteUsermoduleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbDeleteUsermoduleResource1.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="imbEditControlResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbEditControlResource1.ToolTip" xml:space="preserve">
+    <value>Edit this PageModule</value>
+  </data>
+  <data name="imbEditPageResource1.AlternateText" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="imbEditPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbEditResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbEditResource1.ToolTip" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="imbEditUserModulePermissionResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbEditUserModulePermissionResource1.ToolTip" xml:space="preserve">
+    <value>Change Module Permission</value>
+  </data>
+  <data name="imbMovePageDownResource1.AlternateText" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="imbMovePageDownResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbMovePageUpResource1.AlternateText" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="imbMovePageUpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbPageSaveResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbPageSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSelectEditUsersModuleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSelectEditUsersModuleResource1.ToolTip" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="imbSelectEditUsersResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSelectEditUsersResource1.ToolTip" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="imbSelectUsersModuleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSelectUsersModuleResource1.ToolTip" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="imbSelectUsersResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSelectUsersResource1.ToolTip" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="imbSettingsControlResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSettingsControlResource1.ToolTip" xml:space="preserve">
+    <value>Change the Settings of this PageModule</value>
+  </data>
+  <data name="imbUpdateResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbUpdateResource1.ToolTip" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="imgAddSelectedEditUsersModule1Resource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAddSelectedEditUsersModule1Resource1.ToolTip" xml:space="preserve">
+    <value>Add all seleted user(s)</value>
+  </data>
+  <data name="imgAddSelectedEditUsersResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAddSelectedEditUsersResource1.ToolTip" xml:space="preserve">
+    <value>Add all seleted user(s)</value>
+  </data>
+  <data name="imgAddSelectedUsersModuleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAddSelectedUsersModuleResource1.ToolTip" xml:space="preserve">
+    <value>Add all seleted user(s)</value>
+  </data>
+  <data name="imgAddSelectedUsersResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgAddSelectedUsersResource1.ToolTip" xml:space="preserve">
+    <value>Add all seleted user(s)</value>
+  </data>
+  <data name="imgbtnCalender1Resource1.AlternateText" xml:space="preserve">
+    <value>Click here to display calendar</value>
+  </data>
+  <data name="imgbtnCalender1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgbtnCalender2Resource1.AlternateText" xml:space="preserve">
+    <value>Click here to display calendar</value>
+  </data>
+  <data name="imgbtnCalender2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgDownResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgDownResource1.ToolTip" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="imgIconResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgIconResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgSearchResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgSearchResource1.ToolTip" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="imgSearchUsersViewModuleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgSearchUsersViewModuleResource1.ToolTip" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="imgUpResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgUpResource1.ToolTip" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="imgUserSearchModuleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgUserSearchModuleResource1.ToolTip" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="imgUserSearchResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgUserSearchResource1.ToolTip" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Label1Resource1.Text" xml:space="preserve">
+    <value>Add all seleted user(s)</value>
+  </data>
+  <data name="Label1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddModuleResource1.Text" xml:space="preserve">
+    <value>Add Module To Page</value>
+  </data>
+  <data name="lblAddModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddModulesResource1.Text" xml:space="preserve">
+    <value>Add New Module</value>
+  </data>
+  <data name="lblAddModulesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddNewUserResource1.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lblAddNewUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddNewUserViewModuleResource1.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lblAddNewUserViewModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddPageResource1.Text" xml:space="preserve">
+    <value>Add Page</value>
+  </data>
+  <data name="lblAddPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddSelectedEditUsersResource1.Text" xml:space="preserve">
+    <value>Add all seleted user(s)</value>
+  </data>
+  <data name="lblAddSelectedEditUsersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddSelectedUsersModuleResource1.Text" xml:space="preserve">
+    <value>Add all seleted user(s)</value>
+  </data>
+  <data name="lblAddSelectedUsersModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddSelectedUsersResource1.Text" xml:space="preserve">
+    <value>Add all seleted user(s)</value>
+  </data>
+  <data name="lblAddSelectedUsersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddUserEditPermissionModuleResource1.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lblAddUserEditPermissionModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAddUserEditPermissionResource1.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lblAddUserEditPermissionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblADSResource1.Text" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="lblADSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvancedSettingsHelpResource1.Text" xml:space="preserve">
+    <value>In this section, you can set up more advanced settings for this page.</value>
+  </data>
+  <data name="lblAdvancedSettingsHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasicSettingsHelpResource1.Text" xml:space="preserve">
+    <value>In this section, you can set up the basic settings for this page</value>
+  </data>
+  <data name="lblBasicSettingsHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCancelPermissionResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblCancelPermissionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCancelResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreatedByResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCreatedByResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDescriptionResource1.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lblDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditEmailDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditEmailDResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditEmailResource1.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lblEditEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditEmailResource2.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lblEditEmailResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditFirstNameDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditFirstNameDResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditFirstNameResource1.Text" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="lblEditFirstNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditFirstNameResource2.Text" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="lblEditFirstNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditLastNameDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditLastNameDResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditLastNameResource1.Text" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="lblEditLastNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditLastNameResource2.Text" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="lblEditLastNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditUsernameDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditUsernameDResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditUsernameModuleResource1.Text" xml:space="preserve">
+    <value>Username: </value>
+  </data>
+  <data name="lblEditUsernameModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditUsernameModuleResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditUsernameResource1.Text" xml:space="preserve">
+    <value>Username: </value>
+  </data>
+  <data name="lblEditUsernameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditUsernameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditUsernameResource3.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="lblEditUsernameResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEditUsernameResource4.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="lblEditUsernameResource4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailDResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailResource1.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lblEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailResource2.Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="lblEmailResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndDateResource1.Text" xml:space="preserve">
+    <value>End Date:</value>
+  </data>
+  <data name="lblEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFirstNameDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFirstNameDResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFirstNameResource1.Text" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="lblFirstNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFirstNameResource2.Text" xml:space="preserve">
+    <value>First name</value>
+  </data>
+  <data name="lblFirstNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIconResource1.Text" xml:space="preserve">
+    <value>Icon:</value>
+  </data>
+  <data name="lblIconResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInheritView1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInheritViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInsertPositionResource1.Text" xml:space="preserve">
+    <value>Insert Page:</value>
+  </data>
+  <data name="lblInsertPositionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInstanceIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInstanceResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInstanceResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsActiveResource1.Text" xml:space="preserve">
+    <value>Is Active</value>
+  </data>
+  <data name="lblIsActiveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblKeywordsResource1.Text" xml:space="preserve">
+    <value>Keywords:</value>
+  </data>
+  <data name="lblKeywordsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastNameDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastNameDResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastNameResource1.Text" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="lblLastNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLastNameResource2.Text" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+  <data name="lblLastNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMaxResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMenuResource1.Text" xml:space="preserve">
+    <value>Is Visibled?</value>
+  </data>
+  <data name="lblMenuResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageEditUserRoleModuleResource1.Text" xml:space="preserve">
+    <value>Edit Permissions</value>
+  </data>
+  <data name="lblMessageEditUserRoleModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageEditUserRoleResource1.Text" xml:space="preserve">
+    <value>Edit Permissions</value>
+  </data>
+  <data name="lblMessageEditUserRoleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageViewModuleUserRoleResource1.Text" xml:space="preserve">
+    <value>View Permissions</value>
+  </data>
+  <data name="lblMessageViewModuleUserRoleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMessageViewUserRoleResource1.Text" xml:space="preserve">
+    <value>View Permissions</value>
+  </data>
+  <data name="lblMessageViewUserRoleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMinResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModuleControlCancelResource1.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lblModuleControlCancelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModuleIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModuleOrderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModuleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModuleTitleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModuleTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPageIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPageManagementResource1.Text" xml:space="preserve">
+    <value>Page Management</value>
+  </data>
+  <data name="lblPageManagementResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPageModulePermissionsHelpModuleResource1.Text" xml:space="preserve">
+    <value>In this section, you can set up the page modules permissions settings for this page</value>
+  </data>
+  <data name="lblPageModulePermissionsHelpModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPageModuleSettingsHelpResource1.Text" xml:space="preserve">
+    <value>In this section, you can add or manage page modules in this page.</value>
+  </data>
+  <data name="lblPageModuleSettingsHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPageNameResource1.Text" xml:space="preserve">
+    <value>Page Name:</value>
+  </data>
+  <data name="lblPageNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPagePermissionsHelpResource1.Text" xml:space="preserve">
+    <value>In this section, you can set up the page permissions settings for this page</value>
+  </data>
+  <data name="lblPagePermissionsHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPageSaveResource1.Text" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="lblPageSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaneName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaneNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaneResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblParentPageResource1.Text" xml:space="preserve">
+    <value>Parent Page:</value>
+  </data>
+  <data name="lblParentPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPBSResource1.Text" xml:space="preserve">
+    <value>Basic Settings</value>
+  </data>
+  <data name="lblPBSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPermissionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPermissionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPMSSResource1.Text" xml:space="preserve">
+    <value>Page Module Settings</value>
+  </data>
+  <data name="lblPMSSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPositionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPositionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPositionResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPPSResource1.Text" xml:space="preserve">
+    <value>Page Permissions Settings</value>
+  </data>
+  <data name="lblPPSResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRefreshIntervalResource1.Text" xml:space="preserve">
+    <value>Refresh Interval (seconds):</value>
+  </data>
+  <data name="lblRefreshIntervalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSavePermissionResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblSavePermissionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchEditUserModuleResource1.Text" xml:space="preserve">
+    <value>Search User:</value>
+  </data>
+  <data name="lblSearchEditUserModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchEditUserResource1.Text" xml:space="preserve">
+    <value>Search User:</value>
+  </data>
+  <data name="lblSearchEditUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchEditUserRoleModuleResource1.Text" xml:space="preserve">
+    <value>Search user in role:</value>
+  </data>
+  <data name="lblSearchEditUserRoleModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchEditUserRoleResource1.Text" xml:space="preserve">
+    <value>Search user in role:</value>
+  </data>
+  <data name="lblSearchEditUserRoleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchUserModuleResource1.Text" xml:space="preserve">
+    <value>Search User:</value>
+  </data>
+  <data name="lblSearchUserModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchUserResource1.Text" xml:space="preserve">
+    <value>Search User:</value>
+  </data>
+  <data name="lblSearchUserResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchUserRoleModuleResource1.Text" xml:space="preserve">
+    <value>Search user in role:</value>
+  </data>
+  <data name="lblSearchUserRoleModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSearchUserRoleResource1.Text" xml:space="preserve">
+    <value>Search user in role:</value>
+  </data>
+  <data name="lblSearchUserRoleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSecureResource1.Text" xml:space="preserve">
+    <value>Secure?</value>
+  </data>
+  <data name="lblSecureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelected1ModuleResource1.Text" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="lblSelected1ModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelected1Resource1.Text" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="lblSelected1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectEditUsersModuleResource1.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lblSelectEditUsersModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectEditUsersResource1.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lblSelectEditUsersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectedResource1.Text" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="lblSelectedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectedRolesModuleResource1.Text" xml:space="preserve">
+    <value>Selected</value>
+  </data>
+  <data name="lblSelectedRolesModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectUsersModuleResource1.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lblSelectUsersModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSelectUsersResource1.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lblSelectUsersResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShowInAllPagesResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblShowInAllPagesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStartDateResource1.Text" xml:space="preserve">
+    <value>Start Date:</value>
+  </data>
+  <data name="lblStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSUModuleModuleResource1.Text" xml:space="preserve">
+    <value>Select Users:</value>
+  </data>
+  <data name="lblSUModuleModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSUResource1.Text" xml:space="preserve">
+    <value>Select Users:</value>
+  </data>
+  <data name="lblSUResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSUSPUTModuleResource1.Text" xml:space="preserve">
+    <value>Select Users:</value>
+  </data>
+  <data name="lblSUSPUTModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSUSPUTResource1.Text" xml:space="preserve">
+    <value>Select Users:</value>
+  </data>
+  <data name="lblSUSPUTResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleResource1.Text" xml:space="preserve">
+    <value>Page Title:</value>
+  </data>
+  <data name="lblTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnselected1ModuleResource1.Text" xml:space="preserve">
+    <value>Unselected</value>
+  </data>
+  <data name="lblUnselected1ModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnselected1Resource1.Text" xml:space="preserve">
+    <value>Unselected</value>
+  </data>
+  <data name="lblUnselected1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnselectedResource1.Text" xml:space="preserve">
+    <value>Unselected</value>
+  </data>
+  <data name="lblUnselectedResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUnselectedRolesModuleResource1.Text" xml:space="preserve">
+    <value>Unselected</value>
+  </data>
+  <data name="lblUnselectedRolesModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUpdatedByResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUpdatedByResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblURLResource1.Text" xml:space="preserve">
+    <value>Link Url:</value>
+  </data>
+  <data name="lblURLResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserModuleIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUsernameDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUsernameDResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUsernameModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUsernameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUsernameResource2.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="lblUsernameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUsernameResource3.Text" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="lblUsernameResource3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblViewUsernameModuleResource1.Text" xml:space="preserve">
+    <value>Username: </value>
+  </data>
+  <data name="lblViewUsernameModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblViewUsernameResource1.Text" xml:space="preserve">
+    <value>Username: </value>
+  </data>
+  <data name="lblViewUsernameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVisibility1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblVisibilityResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>Same As Page</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Page Editors Only</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lnkPageNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstSelectedRolesEditModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstSelectedRolesEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstSelectedRolesViewModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstSelectedRolesViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstUnselectedEditRolesModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstUnselectedEditRolesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstUnselectedViewRolesModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lstUnselectedViewRolesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltErrorIconResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddUsersEditModuleResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddUsersEditModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddUsersEditResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddUsersEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddUsersViewModuleResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddUsersViewModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddUsersViewResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAddUsersViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlModuleControlsResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlModuleControlsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlModulePermissionResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlModulePermissionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlModulesResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlModulesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPageListResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPageListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPageResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlUsersEditModuleResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlUsersEditModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlUsersEditResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlUsersEditResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlUsersViewModuleResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlUsersViewModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlUsersViewResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlUsersViewResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbInsertPositionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvEditUsernameModuleResource1.ErrorMessage" xml:space="preserve">
+    <value>Username is required</value>
+  </data>
+  <data name="rfvEditUsernameModuleResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvEditUsernameModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvEditUsernameResource1.ErrorMessage" xml:space="preserve">
+    <value>Username is required</value>
+  </data>
+  <data name="rfvEditUsernameResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvEditUsernameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvViewUsernameModuleResource1.ErrorMessage" xml:space="preserve">
+    <value>Username is required</value>
+  </data>
+  <data name="rfvViewUsernameModuleResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvViewUsernameModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rfvViewUsernameResource1.ErrorMessage" xml:space="preserve">
+    <value>Username is required</value>
+  </data>
+  <data name="rfvViewUsernameResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="rfvViewUsernameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabContainerManagePagesResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPagePermissionsSettingsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPanelAdvancedSettingsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPanelBasicSettingsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabPanelPageModuleSettingsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource10.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource11.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource12.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource12.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource12.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource13.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource13.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource13.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource14.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource14.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource14.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource15.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource15.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource15.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource16.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource16.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource16.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource17.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource17.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource17.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource18.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource18.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource18.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource19.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource19.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource19.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource2.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource20.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource20.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource20.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource21.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource21.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource21.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource22.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource22.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource22.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource23.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource23.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource23.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource24.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource24.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource24.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource25.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource25.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource25.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource26.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource26.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource26.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource27.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource27.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource27.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource28.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource28.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource28.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource29.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource29.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource29.HeaderText" xml:space="preserve">
+    <value>SNo</value>
+  </data>
+  <data name="TemplateFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource3.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource30.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource30.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource30.HeaderText" xml:space="preserve">
+    <value>PageID</value>
+  </data>
+  <data name="TemplateFieldResource31.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource31.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource31.HeaderText" xml:space="preserve">
+    <value>UserModuleID</value>
+  </data>
+  <data name="TemplateFieldResource32.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource32.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource32.HeaderText" xml:space="preserve">
+    <value>ModuleID</value>
+  </data>
+  <data name="TemplateFieldResource33.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource33.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource33.HeaderText" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="TemplateFieldResource34.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource34.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource34.HeaderText" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="TemplateFieldResource35.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource35.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource35.HeaderText" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="TemplateFieldResource36.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource36.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource36.HeaderText" xml:space="preserve">
+    <value>InstanceID</value>
+  </data>
+  <data name="TemplateFieldResource37.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource37.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource37.HeaderText" xml:space="preserve">
+    <value>InheritView</value>
+  </data>
+  <data name="TemplateFieldResource38.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource38.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource38.HeaderText" xml:space="preserve">
+    <value>Pane</value>
+  </data>
+  <data name="TemplateFieldResource39.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource39.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource39.HeaderText" xml:space="preserve">
+    <value>In All Pages</value>
+  </data>
+  <data name="TemplateFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource4.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource40.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource40.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource40.HeaderText" xml:space="preserve">
+    <value>Is Active?</value>
+  </data>
+  <data name="TemplateFieldResource41.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource41.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource41.HeaderText" xml:space="preserve">
+    <value>ModuleOrder</value>
+  </data>
+  <data name="TemplateFieldResource42.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource42.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource42.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource43.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource43.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource43.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource44.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource44.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource44.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource45.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource45.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource45.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource46.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource46.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource46.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource47.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource47.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource47.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource48.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource48.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource48.HeaderText" xml:space="preserve">
+    <value>Page Name</value>
+  </data>
+  <data name="TemplateFieldResource49.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource49.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource49.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource5.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource50.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource50.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource50.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource51.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource51.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource51.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource52.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource52.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource52.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource6.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource7.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource8.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource9.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescriptionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEditUsernameModuleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEditUsernameModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEditUsernameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEditUsernameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEndDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtKeyWordsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtKeyWordsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtModuleTitleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtModuleTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtModuleTitleResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPageNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPageNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRefreshIntervalResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRefreshIntervalResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchTextModuleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchTextModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchUserTextModuleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchUserTextModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchUserTextResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSearchUserTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStartDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTitleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtViewUsernameModuleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtViewUsernameModuleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtViewUsernameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtViewUsernameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="val2txtEndDateResource1.ErrorMessage" xml:space="preserve">
+    <value>End Date must be greater than Start Date</value>
+  </data>
+  <data name="val2txtEndDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="val2txtEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ValidationSummary1Resource1.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ValidationSummary1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valPageNameResource1.ErrorMessage" xml:space="preserve">
+    <value>Page Name Is Required</value>
+  </data>
+  <data name="valPageNameResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valPageNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valtxtEndDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Invalid End Date!</value>
+  </data>
+  <data name="valtxtEndDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valtxtEndDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valtxtStartDateResource1.ErrorMessage" xml:space="preserve">
+    <value>Invalid Start Date!</value>
+  </data>
+  <data name="valtxtStartDateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valtxtStartDateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

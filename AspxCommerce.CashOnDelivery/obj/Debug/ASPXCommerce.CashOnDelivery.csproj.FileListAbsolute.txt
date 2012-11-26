@@ -1,0 +1,45 @@
+E:\!Test\AspxCommerce\SageFrame\bin\ASPXCommerce.CashOnDelivery.dll
+E:\!Test\AspxCommerce\SageFrame\bin\ASPXCommerce.CashOnDelivery.pdb
+E:\!Test\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Debug\ResolveAssemblyReference.cache
+E:\!Test\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Debug\ASPXCommerce.CashOnDelivery.dll
+E:\!Test\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Debug\ASPXCommerce.CashOnDelivery.pdb
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\SageFrame\bin\ASPXCommerce.CashOnDelivery.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\SageFrame\bin\ASPXCommerce.CashOnDelivery.pdb
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Debug\ResolveAssemblyReference.cache
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Debug\ASPXCommerce.CashOnDelivery.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Debug\ASPXCommerce.CashOnDelivery.pdb
+E:\liVE\!Sep2\AspxCommerce\SageFrame\bin\ASPXCommerce.CashOnDelivery.dll
+E:\liVE\!Sep2\AspxCommerce\SageFrame\bin\ASPXCommerce.CashOnDelivery.pdb
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Debug\ResolveAssemblyReference.cache
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Debug\ASPXCommerce.CashOnDelivery.dll
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Debug\ASPXCommerce.CashOnDelivery.pdb
+D:\oct12\SageFrame\bin\ASPXCommerce.CashOnDelivery.dll
+D:\oct12\SageFrame\bin\ASPXCommerce.CashOnDelivery.pdb
+D:\oct12\ASPXCommerce.CashOnDelivery\obj\Debug\ResolveAssemblyReference.cache
+D:\oct12\ASPXCommerce.CashOnDelivery\obj\Debug\ASPXCommerce.CashOnDelivery.dll
+D:\oct12\ASPXCommerce.CashOnDelivery\obj\Debug\ASPXCommerce.CashOnDelivery.pdb
+D:\ASPXFINAL\SageFrame\bin\ASPXCommerce.CashOnDelivery.dll
+D:\ASPXFINAL\SageFrame\bin\ASPXCommerce.CashOnDelivery.pdb
+D:\ASPXFINAL\ASPXCommerce.CashOnDelivery\obj\Debug\ResolveAssemblyReference.cache
+D:\ASPXFINAL\ASPXCommerce.CashOnDelivery\obj\Debug\ASPXCommerce.CashOnDelivery.dll
+D:\ASPXFINAL\ASPXCommerce.CashOnDelivery\obj\Debug\ASPXCommerce.CashOnDelivery.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\AspxCommerce.CashOnDelivery.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\AspxCommerce.CashOnDelivery.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\AspxCommerce.CashOnDelivery.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\AspxCommerce.CashOnDelivery.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\obj\Debug\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame\bin\AspxCommerce.CashOnDelivery.dll
+D:\AspxCommerceFinalRelease\SageFrame\bin\AspxCommerce.CashOnDelivery.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\AspxCommerce.CashOnDelivery.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\AspxCommerce.CashOnDelivery.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\obj\Debug\AspxCommerce.CashOnDelivery.pdb

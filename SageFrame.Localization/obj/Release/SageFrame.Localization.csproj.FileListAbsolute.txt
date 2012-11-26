@@ -1,0 +1,236 @@
+E:\svnMarch9\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+E:\svnMarch9\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\AjaxControlToolkit.pdb
+E:\svnMarch9\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+E:\svnMarch9\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+E:\svnMarch9\SageFrame.Localization\bin\Release\ar\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\cs\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\de\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\es\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\fr\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\he\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\hi\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\it\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\ja\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\ko\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\nl\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\pt\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\ru\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+E:\svnMarch9\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+E:\svnMarch9\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+E:\svnMarch9\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\AjaxControlToolkit.pdb
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+D:\wwwroot\sageframe_paras\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\AjaxControlToolkit.pdb
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+D:\SageASPXCommerce\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+D:\SageASPXCommerce\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\AjaxControlToolkit.pdb
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\ar\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\cs\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\de\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\es\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\fr\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\he\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\hi\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\it\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\ja\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\ko\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\nl\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\pt\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\ru\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\tr-TR\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\zh-CHS\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\zh-CHT\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+E:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+E:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+E:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+E:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+E:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+E:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+E:\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+E:\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+E:\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+E:\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\bin\Release\SageFrame.Templating.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\bin\Release\SageFrame.Templating.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\bin\Release\SageFrame.Templating.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\bin\Release\SageFrame.Templating.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+F:\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+F:\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+F:\AspxCommerceFinal\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+F:\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+F:\AspxCommerceFinal\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+F:\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Templating.dll
+F:\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+F:\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+F:\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Templating.pdb
+F:\AspxCommerceFinal\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+F:\AspxCommerceFinal\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+F:\AspxCommerceFinal\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Templating.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\bin\Release\SageFrame.Templating.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\bin\Release\SageFrame.Templating.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\bin\Release\SageFrame.Templating.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+D:\AspxCommerceFinalRelease\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\AspxCommerceFinalRelease\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+D:\AspxCommerceFinalRelease\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+D:\AspxCommerceFinalRelease\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+D:\AspxCommerceFinalRelease\SageFrame.Localization\bin\Release\SageFrame.Templating.dll
+D:\AspxCommerceFinalRelease\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Localization\bin\Release\SageFrame.Templating.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+D:\AspxCommerceFinalRelease\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\bin\Release\SageFrame.Localization.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\bin\Release\SageFrame.Localization.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\bin\Release\SageFrame.Common.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\bin\Release\SageFrame.Core.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\bin\Release\AjaxControlToolkit.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\bin\Release\SageFrame.Templating.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\bin\Release\SageFrame.Core.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\bin\Release\SageFrame.Common.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\bin\Release\SageFrame.Templating.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\obj\Release\SageFrame.Localization.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\obj\Release\SageFrame.Localization.pdb

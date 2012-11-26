@@ -1,0 +1,26 @@
+﻿input.cssClassBtn{
+    background-color: #2CA3D2;
+    border: medium none;
+    color: #FFFFFF;
+    display: inline-block;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    margin: 0 0 0 10px;
+    padding: 3px 6px;
+    text-decoration: none;
+    
+}
+input.cssClassBtn:hover{
+    background-color: #2691b9;
+    cursor:pointer;
+   
+}
+#rbMenuTypes
+{
+	overflow:hidden;
+}
+#rbMenuTypes li
+{
+	list-style:none;
+	float:left;
+	margin-right:10px;
+}

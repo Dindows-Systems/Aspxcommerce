@@ -1,0 +1,129 @@
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.CashOnDelivery.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.CashOnDelivery.pdb
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.Core.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\AjaxControlToolkit.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\ICSharpCode.SharpZipLib.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.pdb
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.pdb
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.pdb
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.Core.pdb
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.pdb
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Release\ResolveAssemblyReference.cache
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Release\ASPXCommerce.CashOnDelivery.dll
+E:\!Test\AspxCommerce(Nov13)\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Release\ASPXCommerce.CashOnDelivery.pdb
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.CashOnDelivery.dll
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.CashOnDelivery.pdb
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.Core.dll
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.dll
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.dll
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\AjaxControlToolkit.dll
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.dll
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\ICSharpCode.SharpZipLib.dll
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.dll
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.pdb
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.pdb
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.pdb
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.Core.pdb
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.pdb
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Release\ResolveAssemblyReference.cache
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Release\ASPXCommerce.CashOnDelivery.dll
+E:\liVE\!Sep2\AspxCommerce\ASPXCommerce.CashOnDelivery\obj\Release\ASPXCommerce.CashOnDelivery.pdb
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.CashOnDelivery.dll
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.CashOnDelivery.pdb
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.Core.dll
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.dll
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.dll
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\AjaxControlToolkit.dll
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.dll
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\ICSharpCode.SharpZipLib.dll
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.dll
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.pdb
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.pdb
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.pdb
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\ASPXCommerce.Core.pdb
+D:\oct12\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.pdb
+D:\oct12\ASPXCommerce.CashOnDelivery\obj\Release\ResolveAssemblyReference.cache
+D:\oct12\ASPXCommerce.CashOnDelivery\obj\Release\ASPXCommerce.CashOnDelivery.dll
+D:\oct12\ASPXCommerce.CashOnDelivery\obj\Release\ASPXCommerce.CashOnDelivery.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.CashOnDelivery.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.CashOnDelivery.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\AjaxControlToolkit.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\ICSharpCode.SharpZipLib.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\SageFrame.Templating.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\SageFrame.Templating.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.Core.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\obj\Release\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\ASPXCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.CashOnDelivery.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.CashOnDelivery.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.Core.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\AjaxControlToolkit.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\ICSharpCode.SharpZipLib.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\SageFrame.Templating.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\itextsharp.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\SageFrame.Templating.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.Core.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\obj\Release\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\ASPXCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.CashOnDelivery.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.CashOnDelivery.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.Core.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\AjaxControlToolkit.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\ICSharpCode.SharpZipLib.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\SageFrame.Templating.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\itextsharp.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\SageFrame.Templating.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.Core.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.pdb
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\obj\Release\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.dll
+D:\AspxCommerceFinalRelease\ASPXCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.CashOnDelivery.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.CashOnDelivery.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.Core.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\AjaxControlToolkit.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\CurrencyConverter.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\SageFrame.Templating.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\itextsharp.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\SageFrame.Core.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\SageFrame.Common.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\SageFrame.Templating.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\AspxCommerce.Core.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\bin\SageFrame.Security.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\ASPXCommerce.CashOnDelivery\obj\Release\AspxCommerce.CashOnDelivery.pdb

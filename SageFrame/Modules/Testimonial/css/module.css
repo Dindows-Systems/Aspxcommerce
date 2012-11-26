@@ -1,0 +1,15 @@
+﻿.Testpopupbox {background-color: #fff;-moz-border-radius: 5px;-webkit-border-radius: 5px;-khtml-border-radius: 5px;
+-moz-box-shadow: 0 0 20px #fff;
+-webkit-box-shadow: 0 0 20px #fff;
+box-shadow: 0 0 20px #fff;
+display: none;left: 50%;	padding: 10px;position: fixed;top:50%;width: 550px;z-index: 9999; height:400px; overflow:auto;}
+
+#fade {	display: none;background:#000;position: fixed;left: 0;top: 0;width: 100%;	height: 100%;opacity: .70;z-index: 9000;}
+
+.cssClassTestimonial li, .cssClassSep { padding:5px; border-bottom:1px dashed #ccc;}
+.cssClassImageHolder{float:left; overflow:hidden;border:1px solid #999; padding:2px; background:#fff; margin-right:5px; height:60px;}
+.cssClassImageHolder img{width:85px; }
+.cssClassDate{ display:block;}
+.cssClassTestmonialDetails{padding:5px; background: url("../image/testimonial_quotes.gif") no-repeat scroll 0 5px; clear:both; }
+cssClassTestmonialDetails span{float:right;}
+.cssClassAuthorDate { float:left;}

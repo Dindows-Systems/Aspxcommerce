@@ -1,0 +1,11 @@
+﻿
+#cartBagItemCount {}
+#tblCartListItems img {border: 0;}
+#tblCartListItems tr {list-style-type: none;list-style-position: outside;margin: 0;padding: 0;}
+#tblCartListItems tr {background-color: #CAE0ED;margin: 5px;font-size: 12px;}
+#divShoppingCart.cssClassCommonSideBoxCartTable > a {  border-bottom: 1px solid #306B00; border-radius: 21px 21px 21px 21px; color: #306B00; padding: 3px 12px;}
+#divShoppingCart .cssClassCommonSideBoxCartTable a {color: #538F23;font: bold 12px Arial,Helvetica,sans-serif;padding: 0 10px;}
+#divShoppingCart table tr {background: none repeat scroll 0 0 #CEE5F3;}
+.cssClassCommonSideBoxTable a {color: #306B00;font-family: segoe,Arial,Helvetica,sans-serif;}
+/*#divShoppingCart table { margin-bottom: 10px;}
+/*.cssClassCommonSideBoxCartTable { background: none repeat scroll 0 0 #FFFFFF; padding: 10px;}*/

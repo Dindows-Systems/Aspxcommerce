@@ -1,0 +1,937 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0; padding:0; }
+html, body, ul, li, p, h1, h2, h3, h4, h5, h6, form, dt, dd, dl, input, form, button { margin:0px; padding:0px; }
+body { font:12px/18px Arial, Helvetica, sans-serif; background-color:#fff; color:#3d3d3d; }
+p  { font:12px/18px Arial, Helvetica, sans-serif; color:#3d3d3d; }
+h1 { font: 30px Arial,Helvetica,sans-serif; color:#fff;}
+h2 { font:bold 14px Arial, Helvetica, sans-serif; color:#847156;}
+h3 { font:bold 13px Arial, Helvetica, sans-serif; color:#6a4008;}
+h4, h5, h6 { font:bold 12px Arial, Helvetica, sans-serif; color:#6a4008;}
+ul, li, ol { list-style:none; }
+td{ padding:5px; text-align:left; }
+td, td table{ vertical-align:top; }
+a img { border:none; outline:none; }
+a { text-decoration:none; color:#000;}
+a:hover { color:#666;}
+ a:active, a:focus { outline:none;    }
+.cssClassClear, .Clear, .cssClassclear{ clear:both;}
+.Curve{-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.shadow { -moz-box-shadow: 5px 5px 5px #ccc; -webkit-box-shadow: 5px 5px 5px #ccc; box-shadow: 5px 5px 5px #ccc; }
+.Left{ float:left;}
+.Right{ float:right; }
+.cssClassMarginNone{ margin:0 !important; }
+.cssClassPaddingNone{ padding:0  !important; }
+.cssClassPadding{ padding:10px !important;}
+.cssClassPaddingTop{ padding:15px 0 0 0 !important;}
+.cssClassMargin{ margin:10px !important;}
+.cssClassMarginTop{ margin:15px 0 0 0 !important; }
+table.tdpadding td{ padding:3px 5px;}
+table.tdbordernone td{ border:none;}
+.cssClassOuterMainWrapper{}
+#divHeaderContent{padding:0px 0px;}
+#divadminHeaderContent{	padding:15px 0px;}
+#wrap{min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -51px;width:100%;}
+#main{padding-bottom: 80px;}
+#ctl_CPanelHead1_divadminHeaderContent{	padding:15px 0px;}
+html, body, form {
+height: 100%;
+}
+
+/*-------------------- HEAD WRAPPER START ---------------------*/
+.cssClassHeaderWrapper {clear:both; height:73px; background:url(../images/topwrapper-bg.jpg) repeat-x #392f25;}
+.cssClassHeaderWrapperContent { padding:0 10px;} 
+.cssClassHeaderLeft {float:left; width:260px; position:relative; z-index:5;}
+.cssClassHeaderLeft .cssClassFormWrapper{ position:absolute;}
+.cssClassHeaderLeft .cssClassTopSetting{}
+.cssClassHeaderLeft .cssClassFormWrapper{ position:absolute;}
+.cssClassHeaderCenter{ float:right;  padding:0 0 0 5px; position:relative; z-index:5;}
+.cssClassHeaderCenter .cssClassFormWrapper{ position:absolute;}
+.cssClassHeaderRight {overflow:hidden; z-index:5;}
+
+.cssClassHeaderRight .cssClassFormWrapper{ position:absolute;}
+.adminLogo {float:left;}
+.adminLogo h1{height:41px; background:url(../images/admin/aspxcommerce.png) no-repeat 0 0px; padding:10px 0 0 125px; font-size:1 color:#fff;}
+.adminLogo h1 a { color:#fff;}
+.version{float:right; font:bold 12px/40px Arial, Helvetica, sans-serif; color:#FFF;	}
+
+.cssClassLoginStatusWrapper{ float:right; height:26px; overflow:hidden; }
+.cssClassLoginStatus{height:26px; float:right;}
+.cssClassLoginStatusInfo {height:26px; float:right; padding:0 0 0 5px;}
+.cssClassLoginStatusInfo ul{ overflow:hidden;}
+.cssClassLoginStatusInfo ul li { float:left; padding:0 10px;}
+.cssClassLoginStatusInfo ul li:first-child { background:none;}
+.cssClassLoginStatusInfo ul li, .cssClassRegister_Mid_bg ul li a {font:10px/26px Arial, Helvetica, sans-serif; color:#CC6633; text-decoration:none; }
+.cssClassLoginStatusInfo ul li a:hover { color:#0095cf;}
+
+/*-------------------- SEARCH PAGE (Grid Wrapper) ---------------------*/
+.cssClassSearchGridWrapper tr.cssClassAlternativeOdd{ background-color:#f5f1e6; border:1px solid #dedede; padding:20px; margin:20px 0 0 0;}
+.cssClassSearchGridWrapper tr.cssClassAlternativeOdd:hover{ background-color:#fef3d4; }
+.cssClassSearchGridWrapper tr.cssClassAlternativeOdd td{ padding:10px; }
+.cssClassSearchGridWrapper tr.cssClassAlternativeOdd h2, .cssClassSearchGridWrapper tr.cssClassAlternativeOdd h2 a{ font:bold 14px/18px Arial, Helvetica, sans-serif; color:#ac601a;}
+.cssClassSearchGridWrapper tr.cssClassAlternativeOdd h6{ font:bold 12px/18px Arial, Helvetica, sans-serif; color:#6a4c31; padding:8px 0 0 0;}
+.cssClassSearchGridWrapper tr.cssClassAlternativeOdd p{ font:12px/18px Arial, Helvetica, sans-serif; text-align:justify; color:#925013; padding:8px 0 0 0;}
+.cssClassSearchGridWrapper .cssClassAlternativeOdd span.cssClassUrlLink{ color:#cc6214; padding:8px 0 0 0;}
+.cssClassSearchGridWrapper .cssClassAlternativeOdd span.cssClassUrlLink a{ color:#cc6214;}
+.cssClassSearchGridWrapper .cssClassAlternativeOdd span.cssClassUrlLink a:hover{ text-decoration:underline;}
+.cssClassSearchGridWrapper tr.cssClassAlternativeEven{ background-color:#fff; border:1px solid #dedede; padding:20px; margin:20px 0 0 0;}
+.cssClassSearchGridWrapper tr.cssClassAlternativeEven:hover{ background-color:#e7e7e7; }
+.cssClassSearchGridWrapper tr.cssClassAlternativeEven td{ padding:10px; }
+.cssClassSearchGridWrapper tr.cssClassAlternativeEven h2, .cssClassSearchGridWrapper tr.cssClassAlternativeEven h2 a{ font:bold 14px/18px Arial, Helvetica, sans-serif; color:#ac601a;}
+.cssClassSearchGridWrapper tr.cssClassAlternativeEven h6{ font:bold 12px/18px Arial, Helvetica, sans-serif; color:#6a4c31; padding:8px 0 0 0;}
+.cssClassSearchGridWrapper tr.cssClassAlternativeEven p{ font:12px/18px Arial, Helvetica, sans-serif; text-align:justify; color:#925013; padding:8px 0 0 0;}
+.cssClassSearchGridWrapper .cssClassAlternativeEven span.cssClassUrlLink{ color:#cc6214;}
+.cssClassSearchGridWrapper .cssClassAlternativeEven span.cssClassUrlLink a{ color:#cc6214;}
+.cssClassSearchGridWrapper .cssClassAlternativeEven span.cssClassUrlLink a:hover{ text-decoration:underline;}
+
+/*-------------------- SEARCH PAGE (Total Pages) ---------------------*/
+.cssClassSearchPageNoOfPages span{background-color:#FFAF68; color:#3E2107; font:bold 11px/20px Arial,Helvetica,sans-serif; padding:2px 6px; text-align:center; text-decoration:none;}
+.cssClassSearchPageNoOfPages td a{background-color:#FFCDA0; color:#E66F06; font:bold 11px/20px Arial,Helvetica,sans-serif; padding:2px 6px; text-align:center; text-decoration:none;}
+.cssClassSearchPageNoOfPages td a:hover{text-decoration:none; background-color:#ffaf68; font:bold 11px/20px Arial; 	text-align:center; color:#3e2107; padding:2px 6px 2px 6px;}
+tr.cssClassSearchPageNoOfPages td{ border:2px solid #fae8af;}
+
+/*-------------------- BREAD CRUM WRAPPER START ---------------------*/
+.cssClassBreadCrumWrapper { width:100%; clear:both;}
+.cssClassBreadCrum {padding:2px 10px; font:11px/16px Arial, Helvetica, sans-serif; color:#c36002; margin:0 auto; width:1000px;}
+
+/*-------------------- BODY CONTENT WRAPPER START ---------------------*/
+.cssClassBodyContentWrapper {clear:both; z-index:1;}
+.cssClassBodyContent { padding:0 10px;}
+.cssClassMasterLeft { float:left; width:220px; margin:0 20px 0 0; padding:20px 0 0 0;}
+.cssClassMasterCenter {float:left; width:745px; padding:0 0 0 0; position:relative;}
+.cssClassMasterCenter .cssClassTopSetting{ width:115px; display:block; right:0; top:20px; }
+.cssClassMasterRight {float:right; width:220px;}
+.cssClassMasterWrapperLeftCenter { margin:10px 0 15px; }
+.cssClassMasterWrapperLeftCenter .cssClassMasterRight { display:none;}
+.cssClassMasterWrapperCenterRight { margin:10px 0 15px 0;}
+.cssClassMasterWrapperCenterRight .cssClassMasterLeft {	display:none;}
+.cssClassMasterWrapperCenter .cssClassMasterCenter { float:left; width:100%;}
+.cssClassMasterWrapperCenter .cssClassMasterLeft {display:none;}
+.cssClassMasterWrapperCenter .cssClassMasterRight {display:none;}
+.cssClassmaincontent .cssClassleftPane {display:none;}
+.cssClassMasterWrapperLeftCenterRight .cssClassMasterCenter{ width:525px; float:left; }
+.cssClassMasterCenter .cssClassRightBox{ border:1px solid #F7C306; padding:0; margin:20px 0 0 0;}
+.cssClassMasterCenter .cssClassRightBox_TopBg { background:none; padding:0;  }
+.cssClassMasterCenter .cssClassRightBox_BtnBg { background:none; padding:0; }
+.cssClassMasterCenter .cssClassRightBox_MidBg { background:none; height:1%; }
+.cssClassBodyContent ul{ margin:6px 0 10px 25px;}
+.cssClassBodyContent ul li{ list-style: none;}
+
+/*---------------------------------------HTML MODULE VIEW WRAPPER START FROM HERE----------------------------*/
+.cssClassViewWrraper{}
+
+/*---------------------------------------FULLWIDTH WRAPPER START FROM HERE----------------------------*/
+.cssClassMasterWrapperCenter { margin:10px 0 15px; }
+.cssClassMasterWrapperCenter .master-wrapper-center { width:1000px; }
+.cssClassMasterWrapperCenter .master-wrapper-right { display:none; }
+.cssClassMasterWrapperCenterRight { margin:10px 0 15px 0; overflow:hidden; }
+.cssClassMasterWrapperLeftCenter { margin:10px 0 15px; overflow:hidden; }
+.cssClassMasterWrapperCenterRight .master-wrapper-left { display:none; }
+.UpdateProgress1 { position:relative; z-index:999; }
+.testclass { visibility:visible;}
+#visibletest { visibility:visible; }
+
+/*-------------------- MASTER WRAPPER BOTTOM CONTAINER START ---------------------*/
+.cssClassBottomWrapper {width:100%;	clear:both;}
+.cssClassBottomContent {margin: 0 auto;	width:1000px;}
+
+/*------------------------------ADMIN PART CSS START --------------------------------------------------------------*/
+
+.cssClassAdminControlPanel {background-color:#000;}
+.cssClassAdminControlPanelContent {height:26px; padding:0 10px; border-bottom:1px solid #7a7672;}
+.cssClassAdminBreadCrum li a, .cssClassEditStore{ font:bold 11px/26px Arial, Helvetica, sans-serif; color:#a17338; }
+.cssClassAdminBreadCrum li a:hover, .cssClassEditStore:hover{ color:#000;}
+.cssClassAdminBreadCrum li{ font:bold 11px/26px Arial, Helvetica, sans-serif; color:#000; float:left; background:url(../images/arrow_crumb.png) no-repeat right center; padding:0 12px 0 5px;}
+.cssClassAdminBreadCrum li.first { padding-left:0;}
+.cssClassAdminBreadCrum li.last  { background:none;}
+.cssClassAdministration {float:left; padding:0 0 0 0; width:100px;}
+.cssClassAdministration a {font:bold 11px/26px Arial, Helvetica, sans-serif; color:#fafafa; text-decoration:none;}
+.cssClassAdministration a:hover { color:#fafafa;}
+.cssClassLogout {float:right; padding:0 18px 0 0; width:auto;}
+.cssClassLogout a { font:bold 11px/26px Arial, Helvetica, sans-serif; color:#eab069; text-decoration:none; text-transform:uppercase;}
+.cssClassLogout a:hover { color:#fff;}
+.cssClassHome{ float:left; }
+.cssClassHome img{ margin:4px 10px 0 0;}
+.cssClassadminHome{ float:right; padding:2px 10px 0 0; }
+.cssClassadminHome img, .cssClassHome img{ margin:0 5px 0 0; vertical-align:top; }
+.cssClassadminHome a, .cssClassHome a{ color:#FFF; font:bold 11px/18px Arial, Helvetica, sans-serif; text-decoration:none; cursor:pointer;}
+.cssClassadminHome a:hover, .cssClassHome a:hover{	text-decoration:underline; color:#fff;}
+.loginStatus{float:left; color:#FFF; padding-top:5px;}
+.loginStatus strong{text-transform:capitalize;}
+.loginStatus a{	color:#FFF;}
+.cssClassAdminbread{ padding:5px 0 0 0;}
+.cssClassAdminBreadCrum{ color:#333; padding:0 10px; float:left; clear:both; }
+
+/*--------------------- Top Admin NAGIGATIN --------------------*/
+.cssClassAdminTop{ float:right;}
+.cssClassAdminMenu { float:right; width:140px; height:26px;}
+.cssClassAdminMenu ul {	z-index:9999;}
+.cssClassAdminMenu ul li { float:left; position:relative; z-index:3000; text-align:left; }
+.cssClassAdminMenu ul li:first-child { background:none; margin:0 2px 0 0}
+.cssClassAdminMenu ul li a { color:#e5efff;	text-decoration:none; text-transform:uppercase;	font:bold 11px/26px Arial, Helvetica, sans-serif; padding:0 8px; float:left;}
+.cssClassAdminMenu ul li:hover, .cssClassAdminMenu ul li a.AspNet-Menu-Selected { background:#806b52;	color:#ededed;}
+.cssClassAdminMenu ul li ul {position:absolute !important; top:26px; right:0 !important; width:225px; background:#6b5943 !important; font:11px/24px Arial !important; padding-right:0; z-index:1000;}
+.cssClassAdminMenu ul li:hover ul li a:hover, .cssClassAdminMenu ul li ul li a.AspNet-Menu-Selected { background:#806b52 !important; color:#ededed;}
+.cssClassAdminMenu ul li ul li ul { left:225px;	top:-3px; border:1px solid #a7d7ff;	margin:0 !important;}
+.cssClassAdminMenu ul li ul li {background:#6b5943 !important; width:223px; margin:0 !important;}
+.cssClassAdminMenu li ul li:first-child {}
+.cssClassAdminMenu ul li ul li a { color:#fafafa !important; text-decoration:none; font:bold 11px/26px Arial, Helvetica, sans-serif; float:left;text-transform:capitalize; display:block; width:203px; padding-left:15px !important; border-bottom:1px solid #000000; border-top:1px solid #89745b;}
+.AspNet-Menu-WithChildren .AspNet-Menu-ChildSelected { background-color:#806b52 !important;	color:#ededed;}
+li.AspNet-Menu-WithChildren { float:left !important; position:relative !important;}
+.cssClassAdminMenu ul.AspNet-Menu {	position: relative;	visibility:visible;}
+.cssClassAdminMenu ul.AspNet-Menu li:hover ul ul, ul.AspNet-Menu li.AspNet-Menu-Hover ul ul { visibility: visible !important;}
+.cssClassAdminMenu ul.AspNet-Menu li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li li li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li.AspNet-Menu-Hover ul, .cssClassAdminMenu ul.AspNet-Menu li li.AspNet-Menu-Hover ul, .cssClassAdminMenu ul.AspNet-Menu li li li.AspNet-Menu-Hover ul { visibility: visible;}
+.cssClassAdminMenu .AspNet-Menu-Vertical ul.AspNet-Menu li {width: 100%;}
+.cssClassAdminMenu .AspNet-Menu-Horizontal ul li {width:auto;}
+.cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li li {float: none; right:0; height:26px;}
+.cssClassAdminMenu ul.AspNet-Menu ul { visibility: visible !important;}
+.cssClassAdminMenu ul.AspNet-Menu li:hover ul ul, .cssClassAdminMenu ul.AspNet-Menu li.AspNet-Menu-Hover ul ul { visibility: visible !important;}
+ul.AspNet-Menu li:hover ul, ul.AspNet-Menu li li:hover ul, ul.AspNet-Menu li li li:hover ul, ul.AspNet-Menu li.AspNet-Menu-Hover ul, ul.AspNet-Menu li li.AspNet-Menu-Hover ul, ul.AspNet-Menu li li li.AspNet-Menu-Hover ul {	visibility: visible !important;}
+.cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu ul {	display: none;}
+.cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li:hover ul ul, .cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li:hover ul ul ul, .cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li.AspNet-Menu-Hover ul ul {display: block;}
+.cssClassAdminMenu ul.AspNet-Menu li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li li li:hover ul, .cssClassAdminMenu ul.AspNet-Menu li.AspNet-Menu-Hover ul, .cssClassAdminMenu ul.AspNet-Menu li li.AspNet-Menu-Hover ul {display: block;}
+.cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu li { position:relative !important;}
+.cssClassAdminMenu .AspNet-Menu-Horizontal ul.AspNet-Menu {	z-index:102 !important;}
+.cssClassAdminMenu ul.AspNet-Menu li a, ul.AspNet-Menu li span { height:26px !important;}
+
+/*------------------------------------------------------ POP UP MESSAGE START ------------------------------------------------------ */
+.cssClassSquarePopUpBg { z-index:200; width:100%; display:block; position:fixed; height:100%; 	/* IE 8 */  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; 	/* IE 5-7 */   filter: alpha(opacity=70); 	/* Netscape */   -moz-opacity: 0.7; /* Safari 1.x */
+  -khtml-opacity: 0.7; 	/* Good browsers */   opacity: 0.7; }
+.cssClassSquarePopUpLoadingDiv { position:absolute; left:50%; top:55%; padding:10px; z-index:201; }
+.cssClassSquarePopUpLoadingDivInfo { border:5px solid #00F; padding:10px; background-color:#fcfcfc; }
+.cssClassSquarePopUpLoadingDivInfo p { font:12px/18px Arial, Helvetica, sans-serif; color:#000; text-align:justify; }
+.cssClassSquarePopUpBg input.CssClassSubmitBtn { border:none; outline:none; text-align:center; width:66px; font:bold 11px/22px Arial, Helvetica, sans-serif; height:20px; cursor:pointer; }
+.cssClassSquarePopUpBg input.CssClassSubmitBtn:hover { color:#030303; }
+.cssClassPopUpPage { background:url(../images/admin/popupbg.png) no-repeat; width:217px; height:247px; position:relative; }
+.cssClassPopUpColse { position:absolute; width:25px; height:25px; background:url(../images/admin/popupclose.png) no-repeat; right: 10px; top: 8px; cursor:pointer; }
+.cssClassPopTitle { font:bold 12px/32px Arial, Helvetica, sans-serif; display:block; padding:3px 0 0 20px; text-transform:uppercase; }
+.cssClassPopUp { padding:5px 0 0 18px; background:#fff; }
+.cssClassPopUp select { width:180px; border:1px solid #000; height:163px; }
+.cssClassPopUp .cssClassPopUpMessage { border:none; margin:5px 0 5px 0; font:11px/25px Arial, Helvetica, sans-serif; color:#AA5D02; background:none; }
+.cssClassPopUp .cssClassBtn { padding:0 0 0 30px; }
+.cssClassPopUp .cssClassBtn .cssClassSubmit { border:none; outline:none; text-align:center; width:75px; font:bold 11px/22px Arial, Helvetica, sans-serif; height:24px; cursor:pointer; background-color:#666; }
+.cssClassPopUp .cssClassBtn .cssClassSubmit:hover { color:#fff; }
+.cssClassIframe{ min-height:360px; min-width:400px; max-width:800px; }
+.cssClassScreenShotLabelWidth{ width:80px; }
+
+/*------------------------------------------------------  ADMIN PART CSS START ------------------------------------------------------ */
+.cssClassAdminMidContentBg { background-color:#F9F0D6; border:1px solid #F1DFB7; padding:10px; }
+
+/*------------------------------------------------------  BREAD CRUM WRAPPER START ------------------------------------------------------ */
+.cssClassBreadCrum { padding:2px 10px; font:11px/16px Arial, Helvetica, sans-serif; color:#c36002; }
+.cssClassBreadCrum a { font:bold 11px/18px Arial, Helvetica, sans-serif; color:#ff4200; }
+.cssClassBreadCrum span { padding:0 1px 0 1px; }
+
+/*---------------------------------------COLAPSE WRAPPER START FROM HERE----------------------------*/
+.cssClassCollapseWrapper { height:1%;}
+.cssClassCollapseWrapper .cssClassSectionHeadHeader { overflow:hidden; background-color:#88bfd4; padding:6px 0 3px 10px; border-bottom:1px solid #4e8fa8; border-top:1px solid #b1ddee; 	font:bold 12px/20px Arial, Helvetica, sans-serif; color:#fff;/* text-shadow:0px 1px 0px #73adc3; */}
+.cssClassCollapseWrapper .cssClassSectionHeadHeader:hover { background-color:#6ab0cb; }
+.cssClassCollapseWrapper .cssClassFormWrapper { padding:0; margin:0; border:none; }
+.cssClassCollapseContent { background:#F1F7FF; margin:1px 0 0 0; }
+.cssClassCollapseContent .cssClassHelpTitle { font:bold 12px/30px Arial, Helvetica; color:#da7a24; height:30px; background-color:#FFEAD7; display:block; padding:0 0 0 10px; }
+.cssClassCollapseContent .cssClassFormWrapper{ padding:0 0 15px 0; }
+.cssClassCollapseContent .cssClassFormWrapper .cssClassSelectPadding{ padding:0 0 0 10px; }
+
+/*--------------------- HOST SETTING PAGE --------------------*/
+.cssClassSmtpAddress input{ float:left;}
+.cssClassSmtpAddress.cssClassMailTest { float:left; width:300px; overflow:hidden;}
+.cssClassSmtpAddress .cssClassMailTest a{ float:left; padding:5px 0 0 10px;}
+.cssClassSmtpAddress .cssClassMailTest span{ padding:5px 0 0 10px; float:left;}
+
+/*---------TABEL PROPERTY-----------------*/
+.cssClassTableLeftCol{ width:20%;}
+.cssClassTableRightCol{ width:80%;}
+
+/*---------------MAIN WRAPPER START HERE---------------*/
+#cssClassOuterWrapper{ margin:0 auto; width:100%;}
+#cssClassOuterWrapperMid{}
+
+/*---------------TOP WRAPPER START HERE---------------*/
+.cssClassTopWrapper {}
+.cssClassTopWrapperCotent { height:1%;}
+.cssClassTopWrapperCotent .cssClassTopSetting{ position:absolute; top:64px;  left:0;}
+.cssClassBannerContentInside {  height:258px;}
+
+.cssClassTopWrapper .cssClassAdminPanel{ font:bold 18px/18px Arial, Helvetica, sans-serif; color:#fff; float:left; padding:31px 0 0 10px; }
+.cssClassTopRight{ float:right; padding:0 10px 0 0; text-align:right;}
+.cssClassStatus{ padding:18px 0 0 0; width:auto;}
+.cssClassStatus p{font:11px/18px Arial, Helvetica, sans-serif; color:#edcea5; }
+.cssClassStatus p span{ padding:0 0 0 10px;}
+.cssClassViewStore{ padding:10px 0 0 0; text-align:right;}
+.cssClassViewStore p{}
+.cssClassViewStore p a{ font:bold 11px/18px Arial, Helvetica, sans-serif; color:#f7e9d9;}
+.cssClassViewStore p a:hover{ color:#fff; }
+.cssClassViewStore p span a{ font:11px/20px Arial, Helvetica, sans-serif; color:#edcea5; padding:0 0 0 20px;}
+
+/*---------------NAVIGATION WRAPPER START HERE---------------*/
+.cssClassNavigationWrapper{  background: url("../images/admin/navigation-bg.jpg") #4E3922; width:100%;} 
+.cssClassNavigationWrapper ul { *z-index:1000; position:relative;}
+.cssClassNavigationWrapper li{ background:url(../images/navigation-seperator.jpg) no-repeat 0 1px; float:left; padding:0 4px; }
+.cssClassNavigationWrapper li:first-child a{ margin-right:12px; }
+.cssClassNavigationWrapper li a b{ float: left; display: block; padding: 0 24px 0 8px; }
+.cssClassNavigation {background: url("../images/admin/navigation-bg.jpg") #4E3922; display:inline-block; height:37px;} 
+
+/*---------------BODY CONTENT WRAPPER WRAPPER START HERE---------------*/
+
+.cssClassIndexContent table td, .cssClassIndexContent table{ vertical-align:top;}
+.cssClassIndexContent table td.cssClassSixtyPercent{ width:60%; }
+.cssClassIndexContent table td.cssClassTwentyPercent{ width:20%; }
+
+/*---------------OUTER TAB PANEL WRAPPER START HERE---------------*/
+.cssClassOuterTabMenu{ position:relative; border:1px solid #968266; border-top:none;}
+.cssClassOuterTabPabelMidContent table{ vertical-align:top; }
+
+/*---------------ROUNDED BOX WRAPPER START HERE---------------*/
+.cssClassRoundedBox{ position:relative; border:1px solid #968266; margin:0 0 0 20px;}
+.cssClassRoundedBoxInfo{ padding:6px;}
+.cssClassRoundedBoxInfo h1{ background-color:#cbbba5; padding:5px; font:bold 11px/18px Arial, Helvetica, sans-serif; color:#6a4008; text-shadow:1px 1px 0 #d0d1c7;}
+.cssClassRoundedBoxInfo .cssClassOrderHistory{ overflow:hidden;}
+.cssClassRoundedBoxInfo .cssClassOrderHistory .cssClassTotalItems{ float:left; padding:10px 0 0 0; }
+.cssClassRoundedBoxInfo .cssClassOrderHistory .cssClassTotalAmounts{ float:right; font-weight:bold; padding:10px 0 0 0; }
+
+/*---------------ROUNDED BOX TABLE WRAPPER START HERE---------------*/
+.cssClssRoundedBoxTable {margin:10px 0; padding:5px; width:100%; -moz-border-radius:5px;-webkit-border-radius:5px; border-radius:5px;}
+.cssClssRoundedBoxTable table{  height: auto; 
+    margin-left: 0;
+    width: auto;  border:1px solid #CBBBA5; }
+	
+th, td { border:none;}
+
+.cssClssRoundedBoxTable table td{  border-left:1px solid #968266; padding:0 5px 0 5px; /*white-space:nowrap; */}
+.cssClassNormalHeading{border-bottom:1px solid #968266; font:bold 11px/24px Arial, Helvetica, sans-serif; color:#545454;}
+.cssClassAlternativeOdd{ background-color:#f1e7d9;  color:#101010; text-shadow:1px 1px 0 #fcfbf9;}
+.cssClassAlternativeEven{ background-color:#fff; color:#101010; }
+
+
+/*---------------FOOTER WRAPPER START HERE---------------*/
+.stickFooterWrapper{ position: relative; height: 50px; clear:both; background:#685C4B;	border-top:1px solid #525252;	}
+.stickFooterWrapper .cssClassfooter{ text-align:center; color:#fff; text-shadow:0px 1px 0px #4e4e4e; padding:15px 0 0 0; font-size:12px;}
+.cssClassFooterWrapper{ background-color:#685c4b; height:78px; margin:10px 0 0 0;}
+.cssClassFooterWrapperContent{ margin:0 auto; width:1004px;}
+.cssClassFooterWrapperContent p{ font:11px/78px Arial, Helvetica, sans-serif; color:#fff; text-align:center;}
+.cssClassFooterWrapperContent p a{ color:#fff; text-decoration:underline;}
+.cssClassFooterWrapperContent p a:hover{ text-decoration:none; }
+
+/*---------------SUB PAGE 2 COLUMN START HERE---------------*/
+.cssClassSideBox{ margin:0 20px 0 0;}
+.cssClassSideBox h2{ background:url(../images/left-navigation-headingbg.jpg) repeat-x; font:bold 12px/29px Arial, Helvetica, sans-serif; color:#fff; text-shadow:0 1px 1px #666; padding:0 5px 0 5px;}
+.cssClassSideBoxNavi{ border:1px solid #968266; background-color:#FCF9F5; margin-top:6px;}
+.cssClassSideBoxNavi ul li{ border-top:1px dotted #bcbfa4;}
+.cssClassSideBoxNavi ul li:first-child{ border:none; }
+.cssClassSideBoxNavi ul li a{ font:11px/18px Arial, Helvetica, sans-serif; color:#101010; background:url(../images/left-navigation-link-arrow.jpg) no-repeat 10px 15px; padding:9px 0 5px 25px; display:block; height:1%;}
+.cssClassSideBoxNavi ul li a.cssClassLeftLinkSelected{ background-color:#f1e7d9; font-weight:bold; color:#666;}
+
+/*FIRST SUB MENU*/
+.cssClassSideBoxNavi ul li ul { padding:0; }
+.cssClassSideBoxNavi ul li ul li a{ margin:0 0 0 20px; }
+.cssClassSideBoxNavi ul li ul li a.cssClassLeftLinkSelectedSub{ font-weight:bold;}
+.cssClassSideBoxNavi ul li ul li:first-child{border-top:1px dotted #bcbfa4;}
+.cssClassSideBoxNavi ul li ul li:hover{ background:none; }
+.cssClassSideBoxNavi ul li ul li a:hover{ color:#666; }
+
+/*SECOND SUB MENU*/
+.cssClassSideBoxNavi ul li ul li ul li a{ margin:0 0 0 40px; }
+td.cssClassLeftBox{ width:20%; min-width:230px; vertical-align:top;}
+td.cssClassBodyContentBox{ width:80%; vertical-align:top;}
+.cssClassSubPageMidContent{vertical-align:top;}
+
+/*---------------FORMWRAPPER START HERE---------------*/
+h2.cssClassFormHeading{ background-color:#CBBBA5; padding:8px 0 8px 3px; text-shadow:1px 1px 0 #e4d7c5; color:#806747; margin-bottom:5px;}
+.cssClassFormWrapper { /*border:1px solid #CBBBA5;*/}
+.cssClassFormWrapper h2{ background:none; text-shadow:none; font-size:14px;}
+.cssClassFormWrapper table { margin:0; padding:0; width:100%;}
+/*.cssClassFormWrapper table td {border:none; }*/
+.cssClassFormWrapper table tr td p { color:#9a581d; text-align:left; }
+.cssClassFormWrapper h3{ padding:5px; margin:0 0 5px 0; border-bottom:1px solid #bcbcbc; color:#4b4a4a; font:bold 14px/18px Arial, Helvetica; }
+
+.cssClassFormWrapper .cssClassLabel, .cssClassFormWrapper a.cssClassLabel, span.cssClassFormLabel, label.cssClassFormLabel{ color:#000; }
+span.cssClassFormLabel{ color:#4b4a4a; font-weight:bold; }
+.cssClassFormWrapper input, select, textarea{ border-color:#e9ddce; border-style:solid; border-width:1px; outline:medium none; -webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px; }
+.cssClassFormWrapper input.cssClassNormalTextBox, textarea{ width:300px; padding:3px 5px; font:12px Arial, Helvetica, sans-serif; color:#4b4a4a;}
+.cssClassFormWrapper input.cssClassDisplayOrder{ width:15px; padding:2px 5px; font:12px Arial, Helvetica, sans-serif; color:#4b4a4a;}
+.cssClassFormWrapper input.cssClassVariantValueName{ width:300px; padding:2px 5px; font:12px Arial, Helvetica, sans-serif; color:#4b4a4a;}
+.cssClassFormWrapper input.cssClassTextBoxSmall{ width:60%; font:12px Arial, Helvetica, sans-serif; color:#4b4a4a;padding:4px 5px;}
+.cssClassFormWrapper input.cssClassTextBoxSmall, .cssClassSearchPanel  select { width:90% !important; }
+.cssClassSearchPanel  select { padding:2px 5px;}
+.cssClassFormWrapper  option { padding-left:10px;}
+.cssClassFormWrapper  option:hover { background:#968266 !important; display:block; }
+.cssClassFormWrapper textarea{ border-color:#cdc3b5 #d4cabc #e9ddce; border-style:solid; border-width:1px; outline:medium none;}
+.cssClassFormWrapper textarea.cssClassTextArea{ width:300px; height:100px; padding:0 5px; color:#4b4a4a;}
+.cssClassFormWrapper textarea.cssClassTextArea1{ width:600px;}
+select.cssClassDropDown{ padding:3px 5px; color:#4b4a4a; width:312px;}
+.cssClassFormWrapper select.cssClassDropDown1{ width:200px; height:20px; padding:0px 0 0 5px; color:#4b4a4a;}
+.cssClassFormWrapper select.cssClassMultiSelect{ width:312px; padding:0 5px 0 5px; color:#4b4a4a; margin:10px 0 0 0;}
+
+.cssClassFormWrapper input.cssClassBrowse{ width:230px;}
+.cssClassFormWrapper .cssClassPlus input{ border:none;}
+.cssClassFormWrapper input.cssClassAlternativeTextBox{ width:200px; height:20px; padding:0 5px 0 5px; color:#4b4a4a; margin:10px 0 0 10px;}
+.cssClassFormWrapper input:focus, select:focus, textarea:focus { border-color:#968266; background:#fff;}
+
+.cssClassFormWrapper .cssClassRadioBtn input{ float:left; width:10px; margin:0 5px 0 0;}
+.cssClassFormWrapper .cssClassRadioBtn label{ float:left; font:12px/12px Arial, Helvetica, sans-serif; padding:0 0 0 5px; margin:0 10px 0 0;}
+.cssClassFormWrapper .cssClassCheckBox{ padding:0; width:auto; text-align:center;}
+.cssClassFormWrapper .cssClassCheckBox input{ margin:0 5px; float:left;}
+.cssClassEditWrapper .cssClassFormWrapper .cssClassCheckBox input{ float:none;}
+.cssClassFormWrapper .cssClassCheckBox label{float:left; font:12px/12px Arial, Helvetica, sans-serif; padding:0 0 0 5px; margin:0 10px 0 0;}
+.cssClassFormWrapper .cssClassCheckBox checkbox {border-color:#cdc3b5 #d4cabc #e9ddce; border-style:solid; border-width:1px; margin:10px 0 0 0;}
+.cssClassAttributeIDInput{ width:50px; border-color:#CDC3B5 #D4CABC #E9DDCE; border-style:solid; border-width:1px; }
+.cssClassRequired{ font:12px Arial, Helvetica, sans-serif !important; color:#C33 !important;}
+.cssClassRoundedBoxDetails table td table td span.cssClassLabel{ padding:10px 0 0 5px;}
+
+.cssClassError{ font: normal 11px Arial, Helvetica, sans-serif; color:#bc1d1d;}
+.cssClassRight{ height:13px; width:18px; padding:0 0 0 5px;}
+.cssClassRed{ color: Red; }
+
+
+.cssClassFormWrapper .cssClassFormList { width:150px; }
+
+/*---------------FORM VALIDATION START HERE---------------*/
+.error{ background-color:#ffca85; }
+.errorMsg { display: none;}
+.error INPUT, .error TEXTAREA, .error SELECT { border-width: 2px; border-style: solid; border-color: #ED1C24; background: #FFE6E7; }
+.iferror { margin: 0; display: none; }
+.diverror .iferror { display: block; color: #ED1C24; }
+.hint { color: #888; }
+
+/*---------------BUTTONWRAPPER START HERE---------------*/
+.cssClassButtonWrapper{ overflow:hidden; padding:15px 0 10px 7px !important;}
+.cssClassButtonWrapper p{  float:left; margin:0 5px; }
+.cssClassButtonWrapper p input{ border:none; outline:none;}
+.cssClassButtonWrapper p input.cssClassBtn{ background-color:#534737; font:bold 11px/19px Arial, Helvetica, sans-serif; color:#fff; padding:2px 4px; cursor:pointer;}
+.cssClassButtonWrapper p input.cssClassBtn:hover{ background-color:#735b3b; }
+
+.cssClassButtonWrapper p button{ cursor:pointer; background:none; border:none; outline:none;}
+.cssClassButtonSubmit, .cssClassButtonWrapper p button , #gdvPaymentGateway button, .cssClassModuleInstaller .cssClassButton{background:url(../images/admin/admin-btn-bg.png); -webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px; background-color: #534737; color: #FFFFFF; cursor: pointer; font: bold 12px Arial,Helvetica,sans-serif; padding:5px 8px; cursor:pointer; border:none; margin-right:10px; /*border:1px solid #392F25 !important;*/ margin-top:1px; height:25px; text-shadow:0 1px 1px #000;}
+
+.cssClassButtonSubmit:hover,.cssClassButtonWrapper p button:hover, #gdvPaymentGateway button:hover {background:#735b3b;}
+.cssClassButtonSubmit:focus, .cssClassButtonWrapper p button:focus, #gdvPaymentGateway button:focus{background:#534737;}
+.cssClassButtonWrapper input, .cssClassButtonWrapper label{ float:left;}
+.cssClassButtonWrapper label{ padding:0 8px; font:bold 12px Arial, Helvetica, sans-serif; color:#960;}
+.cssClassButtonWrapper label:hover{ color:#000; }
+
+/*---------------SHORT BY START HERE---------------*/
+.cssClassShortBy{ text-align:right; font:bold 11px/18px Arial, Helvetica, sans-serif; padding:0 0 10px 0; }
+.cssClassShortBy select{border-color:#cdc3b5 #d4cabc #e9ddce; border-style:solid; border-width:1px; width:55px;}
+
+/*---------------FIX WIDTH COLUMN START HERE---------------*/
+.cssClassPrice{ width:70px;}
+.cssClassCheckBoxSelect, .cssClassColumnCheckBox{ width:20px;}
+.cssClassOrder{ width:100px;}
+.cssClassProductQuantity{ width:85px;}
+.cssClassAction{ width:50px;}
+.cssClassActionText{}
+.cssClassUpdateOn{ width:70px;}
+.cssClassAddedOn, .cssClassColumnAddedOn, .cssClassColumnUpdatedOn{ width:70px;}
+.cssClassIsActive, .cssClassColumnIsActive{ width:70px;}
+.cssClassAttributeID{ width:50px;}
+.cssClassHeadCheckBox{ width:24px; padding:0!important; text-align:center; *width:54px; *display:inline-block }
+.cssClassColumnOrder{ width:70px;}
+.cssClassColumnEdit{ width:70px;}
+.cssClassColumnDelete{ width:70px;}
+
+
+.cssClassActionOnClick{ position:relative;}
+.cssClassActionOnClickShow{  padding:0 0 0 0; position:absolute; z-index:10; right:30px; top:0; background:url(../images/onclickarrow2.png) no-repeat 85% top;}
+.cssClassActionOnClickShowInfo{ background-color:#927d5f; margin:0 16px 0 0; /* -moz-box-shadow: 0 3px 4px #000;
+-webkit-box-shadow: 0 3px 4px #000; box-shadow: 3px 3px 4px #000;*/ padding:5px 0 0 0;}
+.cssClassActionOnClickShowInfo p a{ font:bold 12px/18px Arial, Helvetica, sans-serif; color:#fff; padding:0 10px 0 10px;}
+.cssClassActionOnClickShowInfo p a:hover{ color:#ffd599; }
+.cssClassActionOnClickShowInfo a {display:block; height:22px;}
+p.cssClassActionImg a{background:url(../images/action.png) no-repeat; text-indent:-99999px; width:16px; height:16px; display:block; outline:none; margin:0 0 0 15px;}
+.cssClassRoundedBoxDetails{ padding:0;}
+.cssClassRoundedBoxDetails table{ border:none; }
+.cssClassRoundedBoxDetails table td{ border:none; padding:5px; }
+.cssClassRoundedBoxDetails table td table td{ padding:0; }
+.cssClassRoundedBoxDetails .cssClassRoundedBoxDetails{ padding:0;}
+
+/*---------------GRID WRAPPER START HERE---------------*/
+.cssClassGridWrapper{}
+.cssClassGridWrapperContent{ padding:10px; }
+.cssClassGridWrapper table{ border-left:1px solid #968266; border-top:1px solid #968266; border-bottom:1px solid #968266;}
+.cssClassGridWrapper table td{ border-right:1px solid #968266; }
+tr.cssClassHeading, tr.cssClassHeadingOne{  background-color: #CBBBA5; border-bottom: 1px solid #968266; color: #6A4008; font: bold 12px/28px Arial,Helvetica,sans-serif; text-shadow: 1px 1px 0 #D0D1C7; text-align:left;} 
+th{ padding:0 0 0 5px; }
+.cssClassHeadingOne th{ border-left:1px solid #968266;}
+tr.cssClassHeading th{ border-right:1px solid #968266; }/*
+tr.cssClassHeading th:first-child { padding:0;}*/
+.cssClassGridWrapper input.cssClassNormalTextBox{ width:150px; height:20px; padding:0 5px 0 5px; font:11px/20px Arial, Helvetica, sans-serif; color:#4b4a4a; border-color:#cdc3b5 #d4cabc #e9ddce; border-style:solid; border-width:1px; outline:medium none; margin:0 0 0 5px;}
+.cssClassGridWrapper input.cssClassNormalTextBoxSmall{ width:50px; height:20px; padding:0 5px 0 5px; font:11px/20px Arial, Helvetica, sans-serif; color:#4b4a4a; border-color:#cdc3b5 #d4cabc #e9ddce; border-style:solid; border-width:1px; outline:medium none; margin:0 0 0 5px;}
+.cssClassGridWrapper input.cssClassRadioBtn{ width:10px; margin:10px 0 0 5px;}
+.cssClassGridWrapper input.cssClassCheckBox{border-color:#cdc3b5 #d4cabc #e9ddce; border-style:solid; border-width:1px; margin:0 0 0 5px;}
+
+/*---------------PRICE RULE START HERE---------------*/
+.cssClassFieldSet{ margin:10px 0 0 0; }
+.cssClassFieldSet input, .cssClassFieldSet select, .cssClassFieldSet textarea{border-color:#cdc3b5 #d4cabc #e9ddce; border-style:solid; border-width:1px; outline:medium none;}
+.cssClassFieldSet h2{ background-color:#f2e3d0; font:bold 11px/26px Arial, Helvetica, sans-serif; margin:0; padding:0 0 0 10px; color:#6A4008 !important;}
+.cssClassFieldSetContent{ padding:10px; }
+
+.cssClassFieldSetContent ul{border-left:1px dotted #888888; padding-left:16px !important; margin:12px 0 0 0; height:1%;}
+.cssClassFieldSetContent ul li, .cssClassOnClick, .cssClassFieldSetLabel{ }
+.cssClassFieldSetContent a{ font:bold 11px Arial, Helvetica, sans-serif; color:#8c632e; text-decoration:underline;}
+.cssClassFieldSetContent a:hover{ text-decoration:none; color:#000; }
+.cssClassFieldSetLabel{ font:bold 11px Arial, Helvetica, sans-serif; }
+.cssClassElement{ display:none;}
+.cssClassOnClickEdit .cssClassElement{ display:inline;}
+.cssClassOnClickEdit .cssClassFieldSetLabel{ display:none; }
+
+
+.cssClassOnClickNewChildren{}
+.cssClassOnClickRemove{}
+.cssClassOnClickRemove{}
+.cssClassOnClickApply{font-weight:normal; color:green; text-decoration:none;}
+.cssClassOnClickApply:hover{font-weight:normal; color:blue; text-decoration:none;}
+.cssClassMultiSelect{vertical-align:top; height:100px; width:200px; }
+
+
+.rule-tree ul                   { padding-left:16px !important; border-left:dotted 1px #888; }
+.rule-tree .x-tree ul           { padding-left:0 !important; border-left:none !important; }
+.rule-param .label              { font-weight:bold; color:black; }
+.rule-param .label:hover        { font-weight:bold; color:blue; }
+.rule-param .element            { display:none; }
+.rule-param input,
+.rule-param select              { width:auto !important; min-width:170px; }
+.rule-param select.multiselect  { vertical-align:top; }
+.rule-param-edit .label         { display:none; }
+.rule-param-edit .element       { display:inline; }
+.rule-param-add                 { font-weight:normal; color:green; text-decoration:none; }
+.rule-param-add:hover           { font-weight:normal; color:blue; text-decoration:none; }
+.rule-param-apply               { font-weight:normal; color:green; text-decoration:none; }
+.rule-param-apply:hover         { font-weight:normal; color:blue; text-decoration:none; }
+.rule-param-remove              { font-weight:normal; color:red; text-decoration:none; }
+.rule-param-remove:hover        { font-weight:normal; color:blue; text-decoration:none; }
+.rule-chooser                   { border:solid 1px #CCC; margin:5px; padding:5px; display:none; }
+.rule-param-wait                { padding-left:20px; background-image:url(images/rule-ajax-loader.gif); background-repeat:no-repeat; background-position:0 50%; }
+
+.cssClassThumImage img{ margin:10px; border:1px solid #999; padding:2px; height:150px; width:100px; overflow:hidden;}
+.cssClassDelete{ margin:5px 0 0 5px;}
+
+.pricingRuleCategoryList{ background-color:#f2e3d0; width:250px; margin:5px 0 0 0;}
+.cssClassFieldSetContent ul.cssClassOnClickChildren ul.MultipleSelectBox{ padding:0 !important; border-left:none;}
+
+
+.MultipleSelectBox { min-height:200px; list-style-type: none; margin: 0; overflow: auto;}
+.MultipleSelectBox.selecting {}
+.MultipleSelectBox li { cursor:pointer; font:normal 12px/22px Arial, Helvetica, sans-serif; color:#960; border-bottom:1px solid #fff; text-shadow:1px 1px 0 #fff;}
+.MultipleSelectBox li:hover{ background-color:#fff9f0;}
+.MultipleSelectBox li.disabled { color: gray; font-style: italic; }
+.MultipleSelectBox li.selected { background-color: #e5d8c5; }
+.MultipleSelectBox li.selecting { border: 1px dotted #e5d8c5; }
+
+/*--*/
+.cssClassSearchPanel{ background-color:#F1E7D9; margin:0 0 10px 0; border:1px solid #968266;}
+.cssClassSearchPanel td{padding:5px; }
+.cssClassSearchPanel  .cssClassLabel {/* padding-left:5px; display:block; */font-weight:bold; color:#6A4008;}
+
+.cssClassFieldSet span.cssClassList{ background:url(../images/list.png) no-repeat 0 3px; height:18px; width:15px; cursor:pointer; display:inline-block;}
+.cssClassFieldSet span.cssClassClose{ background:url(../images/close.png) no-repeat 0 3px; height:18px; width:15px; cursor:pointer; display:inline-block;}
+.cssClassFieldSet span.cssClassRightGreen{ background:url(../images/right.jpg) no-repeat 0 3px; height:18px; width:15px; cursor:pointer; display:inline-block;}
+.cssClassFieldSet span.cssClassRight{ background:url(../images/right.png) no-repeat 0 3px; height:18px; width:15px; cursor:pointer; position:absolute; zoom:1; display:block;}
+.cssClassFieldSet span.cssClassDelete{ background:url(../images/delete.png) no-repeat 0 0; height:18px; width:15px; cursor:pointer; display:inline-block;}
+.cssClassFieldSet span.cssClassAdd { background:url(../images/add.png) no-repeat 0 3px; height:18px; width:15px; cursor:pointer; display:inline-block; z-index:9999;}
+.cssClassFieldSet span.cssClassCalendar{ background:url(../images/calendar.png) no-repeat 0 3px; height:18px; width:15px; cursor:pointer; display:inline-block;}
+
+.cssClassRateReview{ width:100%;}
+.cssClassRateReview .cssClassNoReview{ font-weight:bold; padding:5px; }
+.cssClassRateReview td{ border-bottom:1px solid #fff;}
+.cssClassRateReview tr.cssClassAlternativeOdd{ background-color:#fff8ee !important;}
+.cssClassRateReview tr.cssClassAlternativeOdd:hover{ background-color:#ebe1d3 !important; }
+
+.cssClassRateReview tr.cssClassAlternativeEven{ background-color:#fffcf8 !important;}
+.cssClassRateReview tr.cssClassAlternativeEven:hover{ background-color:#faefe1 !important;}
+
+.cssClassTabPanelTable .cssClassRatingStar { float:none; }
+.cssClassTabPanelTable .cssClassRatingStar .cssClassToolTip { width:auto; }
+.cssClassTabPanelTable .cssClassToolTipDetailInfo { width:707px; z-index:888; }
+
+.cssClassRateReviewWrapper{position:relative; padding-left:10px;}
+.cssClassToolTip {position:relative; }
+.cssClassToolTip .cssClassRatingTitle { }
+.cssClassToolTip span.cssClassRatingTitle { padding:0 0 0 10px; font:bold 11px/20px Arial, Helvetica, sans-serif; }
+.cssClassToolTip img { cursor:pointer; }
+.cssClassToolTip .cssClassToolTipInfo { display:none; background-color:#fff; position:absolute; left:0; top:17px; z-index:888; border:1px solid #968266; width:160px;}
+.cssClassToolTip:hover .cssClassToolTipInfo { display:block; }
+.cssClassToolTip:hover .cssClassToolTipInfo img { cursor:default; }
+.cssClassToolTipDetailInfo { display:block; border-bottom:1px solid #fff; width:145px; overflow:hidden; padding:2px 10px; }
+.cssClassToolTipDetailInfo span.cssClassCriteriaTitle { float:left; padding:0 15px 0 0; font:normal 11px/20px Arial, Helvetica, sans-serif; }
+.cssClassToolTipDetailInfo span.star-rating-control { float:left; }
+span.cssClassTotalReviews { font:bold 11px Arial, Helvetica, sans-serif; cursor:pointer; }
+span.cssClassSeparator { padding:0 8px; }
+span.cssClassAddYourReview { font:bold 11px Arial, Helvetica, sans-serif; }
+.cssClassRatingReviewDate p{ font-style:italic;}
+.cssClassRatingInfo p{ padding:0; }
+.cssClassRatingInfo { float:none !important;}
+table.cssClassRateReview td{ border-bottom:1px solid #fff;}
+table.cssClassRateReview td .cssClassRateReview{ padding:8px;}
+td.cssClassNoReview{ padding:5px; font-weight:bold;}
+td.cssClassRatingTitleName{ width:100px;}
+.cssClassRateReview .cssClassButtonWrapper { float:left; clear:both;}
+
+/*NEW CSS*/
+.cssClassCommonBox{ border:1px solid #968266; margin:5px;  background-color:#fcf9f5;}
+.cssClassHeader{background:url(../images/admin/header-bg.jpg) repeat-x; height:37px; overflow:hidden;}
+.cssClassHeader h2{ float:left; padding:10px 0 0 15px; color:#fff; text-shadow:0 1px 1px #333;}
+.cssClassHeader h2 span { color:#fff; font-size:14px;}
+.cssClassHeaderRight{ float:right; margin-top:-10px; padding-right:10px; }
+.cssClassHeaderRight .cssClassButtonWrapper{ padding:10px 0 0 0; padding-bottom:0 !important; }
+
+#dataTable table td{ float:left;}
+
+/*----------------------------- RADIO BUTTON WRAPER START ------------------------------------------------------*/
+.cssClassFormWrapper .cssClassButtonListWrapper table { width:auto !important; }
+cssClassRadioButtonList table { width:auto !important; }
+.cssClassRadioButtonList { height:20px; }
+.cssClassRadioButtonList tbody tr td label { float:left; padding:2px 3px 0 5px; font:12px/12px Arial, Helvetica, sans-serif; margin:0 0 0 3px; width:auto; }
+.cssClassRadioButtonList tbody tr td input { outline:none; border:none; float:left; margin:0; padding:0; }
+.cssClassRadioButton {  border:none; outline:none; padding:10px 2px 0 2px; margin:4px 0 0 2px; width:auto; height:auto; }
+.cssClassFormWrapper .cssClassrequired, .cssClassFormWrapper .cssClassupdatesuccessfully { color:#900; font:11px/18px Arial, Helvetica, sans-serif; }
+.cssClassFormWrapper .cssClassnotfound { color:#930; font:bold 11px/18px Arial, Helvetica, sans-serif; }
+.cssClassAddRoleBg { background-color:#f9f0d6; padding:10px; border:1px solid #f1dfb7; }
+
+/*-----------------------------------------404 PAGE WRAPPER ------------------------------------------ */
+.cssClassPageNotFound{ margin:0 auto; width:980px;}
+.cssClassPageNotFound h1{ font:bold 45px Arial, Helvetica, sans-serif; color:#0999d2;}
+.cssClassPageNotFound h1 span{ font:12px Arial, Helvetica, sans-serif; color:#7f7f7f; padding:0 0 0 5px;} 
+
+.cssClassPNFDetails{ overflow:hidden;}
+.cssClassPNFLeftBox{ float:left; width:500px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; -khtml-border-radius: 5px; background-color:#e2eef2; padding:15px;}
+.cssClassPNFLeftBox p{ font:12px Arial, Helvetica, sans-serif; color:#828282; }
+.cssClassPNFLeftBox p span{ color:#0999d2; padding:17px 0 0 0; display:block;} 
+.cssClassPNFLeftBox .cssClassButtonWrapper{ overflow:hidden;}
+.cssClassPNFLeftBox .cssClassButtonWrapper span{background:url(../images/404-btn-left-bg.jpg) no-repeat left top; float:left; height:26px; padding:0 0 0 26px;}
+.cssClassPNFLeftBox .cssClassButtonWrapper span a{background:url(../images/404-btn-right-bg.jpg) no-repeat right top; float:left; height:26px; padding:0 26px 0 10px; font:12px/26px Arial, Helvetica, sans-serif; color:#fcefe1; text-shadow:1px 1px 0 #1a87b3;}
+
+.cssClassPNFLeftBox .cssClassButtonWrapper{ margin:0; padding:0; }
+.cssClassPNFLeftBox .cssClassButtonWrapper span:hover{background:url(../images/404-btn-left-bg-hover.jpg) no-repeat left top; }
+.cssClassPNFLeftBox .cssClassButtonWrapper span:hover a{background:url(../images/404-btn-right-bg-hover.jpg) no-repeat right top; text-shadow:none;}
+
+.cssClassPNFRightBox{ float:right; width:400px;}
+.cssClassPNFRightBox h2{ font:bold 18px Arial, Helvetica, sans-serif; color:#5c5e5f; border-bottom:1px dashed #b5e0f1; padding:0 0 5px 0; }
+.cssClassPNFRightBox p{ font:12px/16px Arial, Helvetica, sans-serif; color:#828282; padding:13px 0 0 0;}
+.cssClassPNFRightBox p.cssClassPNFArrow{background:url(../images/pnf-arrow.jpg) no-repeat 0 19px; border-bottom:1px dashed #b5e0f1; padding:13px 0 6px 12px;}
+.cssClassPNFRightBox p span{ font:12px Arial, Helvetica, sans-serif; color:#16a0d6;}
+
+/*-----------------------------------------PAGE NOT Accessible WRAPPER ------------------------------------------ */
+.cssClassMasterCenter #_udp__28, .cssClassMasterCenter #_udp__29{ position:absolute; right:0;}
+
+.cssClassPagenotAccesible{ float:left; width:491px; margin:20px 0 0 0;}
+.cssClasspagenotAccesibleInfo{} 
+.cssClasspagenotAccesibleInfo h3{ color:#0999d2; border-bottom:1px dashed #84cce8; font-size:20px; margin:0 0 24px 0; padding:0 0 5px 0; }
+.cssClasspagenotAccesibleInfo span{ color:#0999d2; font-size:14px; }
+.cssClasspagenotAccesibleInfo p{ text-align:justify; margin:0; padding:0; color:#828282; padding:16px 0 0 0; line-height:16px; }
+.cssClassPagenotAccesiblebtn{overflow:hidden; margin:30px 0 0 0; border-bottom:1px dashed #84cce8; padding:0 0 18px 0;}	
+.cssClassPagenotAccesiblebtn span{ background:url(../images/btn_left.jpg) no-repeat top left;  float:left; height:24px; padding:0 0 0 13px; }
+.cssClassPagenotAccesiblebtn span a{ background:url(../images/btn_right.jpg) no-repeat top right; float:left; height:24px; color:#FFF; text-shadow:0 1px 0 #2a8096; text-decoration:none; font:normal 12px/23px Arial, Helvetica, sans-serif; padding:0 10px 0 0; }
+.cssClassPagenotAccesiblebtn span:hover{ background:url(../images/admin/btn_left_hover.jpg) no-repeat top left; float:left; height:24px; padding:0 0 0 13px; }
+.cssClassPagenotAccesiblebtn span a:hover{	background:url(../images/admin/btn_right_hover.jpg) no-repeat top right; float:left; height:24px; color:#FFF; text-shadow:0 1px 0 #a5a5a5; text-decoration:none; font:normal 12px/23px Arial, Helvetica, sans-serif; padding:0 10px 0 0; }
+
+/*-----------------------------------------REGISTER RIGHT INFORMATION------------------------------------------ */
+.cssClassregistrationright{width:409px; float:right; }
+.cssClassregistrationhelp{-moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -khtml-border-radius: 10px; background:url(../images/help_bg.jpg) repeat-x; height:30px; border:1px #e6e6e6 solid; margin:20px 0 20px 0; padding:10px 0 0 14px; }
+.cssClassregistrationhelp p{font:bold 14px Arial, Helvetica, sans-serif; color:#ee8f1c; padding:0; margin:0; }
+.cssClassregistrationhelp p a b{font:bold 14px Arial, Helvetica, sans-serif; color:#ee8f1c; padding:0; margin:0; }
+.cssClassregistrationhelp p a:hover b{color:#C6C6C6;}
+.cssClassregistrationhelp p span{background:url(../images/chatbubble.jpg) no-repeat; width:38px; height:30px; display:block; float:left; padding:0 0 0 10px;}
+.cssClassregistrationhelp p a{color:#c6c6c6; text-decoration:none; font:normal 13px Arial, Helvetica, sans-serif; border-left:1px #e7e7e6 solid; height:16px; padding:0 0 0 13px; margin:0 0 0 10px; cursor:pointer;}
+.cssClassregistrationhelp p a.none{ border:none; padding:0; margin:0;}
+.cssClassregistrationhelp p a:hover{color:#ee8f1c; text-decoration:none;}
+.cssClassregistrationlist h2{color:#ee8f1c; font:bold 14px Arial, Helvetica, sans-serif; margin:0; padding:14px 0 10px 0;}
+.cssClassregistrationlist ul{margin:0; padding:0 0 20px 0; border-bottom:1px #efefef solid;}
+.cssClassregistrationlist li{margin:0; list-style:none; padding:0 0 0 13px; color:#909090; font:normal 12px Arial, Helvetica, sans-serif; line-height:22px; background:url(../images/help_arrow.jpg) no-repeat 0 8px;}
+.cssClassregistrationlist li a:hover{color:#f4a23f;}
+
+/*----------------------------------------- CONTACT PAGE START------------------------------------------- */
+.cssClassContactFormDetails {}
+.cssClassContactFormDetails .cssClassFormWrapper { background:none; border:none; padding:0 !important; }
+.cssClassContactFormDetails .cssClassFormWrapper p { padding:10px 0 0 0; }
+.cssClassContactFormDetails .cssClassFormWrapper p span.cssClassFormLabel { display:block; }
+.cssClassContactFormDetails .cssClassFormWrapper .cssClassFormLabel { font:bold 12px/20px Verdana !important; color:#888989; padding:0px; }
+.cssClassContactFormDetails .cssClassFormWrapper input { color:#666; width:338px; height:24px; padding:0 0 0 5px; margin:10px 0 0 0; border:none; outline:none; border-top:1px solid #808080; border-bottom:1px solid #c8c8c8; border-right:1px solid #b6b6b6; border-left:1px solid #b6b6b6; }
+.cssClassContactFormDetails .cssClassFormWrapper .cssClassButtonWrapper input.cssClassContactSendBtn{ background:url(../images/submit_button.gif) no-repeat; color:#fff; cursor:pointer; font:bold 11px/22px Arial,Helvetica,sans-serif; width:65px; height:22px!important; overflow:hidden;}
+.cssClassContactFormDetails .cssClassFormWrapper .cssClassButtonWrapper input.cssClassContactSendBtn:hover{ background:url(../images/submit_button_hover.gif) no-repeat; }
+.cssClassContactFormDetails .cssClassFormWrapper p.cssClassMandatory { font:bold 12px Verdana, Geneva, sans-serif; color:#c44c12; text-align:right; padding:10px 20px 0 0; }
+
+.cssClassContactFormDetails .cssClassButtonWrapper { float:left; display:block; clear:both; margin:5px 0 0 0; overflow:hidden; position:relative; padding:0; }
+.cssClassContactFormDetails .cssClassButtonWrapper input { background-color:#fff; border:medium none; color:#007708; cursor:pointer; font:bold 16px/26px Arial, Helvetica, sans-serif; height:33px !important; margin:0 10px 0 0 !important; text-align:center; width:79px; }
+.cssClassContactFormDetails .cssClassButtonWrapper input:hover { background-color:#007708; color:#ededed; }
+.cssClassContactFormDetails .cssClassButtonWrapper label { position:absolute; left:10px; top:5px; }
+.cssClassContactFormDetails .cssClassFormWrapper .cssClasssNormalRed { padding:1px 0 0 0; }
+.jj .cssClassFormWrapper .cssClassContactFormDetails .cssClassFormWrapper { display:none !important; }
+.cssClassContactInformation { padding:0 0 10px 0; float:right; color:#888989; font:12px/20px Arial, Verdan; height:1%; margin:0 10% 0 0; border-bottom:1px dashed #888989; width:174px;}
+.cssClassContactInformation h1 { font:bold 17px/20px Arial, Helvetica, sans-serif; color:#d07e2c; padding:0 0 3px 0; border-bottom:1px dashed #888989;}
+.cssClassContactInformation .cssClassRightPadding { padding:0 165px 0 0; }
+.cssClassMapWrapper { position:absolute; top:232px; right:128px; }
+.cssClassMap { height:500px; width:300px;  }
+.cssClassAddComment{ font:bold 11px/18px  Verdana, Geneva, sans-serif; color:#000;}
+.cssClassAddComment:hover{ color:#C63; }
+.cssClassContactFormDetails .cssClassFormWrapper .cssClassDropDown{width:338px; height:24px; padding:0 0 0 10px; margin:10px 0 0 0;  border:none; outline:none; border-top:1px solid #808080; border-bottom:1px solid #c8c8c8; border-right:1px solid #b6b6b6; border-left:1px solid #b6b6b6;}
+
+
+.cssClassContactFormField{ float:left; width:320px; margin:0 20px 0 0; }
+.cssClassContactFormField p{ padding:0 !important; margin:0;}
+.cssClassContactFormField p.cssClassContactFormInput {background:url(../images/contact-page-input-bg.jpg) no-repeat; padding:0 5px; height:28px; margin:0 0 6px 0; }
+.cssClassContactFormField p.cssClassContactFormInput input{ margin:0; background:none; border:none; width:290px; height:28px; overflow:hidden;}
+.cssClassContactFormDetails .cssClassFormWrapper .cssClassFormLabel { color:#888989; font:12px/20px Arial, Helvetica, sans-serif !important; padding:0; }
+.cssClassContactFormField p.cssClassContactFromTextArea{background:url(../images/contact-page-textarea-bg.jpg) no-repeat; padding:0 5px; height:28px; margin:0 0 6px 0; width:648px; height:84px; }
+.cssClassContactFormField p.cssClassContactFromTextArea textarea { width:636px !important; height:68px; background:none; background:none repeat scroll 0 0 transparent !important; border:none; overflow:hidden; }
+
+
+/*---------------------------------------COLAPSE WRAPPER START FROM HERE----------------------------*/
+.cssClassCollapseWrapper { height:1%;}
+.cssClassCollapseWrapper .cssClassSectionHeadHeader { overflow:hidden; background-color:#eedfb2; padding:6px 0 3px 10px; border-bottom:1px solid #e2d3a3; border-top:1px solid #fff; font:bold 12px/20px Arial; color:#d65e0e; }
+.cssClassCollapseWrapper .cssClassSectionHeadHeader:hover { background-color:#f2e8ca; }
+.cssClassCollapseWrapper .cssClassFormWrapper { padding:0; margin:0; border:none; }
+.cssClassCollapseContent { background:#F1F7FF; margin:1px 0 0 0; }
+.cssClassCollapseContent .cssClassHelpTitle { font:bold 12px/30px Arial, Helvetica; color:#da7a24; height:30px; background-color:#FFEAD7; display:block; padding:0 0 0 10px; }
+.cssClassCollapseContent .cssClassFormWrapper{ padding:0 0 15px 0; }
+.cssClassCollapseContent .cssClassFormWrapper .cssClassSelectPadding{ padding:0 0 0 10px; }
+
+/*---------------------------------------FOR TAB PANEL START FROM HERE----------------------------*/
+.ajax__tab_body .cssClassFormWrapper { margin:0; border:none; }
+.usernamager { font:11px Arial, Helvetica, sans-serif; }
+.usernamager table td .username { font:bold 11px/28px Arial, Helvetica, sans-serif; color:#000; }
+.cssClassNormalTitle { font:bold 14px/30px Arial, Helvetica; color:#5e5e5e; height:30px; background-color:#f7edcd; display:block; padding:0 0 0 5px; }
+.cssClassHelpTitle { font:bold 12px/30px Arial, Helvetica, sans-serif; color:#984f0e!important; text-shadow:0px 1px 0px #fff1cd; height:30px; background:#f1e2bc!important; display:block; padding:4px 5px 3px; }
+.ajax__tab_xp, .ajax__tab_container, .ajax__tab_default { visibility:visible !important; }
+.ajax__tab_header { visibility:visible !important; font:bold 12px/28px Arial, Helvetica, sans-serif !important; background: url(../images/admin/header_buttom_bg.jpg) bottom repeat-x !important; }
+.ajax__tab_default .ajax__tab_header { white-space:normal !important; }
+.ajax__tab_default .ajax__tab_outer { display:-moz-inline-box; display:inline-block }
+.ajax__tab_default .ajax__tab_inner { display:-moz-inline-box; display:inline-block; }
+.ajax__tab_inner { margin-left:5px; }
+.ajax__tab_default .ajax__tab_tab { overflow:hidden; text-align:center; display:-moz-inline-box; display:inline-block; }
+.ajax__tab_xp .ajax__tab_header { font:bold 12px/28px Arial, Helvetica, sans-serif; background: none !important; height:1%; border-bottom:1px solid #E3C36E!important; }
+.ajax__tab_xp .ajax__tab_outer { padding-right:13px !important; background: url(../images/admin/tab_defult_right.jpg) no-repeat top right !important; height:28px !important; line-height:28px !important; }
+.ajax__tab_xp .ajax__tab_header .ajax__tab_inner { padding-left:13px; background: url(../images/admin/tab_defult_left.jpg) no-repeat; }
+.ajax__tab_xp .ajax__tab_tab { height:28px !important; line-height:28px !important; margin:0px; padding:0px !important; background: url(../images/admin/tab_defult_mid.jpg) repeat-x !important; }
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_outer { cursor:pointer; background: url(../images/admin/tab_active_right.jpg) no-repeat right top !important; height:28px !important; }
+.ajax__tab_xp .ajax__tab_header .ajax__tab_hover .ajax__tab_inner { cursor:pointer; background: url(../images/admin/tab_active_left.jpg) no-repeat; }
+.ajax__tab_xp .ajax__tab_hover .ajax__tab_tab { cursor:pointer; background: url(../images/admin/tab_active_mid.jpg) repeat-x !important; height:28px !important; line-height:28px !important;}
+.ajax__tab_xp .ajax__tab_active .ajax__tab_outer { background: url(../images/admin/tab_active_right.jpg) no-repeat top right !important; height:28px !important; }
+.ajax__tab_xp .ajax__tab_active .ajax__tab_inner { background: url(../images/admin/tab_active_left.jpg) no-repeat !important; }
+.ajax__tab_xp .ajax__tab_active .ajax__tab_tab { background: url(../images/admin/tab_active_mid.jpg) repeat-x !important; height:28px !important; line-height:28px !important; }
+.ajax__tab_xp .ajax__tab_disabled { color: #66C; }
+.ajax__tab_xp .ajax__tab_body { font-family:verdana, tahoma, helvetica; font-size:10pt; background-color:#fcfcfc; border-right:1px solid #E3C36E !important; border-left:1px solid #E3C36E !important; border-bottom:1px solid #E3C36E !important; }
+.ajax__scroll_horiz { overflow-x:scroll; }
+.ajax__scroll_vert { overflow-y:scroll; }
+.ajax__scroll_both { overflow:scroll }
+.ajax__scroll_auto { overflow:auto }
+.ajax__tab_plain .ajax__tab_outer { text-align: center; vertical-align: middle; border:2px solid #999999; }
+.ajax__tab_plain .ajax__tab_inner { text-align: center; vertical-align: middle; }
+.ajax__tab_plain .ajax__tab_body { text-align: center; vertical-align: middle; }
+.ajax__tab_plain .ajax__tab_header { text-align: center; vertical-align: middle; }
+.ajax__tab_plain .ajax__tab_active .ajax__tab_outer { background:#FFFFE1; }
+table.cssClassFormCalendar { width:auto !important; }
+
+
+/*------------------------------------------------------ DASHBOART PAGE START ------------------------------------------------------ */
+.cssClassDashBoard { padding:20px 0 0 0; overflow:hidden; height:1%; }
+.cssClassDashBoard ul li { text-align:center; float:left; margin:0 20px 20px 0; list-style:none; }
+.cssClassDashBoard ul li:hover{-moz-box-shadow:0px 0px 5px #ccc; -webkit-box-shadow:0px 0px 5px #ccc; box-shadow:0px 0px 5px #ccc;}
+.cssClassDashBoard ul li a { outline:none; border:1px solid #cccccc; color:#666666; float:left; height:97px; text-decoration:none; width:140px; padding:10px; font:bold 12px/20px Arial, Helvetica, sans-serif; color:#cc6000; text-decoration:none;  }
+.cssClassDashBoard ul li a:hover { color:#666666; display:block; float:left; height:97px; text-decoration:none; vertical-align:middle; width:140px; 	background-color:#fbfbfb; }
+.cssClassDashBoard ul li .cssClassImageHeight { height:70px; display:block; }
+.cssClassDashBoard ul li .cssClassImageHeight img{ vertical-align:bottom; margin-top:6px;}
+.cssClassFormWrapper .cssClassLeftPaddingBtn{ padding:0 0 0 20%;}
+
+/*---------------------------------------USER MANAGEMENT START HERE (USER ROLE)----------------------------*/
+.cssClassFormWrapper td.cssClassSelectLeftRight { padding:43px 10px 0 10px; width:30px !important; text-align:center !important; }
+.cssClassFormWrapper td.cssClassSelectLeftRight input { margin:10px 0 0 0; }
+.cssClassFormWrapper input.cssClassSelectOneLeft { float:left; height:18px; width:22px; font:11px/22px Arial, Helvetica, sans-serif; color:#2b65c2; padding:0 4px 0 4px; border:none !important; text-indent:-6000px; cursor:pointer; background:url(../images/admin/left_arrow_one.png) no-repeat left top; }
+.cssClassFormWrapper input.cssClassSelectOneRight { float:left; height:18px; width:22px; font:11px/22px Arial, Helvetica, sans-serif; color:#2b65c2; padding:0 4px 0 4px; border:none !important; text-indent:-6000px; cursor:pointer; background:url(../images/admin/left_arrow_two.png) no-repeat left top; }
+.cssClassFormWrapper input.cssClassSelectAllLeft { float:left; height:18px; width:22px; font:11px/22px Arial, Helvetica, sans-serif; color:#2b65c2; padding:0 4px 0 4px; border:none !important; text-indent:-6000px; cursor:pointer; background:url(../images/admin/left_arrow.png) no-repeat left top; }
+.cssClassFormWrapper input.cssClassSelectAllRight { float:left; height:18px; width:22px; font:11px/22px Arial, Helvetica, sans-serif; color:#2b65c2; padding:0 4px 0 4px; border:none !important; text-indent:-6000px; cursor:pointer; background:url(../images/admin/right_arrow.png) no-repeat left top; }
+.cssClassFormHeadingUser { margin-bottom:0px; border-bottom:1px solid #f3b250; padding:2px 0 3px 5px; background-color:#ffdaad; display:block; color:#5E5E5E; font:bold 16px/30px Arial, Helvetica, sans-serif !important; margin:0 0 3px 0; }
+
+/*-------- MESSAGE WRAPPER START FROM HERE ----*/
+.cssClassMessageWrapper { margin:2px 0 0 5px;}
+.cssClassMessageBox {overflow:hidden; padding:4px 0; float:left;}
+.cssClassMessageBox span{ display:block; }
+.cssClassCustomMessage{ font:12px Arial, Helvetica, sans-serif; color:#a8a8a8; padding:0 0 0 40px;}
+.cssClassSuccess{background: url(../images/admin/success.png) no-repeat 0 9px; height:40px;}
+.cssClassError{background: url(../images/admin/error.png) no-repeat; padding-left:15px; margin-left:10px;}
+.cssClassAlert{background: url(../images/admin/notification.png) no-repeat 0 8px;}
+.cssClassMessageTitle{ font:bold 16px Arial, Helvetica, sans-serif; color:#eda62c; padding:0 0 0 40px;}
+.cssClassDetailMessage{ padding:0 0 0 38px; font:12px/18px Arial, Helvetica, sans-serif; color:#666;}
+
+/*---------------PAGINATION START HERE---------------*/
+.cssClassPageNumber{ padding:15px 0 0 0;}
+.cssClassPageNumberLeftBg{ background:url(../images/admin/pagination-left.jpg) no-repeat left; height:26px; padding:0 0 0 8px;}
+.cssClassPageNumberRightBg{ background:url(../images/admin/pagination-right.jpg) no-repeat right; height:26px; padding:0 8px 0 0;}
+.cssClassPageNumberMidBg{ background:url(../images/admin/pagination-mid.jpg) repeat-x; height:26px; }
+.cssClassPages{ float:left; font:bold 11px/26px Arial, Helvetica, sans-serif; color:#fff; }
+.cssClassPages input{ margin:0 3px; width:22px; border:none; text-align:center; color:#000;}
+.Pagination{float:left; margin:0 0 0 20px; }
+
+.cssClassPageNumber b{ font:bold 14px Arial, Helvetica, sans-serif; }
+.cssClassPageNumber b a{ background:none; border:none; }
+a.cssClassPagePrevNxt{font:bold 14px Arial, Helvetica, sans-serif;}
+a.cssClassPagePrevNxt{ background:none !important; border:none !important; }
+a:hover.cssClassPagePrevNxt{ background-color:#755d3e !important; }
+.cssClassPageNumber span{ background-color: #755d3e; color: #fff; font: 12px/26px Arial,Helvetica; padding: 5px 6px; text-align: center; text-decoration: none; margin:0 4px;}
+.cssClassPageNumber a{color: #000; font: 12px/26px Arial,Helvetica; padding: 5px 6px; text-align: center; text-decoration: none; margin:0;}
+.cssClassPageNumber a:hover{ background-color:#755d3e; color:#fff; }
+.cssClassViewPerPage{ float:right; padding:3px 0 0 0; color:#FFF;}
+.cssClassPageNumber table{ border:none; }
+.cssClassPageNumber td{ color:#fff; font:12px Arial, Helvetica, sans-serif; }
+
+
+
+#tblLatestReviews .cssClassViewPerPage { color:#000;}
+#divInventoryDetails { margin-left:5px; } 
+.cssClassActionOnClickShowInfo p a  { text-shadow:0 0 0  #fff; white-space:nowrap;}
+
+#divAttribSetEditForm   ul li { list-style:none;}
+ 
+.cssClassDashBoardLeft{width:50%; }
+.cssClassDashBoardRight { float:left; width:45%; margin-left:4%; padding-top:1%; }
+.cssClassDashBoardLeft { float:left;}
+.cssClassDashBoardBottom, #tblLatestReviews { clear:both; position:relative; top:12px;} 
+
+/*fixes for pagination of latest reviews*/
+.cssClassDashBoardBottom .pagination { background:url("../images/admin/pagination-mid.jpg") repeat-x scroll 0 0 transparent; -moz-border-radius:5px; }
+.cssClassDashBoardBottom .cssClassPagination {position:relative; color:#fff;}
+#tblLatestReviews .cssClassViewPerPage {
+  position: absolute;
+    right:4px;
+    bottom:1px;}
+	#tblLatestReviews .cssClassViewPerPage select { position: static !important;}
+	
+
+fieldset {padding: 1em;}
+legend {margin:0 0.2em;}
+::-moz-selection { background:#4E3922; color:#fff; text-shadow:none;}
+::selection { background:#4E3922; color:#fff; text-shadow:none;}
+.cssClassLabel { font-size:12px;}
+
+/* admin menu css */
+.sf-menu li { position:relative; background: url(../images/navigation-seperator.png) no-repeat 0 0;}
+.sf-menu li a { color: #fff !important; display: table; font:bold 12px/36px Arial, Helvetica, sans-serif; height:36px; padding: 0 8px; text-decoration: none; white-space:nowrap; }
+.sf-menu li a:hover, .sf-menu li.cssClassActive a {color:#ae5e00;}
+.sf-menu li.cssClassParent {color:#fff;}
+.sf-menu li.cssClassParent:hover {}
+.sf-menu li:first-child{ background:none;}
+
+/* second */
+.sf-menu li ul { display:none; position: absolute; left: 0; top:36px !important; width: 184px; background:#4E3922; border:none !important; border-radius:0px !important;   -moz-box-shadow: 2px 2px 1px #000; /* FF3.5+ */
+  -webkit-box-shadow: 2px 2px 1px #000; /* Saf3.0+, Chrome */
+          box-shadow: 2px 2px 1px #000; }
+.sf-menu li ul li{ margin:0;background:none;}
+.sf-menu li ul li:first-child{ }
+.sf-menu li ul li a{color:#fff !important; border-bottom:1px dashed #968266; display: block; font: bold 12px/26px Arial, Helvetica, sans-serif; height: 26px; padding:5px !important; width:174px;}
+.sf-menu li ul li a:hover{color:#EDCEA5 !important; }
+
+
+/* third */
+.sf-menu li ul li ul{ display:none; border:1px solid #f9f2f2; position: absolute; left:190px !important; top:0 !important; width: 184px;
+}
+.sf-menu li ul li:hover ul{ display:block;}
+.sf-menu li ul li ul li{ margin:0;background:none; }
+.sf-menu li ul li ul li a{display: block; font: bold 12px/26px Arial, Helvetica, sans-serif; height: 26px; padding: 0 10px;}
+.sf-menu li ul li ul li:first-child{ }
+
+.menu-header  .sf-sub-indicator { background:none;}
+.sf-shadow ul  {border-radius:0px !important; }
+
+ul.sf-menu li.cssClassAdminLastMenu ul ul{ position:absolute; left:-187px !important;}
+
+
+
+/* charts */
+.visualize { padding:0 !important;}
+.visualize .visualize-info { right:95px !important;}
+.popupbox .cssClassFormWrapper td { text-align:left; white-space:nowrap; width:0;}
+.visualize-labels-x li span.label { white-space:nowrap;}
+#divOrderDetailForm ul { margin:6px 0 10px 75px;}
+#divOrderDetailForm  .cssClassLabel { padding-left:10px;}
+
+
+.cssClassGridWrapper .cssClassSearchPanel table{ border:none; }
+.cssClassGridWrapper .cssClassSearchPanel table td:last-child { border-right:none;}
+p.cssClassGrid3OffPrice { color:#000 !important;}
+.cssClassButtonEditor { background-color: #534737;
+    color: #FFFFFF; cursor:pointer; border:none; font: bold 11px/19px Arial,Helvetica,sans-serif;
+    padding: 4px; }
+	.cssClassCheckoutInformationContent { width:450px;}
+	.cssClassCheckoutInformationContent input { float:right;}
+	
+	input.cssClassButtonSubmit:focus, .cssClassButtonWrapper p button span:focus { background:#735b3b;}
+	
+	.ui-tabs-panel .cssClassFormWrapper { border:none !important;}
+
+.cssClassDashBoardBottom .popupbox .cssClassFormWrapper { border:none;}
+.ajax__tab_xp .ajax__tab_body { font-size:8pt !important;}
+
+.nowrap img { width:auto !important; height:auto !important; cursor:pointer !important; margin:0 2px;}
+.popupbox .cssClassHeader h3 { padding:10px;}
+textarea:focus, textarea:active { background:#fff !important;}
+
+
+#divInvoiceForm { width:900px; margin: 0 auto;}
+#divInvoiceForm table{ width:80%; margin-left:5%; }
+#divInvoiceForm table table td { padding-left:1%;}
+#divInvoiceForm  #divOrderItemDetails th { background:#CBBBA5; border-right: 1px solid #968266}
+#divInvoiceForm  #divOrderItemDetails td{ background:#F1E7D9;}
+#divPrintInvoiceForm td { border-bottom:1px solid #F1E7D9; width:40%; padding-left:1%;}
+.OrderDetailsTable tr:last-child td:last-child { font-weight:bold; font-size:14px;}
+.OrderDetailsTable th:last-child {padding:0 20px 0 5px;}
+
+
+ .cssClassFormatCurrency { padding-right:7px;}
+ 
+ .cssClassBodyContent .popupbox h2 { background:#968266;}
+ .cssClassBodyContent .popupbox  .cssClassButtonWrapper { margin:0 auto; width:230px;}
+ input::-moz-focus-inner, button::-moz-focus-inner, select::-moz-focus-inner{ border: 0; outline:none; }
+
+ .cssClassBodyContent .popupbox .cssClassGrid3BoxInfo h2 a { color:#fff;}
+  .cssClassBodyContent .popupbox { min-width:300px; min-height:200px;}
+ .cssClassBodyContent .popupbox .cssClassViewPerPage{ margin-top:-26px;}
+ 
+ #sidebar, #sidebar div:hover { background:none !important;}
+ 
+ 
+ #divThumbnails a:last-child { display:none;}
+ 
+ .adminpopup input, .adminpopup input:focus, .adminpopup select, .adminpopup textarea, .adminpopup textarea:focus   { -webkit-box-shadow:none !important; -moz-box-shadow:none !important;box-shadow:none !important;}
+ 
+  .cssClassLoadingBG {
+    background: none repeat scroll 0 0 #050505;
+    display: block;
+    height: 100%;
+    opacity: 0.7;
+    position: fixed;
+    width: 100%;
+    z-index: 400;
+}
+.cssClassloadingDiv {
+    background-color: #FFF6ED;
+    border: 1px solid #F4BF8F;
+    color: #E07A3A;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    height: 50px;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: -25px;
+    padding: 2px 0 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 150px;
+    z-index: 401;
+}
+
+.cssClassHeaderWrapper{position:relative; }
+.cssClassHeaderWrapper h2{ position:absolute; color: #dab180; font:normal 12px Arial,Helvetica,sans-serif; left: 350px; position: absolute; top: 20px; width: 500px;}
+.cssNodata { padding:5px; color:#000; font-weight:normal}
+.cssClassStoreDetail {padding:5px;  float:left; width:50%;}
+.cssStoreDetail { vertical-align:top;}
+.cssClassStorePayment { overflow:hidden; padding:5px;}
+.cssClassAlignRight{text-align:right;}
+.cssClassSelectChart  { width:420px;}
+.cssClassSelectChart label { float:left;}
+.cssClassSelectChart select { float:right;}

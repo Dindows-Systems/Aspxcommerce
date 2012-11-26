@@ -1,0 +1,286 @@
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.pdb
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\ar\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\cs\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\de\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\es\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\fr\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\he\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\hi\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\it\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\ja\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\ko\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\nl\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\pt\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\ru\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\tr-TR\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\bin\Debug\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+C:\Documents and Settings\DotNet06\Desktop\New--SageFrame\SageFrameBeta_June15_011\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.pdb
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\ar\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\cs\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\de\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\es\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\fr\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\he\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\hi\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\it\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\ja\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\ko\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\nl\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\pt\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\ru\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\tr-TR\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\zh-CHS\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\bin\Debug\zh-CHT\AjaxControlToolkit.resources.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+D:\SageASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\SageASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.pdb
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ar\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\cs\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\de\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\es\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\fr\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\he\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\hi\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\it\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ja\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ko\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\nl\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\pt\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ru\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\tr-TR\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\zh-CHS\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\zh-CHT\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ar\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\cs\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\de\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\es\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\fr\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\he\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\hi\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\it\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ja\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ko\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\nl\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\pt\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ru\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\tr-TR\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\zh-CHS\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\zh-CHT\AjaxControlToolkit.resources.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.pdb
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ar\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\cs\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\de\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\es\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\fr\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\he\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\hi\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\it\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ja\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ko\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\nl\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\pt\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ru\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\tr-TR\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\zh-CHS\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\zh-CHT\AjaxControlToolkit.resources.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+E:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+E:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+E:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+E:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+E:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+E:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+E:\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+E:\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+E:\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+E:\liVE\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\bin\Debug\SageFrame.Templating.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\bin\Debug\SageFrame.Templating.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\bin\Debug\SageFrame.Templating.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\bin\Debug\SageFrame.Templating.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+F:\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+F:\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+F:\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+F:\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+F:\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+F:\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Templating.dll
+F:\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+F:\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+F:\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Templating.pdb
+F:\AspxCommerceFinal\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+F:\AspxCommerceFinal\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+F:\AspxCommerceFinal\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.BreadCrum.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\AjaxControlToolkit.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Templating.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Core.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Common.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\bin\Debug\SageFrame.Templating.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\SageFrame.BreadCrum.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\SageFrame.BreadCrum.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\SageFrame.BreadCrum.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\SageFrame.BreadCrum.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+D:\AspxCommerceFinalRelease\SageFrame\bin\SageFrame.BreadCrum.dll
+D:\AspxCommerceFinalRelease\SageFrame\bin\SageFrame.BreadCrum.pdb
+D:\AspxCommerceFinalRelease\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+D:\AspxCommerceFinalRelease\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\SageFrame.BreadCrum.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\SageFrame.BreadCrum.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.BreadCrum\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.BreadCrum\obj\Debug\SageFrame.BreadCrum.pdb

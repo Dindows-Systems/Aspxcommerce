@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----------DEMO LOGIN INFORMATION -------------------*/
+.cssClassSFDemoLoginInfoL{background:url(../images/demo-login-leftbg.jpg) no-repeat left top; position:absolute; bottom:0; right:0; height:69px; padding:0 0 0 11px; overflow:hidden;}
+.cssClassSFDemoLoginInfoR{background:url(../images/demo-login-rightbg.jpg) no-repeat right top; height:69px; padding:0 11px 0 0;}
+.cssClassSFDemoLoginInfoM{background:url(../images/demo-login-midbg.jpg) repeat-x top; height:69px; padding:0 5px;}
+
+.cssClassSFDemoLoginInfoM p{ float:left; padding:5px 15px 5px 0px; margin:0; font:11px/15px Arial, Helvetica, sans-serif; }
+.cssClassSFDemoLoginInfoM p b{ display:block; line-height:20px; }
+.cssClassLoginDemoLine{ border-left:1px solid #dbd8d5; height:69px; padding:5px 0 0 15px !important;}
+
+.cssClasstwoBlocks{ overflow:hidden;}
+.cssClassLeftForm { float:left; }
+.cssClassdemotitle {color: #069; padding:10px 12px;
+    font: bold 18px/16px Arial,Helvetica,sans-serif;
+    text-shadow: 0px 1px 0 #e7f9ff; background:url(../images/openstore.png) no-repeat 0 0; text-indent:32px; }
+.cssClassLeftForm  .cssClassButtonWrapper input { border:1px solid #25aed5; background:url(../images/loginbg.png) repeat-x; height:28px;-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px; padding:0 5px;}
+
+.cssClassRightForm .cssClassloginbox { padding:0; background:none; border:none !important; -moz-box-shadow:none; -webkit-box-shadow:none; box-shadow:none;}
+
+.cssClassRightForm .cssClassloginbox .cssClassButtonWrapper span span input, 
+.cssClassLeftForm  .cssClassButtonWrapper input {  font:bold 12px Arial,Helvetica,sans-serif !important; color:#fff; cursor:pointer;} 
+
+.cssClassRightForm .cssClassloginbox .cssClassTextBox input { padding:0 5px !important; margin:0 !important;}
+.cssClassRightForm .cssClassloginbox label.cssClassNormalText {  font: 12px segoe, Arial,Helvetica,sans-serif; color:#000;}
+.cssClassloginbox .cssClassButtonWrapper { position:relative; right:7px; top:20px;}
+.cssClassloginbox .cssClassButtonWrapper:active { position:relative; top:21px;}
+.cssClassLeftForm select, .cssClassRightForm select { width:222px !important; margin-left:5px !important;}
+.cssClassRightForm .cssClassloginboxInsideDetails { padding-top:23px;}
+
+
+/*----*/
+.sfLogincontrol{ background:#fafbfc url(../images/top-bg.png) repeat-x; overflow:hidden; padding:10px 20px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; width:960px; margin:20px auto; -webkit-box-shadow:0 0 2px #FFFFFF inset; -moz-box-shadow:0 0 2px #FFFFFF inset;box-shadow:0 0 2px #FFFFFF inset; border:1px solid #96D4E8 !important;  }
+.sfLogincontrol .cssClassloginbox{ width:305px !important;  min-height:277px; border::none !important;}
+.sfLogincontrol .cssClassRightForm{ float:right;}
+.sfLogincontrol p, .sfLogincontrol span.cssClassFormLabel, .sfLogincontrol select{ font:normal 12px/20px Arial, Helvetica, sans-serif; color:#446c85; }
+.sfLogincontrol span.cssClassFormLabel{ font-weight:bold;}
+
+.sfLogincontrol .cssClassLeftForm h1{ text-shadow: 1px 1px 1px #fff;; background:url(../images/openstore.png) no-repeat 0 0; text-indent:32px;  }
+.sfLogincontrol .cssClassLeftForm input.cssClassNormalTextBox, .sfLogincontrol .cssClassRightForm .cssClassloginbox .cssClassTextBox input{ width:206px;}
+
+.sfLogincontrol .cssClassLeftForm  .cssClassButtonWrapper input{ background:url(../images/trialbtn.png) no-repeat; width:228px; height:45px; margin-top:10px; text-indent:-999em; border:none !important; }
+.sfLogincontrol .cssClassloginboxInside{ border-left:1px solid #ccc;}
+
+
+.sfLogincontrol .cssClassRightForm .cssClassloginboxInsideDetails{ padding-top:14px; }
+.sfLogincontrol .cssClassRightForm .cssClassloginbox .cssClassTextBox input{ padding:3px !important; float:left;}
+.sfLogincontrol .cssClassRightForm .cssClassloginbox .cssClassTextBox span.cssClassusernotfound{ float:left; }
+.sfLogincontrol .cssClassRightForm .cssClassLoginLeftBox{ width:270px;}
+.sfLogincontrol .cssClassRightForm p, .sfLogincontrol .cssClassRightForm .cssClassloginbox label.cssClassNormalText{font:bold 12px Arial, Helvetica, sans-serif; color:#446c85; text-shadow:1px 1px 0 #fff; padding:0 0 5px 0; display:block;}
+.sfLogincontrol .cssClassRightForm .cssClassButtonWrapper input{ padding:3px 15px;}
+
+.templates { clear:both;}
+.templates h2 { clear:both; font:bold 20px/30px Arial,Helvetica,sans-serif; text-shadow:1px 1px 1px #FFFFFF; margin:15px 0 10px; background:url(../images/look.png) no-repeat; padding-left:35px; color:#08ace2; }
+.templates li, .features{ float:left; margin:25px 20px;}
+.templates p { padding-left:20px; text-shadow:0 1px 0 #fff;}
+.templates li a img { display:block;padding:5px; background:#fff; -moz-box-shadow:0 0 3px #999; -webkit-box-shadow:0 0 3px #999;box-shadow:0 0 3px #999;-webkit-border-radius: 3px;
+-moz-border-radius: 3px; margin-bottom:15px;
+border-radius: 3px;}
+
+.features li, .topfeatures li { background:url(../images/tick.png) no-repeat 0 center; line-height:40px; padding-left:25px; font-size:17px; text-shadow:0 1px 0 #fff;}
+
+.sfLogincontrol .cssClassloginbox h1 { text-shadow: 1px 1px 1px #fff; font-size:14px;  }
+
+.cssClassFooterWrapperLeftCenterRight > div { min-width:200px;}
+
+.cssClassLogo h1 { padding-bottom:15px;}
+
+.templates li span.demobtn {  background:#690 url("../images/demobtn.png") repeat-x;
+    border: 1px solid #690; margin:0px 66px;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font: 17px/37px Tahoma,Geneva,sans-serif;
+    padding:8px 15px;
+    text-shadow: 0 1px 1px #85A701;
+    text-transform: uppercase;}
+	
+	
+	.templates li a:hover img {-moz-box-shadow:0 0 5px #24acd8; -webkit-box-shadow:0 0 5px #24acd8; box-shadow:0 0 5px #24acd8;  }
+	.templates li a:hover span { background:#2ea5ca url(../images/demo_hover.png) repeat-x; border:1px solid #219cc2; text-shadow: 0 1px 1px #219cc2;}
+
+.cssClassCheckAvailable, .cssClassAvailable { font:bold 11px Arial, Helvetica, sans-serif; color:green; padding:5px 5px 0; display:block;}
+.cssClassAvailable { background:url(../images/right.jpg) no-repeat left center; padding-left:22px; margin-left:7px;}
+.cssClassCheckAvailable:hover { cursor:pointer;text-decoration:underline;}
+p.cssClassValid { margin:15px 0;}
+p.cssClassValid span { font-weight:bold; color:#bc4c32; display:block; }
+
+.cssClassFormWrapper input.cssClassNormalTextBox, .cssClassLeftForm select { margin-top:12px; padding:7px;}
+.cssClassRadio label { padding-left:5px;}
+	
+.cssClassVideo { border:3px solid #000; border-left:2px solid #000;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px; display:inline-block;
+ -moz-box-shadow:0 0 0 7px #ccc; -webkit-box-shadow:0 0 0 7px #ccc ;box-shadow:0 0 0 7px #ccc;}
+ 
+ .demoPage .templates h2{padding:0; margin:0;}
+.demoPage .templates p{padding-left:0; }
+.demoPage .templates{width: 570px;}
+.demoPage #_udp__25{width:570px; float:left;}
+.demoPage .cssClassHTMLModule{float:left}

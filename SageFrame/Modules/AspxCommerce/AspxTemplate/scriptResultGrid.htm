@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>scriptResultGrid</title>
+</head>
+<body>
+    <div>
+        <div class="cssClassProductsBox">
+            <div class="cssClassProductsBoxInfo">
+                <h2>
+                    ${name}</h2>
+                <h3>
+                    ${sku}</h3>
+                <div class="cssClassProductPicture">
+                    <a href="${aspxRedirectPath}item/${sku}.aspx">
+                        <img class="lazy" data-original='${imagePath}' src='${loaderpath}' alt='${alternateText}' title='${name}' /></a></div>
+                <div class="cssClassProductPriceBox">
+                    <div class="cssClassProductPrice">
+                        <p class="cssClassProductOffPrice">
+                            Regular Price : <span class="cssClassFormatCurrency">${listPrice}</span></p>
+                        <p class="cssClassProductRealPrice">
+                            Our Offer : <span class="cssClassFormatCurrency">${price}</span></p>
+                    </div>
+                </div>
+                <div class="cssClassProductDetail">
+                    <p>
+                        <a href="${aspxRedirectPath}item/${sku}.aspx">Details</a></p>
+                </div>
+                <div class="cssClassclear">
+                </div>
+            </div>
+            <div class="cssClassAddtoCard_${itemID} cssClassAddtoCard">
+                <div class="cssClassButtonWrapper">
+                    <a href="#" onclick="AspxCommerce.RootFunction.AddToCartToJSFromTemplate(${itemID},${price},${JSON2.stringify(sku)},${1});">
+                        <span>Add to Cart</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkEnableRemembermeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkEnableRemembermeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlDefaultLanguageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlLoginPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPortalDefaultPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPortalForgotPasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPortalPageNotAccessibleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPortalPageNotFoundResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPortalPasswordRecoveryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPortalTimeZoneResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPortalUserActivationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPortalUserProfilePageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTemplateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlUserRegistrationPageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbRefreshResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbRefreshResource1.ToolTip" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="imbSaveResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imbSaveResource1.ToolTip" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="imgFlagResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgFlagResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvancedSettingsHelpResource1.Text" xml:space="preserve">
+    <value>In this section, you can set up more advanced settings for your site.</value>
+  </data>
+  <data name="lblAdvancedSettingsHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAdvanceSettingResource1.Text" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="lblAdvanceSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasicSettingResource1.Text" xml:space="preserve">
+    <value>Basic Setting</value>
+  </data>
+  <data name="lblBasicSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasicSettingsHelpResource1.Text" xml:space="preserve">
+    <value>In this section, you can set up the basic settings for your site.</value>
+  </data>
+  <data name="lblBasicSettingsHelpResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCPanelTitleResource1.Text" xml:space="preserve">
+    <value>CPanel Title:</value>
+  </data>
+  <data name="lblCPanelTitleResource1.ToolTip" xml:space="preserve">
+    <value>This is the Title for your CPanle</value>
+  </data>
+  <data name="lblCPanleCopyrightResource1.Text" xml:space="preserve">
+    <value>CPanel Copyright:</value>
+  </data>
+  <data name="lblCPanleCopyrightResource1.ToolTip" xml:space="preserve">
+    <value>This is the Title for your CPanle Copyright</value>
+  </data>
+  <data name="lblDefaultLanguageResource1.Text" xml:space="preserve">
+    <value>Default Language:</value>
+  </data>
+  <data name="lblDefaultLanguageResource1.ToolTip" xml:space="preserve">
+    <value>Select a default Language for the web Site</value>
+  </data>
+  <data name="lblDescriptionResource1.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="lblDescriptionResource1.ToolTip" xml:space="preserve">
+    <value>Enter a description about your site here.</value>
+  </data>
+  <data name="lblEnableRemembermeResource1.Text" xml:space="preserve">
+    <value>Enable Remember me?</value>
+  </data>
+  <data name="lblEnableRemembermeResource1.ToolTip" xml:space="preserve">
+    <value>Sets the remember me checkbox on login controls. If remember me is allowed, users can create cookies that are persisted over multiple visits.</value>
+  </data>
+  <data name="lblErrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsPortalMenuIsImageResource1.Text" xml:space="preserve">
+    <value>Is Image Menu?</value>
+  </data>
+  <data name="lblIsPortalMenuIsImageResource1.ToolTip" xml:space="preserve">
+    <value>Set yes if you like to get menu in image</value>
+  </data>
+  <data name="lblKeyWordsResource1.Text" xml:space="preserve">
+    <value>Key Words:</value>
+  </data>
+  <data name="lblKeyWordsResource1.ToolTip" xml:space="preserve">
+    <value>Enter some keywords for your site (separated by commas). These keywords are used by search engines to help index your site.</value>
+  </data>
+  <data name="lblLoginPageResource1.Text" xml:space="preserve">
+    <value> Login Page:</value>
+  </data>
+  <data name="lblLoginPageResource1.ToolTip" xml:space="preserve">
+    <value>The Login Page for your site.</value>
+  </data>
+  <data name="lblMetaHelpTextResource1.Text" xml:space="preserve">
+    <value>&lt;dl&gt;
+  &lt;dt&gt;Note:&lt;/dt&gt;
+  &lt;dd&gt; These Meta information is for the default value of page meta tags, if site administrator will leave any of these meta tags while adding and updating a pages then these meta information will be ovewritten for that meta value for a page.&lt;/dd&gt;
+&lt;/dl&gt;
+</value>
+  </data>
+  <data name="lblMetaHelpTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPortalDefaultPageResource1.Text" xml:space="preserve">
+    <value>Portal Default Page:</value>
+  </data>
+  <data name="lblPortalDefaultPageResource1.ToolTip" xml:space="preserve">
+    <value>The Home Page</value>
+  </data>
+  <data name="lblPortalForgotPasswordResource1.Text" xml:space="preserve">
+    <value>User Forgot Password:</value>
+  </data>
+  <data name="lblPortalForgotPasswordResource1.ToolTip" xml:space="preserve">
+    <value>The User Forgot Password Page</value>
+  </data>
+  <data name="lblPortalGoogleAdSenseIDResource1.Text" xml:space="preserve">
+    <value>Google AdSense ID:</value>
+  </data>
+  <data name="lblPortalGoogleAdSenseIDResource1.ToolTip" xml:space="preserve">
+    <value>Google AdSense ID used for google adsence.</value>
+  </data>
+  <data name="lblPortalMenuImageExtensionResource1.Text" xml:space="preserve">
+    <value>Image extension:</value>
+  </data>
+  <data name="lblPortalMenuImageExtensionResource1.ToolTip" xml:space="preserve">
+    <value>like .jpg/.gif/.png</value>
+  </data>
+  <data name="lblPortalPageNotAccessibleResource1.Text" xml:space="preserve">
+    <value>Page Not Accessible Page:</value>
+  </data>
+  <data name="lblPortalPageNotAccessibleResource1.ToolTip" xml:space="preserve">
+    <value>The Page Not Accessible Page</value>
+  </data>
+  <data name="lblPortalPageNotFoundResource1.Text" xml:space="preserve">
+    <value>Page Not Found Page:</value>
+  </data>
+  <data name="lblPortalPageNotFoundResource1.ToolTip" xml:space="preserve">
+    <value>The Page Not Found Page</value>
+  </data>
+  <data name="lblPortalPasswordRecoveryResource1.Text" xml:space="preserve">
+    <value>Password Recovery Page:</value>
+  </data>
+  <data name="lblPortalPasswordRecoveryResource1.ToolTip" xml:space="preserve">
+    <value>The Password Recovery Page</value>
+  </data>
+  <data name="lblPortalSettingResource1.Text" xml:space="preserve">
+    <value>Portal Setting Management</value>
+  </data>
+  <data name="lblPortalSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPortalShowProfileLinkResource1.Text" xml:space="preserve">
+    <value>Show Profile Link:</value>
+  </data>
+  <data name="lblPortalShowProfileLinkResource1.ToolTip" xml:space="preserve">
+    <value>Show Profile Link</value>
+  </data>
+  <data name="lblPortalTimeZoneResource1.Text" xml:space="preserve">
+    <value>Portal TimeZone:</value>
+  </data>
+  <data name="lblPortalTimeZoneResource1.ToolTip" xml:space="preserve">
+    <value>The TimeZone for the location of the site.</value>
+  </data>
+  <data name="lblPortalTitleResource1.Text" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="lblPortalTitleResource1.ToolTip" xml:space="preserve">
+    <value>This is the Title for your portal. The text you enter will show up in the Title Bar.</value>
+  </data>
+  <data name="lblPortalUserActivationResource1.Text" xml:space="preserve">
+    <value>User Activation:</value>
+  </data>
+  <data name="lblPortalUserActivationResource1.ToolTip" xml:space="preserve">
+    <value>The User Activation Page</value>
+  </data>
+  <data name="lblPortalUserProfilePageResource1.Text" xml:space="preserve">
+    <value>User Profile Page:</value>
+  </data>
+  <data name="lblPortalUserProfilePageResource1.ToolTip" xml:space="preserve">
+    <value>The user profile page</value>
+  </data>
+  <data name="lblRefreshResource1.Text" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="lblRefreshResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSaveResource1.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lblSaveResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSiteAdminEmailAddressResource1.Text" xml:space="preserve">
+    <value>Site Email Address:</value>
+  </data>
+  <data name="lblSiteAdminEmailAddressResource1.ToolTip" xml:space="preserve">
+    <value>Site Email Address.</value>
+  </data>
+  <data name="lblTemplateResource1.Text" xml:space="preserve">
+    <value>Template:</value>
+  </data>
+  <data name="lblTemplateResource1.ToolTip" xml:space="preserve">
+    <value>Select the template to use for your site</value>
+  </data>
+  <data name="lblUserRegistrationHelpTextResource1.Text" xml:space="preserve">
+    <value>&lt;h3&gt;Note:&lt;/h3&gt;
+&lt;dl&gt;
+  &lt;dt&gt;None:&lt;/dt&gt;
+  &lt;dd&gt; This removes the registration link from your website. The administrators of your website can only add new users manually. &lt;/dd&gt;
+  &lt;dt&gt;Private:&lt;/dt&gt;
+  &lt;dd&gt;The register link appears. When a user registers, the administrators have to approve the user before the user will be granted access.&lt;/dd&gt;
+  &lt;dt&gt;Public:&lt;/dt&gt;
+  &lt;dd&gt;This is the default setting for your SageFrame portal. The register link appears. When a user registers, they are given instant access to your site as a member without any verification.&lt;/dd&gt;
+  &lt;dt&gt;Verified:&lt;/dt&gt;
+  &lt;dd&gt;The registration link appears. When a user registers, they are sent an email with a verification code. The first time they login, they are asked to enter the verification code, if they are verified correctly; they are given access to your site as a member. Once they are verified, they no longer need to enter the verification code..&lt;/dd&gt;
+&lt;/dl&gt;</value>
+  </data>
+  <data name="lblUserRegistrationHelpTextResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserRegistrationPageResource1.Text" xml:space="preserve">
+    <value>User Registration:</value>
+  </data>
+  <data name="lblUserRegistrationPageResource1.ToolTip" xml:space="preserve">
+    <value>The User Registration Page</value>
+  </data>
+  <data name="lblUserRegistrationResource1.Text" xml:space="preserve">
+    <value>User Registration:</value>
+  </data>
+  <data name="lblUserRegistrationResource1.ToolTip" xml:space="preserve">
+    <value>The type of user registration allowed for this site.</value>
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>Native</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbLanguageTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblIsPortalMenuIsImageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblPortalShowProfileLinkResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rblUserRegistrationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabAdvanceSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabBasicSettingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TabContainerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCopyrightResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCopyrightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescriptionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDescriptionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtKeyWordsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtKeyWordsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLogoTemplateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLogoTemplateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPortalGoogleAdSenseIDResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPortalGoogleAdSenseIDResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPortalMenuImageExtensionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPortalMenuImageExtensionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPortalTitleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtPortalTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSiteAdminEmailAddressResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSiteAdminEmailAddressResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

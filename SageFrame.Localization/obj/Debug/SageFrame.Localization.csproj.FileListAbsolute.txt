@@ -1,0 +1,197 @@
+E:\SVN\sageframe-Beta-01\SageFrame.Localization\bin\Debug\SageFrame.Localization.dll
+E:\SVN\sageframe-Beta-01\SageFrame.Localization\bin\Debug\SageFrame.Localization.pdb
+E:\SVN\sageframe-Beta-01\SageFrame\bin\SageFrame.Localization.dll
+E:\SVN\sageframe-Beta-01\SageFrame\bin\SageFrame.Localization.pdb
+E:\SVN\sageframe-Beta-01\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\SVN\sageframe-Beta-01\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\SVN\sageframe-Beta-01\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\svnnew\sageframe-Beta-01\SageFrame\bin\SageFrame.Localization.dll
+E:\svnnew\sageframe-Beta-01\SageFrame\bin\SageFrame.Localization.pdb
+E:\svnnew\sageframe-Beta-01\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\svnnew\sageframe-Beta-01\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\svnnew\sageframe-Beta-01\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+C:\Documents and Settings\Sujan\Desktop\newsageframe\sageframe-Beta-01\SageFrame\bin\SageFrame.Localization.dll
+C:\Documents and Settings\Sujan\Desktop\newsageframe\sageframe-Beta-01\SageFrame\bin\SageFrame.Localization.pdb
+C:\Documents and Settings\Sujan\Desktop\newsageframe\sageframe-Beta-01\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Sujan\Desktop\newsageframe\sageframe-Beta-01\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+C:\Documents and Settings\Sujan\Desktop\newsageframe\sageframe-Beta-01\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\svnfeb13\sageframe-Beta-01\SageFrame\bin\SageFrame.Localization.dll
+E:\svnfeb13\sageframe-Beta-01\SageFrame\bin\SageFrame.Localization.pdb
+E:\svnfeb13\sageframe-Beta-01\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\svnfeb13\sageframe-Beta-01\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\svnfeb13\sageframe-Beta-01\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\svnMarch9\SageFrame\bin\SageFrame.Localization.dll
+E:\svnMarch9\SageFrame\bin\SageFrame.Localization.pdb
+E:\svnMarch9\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\svnMarch9\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\svnMarch9\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\svnMarch9\SageFrame\bin\SageFrame.Localization.dll
+D:\svnMarch9\SageFrame\bin\SageFrame.Localization.pdb
+D:\svnMarch9\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\svnMarch9\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\svnMarch9\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+C:\Documents and Settings\Sujan\Desktop\SageMarch\svnMarch9\SageFrame\bin\SageFrame.Localization.dll
+C:\Documents and Settings\Sujan\Desktop\SageMarch\svnMarch9\SageFrame\bin\SageFrame.Localization.pdb
+C:\Documents and Settings\Sujan\Desktop\SageMarch\svnMarch9\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Sujan\Desktop\SageMarch\svnMarch9\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+C:\Documents and Settings\Sujan\Desktop\SageMarch\svnMarch9\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\SFMarch14\SageFrame\bin\SageFrame.Localization.dll
+E:\SFMarch14\SageFrame\bin\SageFrame.Localization.pdb
+E:\SFMarch14\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\SFMarch14\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\SFMarch14\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\SageFrameIntegration\SageFrame\bin\SageFrame.Localization.dll
+D:\SageFrameIntegration\SageFrame\bin\SageFrame.Localization.pdb
+D:\SageFrameIntegration\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameIntegration\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\SageFrameIntegration\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\SFIntegration\SageFrameIntegration\SageFrameIntegration\SageFrame\bin\SageFrame.Localization.dll
+E:\SFIntegration\SageFrameIntegration\SageFrameIntegration\SageFrame\bin\SageFrame.Localization.pdb
+E:\SFIntegration\SageFrameIntegration\SageFrameIntegration\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\SFIntegration\SageFrameIntegration\SageFrameIntegration\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\SFIntegration\SageFrameIntegration\SageFrameIntegration\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\wwwroot\SageFrameLocalization\SageFrame\bin\SageFrame.Localization.dll
+D:\wwwroot\SageFrameLocalization\SageFrame\bin\SageFrame.Localization.pdb
+D:\wwwroot\SageFrameLocalization\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\wwwroot\SageFrameLocalization\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\wwwroot\SageFrameLocalization\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+\\192.168.3.27\SageFrameLocalization\SageFrame\bin\SageFrame.Localization.dll
+\\192.168.3.27\SageFrameLocalization\SageFrame\bin\SageFrame.Localization.pdb
+\\192.168.3.27\SageFrameLocalization\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+\\192.168.3.27\SageFrameLocalization\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+\\192.168.3.27\SageFrameLocalization\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\Localization_Wrap\SageFrame\bin\SageFrame.Localization.dll
+E:\Localization_Wrap\SageFrame\bin\SageFrame.Localization.pdb
+E:\Localization_Wrap\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\Localization_Wrap\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\Localization_Wrap\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\SageFrameIntegrated\SageFrame\bin\SageFrame.Localization.dll
+E:\SageFrameIntegrated\SageFrame\bin\SageFrame.Localization.pdb
+E:\SageFrameIntegrated\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameIntegrated\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\SageFrameIntegrated\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\wwwroot\SageFrameIntegrated\SageFrame\bin\SageFrame.Localization.dll
+D:\wwwroot\SageFrameIntegrated\SageFrame\bin\SageFrame.Localization.pdb
+D:\wwwroot\SageFrameIntegrated\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\wwwroot\SageFrameIntegrated\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\wwwroot\SageFrameIntegrated\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\SageFrameBetaFreshMay10\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameBetaFreshMay10\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\SageFrameBetaFreshMay10\SageFrame\bin\SageFrame.Localization.dll
+E:\SageFrameBetaFreshMay10\SageFrame\bin\SageFrame.Localization.pdb
+E:\SageFrameBetaFreshMay10\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\SageFrameBetaFreshCopy1\SageFrame\bin\SageFrame.Localization.dll
+E:\SageFrameBetaFreshCopy1\SageFrame\bin\SageFrame.Localization.pdb
+E:\SageFrameBetaFreshCopy1\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameBetaFreshCopy1\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\SageFrameBetaFreshCopy1\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\wwwroot\sageframe_paras\SageFrame\bin\SageFrame.Localization.dll
+D:\wwwroot\sageframe_paras\SageFrame\bin\SageFrame.Localization.pdb
+D:\wwwroot\sageframe_paras\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\wwwroot\sageframe_paras\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\wwwroot\sageframe_paras\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame\bin\SageFrame.Localization.dll
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame\bin\SageFrame.Localization.pdb
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\DotNetProjects\SageFrame_FileMgr_Loc_May26\SageFrameBeta_Source_FinalJune08\SageFrameBeta_Source\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\@BrainDigit\SageFrameFinal\SageFrame\bin\SageFrame.Localization.dll
+E:\@BrainDigit\SageFrameFinal\SageFrame\bin\SageFrame.Localization.pdb
+E:\@BrainDigit\SageFrameFinal\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\@BrainDigit\SageFrameFinal\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\@BrainDigit\SageFrameFinal\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame\bin\SageFrame.Localization.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame\bin\SageFrame.Localization.pdb
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\DotNetProjects\SageFrameBetaRelease\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame\bin\SageFrame.Localization.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame\bin\SageFrame.Localization.pdb
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\DotNetProjects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame\bin\SageFrame.Localization.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame\bin\SageFrame.Localization.pdb
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\DotNet Projects\sfreleasefinal\SageFrameBetaReleaseFinal\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\SageASPXCommerce\SageFrame\bin\SageFrame.Localization.dll
+D:\SageASPXCommerce\SageFrame\bin\SageFrame.Localization.pdb
+D:\SageASPXCommerce\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\SageASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\SageASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame\bin\SageFrame.Localization.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame\bin\SageFrame.Localization.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.dll
+D:\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.pdb
+D:\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.pdb
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\Milson August 9\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.pdb
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\SageFrameASPXCommerce(Latest)\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.dll
+E:\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.pdb
+E:\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.pdb
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\liVE\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.pdb
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\ASPXCommerce\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame\bin\SageFrame.Localization.pdb
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\liVE\!Sep2\SageFrameASPXCommerce\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame\bin\SageFrame.Localization.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame\bin\SageFrame.Localization.pdb
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+F:\Till Jan 17 BackUp AspxCommerce JS NOT from BAckEnd\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame\bin\SageFrame.Localization.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame\bin\SageFrame.Localization.pdb
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\www\AspxCommerce JS IN BAckEnd JAn17\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+F:\AspxCommerceFinal\SageFrame\bin\SageFrame.Localization.dll
+F:\AspxCommerceFinal\SageFrame\bin\SageFrame.Localization.pdb
+F:\AspxCommerceFinal\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+F:\AspxCommerceFinal\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+F:\AspxCommerceFinal\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\SageFrame.Localization.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame\bin\SageFrame.Localization.pdb
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\!@Milstein WorkGround\AspxCommerceFinal\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\SageFrame.Localization.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame\bin\SageFrame.Localization.pdb
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+E:\!May16\AspxCommerceFinalReleaseMay15\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+D:\AspxCommerceFinalRelease\SageFrame\bin\SageFrame.Localization.dll
+D:\AspxCommerceFinalRelease\SageFrame\bin\SageFrame.Localization.pdb
+D:\AspxCommerceFinalRelease\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+D:\AspxCommerceFinalRelease\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\SageFrame.Localization.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame\bin\SageFrame.Localization.pdb
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\obj\Debug\SageFrame.Localization.dll
+C:\Users\Milson\Desktop\AspxCommerceV1.1\SageFrame.Localization\obj\Debug\SageFrame.Localization.pdb
